@@ -1,0 +1,21 @@
+<?php
+date_default_timezone_set('America/Chicago');
+$rmj_settings     = get_option('ronmadriz_settings');
+$site_logo_footer = get_theme_mod('site_logo_footer');
+$footer_about     = get_theme_mod('footer_about');
+echo '</main>'.PHP_EOL;
+echo '<footer>'.PHP_EOL;
+echo '<section id="boilerplate">'.PHP_EOL;
+echo '<div class="container">'.PHP_EOL;
+echo '<div class="row">'.PHP_EOL;
+echo '<div id="copyright" class="text-center col-12">'.PHP_EOL;
+echo '<p>&copy; Copyright '.date('Y').' '.get_bloginfo('name').'</p>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
+echo '</footer>'.PHP_EOL;
+wp_footer();
+echo $rmj_settings['fc_footer_extra'];
+echo '</body>'.PHP_EOL;
+echo '</html>'.PHP_EOL;

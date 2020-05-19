@@ -1,0 +1,20 @@
+body {
+	footer {
+		section {
+			&#boilerplate {
+				color:$base;
+				padding-top:2rem;
+				padding-bottom:1.5rem;
+				div {
+					&#copyright {
+						font-size:.85rem;
+						padding: .25rem;
+						@media (min-width: 786px) {
+							text-align: right;
+						}
+					}
+				}
+			}
+		}
+	}
+}

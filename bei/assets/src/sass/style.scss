@@ -1,0 +1,29 @@
+@import 'partials/_variables';
+@import 'partials/_typography';
+@import 'partials/_header';
+html {
+	min-height: 100vh;
+	body {
+		width: 100%;
+		height:100%;
+		.row {
+			margin-left:0;
+			margin-right:0;
+		}
+		main {
+			padding-bottom: 2rem;
+			@media (min-width:992px) {
+				min-height:calc(100vh - 250px);
+			}
+			section {
+
+			}
+		}
+	}	
+}
+@import 'partials/_header';
+@import 'partials/_navigation';
+@import 'partials/_form';
+@import 'partials/_footer';
+@import 'partials/_home';
+@import 'partials/_gallery';
