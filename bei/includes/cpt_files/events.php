@@ -1,7 +1,7 @@
 <?php
 add_action('init', function () {
 
-		register_extended_post_type('events', array(
+		register_extended_post_type('bei_events', array(
 
 				# Add the post type to the site's main RSS feed:
 				'show_in_feed' => true,
