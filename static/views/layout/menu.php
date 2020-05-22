@@ -2,7 +2,7 @@
 ?>
 <nav class="menu">
     <div class="menu__wrapper">
-        <a class="menu__logo" href="/"><svg class="menu__logo__media" viewBox="0 0 37.7 12.9"><use href="#sprite-rae_logo"></use></svg></a>
+        <a class="menu__logo" href="/"><img src="#" class="menu__logo--img img-fluid"></a>
         <span class="menu__top">
         	<a href="#">Link</a>
         	<a href="#">Link</a>
