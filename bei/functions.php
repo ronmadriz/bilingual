@@ -1,7 +1,7 @@
 <?php
 
 function enqueue_my_scripts() {
-	wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', array('jquery'), '', false);
+	wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', array('jquery'), '', false);
 	wp_enqueue_script('bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', array('jquery'), false);
 	wp_enqueue_script('device-js', get_template_directory_uri().'/dist/scripts/device.min.js', array('jquery'), true, true);
 	wp_enqueue_script('lightbox', 'https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js', array('jquery'), '', true);
@@ -70,11 +70,8 @@ function cc_mime_types($mimes) {
 }
 add_filter('upload_mimes', 'cc_mime_types');
 function site_scripts() {
-	wp_deregister_script('jquery');
 	wp_deregister_script('jquery-ui-core');
-	$pathTojQuery  = "https://code.jquery.com/jquery-1.11.2.min.js";
 	$pathToScripts = THEME_JS."/main.min.js";
-	wp_enqueue_script('jquery', $pathTojQuery, array(), '1.10.2', true);
 	wp_enqueue_script('site_script', $pathToScripts, array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'site_scripts');
@@ -242,17 +239,17 @@ function social_media_icons() {
 
 			if ($active_site == 'email') {
 				?>
-																    <li class="list-inline-item">
-																        <a class="email" target="_blank" href="mailto:<?php echo antispambot(is_email(get_theme_mod($active_site)));?>">
-																            <i class="fa fa-envelope" title="<?php _e('email icon', 'text-domain');?>"></i>
-																        </a>
-																    </li>
+																												    <li class="list-inline-item">
+																												        <a class="email" target="_blank" href="mailto:<?php echo antispambot(is_email(get_theme_mod($active_site)));?>">
+																												            <i class="fa fa-envelope" title="<?php _e('email icon', 'text-domain');?>"></i>
+																												        </a>
+																												    </li>
 				<?php } else {?>
-																    <li class="list-inline-item">
-																        <a class="<?php echo $active_site;?>" target="_blank" href="<?php echo get_theme_mod($active_site);?>">
-																            <i class="<?php echo esc_attr($class);?>" title="<?php printf(__('%s icon', 'text-domain'), $active_site);?>"></i>
-																        </a>
-																    </li>
+																												    <li class="list-inline-item">
+																												        <a class="<?php echo $active_site;?>" target="_blank" href="<?php echo get_theme_mod($active_site);?>">
+																												            <i class="<?php echo esc_attr($class);?>" title="<?php printf(__('%s icon', 'text-domain'), $active_site);?>"></i>
+																												        </a>
+																												    </li>
 				<?php
 			}
 		}
