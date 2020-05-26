@@ -1,5 +1,5 @@
 <?
-echo '<div class="topbar__nav col-12 col-md-6">', PHP_EOL;
+echo '<div class="topbar__nav col-12 col-md-6 order-12">', PHP_EOL;
 $top_menu_args = array(
 	'theme_location'  => '',
 	'menu'            => 'topbar-nav',
