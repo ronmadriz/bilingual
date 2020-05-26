@@ -3,7 +3,7 @@
 	padding-bottom:0;
 	a {
 		&.navbar-brand {
-			@media (max-width:786px) {
+			@include for-phone-only {
 				width:65%;
 				margin-bottom: .75rem;
 			}
@@ -59,7 +59,7 @@
 				letter-spacing: 4px;
 				font-weight: 400;
 				transition: all .3s ease-in-out;
-				@media (min-width: 992px) {
+				@include for-tablet-up {
 				    font-size: .75rem;
 					padding-right: .75rem;
 					padding-left: .75rem;							    
@@ -82,7 +82,7 @@
 				}
 			}
 		}
-	}				
+	}
 }
 
 @include for-tablet-up {

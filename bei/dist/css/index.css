@@ -10,20 +10,11 @@ body main h2, body main h3, body main h4 {
 body main p {
   margin-bottom: 1.75rem; }
 
-body header {
-  background-color: #101010;
-  color: white;
-  padding-top: 1rem; }
-  @media (min-width: 786px) {
-    body header {
-      padding-top: 0; } }
-  body header div#logo {
-    text-align: center; }
-    body header div#logo a.navbar-brand {
-      margin-right: 0; }
-      @media (min-width: 786px) {
-        body header div#logo a.navbar-brand {
-          margin-right: 1rem; } }
+.navbar-brand {
+  margin-right: 0; }
+  @media (max-width: 786px) {
+    .navbar-brand {
+      margin-right: 1rem; } }
 
 body footer section#boilerplate {
   color: #101010;
@@ -47,7 +38,7 @@ body footer section#boilerplate {
     position: relative;
     top: -0.5rem; }
     .navbar button.navbar-toggler span.menu-text {
-      color: #71c1f2;
+      color: #09f;
       text-transform: uppercase;
       font-size: .85rem;
       display: inline-block; }
@@ -58,7 +49,7 @@ body footer section#boilerplate {
       height: .65rem; }
       .navbar button.navbar-toggler span.menu-icon span {
         height: 1px;
-        background-color: #71c1f2;
+        background-color: #09f;
         display: block;
         position: absolute; }
         .navbar button.navbar-toggler span.menu-icon span:first-of-type {
@@ -73,14 +64,14 @@ body footer section#boilerplate {
     .navbar button.navbar-toggler:focus {
       outline: 0; }
   .navbar ul > li > a {
-    color: #71c1f2;
+    color: #09f;
     font-family: Tahoma, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
-    @media (min-width: 992px) {
+    @media (min-width: 786px) {
       .navbar ul > li > a {
         font-size: .75rem;
         padding-right: .75rem;
@@ -88,10 +79,10 @@ body footer section#boilerplate {
         .navbar ul > li > a.nav-link {
           line-height: 5.25rem; } }
     .navbar ul > li > a:hover {
-      background-color: #b3ebf2;
+      background-color: #e44d74;
       color: #101010; }
     .navbar ul > li > a.active {
-      background-color: #b3ebf2;
+      background-color: #e44d74;
       color: #101010; }
     .navbar ul > li > a.nav-link {
       padding-left: 1.5rem;
@@ -161,45 +152,45 @@ form .row.buttons {
   font-weight: normal;
   border-width: 0 0 1px;
   border-style: solid;
-  border-color: #d8d8d8;
+  border-color: #D8D8D8;
   border-radius: 0;
   outline: none;
   -webkit-transition: border-color 0.2s;
   transition: border-color 0.2s;
   background-color: transparent;
-  color: #d8d8d8; }
+  color: #D8D8D8; }
   .form-group input.form-control[type=text]::-webkit-input-placeholder, .form-group input.form-control[type=email]::-webkit-input-placeholder, .form-group input.form-control[type=password]::-webkit-input-placeholder, .form-group input.form-control[type=date]::-webkit-input-placeholder, .form-group input.form-control[type=tel]::-webkit-input-placeholder {
-    color: #ececec;
+    color: #ECECEC;
     font-style: italic; }
   .form-group input.form-control[type=text]:-ms-input-placeholder, .form-group input.form-control[type=email]:-ms-input-placeholder, .form-group input.form-control[type=password]:-ms-input-placeholder, .form-group input.form-control[type=date]:-ms-input-placeholder, .form-group input.form-control[type=tel]:-ms-input-placeholder {
-    color: #ececec;
+    color: #ECECEC;
     font-style: italic; }
   .form-group input.form-control[type=text]::-ms-input-placeholder, .form-group input.form-control[type=email]::-ms-input-placeholder, .form-group input.form-control[type=password]::-ms-input-placeholder, .form-group input.form-control[type=date]::-ms-input-placeholder, .form-group input.form-control[type=tel]::-ms-input-placeholder {
-    color: #ececec;
+    color: #ECECEC;
     font-style: italic; }
   .form-group input.form-control[type=text]::placeholder, .form-group input.form-control[type=email]::placeholder, .form-group input.form-control[type=password]::placeholder, .form-group input.form-control[type=date]::placeholder, .form-group input.form-control[type=tel]::placeholder {
-    color: #ececec;
+    color: #ECECEC;
     font-style: italic; }
 
 .form-group input.form-control:focus[type=text], .form-group input.form-control:focus[type=email], .form-group input.form-control:focus[type=password], .form-group input.form-control:focus[type=date], .form-group input.form-control:focus[type=tel] {
-  border-color: #b3ebf2;
+  border-color: #e44d74;
   -webkit-box-shadow: 0 0 0 0 transparent;
           box-shadow: 0 0 0 0 transparent; }
 
 .form-group input.form-control[type=date]::-webkit-datetime-edit-month-field {
-  color: #d8d8d8; }
+  color: #D8D8D8; }
 
 .form-group input.form-control[type=date]::-webkit-datetime-edit-day-field {
-  color: #d8d8d8; }
+  color: #D8D8D8; }
 
 .form-group input.form-control[type=date]::-webkit-datetime-edit-year-field {
-  color: #d8d8d8; }
+  color: #D8D8D8; }
 
 .form-group input.form-control[type=date]::-webkit-inner-spin-button {
   display: none; }
 
 .form-group input.form-control[type=date]::-webkit-calendar-picker-indicator {
-  color: #d8d8d8; }
+  color: #D8D8D8; }
   .form-group input.form-control[type=date]::-webkit-calendar-picker-indicator:hover {
     background-color: transparent;
     color: #101010;
