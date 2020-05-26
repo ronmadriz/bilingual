@@ -1,4 +1,6 @@
 <?
+echo '<section id="topbar" class="container-fluid topbar">'.PHP_EOL;
+echo '<div class="row">'.PHP_EOL;
 echo '<div class="topbar__nav col-12 col-md-6 order-12">', PHP_EOL;
 $top_menu_args = array(
 	'theme_location'  => '',
@@ -20,3 +22,5 @@ $top_menu_args = array(
 );
 wp_nav_menu($top_menu_args);
 echo '</div>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;

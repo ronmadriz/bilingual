@@ -33,11 +33,7 @@ echo '</head>'.PHP_EOL;
 echo '<body id="page-'.$slug.'"';
 body_class();
 echo '>'.PHP_EOL;
-echo '<section id="topbar" class="container-fluid topbar">'.PHP_EOL;
-echo '<div class="row">'.PHP_EOL;
 include ('views/components/nav/topbar.php');
-echo '</div>'.PHP_EOL;
-echo '</section>'.PHP_EOL;
 echo '<nav class="navbar navbar-expand-lg">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 if (!empty($site_logo_header)):
