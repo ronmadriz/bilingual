@@ -70,7 +70,6 @@ function cc_mime_types($mimes) {
 }
 add_filter('upload_mimes', 'cc_mime_types');
 function site_scripts() {
-	wp_deregister_script('jquery');
 	wp_deregister_script('jquery-ui-core');
 	$pathToScripts = THEME_JS."/main.min.js";
 	wp_enqueue_script('site_script', $pathToScripts, array('jquery'), '1.0', true);
