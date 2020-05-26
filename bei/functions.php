@@ -8,19 +8,6 @@ function enqueue_my_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_my_scripts');
-// Enqueue Font Awesome.
-add_action('wp_enqueue_scripts', 'ronmadriz_load_font_awesome');
-function ronmadriz_load_font_awesome() {
-	wp_enqueue_script('font-awesome', 'https://use.fontawesome.com/releases/v5.0.1/js/all.js', array(), null);
-}
-add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
-function add_defer_attribute($tag, $handle) {
-	if ('font-awesome' === $handle) {
-		$tag = str_replace(' src', ' defer src', $tag);
-	}
-
-	return $tag;
-}
 function enqueue_my_styles() {
 	wp_enqueue_style('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
 	wp_enqueue_style('lightbox', 'https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css');
@@ -239,17 +226,17 @@ function social_media_icons() {
 
 			if ($active_site == 'email') {
 				?>
-																																    <li class="list-inline-item">
-																																        <a class="email" target="_blank" href="mailto:<?php echo antispambot(is_email(get_theme_mod($active_site)));?>">
-																																            <i class="fa fa-envelope" title="<?php _e('email icon', 'text-domain');?>"></i>
-																																        </a>
-																																    </li>
+																																				    <li class="list-inline-item">
+																																				        <a class="email" target="_blank" href="mailto:<?php echo antispambot(is_email(get_theme_mod($active_site)));?>">
+																																				            <i class="fa fa-envelope" title="<?php _e('email icon', 'text-domain');?>"></i>
+																																				        </a>
+																																				    </li>
 				<?php } else {?>
-																																    <li class="list-inline-item">
-																																        <a class="<?php echo $active_site;?>" target="_blank" href="<?php echo get_theme_mod($active_site);?>">
-																																            <i class="<?php echo esc_attr($class);?>" title="<?php printf(__('%s icon', 'text-domain'), $active_site);?>"></i>
-																																        </a>
-																																    </li>
+																																				    <li class="list-inline-item">
+																																				        <a class="<?php echo $active_site;?>" target="_blank" href="<?php echo get_theme_mod($active_site);?>">
+																																				            <i class="<?php echo esc_attr($class);?>" title="<?php printf(__('%s icon', 'text-domain'), $active_site);?>"></i>
+																																				        </a>
+																																				    </li>
 				<?php
 			}
 		}
