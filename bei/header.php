@@ -33,7 +33,5 @@ echo '</head>'.PHP_EOL;
 echo '<body id="page-'.$slug.'"';
 body_class();
 echo '>'.PHP_EOL;
-echo '<header>'.PHP_EOL;
 include ('views/components/nav/main.php');
-echo '</header>'.PHP_EOL;
 echo '<main>'.PHP_EOL;
