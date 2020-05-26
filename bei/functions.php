@@ -39,8 +39,8 @@ include (THEME_INCLUDE.'/core/extended-cpts.php');
 include (THEME_INCLUDE.'/core/extended-taxos.php');
 foreach (glob(THEME_INCLUDE.'/cpt_files/*.php') as $filename) {include $filename;}
 foreach (glob(THEME_INCLUDE.'/customizers/*.php') as $customizers) {include $customizers;}
+foreach (glob(THEME_LIBS.'/*.php') as $libs) {include $libs;}
 include (THEME_INCLUDE.'/options/default.php');
-foreach (glob('/*.php') as $libs) {include $libs;}
 remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wp_generator');
 remove_action('wp_head', 'feed_links', 2);
