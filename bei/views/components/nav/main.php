@@ -12,7 +12,7 @@ echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
 echo '<div class="navbar-collapse" id="navigation">'.PHP_EOL;
-$args = array(
+$main_menu_args = array(
 	'theme_location'  => '',
 	'menu'            => 'main-nav',
 	'container'       => '',
@@ -30,7 +30,7 @@ $args = array(
 	'walker'          => new WP_Bootstrap_Navwalker(),
 	'depth'           => 2
 );
-wp_nav_menu($args);
+wp_nav_menu($main_menu_args);
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</nav>'.PHP_EOL;
