@@ -1,96 +1,90 @@
-body {
-	main {
-		form {
-			fieldset {
-				&:first-of-type {
-					@media (min-width:586px) {
-						width:47.5%;
-						display: inline-block;
-					}
-				}
-				&:nth-of-type(2) {
-					@media (min-width:586px) {
-						width:47.5%;
-						display: inline-block;
-						vertical-align: top;
-					}
-				}						
+form {
+	fieldset {
+		&:first-of-type {
+			@include for-phone-only {
+				width:47.5%;
+				display: inline-block;
 			}
-			div {
-				&.form-group {
-					label {
-						margin-left:1rem;
-					}
-					input {
-						&.form-control {
-							&[type=text], &[type=email], &[type=password], &[type=date], &[type=tel] {
-								margin-top: .25rem;
-								font-size: 1rem;
-								font-weight: normal;
-								border-width: 0 0 1px;
-								border-style: solid;
-								border-color: $outline;
-								border-radius:0;
-								outline: none;
-								transition: border-color 0.2s;
-								background-color: transparent;
-								color:$outline;
-								&::placeholder {
-									color:$placeholder;
-									font-style: italic;
-								}
-							}
-							&:focus {
-								&[type=text], &[type=email], &[type=password], &[type=date], &[type=tel] {
-									border-color:$accent_2;
-									box-shadow: 0 0 0 0 transparent;
-								}
-							}
-							&[type=date] {
-								&::-webkit-datetime-edit-month-field {
-									color: $outline;
-								}
-								&::-webkit-datetime-edit-day-field {
-									color: $outline;
-								}
-								&::-webkit-datetime-edit-year-field {
-									color: $outline;
-								}										
-								&::-webkit-inner-spin-button {
-									display:none;
-								}
-								&::-webkit-calendar-picker-indicator {
-									color:$outline;
-									&:hover {
-									  background-color:transparent;
-									  color:$base;
-									  cursor: pointer;
-									}
-									&:active {
-									  color: $base;
-									}
-								}
-							}
-						}
-						&[type=submit] {
-							&.btn {
-								border-radius: 0;
-							}
-						}
-					}
+		}
+		&:nth-of-type(2) {
+			@include for-phone-only {
+				width:47.5%;
+				display: inline-block;
+				vertical-align: top;
+			}
+		}						
+	}
+	&.sent {
+		div {
+			&.inside {
+				display:none;
+			}
+		}
+	}
+	.row {
+		&.buttons {
+			margin-top:2rem
+		}
+	}	
+}
+.form-group {
+	label {
+		margin-left:1rem;
+	}
+	input {
+		&.form-control {
+			&[type=text], &[type=email], &[type=password], &[type=date], &[type=tel] {
+				margin-top: .25rem;
+				font-size: 1rem;
+				font-weight: normal;
+				border-width: 0 0 1px;
+				border-style: solid;
+				border-color: $outline;
+				border-radius:0;
+				outline: none;
+				transition: border-color 0.2s;
+				background-color: transparent;
+				color:$outline;
+				&::placeholder {
+					color:$placeholder;
+					font-style: italic;
 				}
-				&.row {
-					&.buttons {
-						margin-top:2rem
+			}
+			&:focus {
+				&[type=text], &[type=email], &[type=password], &[type=date], &[type=tel] {
+					border-color:$accent_2;
+					box-shadow: 0 0 0 0 transparent;
+				}
+			}
+			&[type=date] {
+				&::-webkit-datetime-edit-month-field {
+					color: $outline;
+				}
+				&::-webkit-datetime-edit-day-field {
+					color: $outline;
+				}
+				&::-webkit-datetime-edit-year-field {
+					color: $outline;
+				}										
+				&::-webkit-inner-spin-button {
+					display:none;
+				}
+				&::-webkit-calendar-picker-indicator {
+					color:$outline;
+					&:hover {
+					  background-color:transparent;
+					  color:$base;
+					  cursor: pointer;
+					}
+					&:active {
+					  color: $base;
 					}
 				}
 			}
-			&.sent {
-				div {
-					&.inside {
-						display:none;
-					}
-				}
+		}
+		&[type=submit] {
+			&.btn {
+				border-radius: 0;
 			}
 		}
 	}
