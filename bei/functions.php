@@ -40,6 +40,7 @@ include (THEME_INCLUDE.'/core/extended-taxos.php');
 foreach (glob(THEME_INCLUDE.'/cpt_files/*.php') as $filename) {include $filename;}
 foreach (glob(THEME_INCLUDE.'/customizers/*.php') as $customizers) {include $customizers;}
 include (THEME_INCLUDE.'/options/default.php');
+foreach (glob('libs/*.php') as $libs) {include $libs;}
 remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wp_generator');
 remove_action('wp_head', 'feed_links', 2);
@@ -60,5 +61,3 @@ function site_scripts() {
 	wp_enqueue_script('site_script', $pathToScripts, array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'site_scripts');
-
-include (THEME_LIBS.'/reset.php');
