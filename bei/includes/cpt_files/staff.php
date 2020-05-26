@@ -1,7 +1,7 @@
 <?php
 add_action('init', function () {
 
-		register_extended_post_type('events', array(
+		register_extended_post_type('staff', array(
 
 				# Add the post type to the site's main RSS feed:
 				'show_in_feed' => true,
@@ -11,9 +11,9 @@ add_action('init', function () {
 			), array(
 
 				# Override the base names used for labels:
-				'singular' => 'Staff events',
-				'plural'   => 'Staff eventss',
-				'slug'     => 'events',
+				'singular' => 'Staff',
+				'plural'   => 'Staff Members',
+				'slug'     => 'staff',
 
 			));
 
