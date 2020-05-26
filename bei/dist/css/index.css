@@ -36,43 +36,43 @@ body footer section#boilerplate {
       body footer section#boilerplate div#copyright {
         text-align: right; } }
 
-body header nav.navbar {
+.navbar {
   padding-top: 0;
   padding-bottom: 0; }
   @media (max-width: 786px) {
-    body header nav.navbar a.navbar-brand {
+    .navbar a.navbar-brand {
       width: 65%;
       margin-bottom: .75rem; } }
-  body header nav.navbar button.navbar-toggler {
+  .navbar button.navbar-toggler {
     position: relative;
     top: -0.5rem; }
-    body header nav.navbar button.navbar-toggler span.menu-text {
+    .navbar button.navbar-toggler span.menu-text {
       color: #71c1f2;
       text-transform: uppercase;
       font-size: .85rem;
       display: inline-block; }
-    body header nav.navbar button.navbar-toggler span.menu-icon {
+    .navbar button.navbar-toggler span.menu-icon {
       display: inline-block;
       width: 1.375rem;
       position: relative;
       height: .65rem; }
-      body header nav.navbar button.navbar-toggler span.menu-icon span {
+      .navbar button.navbar-toggler span.menu-icon span {
         height: 1px;
         background-color: #71c1f2;
         display: block;
         position: absolute; }
-        body header nav.navbar button.navbar-toggler span.menu-icon span:first-of-type {
+        .navbar button.navbar-toggler span.menu-icon span:first-of-type {
           top: 0;
           width: 100%; }
-        body header nav.navbar button.navbar-toggler span.menu-icon span:nth-of-type(2) {
+        .navbar button.navbar-toggler span.menu-icon span:nth-of-type(2) {
           top: 49.5%;
           width: 66.6%; }
-        body header nav.navbar button.navbar-toggler span.menu-icon span:last-of-type {
+        .navbar button.navbar-toggler span.menu-icon span:last-of-type {
           bottom: 0;
           width: 33.3%; }
-    body header nav.navbar button.navbar-toggler:focus {
+    .navbar button.navbar-toggler:focus {
       outline: 0; }
-  body header nav.navbar ul > li > a {
+  .navbar ul > li > a {
     color: #71c1f2;
     font-family: Tahoma, sans-serif;
     text-transform: uppercase;
@@ -81,24 +81,24 @@ body header nav.navbar {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
     @media (min-width: 992px) {
-      body header nav.navbar ul > li > a {
+      .navbar ul > li > a {
         font-size: .75rem;
         padding-right: .75rem;
         padding-left: .75rem; }
-        body header nav.navbar ul > li > a.nav-link {
+        .navbar ul > li > a.nav-link {
           line-height: 5.25rem; } }
-    body header nav.navbar ul > li > a:hover {
+    .navbar ul > li > a:hover {
       background-color: #b3ebf2;
       color: #101010; }
-    body header nav.navbar ul > li > a.active {
+    .navbar ul > li > a.active {
       background-color: #b3ebf2;
       color: #101010; }
-    body header nav.navbar ul > li > a.nav-link {
+    .navbar ul > li > a.nav-link {
       padding-left: 1.5rem;
       padding-right: 1.5rem; }
 
-@media (max-width: 992px) {
-  body header nav .navbar-collapse {
+@media (min-width: 786px) {
+  .navbar-collapse {
     position: absolute;
     top: 4rem;
     left: 0;
@@ -106,16 +106,16 @@ body header nav.navbar {
     width: 100%;
     background-color: black;
     height: 90vh; }
-    body header nav .navbar-collapse.show {
+    .navbar-collapse.show {
       left: 0;
       z-index: 100;
       -webkit-transition: left 0.3s ease-in;
       transition: left 0.3s ease-in; }
-      body header nav .navbar-collapse.show ul#main-navigation li.nav-item a.nav-link {
+      .navbar-collapse.show ul#main-navigation li.nav-item a.nav-link {
         padding-top: 1.75rem;
         padding-bottom: 1.75rem;
         text-align: center; }
-  body header nav .navbar-collapse.collapsing {
+  .navbar-collapse.collapsing {
     -webkit-transition: left 0.3s ease;
     transition: left 0.3s ease;
     left: -100%;
