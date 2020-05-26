@@ -1,5 +1,12 @@
 <?php
 // Disabling WP Emojis
+add_theme_support('post-thumbnails');
+
+function cc_mime_types($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
+
 function disable_wp_emojicons() {
 	remove_action('admin_print_styles', 'print_emoji_styles');
 	remove_action('wp_head', 'print_emoji_detection_script', 7);

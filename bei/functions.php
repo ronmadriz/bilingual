@@ -49,11 +49,7 @@ remove_action('wp_head', 'feed_links_extra', 3);
 remove_action('wp_head', 'start_post_rel_link', 10, 0);
 remove_action('wp_head', 'parent_post_rel_link', 10, 0);
 remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
-add_theme_support('post-thumbnails');
-function cc_mime_types($mimes) {
-	$mimes['svg'] = 'image/svg+xml';
-	return $mimes;
-}
+
 add_filter('upload_mimes', 'cc_mime_types');
 function site_scripts() {
 	wp_deregister_script('jquery');
@@ -65,4 +61,4 @@ function site_scripts() {
 }
 add_action('wp_enqueue_scripts', 'site_scripts');
 
-foreach (glob(THEME_LIBS.'/*.php') as $filename) {include $filename;}
+foreach ((THEME_LIBS.'/*.php') as $filename) {include $filename;}
