@@ -124,3 +124,4 @@ function reg_split_my_array($origin, $chunk) {
 		return $odds;
 	}
 }
+?>
