@@ -77,6 +77,7 @@ require get_template_directory().'/bootstrap-navwalker.php';
 
 function register_my_menu() {
 	register_nav_menu('primary', __('main-nav', 'main-nav'));
+	register_nav_menu('topbar', __('topbar-nav', 'topbar-nav'));
 }
 function my_mce_buttons_2($buttons) {
 	$buttons[] = 'sup';

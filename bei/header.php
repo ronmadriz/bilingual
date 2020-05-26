@@ -34,7 +34,12 @@ echo '<body id="page-'.$slug.'"';
 body_class();
 echo '>'.PHP_EOL;
 echo '<nav class="navbar navbar-expand-lg">'.PHP_EOL;
-echo '<div class="container">'.PHP_EOL;
+echo '<section id="topbar" class="container topbar">'.PHP_EOL;
+echo '<div class="row">'.PHP_EOL;
+include ('views/components/nav/topbar.php');
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
+echo '<section id="header" class="container">'.PHP_EOL;
 if (!empty($site_logo_header)):
 echo '<a href="'.get_bloginfo('url').'" class="navbar-brand"><img src="'.esc_url($site_logo_header).'" alt="'.get_bloginfo('name').'" class="img-fluid"></a>'.PHP_EOL;
  else :
@@ -46,6 +51,6 @@ echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
 include ('views/components/nav/main.php');
-echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
 echo '</nav>'.PHP_EOL;
 echo '<main>'.PHP_EOL;
