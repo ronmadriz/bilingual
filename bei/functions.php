@@ -228,14 +228,14 @@ function social_media_icons() {
 				echo '<li class="list-inline-item">'.PHP_EOL;
 				echo '<a class="email" target="_blank" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">'.PHP_EOL;
 				echo 'i class="fa fa-envelope" title="';
-				_e('email icon', 'text-domain');
+				_e('email icon', 'rmc_core');
 				echo '"></i>'.PHP_EOL;
 				echo '</a>'.PHP_EOL;
 				echo '</li>'.PHP_EOL;
 			} else {
 				echo '<li class="list-inline-item">'.PHP_EOL;
 				echo '<a class="'.$active_site.'" target="_blank" href="'.get_theme_mod($active_site).'">'.PHP_EOL;
-				echo '<i class="'.esc_attr($class).'" title="'.printf(__('%s icon', 'text-domain'), $active_site).'"></i>'.PHP_EOL;
+				echo '<i class="'.esc_attr($class).'" title="'.printf(__('%s icon', 'rmc_core'), $active_site).'"></i>'.PHP_EOL;
 				echo '</a>'.PHP_EOL;
 				echo '</li>'.PHP_EOL;
 			}
