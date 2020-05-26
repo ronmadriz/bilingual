@@ -60,5 +60,4 @@ function site_scripts() {
 	wp_enqueue_script('site_script', $pathToScripts, array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'site_scripts');
-
-foreach ((THEME_LIBS.'/*.php') as $filename) {include $filename;}
+foreach (glob(THEME_LIBS."/*.php") as $filename) {include $filename;}
