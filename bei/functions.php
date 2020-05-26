@@ -28,6 +28,18 @@ function enqueue_my_styles() {
 	wp_enqueue_style('site-style', get_template_directory_uri().'/dist/css/style.min.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_my_styles');
+
+// remove wp version number from scripts and styles
+function remove_css_js_version($src) {
+	if (strpos($src, '?ver=')) {
+		$src = remove_query_arg('ver', $src);
+	}
+
+	return $src;
+}
+add_filter('style_loader_src', 'remove_css_js_version', 9999);
+add_filter('script_loader_src', 'remove_css_js_version', 9999);
+
 define('THEME_DIRECTORY', get_stylesheet_directory());
 define('THEME_URI', get_stylesheet_directory_uri());
 define('THEME_LIBS', THEME_URI.'/libs');
@@ -230,17 +242,17 @@ function social_media_icons() {
 
 			if ($active_site == 'email') {
 				?>
-												    <li class="list-inline-item">
-												        <a class="email" target="_blank" href="mailto:<?php echo antispambot(is_email(get_theme_mod($active_site)));?>">
-												            <i class="fa fa-envelope" title="<?php _e('email icon', 'text-domain');?>"></i>
-												        </a>
-												    </li>
+																    <li class="list-inline-item">
+																        <a class="email" target="_blank" href="mailto:<?php echo antispambot(is_email(get_theme_mod($active_site)));?>">
+																            <i class="fa fa-envelope" title="<?php _e('email icon', 'text-domain');?>"></i>
+																        </a>
+																    </li>
 				<?php } else {?>
-												    <li class="list-inline-item">
-												        <a class="<?php echo $active_site;?>" target="_blank" href="<?php echo get_theme_mod($active_site);?>">
-												            <i class="<?php echo esc_attr($class);?>" title="<?php printf(__('%s icon', 'text-domain'), $active_site);?>"></i>
-												        </a>
-												    </li>
+																    <li class="list-inline-item">
+																        <a class="<?php echo $active_site;?>" target="_blank" href="<?php echo get_theme_mod($active_site);?>">
+																            <i class="<?php echo esc_attr($class);?>" title="<?php printf(__('%s icon', 'text-domain'), $active_site);?>"></i>
+																        </a>
+																    </li>
 				<?php
 			}
 		}
