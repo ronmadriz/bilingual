@@ -1,5 +1,3 @@
-<?php
-?>
 <nav class="menu">
     <div class="menu__wrapper">
         <a class="menu__logo" href="/"><img src="#" class="menu__logo--img img-fluid"></a>
@@ -13,3 +11,6 @@
         </ul>
     </div>
 </nav>
+<?php
+
+?>
