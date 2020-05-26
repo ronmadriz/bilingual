@@ -1,6 +1,6 @@
 <?php
 
-function fc_register_cta_customizer($wp_customize) {
+function rmc_register_cta_customizer($wp_customize) {
 
 	// footer CTA Section
 
@@ -18,7 +18,7 @@ function fc_register_cta_customizer($wp_customize) {
 		new WP_Customize_Image_Control(
 			$wp_customize, 'site_logo_footer',
 			array(
-				'label'    => __('Footer Logo', 'fc_core'),
+				'label'    => __('Footer Logo', 'rmc_core'),
 				'section'  => 'footer_content',
 				'settings' => 'site_logo_footer',
 			)
@@ -31,7 +31,7 @@ function fc_register_cta_customizer($wp_customize) {
 
 			$wp_customize, 'foot_about',
 			array(
-				'label'    => __('Footer Content', 'fc_core'),
+				'label'    => __('Footer Content', 'rmc_core'),
 				'section'  => 'footer_content',
 				'type'     => 'textarea',
 				'settings' => 'footer_about',
@@ -41,4 +41,4 @@ function fc_register_cta_customizer($wp_customize) {
 	);
 }
 
-add_action('customize_register', 'fc_register_cta_customizer');
+add_action('customize_register', 'rmc_register_cta_customizer');

@@ -199,15 +199,15 @@ function disable_emojicons_tinymce($plugins) {
 
 function social_media_icons() {
 
-	function ronmadriz_social_media_array() {
+	function rmc_social_media_array() {
 
 		/* store social site names in array */
-		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube', 'google-plus', 'email', 'rss');
+		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube', 'email', 'rss');
 
 		return $social_sites;
 	}
 
-	$social_sites = ronmadriz_social_media_array();
+	$social_sites = rmc_social_media_array();
 
 	foreach ($social_sites as $social_site) {
 		if (strlen(get_theme_mod($social_site)) > 0) {
@@ -243,15 +243,15 @@ function social_media_icons() {
 		echo "</ul>";
 	}
 }
-function ronmadriz_remove_gallery_css($css) {
+function rmc_remove_gallery_css($css) {
 	return preg_replace("#<style type='text/css'>(.*?)</style>#s", '', $css);
 }
-add_filter('gallery_style', 'ronmadriz_remove_gallery_css');
-add_shortcode('gallery', 'ronmadriz_gallery_shortcode');
+add_filter('gallery_style', 'rmc_remove_gallery_css');
+add_shortcode('gallery', 'rmc_gallery_shortcode');
 /**
  * Overwrite the native [gallery] shortcode, to modify the HTML layout.
  */
-function ronmadriz_gallery_shortcode($attr = array(), $content = '') {
+function rmc_gallery_shortcode($attr = array(), $content = '') {
 	$attr['itemtag']    = "";
 	$attr['icontag']    = "";
 	$attr['captiontag'] = "";
@@ -285,8 +285,8 @@ function ronmadriz_gallery_shortcode($attr = array(), $content = '') {
 
 	return $html;
 }
-function ronmadriz_img_tag($class) {
+function rmc_img_tag($class) {
 	$class .= ' img-responsive';
 	return $class;
 }
-add_filter('get_image_tag_class', 'ronmadriz_img_tag');
+add_filter('get_image_tag_class', 'rmc_img_tag');

@@ -12,7 +12,7 @@ $header_cta_top    = get_theme_mod('header_cta_top');
 $header_cta_bottom = get_theme_mod('header_cta_bottom');
 $site_logo_header  = get_theme_mod('site_logo_header');
 $site_favicon      = get_theme_mod('site_favicon');
-$site_settings     = get_option('ronmadriz_settings');
+$site_settings     = get_option('rmc_settings');
 $slogan            = get_bloginfo('description');
 echo '<!DOCTYPE html>'.PHP_EOL;
 echo '<html lang="en">'.PHP_EOL;

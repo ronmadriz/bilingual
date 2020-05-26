@@ -5,7 +5,7 @@ function rmc_register_social_customizer($wp_customize) {
 	function rmc_social_array() {
 
 		/* store social site names in array */
-		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube');
+		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube', 'email', 'rss');
 
 		return $social_sites;
 	}
