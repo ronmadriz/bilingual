@@ -1,6 +1,6 @@
 <?php
 
-function fc_search_customizer($wp_customize) {
+function rmc_search_customizer($wp_customize) {
 
 	// Header CTA Section
 
@@ -21,7 +21,7 @@ function fc_search_customizer($wp_customize) {
 		new WP_Customize_Image_Control(
 			$wp_customize, 'search_banner',
 			array(
-				'label'    => __('Search Banner', 'fc_core'),
+				'label'    => __('Search Banner', 'rmc_core'),
 				'section'  => 'search_banner_section',
 				'settings' => 'search_results_settings',
 			)
@@ -30,4 +30,4 @@ function fc_search_customizer($wp_customize) {
 	);
 }
 
-add_action('customize_register', 'fc_search_customizer');
+add_action('customize_register', 'rmc_search_customizer');

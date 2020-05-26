@@ -1,8 +1,8 @@
 <?php
 
-function fc_register_social_customizer($wp_customize) {
+function rmc_register_social_customizer($wp_customize) {
 
-	function fc_social_array() {
+	function rmc_social_array() {
 
 		/* store social site names in array */
 		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube');
@@ -10,12 +10,12 @@ function fc_register_social_customizer($wp_customize) {
 		return $social_sites;
 	}
 
-	$wp_customize->add_section('fc_social_settings', array(
-			'title'    => __('Social Media Links', 'fc_core'),
+	$wp_customize->add_section('rmc_social_settings', array(
+			'title'    => __('Social Media Links', 'rmc_core'),
 			'priority' => 30,
 		));
 
-	$social_sites = fc_social_array();
+	$social_sites = rmc_social_array();
 	$priority     = 5;
 
 	foreach ($social_sites as $social_site) {
@@ -27,8 +27,8 @@ function fc_register_social_customizer($wp_customize) {
 			));
 
 		$wp_customize->add_control($social_site, array(
-				'label'    => __("$social_site url:", 'fc_core'),
-				'section'  => 'fc_social_settings',
+				'label'    => __("$social_site url:", 'rmc_core'),
+				'section'  => 'rmc_social_settings',
 				'type'     => 'text',
 				'priority' => $priority,
 			));
@@ -38,4 +38,4 @@ function fc_register_social_customizer($wp_customize) {
 
 }
 
-add_action('customize_register', 'fc_register_social_customizer');
+add_action('customize_register', 'rmc_register_social_customizer');

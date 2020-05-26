@@ -29,7 +29,7 @@ function fc_register_cta_customizer($wp_customize) {
 
 		new WP_Customize_Control(
 
-			$wp_customize, 'fc_about',
+			$wp_customize, 'foot_about',
 			array(
 				'label'    => __('Footer Content', 'fc_core'),
 				'section'  => 'footer_content',

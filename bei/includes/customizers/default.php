@@ -1,8 +1,8 @@
 <?php
 
-function fc_register_default_customizer($wp_customize) {
+function register_default_customizer($wp_customize) {
 	$wp_customize->remove_section('static_front_page');
 	$wp_customize->remove_section('widgets');
 	$wp_customize->remove_section('colors');
 }
-add_action('customize_register', 'fc_register_default_customizer');
+add_action('customize_register', 'register_default_customizer');
