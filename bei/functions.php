@@ -51,6 +51,11 @@ remove_action('wp_head', 'start_post_rel_link', 10, 0);
 remove_action('wp_head', 'parent_post_rel_link', 10, 0);
 remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
 
+add_theme_support('post-thumbnails');
+function cc_mime_types($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
 add_filter('upload_mimes', 'cc_mime_types');
 function site_scripts() {
 	wp_deregister_script('jquery');
@@ -62,52 +67,49 @@ function site_scripts() {
 }
 add_action('wp_enqueue_scripts', 'site_scripts');
 
-// Disabling WP Emojis
-add_theme_support('post-thumbnails');
-
-function cc_mime_types($mimes) {
-	$mimes['svg'] = 'image/svg+xml';
-	return $mimes;
+function category_id_class($classes) {
+	global $post;
+	foreach ((get_the_category($post->ID)) as $category)
+	$classes[] = 'cat-'.$category->cat_ID.'-id';
+	return $classes;
 }
+add_filter('post_class', 'category_id_class');
+add_filter('body_class', 'category_id_class');
 
-function disable_wp_emojicons() {
-	remove_action('admin_print_styles', 'print_emoji_styles');
-	remove_action('wp_head', 'print_emoji_detection_script', 7);
-	remove_action('admin_print_scripts', 'print_emoji_detection_script');
-	remove_action('wp_print_styles', 'print_emoji_styles');
-	remove_filter('wp_mail', 'wp_staticize_emoji_for_email');
-	remove_filter('the_content_feed', 'wp_staticize_emoji');
-	remove_filter('comment_text_rss', 'wp_staticize_emoji');
-	add_filter('tiny_mce_plugins', 'disable_emojicons_tinymce');
+add_action('after_setup_theme', 'register_my_menu');
+require get_template_directory().'/bootstrap-navwalker.php';
+
+function register_my_menu() {
+	register_nav_menu('primary', __('main-nav', 'main-nav'));
 }
+function my_mce_buttons_2($buttons) {
+	$buttons[] = 'sup';
+	$buttons[] = 'sub';
 
-// Global Reset of WP Functions
+	return $buttons;
+}
+add_filter('mce_buttons_2', 'my_mce_buttons_2');
 
-add_action('init', 'disable_wp_emojicons');
-function disable_emojicons_tinymce($plugins) {
-	if (is_array($plugins)) {
-		return array_diff($plugins, array('wpemoji'));
-	} else {
-		return array();
+function reg_split_my_array($origin, $chunk) {
+	$odds  = array();// left
+	$evens = array();// right
+
+	foreach ($origin as $k => $v) {
+		if ($k%2 == 0) {
+			$evens[] = $v;
+		} else {
+			$odds[] = $v;
+		}
+	}
+
+	if ($chunk == 'even') {
+		return $evens;
+	}
+
+	if ($chunk == 'odd') {
+		return $odds;
 	}
 }
-
-add_filter('wp_get_attachment_image_attributes', function ($attr) {
-		if (isset($attr['sizes'])) {
-			unset($attr['sizes']);
-		}
-
-		if (isset($attr['srcset'])) {
-			unset($attr['srcset']);
-		}
-
-		return $attr;
-
-	}, PHP_INT_MAX);
-
-add_filter('wp_calculate_image_sizes', '__return_false', PHP_INT_MAX);
-add_filter('wp_calculate_image_srcset', '__return_false', PHP_INT_MAX);
-remove_filter('the_content', 'wp_make_content_images_responsive');
 
 function filter_ptags_on_images($content) {
 	return preg_replace('/<p>\s*(<a .*>)?\s*(<img .* \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content);
@@ -145,70 +147,110 @@ function reg_clean_title($source) {
 }
 
 add_action('get_header', 'my_filter_head');
+
 function my_filter_head() {
 	remove_action('wp_head', '_admin_bar_bump_cb');
 }
 
-function category_id_class($classes) {
-	global $post;
-	foreach ((get_the_category($post->ID)) as $category)
-	$classes[] = 'cat-'.$category->cat_ID.'-id';
-	return $classes;
+// Clean the up the image from wp_get_attachment_image()
+add_filter('wp_get_attachment_image_attributes', function ($attr) {
+		if (isset($attr['sizes'])) {
+			unset($attr['sizes']);
+		}
+
+		if (isset($attr['srcset'])) {
+			unset($attr['srcset']);
+		}
+
+		return $attr;
+
+	}, PHP_INT_MAX);
+
+// Override the calculated image sizes
+add_filter('wp_calculate_image_sizes', '__return_false', PHP_INT_MAX);
+
+// Override the calculated image sources
+add_filter('wp_calculate_image_srcset', '__return_false', PHP_INT_MAX);
+
+// Remove the reponsive stuff from the content
+remove_filter('the_content', 'wp_make_content_images_responsive');
+
+function disable_wp_emojicons() {
+
+	// all actions related to emojis
+	remove_action('admin_print_styles', 'print_emoji_styles');
+	remove_action('wp_head', 'print_emoji_detection_script', 7);
+	remove_action('admin_print_scripts', 'print_emoji_detection_script');
+	remove_action('wp_print_styles', 'print_emoji_styles');
+	remove_filter('wp_mail', 'wp_staticize_emoji_for_email');
+	remove_filter('the_content_feed', 'wp_staticize_emoji');
+	remove_filter('comment_text_rss', 'wp_staticize_emoji');
+
+	// filter to remove TinyMCE emojis
+	add_filter('tiny_mce_plugins', 'disable_emojicons_tinymce');
 }
-add_filter('post_class', 'category_id_class');
-add_filter('body_class', 'category_id_class');
+add_action('init', 'disable_wp_emojicons');
 
-function my_mce_buttons_2($buttons) {
-	$buttons[] = 'sup';
-	$buttons[] = 'sub';
-
-	return $buttons;
+function disable_emojicons_tinymce($plugins) {
+	if (is_array($plugins)) {
+		return array_diff($plugins, array('wpemoji'));
+	} else {
+		return array();
+	}
 }
-add_filter('mce_buttons_2', 'my_mce_buttons_2');
 
-function reg_split_my_array($origin, $chunk) {
-	$odds  = array();// left
-	$evens = array();// right
+// Social Media Button Function
 
-	foreach ($origin as $k => $v) {
-		if ($k%2 == 0) {
-			$evens[] = $v;
-		} else {
-			$odds[] = $v;
+function social_media_icons() {
+
+	function ronmadriz_social_media_array() {
+
+		/* store social site names in array */
+		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube', 'google-plus', 'email', 'rss');
+
+		return $social_sites;
+	}
+
+	$social_sites = ronmadriz_social_media_array();
+
+	foreach ($social_sites as $social_site) {
+		if (strlen(get_theme_mod($social_site)) > 0) {
+			$active_sites[] = $social_site;
 		}
 	}
+	if (!empty($active_sites)) {
 
-	if ($chunk == 'even') {
-		return $evens;
+		echo '<ul class="social-media-icons list-inline">';
+		echo '<li class="list-inline-item">';
+		_e('Connect:');
+		echo '</li>';
+		foreach ($active_sites as $active_site) {
+
+			$class = 'fab fa-'.$active_site;
+
+			if ($active_site == 'email') {
+				?>
+												    <li class="list-inline-item">
+												        <a class="email" target="_blank" href="mailto:<?php echo antispambot(is_email(get_theme_mod($active_site)));?>">
+												            <i class="fa fa-envelope" title="<?php _e('email icon', 'text-domain');?>"></i>
+												        </a>
+												    </li>
+				<?php } else {?>
+												    <li class="list-inline-item">
+												        <a class="<?php echo $active_site;?>" target="_blank" href="<?php echo get_theme_mod($active_site);?>">
+												            <i class="<?php echo esc_attr($class);?>" title="<?php printf(__('%s icon', 'text-domain'), $active_site);?>"></i>
+												        </a>
+												    </li>
+				<?php
+			}
+		}
+		echo "</ul>";
 	}
-
-	if ($chunk == 'odd') {
-		return $odds;
-	}
 }
-
-function ronmadriz_img_tag($class) {
-	$class .= ' img-responsive';
-	return $class;
-}
-add_filter('get_image_tag_class', 'ronmadriz_img_tag');
-
-// Menus
-
-add_action('after_setup_theme', 'register_my_menu');
-require get_template_directory().'/bootstrap-navwalker.php';
-
-function register_my_menu() {
-	register_nav_menu('primary', __('main-nav', 'main-nav'));
-}
-
-// Gallery
-
 function ronmadriz_remove_gallery_css($css) {
 	return preg_replace("#<style type='text/css'>(.*?)</style>#s", '', $css);
 }
 add_filter('gallery_style', 'ronmadriz_remove_gallery_css');
-
 add_shortcode('gallery', 'ronmadriz_gallery_shortcode');
 /**
  * Overwrite the native [gallery] shortcode, to modify the HTML layout.
@@ -247,3 +289,8 @@ function ronmadriz_gallery_shortcode($attr = array(), $content = '') {
 
 	return $html;
 }
+function ronmadriz_img_tag($class) {
+	$class .= ' img-responsive';
+	return $class;
+}
+add_filter('get_image_tag_class', 'ronmadriz_img_tag');
