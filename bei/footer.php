@@ -3,6 +3,7 @@ date_default_timezone_set('America/Chicago');
 $site_settings = get_option('rmc_settings');
 echo '</main>'.PHP_EOL;
 echo '<footer>'.PHP_EOL;
+include ('views/global/footer/base.php');
 include ('views/global/footer/boilerplate.php');
 echo '</footer>'.PHP_EOL;
 wp_footer();
