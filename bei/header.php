@@ -33,8 +33,8 @@ echo '</head>'.PHP_EOL;
 echo '<body id="page-'.$slug.'"';
 body_class();
 echo '>'.PHP_EOL;
-include ('views/components/nav/topbar.php');
 echo '<nav class="navbar navbar-expand-lg">'.PHP_EOL;
+include ('views/components/nav/topbar.php');
 echo '<div class="container-fluid">'.PHP_EOL;
 if (!empty($site_logo_header)):
 echo '<a href="'.get_bloginfo('url').'" class="navbar-brand"><img src="'.esc_url($site_logo_header).'" alt="'.get_bloginfo('name').'" class="img-fluid"></a>'.PHP_EOL;
