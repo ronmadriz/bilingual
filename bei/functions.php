@@ -234,7 +234,7 @@ function social_media_icons() {
 			} else {
 				echo '<li class="social__icons--item list-inline-item">';
 				echo '<a class="'.$active_site.'" href="'.get_theme_mod($active_site).'">';
-				echo file_get_contents(THEME_SPRITES.'facebook.svg');
+				echo file_get_contents(THEME_SPRITES.$class.'.svg');
 				;
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
