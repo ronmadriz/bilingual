@@ -232,7 +232,7 @@ function social_media_icons() {
 			} else {
 				echo '<li class="social__icons list-inline-item">';
 				echo '<a class="'.$active_site.' social__link" href="'.get_theme_mod($active_site).'">';
-				echo '<img src="'.file_get_contents(THEME_SPRITES.$class.'.svg').'" alt="'.$active_site.'">';
+				echo file_get_contents(THEME_SPRITES.$class.'.svg');
 				;
 				echo '</a>';
 				echo '</span>'.PHP_EOL;
