@@ -224,12 +224,12 @@ function social_media_icons() {
 			$class = 'fab fa-'.$active_site;
 
 			if ($active_site == 'email') {
-				echo '<li class="list-inline-item">'.PHP_EOL;
-				echo '<a class="email" target="_blank" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">'.PHP_EOL;
+				echo '<li class="list-inline-item">';
+				echo '<a class="email" target="_blank" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
 				echo 'i class="fa fa-envelope" title="';
 				_e('email icon', 'rmc_core');
-				echo '"></i>'.PHP_EOL;
-				echo '</a>'.PHP_EOL;
+				echo '"></i>';
+				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			} else {
 				echo '<li class="list-inline-item">'.PHP_EOL;
