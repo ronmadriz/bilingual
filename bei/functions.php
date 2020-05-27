@@ -222,15 +222,15 @@ function social_media_icons() {
 		foreach ($active_sites as $active_site) {
 			$class = $active_site;
 			if ($active_site == 'email') {
-				echo '<span class="social__icons list-inline-item">';
+				echo '<span class="social__icons">';
 				echo '<a class="email social__link" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
 				echo '<span class="sr-only">';
 				_e('email', 'rmc_core');
 				echo '</span>';
 				echo '</a>';
-				echo '</li>'.PHP_EOL;
+				echo '</span>'.PHP_EOL;
 			} else {
-				echo '<li class="social__icons list-inline-item">';
+				echo '<span class="social__icons">';
 				echo '<a class="'.$active_site.' social__link" href="'.get_theme_mod($active_site).'">';
 				echo file_get_contents(THEME_SPRITES.$class.'.svg');
 				;
