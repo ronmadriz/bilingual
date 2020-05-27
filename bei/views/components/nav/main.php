@@ -19,4 +19,5 @@ $main_menu_args = array(
 	'depth' => 2,
 );
 wp_nav_menu($main_menu_args);
+get_search_form();
 echo '</div>'.PHP_EOL;
