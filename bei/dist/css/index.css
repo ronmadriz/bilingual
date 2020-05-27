@@ -71,7 +71,6 @@ html {
       height: .65rem; }
       .navbar button.navbar-toggler span.menu-icon span {
         height: 1px;
-        background-color: #09f;
         display: block;
         position: absolute; }
         .navbar button.navbar-toggler span.menu-icon span:first-of-type {
@@ -101,38 +100,12 @@ html {
         .navbar ul > li > a.nav-link {
           line-height: 5.25rem; } }
     .navbar ul > li > a:hover {
-      background-color: #e44d74;
       color: #101010; }
     .navbar ul > li > a.active {
-      background-color: #e44d74;
       color: #101010; }
     .navbar ul > li > a.nav-link {
       padding-left: 1.5rem;
       padding-right: 1.5rem; }
-
-@media (min-width: 786px) {
-  .navbar-collapse {
-    position: absolute;
-    top: 4rem;
-    left: 0;
-    padding: 2rem 0;
-    width: 100%;
-    background-color: black;
-    height: 90vh; }
-    .navbar-collapse.show {
-      left: 0;
-      z-index: 100;
-      -webkit-transition: left 0.3s ease-in;
-      transition: left 0.3s ease-in; }
-      .navbar-collapse.show ul#main-navigation li.nav-item a.nav-link {
-        padding-top: 1.75rem;
-        padding-bottom: 1.75rem;
-        text-align: center; }
-  .navbar-collapse.collapsing {
-    -webkit-transition: left 0.3s ease;
-    transition: left 0.3s ease;
-    left: -100%;
-    height: 90vh; } }
 
 @media (max-width: 786px) {
   form fieldset:first-of-type {
