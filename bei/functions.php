@@ -225,7 +225,7 @@ function social_media_icons() {
 
 			if ($active_site == 'email') {
 				echo '<li class="list-inline-item">';
-				echo '<a class="email" target="_blank" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
+				echo '<a class="email" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
 				echo 'i class="fa fa-envelope" title="';
 				_e('email icon', 'rmc_core');
 				echo '"></i>';
@@ -233,7 +233,7 @@ function social_media_icons() {
 				echo '</li>'.PHP_EOL;
 			} else {
 				echo '<li class="list-inline-item">';
-				echo '<a class="'.$active_site.'" target="_blank" href="'.get_theme_mod($active_site).'">';
+				echo '<a class="'.$active_site.'" href="'.get_theme_mod($active_site).'">';
 				echo '<i class="'.esc_attr($class).'" title="'.printf(__('%s icon', 'rmc_core'), $active_site).'"></i>';
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
