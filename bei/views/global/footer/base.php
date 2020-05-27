@@ -14,37 +14,15 @@ endif;
 echo '<p>Box 35300<br>1810 Campus Way NE<br>Bothell, WA 98011-8246</p>'.PHP_EOL;
 echo '<p>+1-2534-4456-345</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
-echo '<div class="col-12 col-md-9">';?>
-<ul class="base__links list-unstyled">
-	<li><a href="#">Footer Nav</a>
-		<ul class="list-unstyled">
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-		</ul>
-	</li>
-	<li><a href="#">Footer Nav</a>
-		<ul class="list-unstyled">
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-		</ul>
-	</li>
-	<li><a href="#">Footer Nav</a>
-		<ul class="list-unstyled">
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-			<li><a href="#">Footer SubNav</a></li>
-		</ul>
-	</li>
+echo '<div class="base__links col-12 col-md-3">';?>
+<ul>
+	<li><a href="#">About</a></li>
+</ul>
+<ul>
+	<li><a href="#">Intensive English Program</a></li>
+</ul>
+<ul>
+	<li><a href="#">Corporate</a></li>
 </ul>
 <?
 echo '</div>'.PHP_EOL;
