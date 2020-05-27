@@ -232,10 +232,10 @@ function social_media_icons() {
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			} else {
-				echo '<li class="list-inline-item">'.PHP_EOL;
-				echo '<a class="'.$active_site.'" target="_blank" href="'.get_theme_mod($active_site).'">'.PHP_EOL;
-				echo '<i class="'.esc_attr($class).'" title="'.printf(__('%s icon', 'rmc_core'), $active_site).'"></i>'.PHP_EOL;
-				echo '</a>'.PHP_EOL;
+				echo '<li class="list-inline-item">';
+				echo '<a class="'.$active_site.'" target="_blank" href="'.get_theme_mod($active_site).'">';
+				echo '<i class="'.esc_attr($class).'" title="'.printf(__('%s icon', 'rmc_core'), $active_site).'"></i>';
+				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			}
 		}
