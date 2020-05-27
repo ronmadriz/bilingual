@@ -6,7 +6,7 @@ add_action('init', function () {
 				# Add the post type to the site's main RSS feed:
 				'show_in_feed' => true,
 				'has_archive'  => false,
-
+				'menu_icon'    => 'dashicons-book-alt',
 			), array(
 
 				# Override the base names used for labels:
