@@ -1,8 +1,6 @@
 <?php
 date_default_timezone_set('America/Chicago');
-$site_settings    = get_option('rmc_settings');
-$site_logo_footer = get_theme_mod('site_logo_footer');
-$footer_about     = get_theme_mod('footer_about');
+$site_settings = get_option('rmc_settings');
 echo '</main>'.PHP_EOL;
 echo '<footer>'.PHP_EOL;
 include ('views/global/footer/boilerplate.php');
