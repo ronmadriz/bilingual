@@ -17,7 +17,7 @@ echo '</div>'.PHP_EOL;
 echo '<div class="col-12 col-md-9">';?>
 <ul class="base__links list-unstyled">
 	<li><a href="#">Footer Nav</a>
-		<ul>
+		<ul class="list-unstyled">
 			<li><a href="#">Footer SubNav</a></li>
 			<li><a href="#">Footer SubNav</a></li>
 			<li><a href="#">Footer SubNav</a></li>
@@ -28,7 +28,7 @@ echo '<div class="col-12 col-md-9">';?>
 		</ul>
 	</li>
 	<li><a href="#">Footer Nav</a>
-		<ul>
+		<ul class="list-unstyled">
 			<li><a href="#">Footer SubNav</a></li>
 			<li><a href="#">Footer SubNav</a></li>
 			<li><a href="#">Footer SubNav</a></li>
@@ -36,7 +36,7 @@ echo '<div class="col-12 col-md-9">';?>
 		</ul>
 	</li>
 	<li><a href="#">Footer Nav</a>
-		<ul>
+		<ul class="list-unstyled">
 			<li><a href="#">Footer SubNav</a></li>
 			<li><a href="#">Footer SubNav</a></li>
 			<li><a href="#">Footer SubNav</a></li>
