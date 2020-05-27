@@ -32,6 +32,7 @@ define('THEME_URI', get_stylesheet_directory_uri());
 define('THEME_LIBS', THEME_URI.'/libs');
 define('THEME_INCLUDE', THEME_DIRECTORY.'/includes');
 define('THEME_IMAGES', THEME_URI.'/dist/images');
+define('THEME_SPRITES', THEME_URI.'/sprites/');
 define('THEME_CSS', THEME_URI.'/dist/css');
 define('THEME_JS', THEME_URI.'/dist/scripts');
 include (THEME_INCLUDE.'/core/extended-cpts.php');
@@ -221,21 +222,20 @@ function social_media_icons() {
 
 		echo '<ul class="social__icons list-inline">'.PHP_EOL;
 		foreach ($active_sites as $active_site) {
-
-			$class = 'fab fa-'.$active_site;
-
+			$class = $active_site;
 			if ($active_site == 'email') {
 				echo '<li class="social__icons--item list-inline-item">';
-				echo '<a class="email" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
-				echo 'i class="social__icons--link fa fa-envelope"><span class="sr-only">';
+				echo '<a class="email social__icons--link" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
+				echo '<span class="sr-only">';
 				_e('email', 'rmc_core');
-				echo '</span></i>';
+				echo '</span>';
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			} else {
 				echo '<li class="social__icons--item list-inline-item">';
 				echo '<a class="'.$active_site.'" href="'.get_theme_mod($active_site).'">';
-				echo '<i class="'.esc_attr($class).' social__icons--link " title="'.printf(__('<span class="sr-only">%s link</span>', 'rmc_core'), $active_site).'"></i>';
+				echo file_get_contents(THEME_SPRITES.$class);
+				;
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			}
