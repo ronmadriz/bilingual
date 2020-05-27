@@ -1,7 +1,7 @@
 <?
 echo '<section id="topbar" class="container-fluid topbar">'.PHP_EOL;
-echo '<div class="row">'.PHP_EOL;
-echo '<div class="col-12 col-md-6 order-12">', PHP_EOL;
+echo '<div class="row justify-content-end">'.PHP_EOL;
+echo '<div class="col-12 col-md-6">', PHP_EOL;
 $top_menu_args = array(
 	'theme_location'  => 'topbar',
 	'menu'            => 'topbar-nav',
