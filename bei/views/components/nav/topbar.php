@@ -1,15 +1,15 @@
 <?
 echo '<section id="topbar" class="container-fluid topbar">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
-echo '<div class="topbar__nav col-12 col-md-6 order-12">', PHP_EOL;
+echo '<div class="col-12 col-md-6 order-12">', PHP_EOL;
 $top_menu_args = array(
 	'theme_location'  => 'topbar',
 	'menu'            => 'topbar-nav',
 	'container'       => '',
 	'container_class' => '',
 	'container_id'    => '',
-	'menu_class'      => 'list-inline',
-	'menu_id'         => 'topbar-nav',
+	'menu_class'      => 'topbar__nav list-inline',
+	'menu_id'         => 'topbar__nav',
 	'echo'            => true,
 	'fallback_cb'     => 'wp_page_menu',
 	'before'          => '',
