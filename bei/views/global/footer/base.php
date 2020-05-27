@@ -35,7 +35,7 @@ echo '<li><a href="#">Subnav</a></li>'.PHP_EOL;
 echo '</ul>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="base__links col-12 col-md-3">'.PHP_EOL;
-echo '< class="list-unstyled">'.PHP_EOL;
+echo '<ul class="list-unstyled">'.PHP_EOL;
 echo '<li><a href="#">Corporate</a></li>'.PHP_EOL;
 echo '<li><a href="#">Subnav</a></li>'.PHP_EOL;
 echo '<li><a href="#">Subnav</a></li>'.PHP_EOL;
