@@ -219,9 +219,6 @@ function social_media_icons() {
 	if (!empty($active_sites)) {
 
 		echo '<ul class="social-media-icons list-inline">';
-		echo '<li class="list-inline-item">';
-		_e('Connect:');
-		echo '</li>';
 		foreach ($active_sites as $active_site) {
 
 			$class = 'fab fa-'.$active_site;
