@@ -218,23 +218,23 @@ function social_media_icons() {
 	}
 	if (!empty($active_sites)) {
 
-		echo '<ul class="social-media-icons list-inline">'.PHP_EOL;
+		echo '<ul class="social__icons list-inline">'.PHP_EOL;
 		foreach ($active_sites as $active_site) {
 
 			$class = 'fab fa-'.$active_site;
 
 			if ($active_site == 'email') {
-				echo '<li class="list-inline-item">';
+				echo '<li class="social__icons--item list-inline-item">';
 				echo '<a class="email" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
-				echo 'i class="fa fa-envelope" title="';
+				echo 'i class="social__icons--link fa fa-envelope" title="';
 				_e('email icon', 'rmc_core');
 				echo '"></i>';
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			} else {
-				echo '<li class="list-inline-item">';
+				echo '<li class="social__icons--item list-inline-item">';
 				echo '<a class="'.$active_site.'" href="'.get_theme_mod($active_site).'">';
-				echo '<i class="'.esc_attr($class).'" title="'.printf(__('%s icon', 'rmc_core'), $active_site).'"></i>';
+				echo '<i class="'.esc_attr($class).' social__icons--link " title="'.printf(__('%s icon', 'rmc_core'), $active_site).'"></i>';
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			}
