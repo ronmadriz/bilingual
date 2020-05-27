@@ -1,6 +1,9 @@
-.social__link svg {
-  height: 1rem;
-  width: 1rem; }
+.social__link {
+  height: 1.15rem;
+  width: 1.15rem; }
+  .social__link svg {
+    max-height: 100%;
+    max-width: 100%; }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: Tahoma, sans-serif; }
