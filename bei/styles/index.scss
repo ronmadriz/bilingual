@@ -1,11 +1,12 @@
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/animation';
+@import 'utils/socials';
 
 @import 'global/typography';
 @import 'global/header/index';
 @import 'global/footer/index';
-@import 'components/nav/index';
+
 html {
 	min-height: 100vh;
 	body {
@@ -26,7 +27,9 @@ html {
 		}
 	}	
 }
+@import 'components/nav/index';
 @import 'components/forms/index';
 @import 'components/tables/index';
 @import 'components/gallery/index';
+
 @import 'pages/home/index';
