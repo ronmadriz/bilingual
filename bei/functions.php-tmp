@@ -231,12 +231,12 @@ function social_media_icons() {
 				echo '<span class="social__item">';
 				echo '<a class="'.$active_site.' social__link" href="'.get_theme_mod($active_site).'">';
 				echo '<img src="'.THEME_SPRITES.$class.'.svg').'" alt="">';
-				;
-				echo '</a>';
-				echo '</span>'.PHP_EOL;
-			}
+			;
+			echo '</a>';
+			echo '</span>'.PHP_EOL;
 		}
 	}
+}
 }
 function rmc_remove_gallery_css($css) {
 	return preg_replace("#<style type='text/css'>(.*?)</style>#s", '', $css);
@@ -247,8 +247,8 @@ add_shortcode('gallery', 'rmc_gallery_shortcode');
  * Overwrite the native [gallery] shortcode, to modify the HTML layout.
  */
 function rmc_gallery_shortcode($attr = array(), $content = '') {
-	$attr['itemtag']    = "";
-	$attr['icontag']    = "";
+	$attr['itemtag'] = "";
+	$attr['icontag'] = "";
 	$attr['captiontag'] = "";
 
 	// Run the native gallery shortcode callback:
