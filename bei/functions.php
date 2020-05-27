@@ -218,7 +218,7 @@ function social_media_icons() {
 	}
 	if (!empty($active_sites)) {
 
-		echo '<ul class="social-media-icons list-inline">';
+		echo '<ul class="social-media-icons list-inline">'.PHP_EOL;
 		foreach ($active_sites as $active_site) {
 
 			$class = 'fab fa-'.$active_site;
