@@ -224,13 +224,13 @@ function social_media_icons() {
 			if ($active_site == 'email') {
 				echo '<span class="social__item">';
 				echo '<a class="email social__link" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
-				echo file_get_contents(THEME_SPRITES.'email.svg');
+				echo '<img src="'.THEME_SPRITES.'email.svg" alt="">';
 				echo '</a>';
 				echo '</span>'.PHP_EOL;
 			} else {
 				echo '<span class="social__item">';
 				echo '<a class="'.$active_site.' social__link" href="'.get_theme_mod($active_site).'">';
-				echo '<img src="'.THEME_SPRITES.$class.'.svg').'" alt="">';
+				echo '<img src="'.THEME_SPRITES.$class.'.svg'.'" alt="">';
 				;
 				echo '</a>';
 				echo '</span>'.PHP_EOL;
