@@ -70,50 +70,50 @@ function rmc_settings_init() {
 	);
 }
 
-// settings controls
+/* settings controls
 
 function rmc_header_extra_render() {
 
-	$options = get_option('rmc_settings');
-	?>
-	<textarea cols='40' rows='5' name='rmc_settings[rmc_header_extra]'>
-	<?php echo $options['rmc_header_extra'];?>
-	</textarea>
-	<?php
+$options = get_option('rmc_settings');
+?>
+<textarea cols='40' rows='5' name='rmc_settings[rmc_header_extra]'>
+<?php echo $options['rmc_header_extra'];?>
+</textarea>
+<?php
 
 }
 
 function rmc_footer_extra_render() {
-	$options = get_option('rmc_settings');
-	?>
-	<textarea cols='40' rows='5' name='rmc_settings[rmc_footer_extra]'>
-	<?php echo $options['rmc_footer_extra'];?>
-	</textarea>
-	<?php
+$options = get_option('rmc_settings');
+?>
+<textarea cols='40' rows='5' name='rmc_settings[rmc_footer_extra]'>
+<?php echo $options['rmc_footer_extra'];?>
+</textarea>
+<?php
 
 }
 
 function rmc_settings_section_callback() {
-	echo __('This area is where we will insert code that will apply globally throughout the website.', 'rmc_options');
+echo __('This area is where we will insert code that will apply globally throughout the website.', 'rmc_options');
 }
 
 function rmc_options_page() {
 
-	?>
-	<div class="wrap">
-																			<div id="icon-themes" class="icon32"></div>
-																			<h1>Theme Options</h1>
-	<?php settings_errors();?>
-	<form action='options.php' method='post'>
-	<?php
-	settings_fields('rmc_info_settings');
-	do_settings_sections('rmc_info_settings');
-	submit_button();
-	?>
-	</form>
-																			</div>
-	<?php
+?>
+<div class="wrap">
+<div id="icon-themes" class="icon32"></div>
+<h1>Theme Options</h1>
+<?php settings_errors();?>
+<form action='options.php' method='post'>
+<?php
+settings_fields('rmc_info_settings');
+do_settings_sections('rmc_info_settings');
+submit_button();
+?>
+</form>
+</div>
+<?php
 
 }
-
+ */
 ?>
