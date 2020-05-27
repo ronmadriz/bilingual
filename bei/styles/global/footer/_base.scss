@@ -1,0 +1,12 @@
+.boilerplate {
+	color:$base;
+	padding-top:2rem;
+	padding-bottom:1.5rem;
+}
+.copyright {
+	font-size:.85rem;
+	padding: .25rem;
+	@include for-phone-only {
+		text-align: right;
+	}
+}

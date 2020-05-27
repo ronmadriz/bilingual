@@ -16,16 +16,17 @@ body main p {
     .navbar-brand {
       margin-right: 1rem; } }
 
-body footer section#boilerplate {
+.boilerplate {
   color: #101010;
   padding-top: 2rem;
   padding-bottom: 1.5rem; }
-  body footer section#boilerplate div#copyright {
-    font-size: .85rem;
-    padding: .25rem; }
-    @media (min-width: 786px) {
-      body footer section#boilerplate div#copyright {
-        text-align: right; } }
+
+.copyright {
+  font-size: .85rem;
+  padding: .25rem; }
+  @media (max-width: 786px) {
+    .copyright {
+      text-align: right; } }
 
 .navbar {
   padding-top: 0;
