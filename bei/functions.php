@@ -74,10 +74,11 @@ add_filter('body_class', 'category_id_class');
 
 add_action('after_setup_theme', 'register_my_menu');
 require get_template_directory().'/bootstrap-navwalker.php';
-
+// Menus
 function register_my_menu() {
 	register_nav_menu('primary', __('main-nav', 'main-nav'));
 	register_nav_menu('topbar', __('topbar-nav', 'topbar-nav'));
+	register_nav_menu('footer', __('footer-nav', 'footer-nav'));
 }
 function my_mce_buttons_2($buttons) {
 	$buttons[] = 'sup';
