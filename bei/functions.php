@@ -226,9 +226,9 @@ function social_media_icons() {
 			if ($active_site == 'email') {
 				echo '<li class="social__icons--item list-inline-item">';
 				echo '<a class="email" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
-				echo 'i class="social__icons--link fa fa-envelope" title="';
+				echo 'i class="social__icons--link fa fa-envelope"><span class="sr-only">';
 				_e('email', 'rmc_core');
-				echo '"></i>';
+				echo '</span></i>';
 				echo '</a>';
 				echo '</li>'.PHP_EOL;
 			} else {
