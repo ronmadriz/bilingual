@@ -76,7 +76,7 @@ add_filter('post_class', 'category_id_class');
 add_filter('body_class', 'category_id_class');
 
 add_action('after_setup_theme', 'register_my_menu');
-require get_template_directory().'/bootstrap-navwalker.php';
+// require get_template_directory().'/bootstrap-navwalker.php';
 // Menus
 function register_my_menu() {
 	register_nav_menu('primary', __('main-nav', 'main-nav'));
