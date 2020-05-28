@@ -2,7 +2,9 @@
 	background-color: $accent_1;
 	color:$alternate;
 	&__nav {
-		align-items: flex-start;
-		flex-direction: row-reverse;		
+		flex-direction: row-reverse;
+		@include for-phone-only{
+			align-items: flex-start;
+		}
 	}
 }
