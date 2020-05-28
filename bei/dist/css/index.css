@@ -48,6 +48,8 @@ body main p {
   color: #FEFEFE;
   padding-bottom: 2.125rem;
   padding-top: 2.125rem; }
+  .base__info {
+    border-bottom: 2px solid #3db166; }
   .base li a {
     display: inline-block;
     color: #ababab;
@@ -56,9 +58,7 @@ body main p {
     color: #ababab;
     font-size: 90%; }
   .base__links--title {
-    border-bottom-color: #3db166;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom: 2px solid #3db166;
     font-size: 1.0675rem;
     font-weight: 700;
     padding-bottom: 15px;

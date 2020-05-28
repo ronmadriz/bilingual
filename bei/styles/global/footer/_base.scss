@@ -3,6 +3,9 @@
     color: $alternate;
     padding-bottom: 2.125rem;
     padding-top: 2.125rem;
+    &__info {
+        border-bottom: 2px solid $accent_2;
+    }
     li {
     	a {
     		display: inline-block;
@@ -18,9 +21,7 @@
     }
     &__links {
     	&--title {
-		    border-bottom-color: $accent_2;
-		    border-bottom-style: solid;
-		    border-bottom-width: 2px;
+		    border-bottom: 2px solid $accent_2;
 			font-size: 1.0675rem;
 			font-weight: 700;
 		    padding-bottom: 15px;
