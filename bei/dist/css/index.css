@@ -117,10 +117,10 @@ body main p {
         padding-left: .5rem;
         padding-right: .5rem; } }
     .topbar__nav a {
-      color: #FEFEFE;
+      color: #101010;
       display: inline-block;
       font-size: .75rem;
-      padding: .5rem;
+      padding: .5rem .75rem;
       text-transform: uppercase; }
     .topbar__nav li:nth-of-type(1) a {
       background-color: #e44d74; }
