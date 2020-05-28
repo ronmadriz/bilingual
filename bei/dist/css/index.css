@@ -39,7 +39,9 @@ body main p {
 
 .base {
   background-color: #181818;
-  color: #FEFEFE; }
+  color: #FEFEFE;
+  padding-bottom: 2.125rem;
+  padding-top: 2.125rem; }
   .base__info p, .base__info li {
     color: #ababab;
     font-size: 90%; }

@@ -1,6 +1,8 @@
 .base {
 	background-color: $accent_6;
     color: $alternate;
+    padding-bottom: 2.125rem;
+    padding-top: 2.125rem;
     &__info {
     	p, li {
 			color:$accent_7;
