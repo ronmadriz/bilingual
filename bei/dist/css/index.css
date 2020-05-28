@@ -50,7 +50,7 @@ body main p {
     color: #ababab;
     font-size: 90%; }
   .base__links--title {
-    border-bottom-color: #16e141;
+    border-bottom-color: #d4e1f8;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     font-size: 1.0675rem;
@@ -157,7 +157,7 @@ body main p {
         font-weight: 900;
         letter-spacing: .125rem; }
       .topbar__nav li:last-of-type a {
-        background-color: #e44d74; }
+        background-color: #3db166; }
 
 .main__nav--search {
   display: -webkit-inline-box;
@@ -235,7 +235,7 @@ form .row.buttons {
     font-style: italic; }
 
 .form-group input.form-control:focus[type=text], .form-group input.form-control:focus[type=email], .form-group input.form-control:focus[type=password], .form-group input.form-control:focus[type=date], .form-group input.form-control:focus[type=tel] {
-  border-color: #e44d74;
+  border-color: #3db166;
   -webkit-box-shadow: 0 0 0 0 transparent;
           box-shadow: 0 0 0 0 transparent; }
 
