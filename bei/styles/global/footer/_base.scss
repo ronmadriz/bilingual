@@ -1,5 +1,9 @@
 .base {
 	background-color: $accent_6;
     color: $alternate;
-
+    &__info {
+    	p, li {
+			color:$accent_7;
+    	}
+    }
 }

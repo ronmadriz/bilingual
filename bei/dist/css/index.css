@@ -40,6 +40,8 @@ body main p {
 .base {
   background-color: #181818;
   color: #FEFEFE; }
+  .base__info p, .base__info li {
+    color: #ababab; }
 
 .boilerplate {
   background-color: #101010;
@@ -196,16 +198,16 @@ form .row.buttons {
   background-color: transparent;
   color: #D8D8D8; }
   .form-group input.form-control[type=text]::-webkit-input-placeholder, .form-group input.form-control[type=email]::-webkit-input-placeholder, .form-group input.form-control[type=password]::-webkit-input-placeholder, .form-group input.form-control[type=date]::-webkit-input-placeholder, .form-group input.form-control[type=tel]::-webkit-input-placeholder {
-    color: #ECECEC;
+    color: #ababab;
     font-style: italic; }
   .form-group input.form-control[type=text]:-ms-input-placeholder, .form-group input.form-control[type=email]:-ms-input-placeholder, .form-group input.form-control[type=password]:-ms-input-placeholder, .form-group input.form-control[type=date]:-ms-input-placeholder, .form-group input.form-control[type=tel]:-ms-input-placeholder {
-    color: #ECECEC;
+    color: #ababab;
     font-style: italic; }
   .form-group input.form-control[type=text]::-ms-input-placeholder, .form-group input.form-control[type=email]::-ms-input-placeholder, .form-group input.form-control[type=password]::-ms-input-placeholder, .form-group input.form-control[type=date]::-ms-input-placeholder, .form-group input.form-control[type=tel]::-ms-input-placeholder {
-    color: #ECECEC;
+    color: #ababab;
     font-style: italic; }
   .form-group input.form-control[type=text]::placeholder, .form-group input.form-control[type=email]::placeholder, .form-group input.form-control[type=password]::placeholder, .form-group input.form-control[type=date]::placeholder, .form-group input.form-control[type=tel]::placeholder {
-    color: #ECECEC;
+    color: #ababab;
     font-style: italic; }
 
 .form-group input.form-control:focus[type=text], .form-group input.form-control:focus[type=email], .form-group input.form-control:focus[type=password], .form-group input.form-control:focus[type=date], .form-group input.form-control:focus[type=tel] {
