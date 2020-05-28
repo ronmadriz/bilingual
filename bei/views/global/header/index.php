@@ -19,6 +19,6 @@ echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
-include ('../../views/components/nav/main.php');
+include ('../views/components/nav/main.php');
 echo '</div>'.PHP_EOL;
 echo '</nav>'.PHP_EOL;
