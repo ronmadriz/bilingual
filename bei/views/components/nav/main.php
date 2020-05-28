@@ -16,7 +16,7 @@ $main_menu_args = array(
 	'link_after'      => '',
 	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 	'walker'          => new WP_Bootstrap_Navwalker(),
-	'depth'           => 2,
+	'depth'           => 3,
 );
 wp_nav_menu($main_menu_args);
 get_search_form();
