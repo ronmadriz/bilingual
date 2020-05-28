@@ -129,6 +129,13 @@ body main p {
     .topbar__nav li:nth-of-type(3) a {
       background-color: #16e141; }
 
+.main__nav--search {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .main__nav--search img {
+    min-width: 1rem; }
+
 @media (max-width: 786px) {
   form fieldset:first-of-type {
     width: 47.5%;
