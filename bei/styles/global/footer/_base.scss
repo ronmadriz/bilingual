@@ -4,14 +4,14 @@
     padding-bottom: 2.125rem;
     padding-top: 2.125rem;
     &__info {
-    	p, li {
+    	p, li, a {
 			color:$accent_7;
 			font-size:90%;
     	}
     }
     &__links {
     	&--title {
-		    border-bottom-color: $accent_2;
+		    border-bottom-color: $accent_4;
 		    border-bottom-style: solid;
 		    border-bottom-width: 2px;
 		    font-size:1.0675rem;
