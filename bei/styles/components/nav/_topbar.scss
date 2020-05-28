@@ -26,6 +26,10 @@
 		    &:last-of-type{
 				a {
 					background-color:$accent_2;
+					&:hover {
+					    background-color: $accent_2-lt;
+					    text-decoration: none;
+					}
 				}
 			}
 		    /*	&:nth-of-type(1){

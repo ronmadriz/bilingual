@@ -158,6 +158,9 @@ body main p {
         letter-spacing: .125rem; }
       .topbar__nav li:last-of-type a {
         background-color: #3db166; }
+        .topbar__nav li:last-of-type a:hover {
+          background-color: #5BC681;
+          text-decoration: none; }
 
 .main__nav--search {
   display: -webkit-inline-box;
