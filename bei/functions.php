@@ -40,6 +40,7 @@ include (THEME_INCLUDE.'/core/extended-taxos.php');
 foreach (glob(THEME_INCLUDE.'/cpt_files/*.php') as $filename) {include $filename;}
 foreach (glob(THEME_INCLUDE.'/customizers/*.php') as $customizers) {include $customizers;}
 foreach (glob(THEME_LIBS.'/*.php') as $libs) {include $libs;}
+include (THEME_INCLUDE.'/class-wp-bootstrap-navwalker.php');
 include (THEME_INCLUDE.'/options/default.php');
 // include (THEME_INCLUDE.'/options/info.php');
 remove_action('wp_head', 'rsd_link');
