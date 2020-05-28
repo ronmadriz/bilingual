@@ -1,5 +1,5 @@
 <?php
-$theme_location = get_bloginfo('stylesheet_directory_uri');
+$theme_location = get_bloginfo('stylesheet_directory');
 echo '<div class="navbar-collapse" id="navigation">'.PHP_EOL;
 $main_menu_args = array(
 	'theme_location'  => '',
