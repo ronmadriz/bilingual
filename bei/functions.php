@@ -80,7 +80,7 @@ add_action('after_setup_theme', 'register_my_menu');
 // Menus
 function register_my_menu() {
 	register_nav_menu('primary', __('main-nav', 'main-nav'));
-	register_nav_menu('topbar', __('topbar-nav', 'topbar-nav'));
+	register_nav_menu('subsites', __('subsites-nav', 'subsites-nav'));
 	register_nav_menu('footer', __('footer-nav', 'footer-nav'));
 }
 function my_mce_buttons_2($buttons) {

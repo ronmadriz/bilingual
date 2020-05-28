@@ -121,10 +121,10 @@ body main p {
           bottom: 0;
           width: 33.3%; }
 
-.topbar {
+.subsites {
   background-color: #192f59;
   color: #FEFEFE; }
-  .topbar__nav {
+  .subsites__nav {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -133,19 +133,19 @@ body main p {
         -ms-flex-direction: row;
             flex-direction: row; }
     @media (max-width: 786px) {
-      .topbar__nav .nav-link {
+      .subsites__nav .nav-link {
         padding-left: .5rem;
         padding-right: .5rem; } }
-    .topbar__nav a {
+    .subsites__nav a {
       color: #101010;
       display: inline-block;
       font-size: .75rem;
       padding: 1.125rem .75rem;
       text-transform: uppercase; }
       @media (max-width: 786px) {
-        .topbar__nav a {
+        .subsites__nav a {
           font-size: .5rem; } }
-    .topbar__nav li {
+    .subsites__nav li {
       /*	&:nth-of-type(1){
 				a {
 					border-bottom-color:$accent_2;
@@ -161,17 +161,17 @@ body main p {
 					border-bottom-color:$accent_4;
 				}
 			} */ }
-      .topbar__nav li a {
+      .subsites__nav li a {
         color: #ababab;
         font-weight: 900;
         letter-spacing: .125rem;
         text-decoration: none; }
-        .topbar__nav li a:hover {
+        .subsites__nav li a:hover {
           color: #FEFEFE; }
-      .topbar__nav li:last-of-type a {
+      .subsites__nav li:last-of-type a {
         background-color: #3db166;
         color: #FEFEFE; }
-        .topbar__nav li:last-of-type a:hover {
+        .subsites__nav li:last-of-type a:hover {
           background-color: #5BC681; }
 
 .main__nav--search {

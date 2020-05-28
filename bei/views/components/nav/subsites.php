@@ -1,15 +1,15 @@
 <?
-echo '<section id="topbar" class="container-fluid topbar">'.PHP_EOL;
+echo '<section id="subsites" class="container-fluid subsites">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="col-12">', PHP_EOL;
 $top_menu_args = array(
-	'theme_location'  => 'topbar',
-	'menu'            => 'topbar-nav',
+	'theme_location'  => 'subsites',
+	'menu'            => 'subsites-nav',
 	'container'       => '',
 	'container_class' => 'list-inline-item',
 	'container_id'    => '',
-	'menu_class'      => 'topbar__nav list-inline navbar-nav justify-content-end',
-	'menu_id'         => 'topbar__nav',
+	'menu_class'      => 'subsites__nav list-inline navbar-nav justify-content-end',
+	'menu_id'         => 'subsites__nav',
 	'echo'            => true,
 	'fallback_cb'     => 'wp_page_menu',
 	'before'          => '',
