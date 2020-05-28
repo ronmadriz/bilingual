@@ -1,7 +1,6 @@
 .topbar {
 	background-color: $accent_1;
 	color:$alternate;
-	font-family:$primary;
 	&__nav {
 		align-items: flex-start;
 		flex-direction: row-reverse;
@@ -14,6 +13,7 @@
 		a {
 			color: $white;
 			display: inline-block;
+			font-family:$primary;
 			font-size: .75rem;
 			padding: .5rem;
 			text-transform: uppercase;

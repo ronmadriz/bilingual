@@ -107,8 +107,7 @@ body main p {
 
 .topbar {
   background-color: #09f;
-  color: #FEFEFE;
-  font-family: "Playfair Display", serif; }
+  color: #FEFEFE; }
   .topbar__nav {
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -124,6 +123,7 @@ body main p {
     .topbar__nav a {
       color: #FEFEFE;
       display: inline-block;
+      font-family: "Playfair Display", serif;
       font-size: .75rem;
       padding: .5rem;
       text-transform: uppercase; }
