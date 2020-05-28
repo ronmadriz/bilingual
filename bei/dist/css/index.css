@@ -134,7 +134,7 @@ body main p {
       color: #101010;
       display: inline-block;
       font-size: .75rem;
-      padding: .5rem .75rem 1.125rem;
+      padding: 1.125rem .75rem;
       text-transform: uppercase; }
     .topbar__nav li {
       /*	&:nth-of-type(1){
