@@ -16,6 +16,9 @@
 			font-size: .75rem;
 			padding: 1.125rem .75rem;
 			text-transform: uppercase;
+			@include for-phone-only {
+				font-size: .5rem;
+			}
 		}
 		li {
 		    a {
