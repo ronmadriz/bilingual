@@ -9,4 +9,13 @@
 			font-size:90%;
     	}
     }
+    &__links {
+    	&--title {
+		    border-bottom-color: $accent_2;
+		    border-bottom-width: 2px;
+		    border-bottom-style: solid;
+		    padding-bottom: 15px;
+		    margin-bottom: 26px;    		
+    	}
+    }
 }

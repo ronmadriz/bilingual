@@ -45,6 +45,12 @@ body main p {
   .base__info p, .base__info li {
     color: #ababab;
     font-size: 90%; }
+  .base__links--title {
+    border-bottom-color: #e44d74;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+    margin-bottom: 26px; }
 
 .boilerplate {
   background-color: #101010;
