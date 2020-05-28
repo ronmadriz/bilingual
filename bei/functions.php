@@ -203,17 +203,12 @@ function disable_emojicons_tinymce($plugins) {
 // Social Media Button Function
 
 function social_media_icons() {
-
 	function rmc_social_media_array() {
-
 		/* store social site names in array */
 		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube', 'email', 'rss');
-
 		return $social_sites;
 	}
-
 	$social_sites = rmc_social_media_array();
-
 	foreach ($social_sites as $social_site) {
 		if (strlen(get_theme_mod($social_site)) > 0) {
 			$active_sites[] = $social_site;
@@ -232,6 +227,39 @@ function social_media_icons() {
 				echo '<span class="social__item">';
 				echo '<a class="'.$active_site.' social__link" href="'.get_theme_mod($active_site).'">';
 				echo '<img src="'.THEME_SPRITES.$class.'.svg'.'" alt="">';
+				;
+				echo '</a>';
+				echo '</span>'.PHP_EOL;
+			}
+		}
+	}
+}
+
+function social_media_icons_ft() {
+	function rmc_social_media_array() {
+		/* store social site names in array */
+		$social_sites = array('facebook', 'linkedin', 'instagram', 'twitter', 'youtube', 'email', 'rss');
+		return $social_sites;
+	}
+	$social_sites = rmc_social_media_array();
+	foreach ($social_sites as $social_site) {
+		if (strlen(get_theme_mod($social_site)) > 0) {
+			$active_sites[] = $social_site;
+		}
+	}
+	if (!empty($active_sites)) {
+		foreach ($active_sites as $active_site) {
+			$class = $active_site;
+			if ($active_site == 'email') {
+				echo '<span class="social__item">';
+				echo '<a class="email social__link" href="mailto:'.antispambot(is_email(get_theme_mod($active_site))).'">';
+				echo '<img src="'.THEME_SPRITES.'email.svg" alt="">';
+				echo '</a>';
+				echo '</span>'.PHP_EOL;
+			} else {
+				echo '<span class="social__item">';
+				echo '<a class="'.$active_site.' social__link" href="'.get_theme_mod($active_site).'">';
+				echo '<img src="'.THEME_SPRITES.$class.'-alt.svg'.'" alt="">';
 				;
 				echo '</a>';
 				echo '</span>'.PHP_EOL;
