@@ -1,4 +1,5 @@
 <?php
+$theme_location = get_template_directory();
 echo '<div class="navbar-collapse" id="navigation">'.PHP_EOL;
 $main_menu_args = array(
 	'theme_location'  => '',
@@ -19,5 +20,5 @@ $main_menu_args = array(
 	'depth'           => 3,
 );
 wp_nav_menu($main_menu_args);
-get_search_form();
+echo '<a href="#"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
