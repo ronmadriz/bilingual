@@ -1,6 +1,8 @@
 .main__nav {
 	&--search {
-		min-height: 1rem;
-		min-width: 1rem;
+		img {
+			min-height: 1rem;
+			min-width: 1rem;
+		}
 	}
 }
