@@ -5,6 +5,12 @@
   .social__link img {
     width: 1rem; }
 
+.social__item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: .75rem; }
+
 html {
   min-height: 100vh; }
 

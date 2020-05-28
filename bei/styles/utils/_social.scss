@@ -6,4 +6,8 @@
 			width:1rem;
 		}
 	}
+	&__item {
+		display: inline-flex;
+		padding: .75rem;
+	}
 }
