@@ -184,27 +184,25 @@ body main p {
   .main__nav--search img {
     min-width: 1rem; }
 
-.main__nav ul li a {
+.main__nav .nav-link {
   color: #101010;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 5.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  font-weight: 400;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
   @media (min-width: 786px) {
-    .main__nav ul li a {
+    .main__nav .nav-link {
       font-size: .75rem;
       padding-right: .75rem;
-      padding-left: .75rem; }
-      .main__nav ul li a.nav-link {
-        line-height: 5.25rem; } }
-  .main__nav ul li a:hover {
+      padding-left: .75rem; } }
+  .main__nav .nav-link:hover {
     color: #101010; }
-  .main__nav ul li a.active {
+  .main__nav .nav-link.active {
     color: #101010; }
-  .main__nav ul li a.nav-link {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; }
 
 @media (max-width: 786px) {
   form fieldset:first-of-type {
