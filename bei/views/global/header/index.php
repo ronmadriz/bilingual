@@ -11,7 +11,7 @@ include ($theme_location.'/views/components/nav/topbar.php');
 echo '<nav class="navbar navbar-expand-lg">'.PHP_EOL;
 echo '<div class="container-fluid main__nav">'.PHP_EOL;
 if (!empty($site_logo_header)):
-echo '<a href="'.get_bloginfo('url').'" class="navbar-brand"><img src="'.esc_url($site_logo_header).'" alt="'.get_bloginfo('name').'" class="img-fluid"></a>'.PHP_EOL;
+echo '<a href="'.get_bloginfo('url').'" class="navbar-brand"><svg class="menu__logo__media" viewBox="0 0 37.7 12.9"><use href="'.esc_url($site_logo_header).'"></use></svg></a>'.PHP_EOL;
  else :
 echo '<a href="'.get_bloginfo('url').'" class="navbar-brand">'.get_bloginfo('name').(!empty($slogan)?'<br><small>'.$slogan.'</small>':'').'</a>'.PHP_EOL;
 endif;
