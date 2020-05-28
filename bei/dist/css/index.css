@@ -104,6 +104,22 @@ body main p {
       padding-left: 1.5rem;
       padding-right: 1.5rem; }
 
+.topbar {
+  background-color: #09f;
+  color: #FEFEFE; }
+  .topbar__nav {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+    @media (max-width: 786px) {
+      .topbar__nav .nav-link {
+        padding-left: .5rem;
+        padding-right: .5rem; } }
+
 @media (max-width: 786px) {
   form fieldset:first-of-type {
     width: 47.5%;
