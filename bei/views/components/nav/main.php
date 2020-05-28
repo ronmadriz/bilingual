@@ -20,5 +20,5 @@ $main_menu_args = array(
 	'depth'           => 3,
 );
 wp_nav_menu($main_menu_args);
-echo '<a href="#"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
+echo '<a href="#"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
