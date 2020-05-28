@@ -3,30 +3,11 @@
 @import 'utils/animation';
 @import 'utils/social';
 
+@import 'global/index';
 @import 'global/typography';
 @import 'global/header/index';
 @import 'global/footer/index';
 
-html {
-	min-height: 100vh;
-	body {
-		width: 100%;
-		height:100%;
-		.row {
-			margin-left:0;
-			margin-right:0;
-		}
-		main {
-			padding-bottom: 2rem;
-			@media (min-width:992px) {
-				min-height:calc(100vh - 250px);
-			}
-			section {
-
-			}
-		}
-	}	
-}
 @import 'components/nav/index';
 @import 'components/forms/index';
 @import 'components/tables/index';
