@@ -3,8 +3,7 @@
   height: 1.15rem;
   width: 1.15rem; }
   .social__link img {
-    max-height: 100%;
-    max-width: 100%; }
+    width: 1rem; }
 
 html {
   min-height: 100vh; }
