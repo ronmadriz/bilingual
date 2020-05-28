@@ -163,8 +163,7 @@ body main p {
         background-color: #3db166;
         color: #FEFEFE; }
         .topbar__nav li:last-of-type a:hover {
-          background-color: #5BC681;
-          color: #ababab; }
+          background-color: #5BC681; }
 
 .main__nav--search {
   display: -webkit-inline-box;
