@@ -17,7 +17,6 @@ $top_menu_args = array(
 	'link_before'     => '',
 	'link_after'      => '',
 	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-	'walker'          => new WP_Bootstrap_Navwalker(),
 	'depth'           => 1,
 );
 wp_nav_menu($top_menu_args);
