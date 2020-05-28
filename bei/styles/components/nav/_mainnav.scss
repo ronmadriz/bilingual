@@ -5,4 +5,34 @@
 			min-width: 1rem;
 		}
 	}
+	ul {
+		li {
+			a {
+				color:$accent_1;
+				text-transform:uppercase;
+				letter-spacing: 4px;
+				font-weight: 400;
+				transition: all .3s ease-in-out;
+				@include for-tablet-up {
+				    font-size: .75rem;
+					padding-right: .75rem;
+					padding-left: .75rem;							    
+					&.nav-link {
+					    line-height: 5.25rem;
+					}
+				}
+				&:hover {
+					color:$base
+					;
+				}
+				&.active {
+					color:$base;
+				}
+				&.nav-link {
+					padding-left:1.5rem;
+					padding-right:1.5rem;
+				}
+			}			
+		}
+	}
 }

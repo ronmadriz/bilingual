@@ -83,27 +83,6 @@ body main p {
           width: 33.3%; }
     .navbar button.navbar-toggler:focus {
       outline: 0; }
-  .navbar ul > li > a {
-    color: #09f;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; }
-    @media (min-width: 786px) {
-      .navbar ul > li > a {
-        font-size: .75rem;
-        padding-right: .75rem;
-        padding-left: .75rem; }
-        .navbar ul > li > a.nav-link {
-          line-height: 5.25rem; } }
-    .navbar ul > li > a:hover {
-      color: #101010; }
-    .navbar ul > li > a.active {
-      color: #101010; }
-    .navbar ul > li > a.nav-link {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem; }
 
 .topbar {
   background-color: #09f;
@@ -139,6 +118,28 @@ body main p {
   display: inline-flex; }
   .main__nav--search img {
     min-width: 1rem; }
+
+.main__nav ul li a {
+  color: #09f;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+  @media (min-width: 786px) {
+    .main__nav ul li a {
+      font-size: .75rem;
+      padding-right: .75rem;
+      padding-left: .75rem; }
+      .main__nav ul li a.nav-link {
+        line-height: 5.25rem; } }
+  .main__nav ul li a:hover {
+    color: #101010; }
+  .main__nav ul li a.active {
+    color: #101010; }
+  .main__nav ul li a.nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
 
 @media (max-width: 786px) {
   form fieldset:first-of-type {
