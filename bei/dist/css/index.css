@@ -37,6 +37,10 @@ body main p {
     .navbar-brand {
       margin-right: 1rem; } }
 
+.base {
+  background-color: #181818;
+  color: #FEFEFE; }
+
 .boilerplate {
   background-color: #101010;
   color: #FEFEFE;

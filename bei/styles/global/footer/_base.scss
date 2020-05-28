@@ -1,13 +1,5 @@
-.boilerplate {
-	background-color:$base;
-	color:$alternate;
-	padding-top:2rem;
-	padding-bottom:1.5rem;
-}
-.copyright {
-	font-size:.85rem;
-	padding: .25rem;
-	@include for-phone-only {
-		text-align: right;
-	}
+.base {
+	background-color: $accent_6;
+    color: $alternate;
+
 }
