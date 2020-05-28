@@ -156,7 +156,7 @@ body main p {
         color: #FEFEFE;
         font-weight: 900;
         letter-spacing: .125rem; }
-      .topbar__nav li :last-of-type a {
+      .topbar__nav li:last-of-type a {
         background-color: #e44d74; }
 
 .main__nav--search {
