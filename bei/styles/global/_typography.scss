@@ -1,11 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap);
-$primary: 'Playfair Display', serif;
-$secondary: 'Poppins', sans-serif;
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+$primary: 'Poppins', sans-serif;
 
 body {
-	h1, h2, h3, h4, h5, h6 {
-		font-family: $secondary;
-	}
+	h1, h2, h3, h4, h5, h6 {}
 	h1 {}
 	h2 {}
 	h3 {}

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 .social__link {
   height: 1.15rem;
   width: 1.15rem; }
@@ -17,11 +17,8 @@ body {
   margin-left: 0;
   margin-right: 0; }
 
-body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: "Poppins", sans-serif; }
-
 body p, body li, body dd, body dt, body blockquote, body code, body span, body div, body section, body small, body address {
-  font-family: "Playfair Display", serif; }
+  font-family: "Poppins", sans-serif; }
 
 body main h2, body main h3, body main h4 {
   margin: 2rem 0; }
@@ -84,7 +81,6 @@ body main p {
       outline: 0; }
   .navbar ul > li > a {
     color: #09f;
-    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
@@ -123,7 +119,6 @@ body main p {
     .topbar__nav a {
       color: #FEFEFE;
       display: inline-block;
-      font-family: "Poppins", sans-serif;
       font-size: .75rem;
       padding: .5rem;
       text-transform: uppercase; }
