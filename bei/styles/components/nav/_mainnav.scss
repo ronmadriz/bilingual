@@ -10,7 +10,7 @@
 
 		}
 		&-link {
-			color:$base;
+			color:$accent_1;
 			font-size:1rem;
 			font-weight: 500;
 		    line-height: 5.25rem;
@@ -24,10 +24,10 @@
 				padding-left: .75rem;							    
 			}
 			&:hover {
-				color:$base;
+				color:$accent_2;
 			}
 			&.active {
-				color:$base;
+				color:$accent_2;
 			}
 		}
 	}

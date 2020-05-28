@@ -185,7 +185,7 @@ body main p {
     min-width: 1rem; }
 
 .main__nav .nav-link {
-  color: #101010;
+  color: #192f59;
   font-size: 1rem;
   font-weight: 500;
   line-height: 5.25rem;
@@ -200,9 +200,9 @@ body main p {
       padding-right: .75rem;
       padding-left: .75rem; } }
   .main__nav .nav-link:hover {
-    color: #101010; }
+    color: #3db166; }
   .main__nav .nav-link.active {
-    color: #101010; }
+    color: #3db166; }
 
 @media (max-width: 786px) {
   form fieldset:first-of-type {
