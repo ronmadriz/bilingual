@@ -23,6 +23,9 @@
 			    font-weight: 900;
 			    letter-spacing: .125rem;
 			    text-decoration: none;
+				&:hover {
+				    color: $alternate;
+				}			    
 		    }
 		    &:last-of-type{
 				a {
@@ -30,6 +33,7 @@
 				    color: $alternate;
 					&:hover {
 					    background-color: $accent_2-lt;
+						color:$accent_7;
 					}
 				}
 			}

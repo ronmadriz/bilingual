@@ -157,11 +157,14 @@ body main p {
         font-weight: 900;
         letter-spacing: .125rem;
         text-decoration: none; }
+        .topbar__nav li a:hover {
+          color: #FEFEFE; }
       .topbar__nav li:last-of-type a {
         background-color: #3db166;
         color: #FEFEFE; }
         .topbar__nav li:last-of-type a:hover {
-          background-color: #5BC681; }
+          background-color: #5BC681;
+          color: #ababab; }
 
 .main__nav--search {
   display: -webkit-inline-box;
