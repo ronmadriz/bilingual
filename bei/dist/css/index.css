@@ -107,7 +107,8 @@ body main p {
 
 .topbar {
   background-color: #09f;
-  color: #FEFEFE; }
+  color: #FEFEFE;
+  font-family: "Poppins", sans-serif; }
   .topbar__nav {
     -webkit-box-align: start;
         -ms-flex-align: start;
