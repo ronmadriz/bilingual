@@ -1,5 +1,9 @@
+.navbar {
+	background-color:$accent_5;
+}
 .navbar-brand {
 	margin-right: 0;
+	text-transform: uppercase;
 	@include for-phone-only {
 		margin-right:1rem;
 	}

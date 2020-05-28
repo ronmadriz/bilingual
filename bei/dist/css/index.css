@@ -22,9 +22,6 @@ body {
   margin-left: 0;
   margin-right: 0; }
 
-.navbar-brand {
-  text-transform: uppercase; }
-
 :focus {
   outline: 0; }
 
@@ -37,8 +34,12 @@ body main h2, body main h3, body main h4 {
 body main p {
   margin-bottom: 1.75rem; }
 
+.navbar {
+  background-color: #e6e6e6; }
+
 .navbar-brand {
-  margin-right: 0; }
+  margin-right: 0;
+  text-transform: uppercase; }
   @media (max-width: 786px) {
     .navbar-brand {
       margin-right: 1rem; } }
