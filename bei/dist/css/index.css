@@ -20,6 +20,9 @@ body {
 .navbar-brand {
   text-transform: uppercase; }
 
+:focus {
+  outline: 0; }
+
 body p, body li, body dd, body dt, body blockquote, body code, body span, body div, body section, body small, body address {
   font-family: "Poppins", sans-serif; }
 
@@ -58,27 +61,27 @@ body main p {
   .navbar .navbar-toggler {
     position: relative;
     top: -0.5rem; }
-    .navbar .navbar-toggler span.menu-text {
+    .navbar .navbar-toggler .menu-text {
       color: #09f;
       text-transform: uppercase;
       font-size: .85rem;
       display: inline-block; }
-    .navbar .navbar-toggler span.menu-icon {
+    .navbar .navbar-toggler .menu-icon {
       display: inline-block;
       width: 1.375rem;
       position: relative;
       height: .65rem; }
-      .navbar .navbar-toggler span.menu-icon span {
+      .navbar .navbar-toggler .menu-icon span {
         height: 1px;
         display: block;
         position: absolute; }
-        .navbar .navbar-toggler span.menu-icon span:first-of-type {
+        .navbar .navbar-toggler .menu-icon span:first-of-type {
           top: 0;
           width: 100%; }
-        .navbar .navbar-toggler span.menu-icon span:nth-of-type(2) {
+        .navbar .navbar-toggler .menu-icon span:nth-of-type(2) {
           top: 49.5%;
           width: 66.6%; }
-        .navbar .navbar-toggler span.menu-icon span:last-of-type {
+        .navbar .navbar-toggler .menu-icon span:last-of-type {
           bottom: 0;
           width: 33.3%; }
     .navbar .navbar-toggler:focus {
