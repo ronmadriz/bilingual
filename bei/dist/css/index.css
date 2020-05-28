@@ -66,9 +66,7 @@ body main p {
 
 .boilerplate {
   background-color: #101010;
-  color: #FEFEFE;
-  padding-top: 2rem;
-  padding-bottom: 1.5rem; }
+  color: #FEFEFE; }
   .boilerplate p {
     margin-bottom: 0;
     -webkit-margin-after: 0;
