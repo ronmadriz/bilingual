@@ -19,6 +19,7 @@
 			text-transform:uppercase;
 			transition: all .3s ease-in-out;
 			@include for-tablet-up {
+				font-size:1rem;
 				padding-right: .75rem;
 				padding-left: .75rem;							    
 			}

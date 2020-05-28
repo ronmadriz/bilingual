@@ -196,6 +196,7 @@ body main p {
   transition: all .3s ease-in-out; }
   @media (min-width: 786px) {
     .main__nav .nav-link {
+      font-size: 1rem;
       padding-right: .75rem;
       padding-left: .75rem; } }
   .main__nav .nav-link:hover {
