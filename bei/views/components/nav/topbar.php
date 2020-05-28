@@ -1,14 +1,14 @@
 <?
 echo '<section id="topbar" class="container-fluid topbar">'.PHP_EOL;
-echo '<div class="row justify-content-end">'.PHP_EOL;
-echo '<div class="col-12 col-md-6">', PHP_EOL;
+echo '<div class="row">'.PHP_EOL;
+echo '<div class="col-12">', PHP_EOL;
 $top_menu_args = array(
 	'theme_location'  => 'topbar',
 	'menu'            => 'topbar-nav',
 	'container'       => '',
 	'container_class' => 'list-inline-item',
 	'container_id'    => '',
-	'menu_class'      => 'topbar__nav list-inline navbar-nav ml-md-auto',
+	'menu_class'      => 'topbar__nav list-inline navbar-nav justify-content-end',
 	'menu_id'         => 'topbar__nav',
 	'echo'            => true,
 	'fallback_cb'     => 'wp_page_menu',

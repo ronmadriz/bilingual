@@ -3,7 +3,7 @@
 	color:$alternate;
 	&__nav {
 		align-items: flex-start;
-		flex-direction: row-reverse;
+		flex-direction: row;
 		@include for-phone-only {
 			.nav-link {
 				padding-left: .5rem;

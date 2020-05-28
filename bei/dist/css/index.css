@@ -123,9 +123,9 @@ body main p {
         -ms-flex-align: start;
             align-items: flex-start;
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse; }
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
     @media (max-width: 786px) {
       .topbar__nav .nav-link {
         padding-left: .5rem;
