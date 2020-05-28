@@ -3,6 +3,11 @@
     color: $alternate;
     padding-bottom: 2.125rem;
     padding-top: 2.125rem;
+    li {
+    	a {
+    		color:$accent_7;
+    	}
+    }
     &__info {
     	p, li, a {
 			color:$accent_7;
