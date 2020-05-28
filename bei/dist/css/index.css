@@ -18,10 +18,10 @@ body {
   margin-right: 0; }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: Tahoma, sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 body p, body li, body dd, body dt, body blockquote, body code, body span, body div, body section, body small, body address {
-  font-family: Arial, sans-serif; }
+  font-family: "Playfair Display", serif; }
 
 body main h2, body main h3, body main h4 {
   margin: 2rem 0; }
@@ -84,7 +84,7 @@ body main p {
       outline: 0; }
   .navbar ul > li > a {
     color: #09f;
-    font-family: Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
