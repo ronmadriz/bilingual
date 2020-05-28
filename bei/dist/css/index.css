@@ -43,7 +43,8 @@ body main p {
   padding-bottom: 2.125rem;
   padding-top: 2.125rem; }
   .base li a {
-    color: #ababab; }
+    color: #ababab;
+    margin-bottom: .5rem; }
   .base__info p, .base__info li, .base__info a {
     color: #ababab;
     font-size: 90%; }
