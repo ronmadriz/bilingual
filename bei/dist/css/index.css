@@ -84,8 +84,6 @@ body main p {
         .navbar .navbar-toggler .menu-icon span:last-of-type {
           bottom: 0;
           width: 33.3%; }
-    .navbar .navbar-toggler:focus {
-      outline: 0; }
 
 .topbar {
   background-color: #09f;
