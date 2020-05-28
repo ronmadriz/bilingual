@@ -6,7 +6,7 @@ $header_cta_bottom = get_theme_mod('header_cta_bottom');
 $slogan            = get_bloginfo('description');
 $site_logo_header  = get_theme_mod('site_logo_header');
 
-include ('views/components/nav/topbar.php');
+include ('../views/components/nav/topbar.php');
 echo '<nav class="navbar navbar-expand-lg">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 if (!empty($site_logo_header)):
@@ -19,6 +19,6 @@ echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '<span class="icon-bar"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
-include ('./views/components/nav/main.php');
+// include ('./views/components/nav/main.php');
 echo '</div>'.PHP_EOL;
 echo '</nav>'.PHP_EOL;
