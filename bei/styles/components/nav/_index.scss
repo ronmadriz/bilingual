@@ -1,52 +1,48 @@
 .navbar {
 	padding-top:0;
 	padding-bottom:0;
-	a {
-		&.navbar-brand {
-			@include for-phone-only {
-				width:65%;
-				margin-bottom: .75rem;
-			}
+	.navbar-brand {
+		@include for-phone-only {
+			width:65%;
+			margin-bottom: .75rem;
 		}
 	}
-	button {
-		&.navbar-toggler {
-		    position: relative;
-		    top: -0.5rem;    
-			span {
-				&.menu-text {
-					color:$accent_1;
-					text-transform:uppercase;
-					font-size:.85rem;
-				    display: inline-block;
-				}
-				&.menu-icon {
-					display: inline-block;
-					width: 1.375rem;
-					position: relative;
-					height: .65rem;
-					span {
-						height: 1px;
-						display: block;
-						position: absolute;
-						&:first-of-type {
-							top: 0;
-							width: 100%;										
-						}
-						&:nth-of-type(2) {
-							top: 49.5%;
-							width: 66.6%;										
-						}
-						&:last-of-type {
-							bottom: 0;
-							width: 33.3%;										
-						}
+	.navbar-toggler {
+	    position: relative;
+	    top: -0.5rem;    
+		span {
+			&.menu-text {
+				color:$accent_1;
+				text-transform:uppercase;
+				font-size:.85rem;
+			    display: inline-block;
+			}
+			&.menu-icon {
+				display: inline-block;
+				width: 1.375rem;
+				position: relative;
+				height: .65rem;
+				span {
+					height: 1px;
+					display: block;
+					position: absolute;
+					&:first-of-type {
+						top: 0;
+						width: 100%;										
+					}
+					&:nth-of-type(2) {
+						top: 49.5%;
+						width: 66.6%;										
+					}
+					&:last-of-type {
+						bottom: 0;
+						width: 33.3%;										
 					}
 				}
 			}
-			&:focus {
-				outline:0;
-			}
+		}
+		&:focus {
+			outline:0;
 		}
 	}
 }
