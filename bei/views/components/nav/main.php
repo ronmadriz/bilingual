@@ -21,4 +21,4 @@ $main_menu_args = array(
 );
 wp_nav_menu($main_menu_args);
 echo '</div>'.PHP_EOL;
-echo '<a href="#" class="main__nav--search"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
+echo '<a href="#" class="main__nav--search"><svg class="menu__logo__media" viewBox="0 0 37.7 12.9"><use href="'.$theme_location.'/sprites/search.svg"></use></svg>'.PHP_EOL;
