@@ -1,6 +1,6 @@
 <?
-echo '<div class="container-fluid">'.PHP_EOL;
-echo '<div id="topbar"  class="row justify-content-end topbar">'.PHP_EOL;
+echo '<section id="topbar" class="container-fluid topbar">'.PHP_EOL;
+echo '<div class="row justify-content-end">'.PHP_EOL;
 echo '<div class="col-12 col-md-6">', PHP_EOL;
 $top_menu_args = array(
 	'theme_location'  => 'topbar',
@@ -23,4 +23,4 @@ $top_menu_args = array(
 wp_nav_menu($top_menu_args);
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
-echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
