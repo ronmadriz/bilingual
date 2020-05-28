@@ -119,6 +119,12 @@ body main p {
       .topbar__nav .nav-link {
         padding-left: .5rem;
         padding-right: .5rem; } }
+    .topbar__nav a {
+      color: white;
+      display: inline-block;
+      font-size: .75rem;
+      padding: .5rem;
+      text-transform: uppercase; }
 
 @media (max-width: 786px) {
   form fieldset:first-of-type {
