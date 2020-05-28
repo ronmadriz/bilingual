@@ -17,6 +17,9 @@ body {
   margin-left: 0;
   margin-right: 0; }
 
+.navbar-brand {
+  text-transform: uppercase; }
+
 body p, body li, body dd, body dt, body blockquote, body code, body span, body div, body section, body small, body address {
   font-family: "Poppins", sans-serif; }
 
