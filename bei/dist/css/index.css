@@ -72,8 +72,6 @@ body main p {
       text-align: right; } }
 
 .footer {
-  position: absolute;
-  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,7 +92,7 @@ body main p {
     position: relative;
     top: -0.5rem; }
     .navbar .navbar-toggler .menu-text {
-      color: #09f;
+      color: #192f59;
       text-transform: uppercase;
       font-size: .85rem;
       display: inline-block; }
@@ -118,7 +116,7 @@ body main p {
           width: 33.3%; }
 
 .topbar {
-  background-color: #09f;
+  background-color: #192f59;
   color: #FEFEFE; }
   .topbar__nav {
     -webkit-box-align: start;

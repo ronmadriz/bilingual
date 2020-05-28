@@ -1,16 +1,28 @@
 // Color 
-$black:#101010;
 $white:#FEFEFE;
+$eggshell:#f3f3f3;
+
 $gray:#838383;
 $alto:#D8D8D8;
 $smoke:#ababab;
-$charcoal:#181818;
 
-// Beautiful-spring
+$charcoal:#181818;
+$sludge:#545454;
+$slate:#444444;
+$black:#101010;
+
+// BEI Colors
 $azure_radiance: #09f;
 $bright_sun: #ffde42;
 $mandy: #e44d74;
 $malachite: #16e141;
+
+// Template Colors
+$midnight:#1b2434;
+$navy: #163269;
+$deep: #192f59;
+$light: #d4e1f8;
+$grass: #3db166;
 
 
 // socials
@@ -21,15 +33,23 @@ $linkedin: #0077B5;
 $google: #DB4437;
 $instagram: #C32AA3;
 
+
 $base:$black;
 $alternate:$white;
 $outline:$alto;
 $placeholder:$smoke;
 
-$accent_1:$azure_radiance;
+
+$accent_1:$deep;
 $accent_2:$mandy;
 $accent_3:$bright_sun;
 $accent_4:$malachite;
+
+// $accent_1:$azure_radiance;
+// $accent_2:$mandy;
+// $accent_3:$bright_sun;
+// $accent_4:$malachite;
+
 $accent_5:$gray;
 $accent_6:$charcoal;
 $accent_7:$smoke;
