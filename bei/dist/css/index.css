@@ -331,6 +331,11 @@ body {
   display: inline; }
   .footer-nav li {
     display: inline-block; }
+    .footer-nav li a {
+      color: #3db166; }
+      .footer-nav li a:before {
+        color: #ababab;
+        content: ' - '; }
 
 @media (max-width: 786px) {
   form fieldset:first-of-type {
