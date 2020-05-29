@@ -312,11 +312,14 @@ body {
     width: 1.4rem; }
   .navbar-toggler:not(.collapsed) {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 1rem;
+    top: 1rem;
     z-index: 101; }
     .navbar-toggler:not(.collapsed) span {
       background-color: #FEFEFE; }
+  .navbar-toggler:focus {
+    border: 0;
+    outline: 0; }
   @media (max-width: 786px) {
     .navbar-collapse {
       background-color: #101010;

@@ -75,13 +75,17 @@
 		}
 		&:not(.collapsed) {
 		    position: absolute;
-		    right: 0;
-		    top: 0;
+			right: 1rem;
+			top: 1rem;
 		    z-index: 101;
 		    span {
 		    	background-color:$alternate;
 		    }
-		}		
+		}
+		&:focus {
+			border:0;
+			outline:0;
+		}
 	}
 	&-collapse {
 		@include for-phone-only {
