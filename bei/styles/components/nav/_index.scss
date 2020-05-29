@@ -2,7 +2,7 @@
 	background-color:$accent_5;
 	padding-top:0;
 	padding-bottom:0;
-	.navbar-brand {
+	&-brand {
 		margin-right: 0;
 		text-transform: uppercase;
 		@include for-phone-only {
@@ -12,7 +12,7 @@
 			width:65%;
 		}
 	}
-	.navbar-toggler {
+	&-toggler {
 		span {
 			background-color: $base;
 			display: block;
@@ -41,6 +41,12 @@
 				}
 			}
 		}
+		&:not(.collapsed) {
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    z-index: 100;
+		}		
 	}
 }
 
