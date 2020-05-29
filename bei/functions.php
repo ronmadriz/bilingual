@@ -259,7 +259,7 @@ function social_media_icons_ft() {
 			} else {
 				echo '<span class="social__item">';
 				echo '<a class="'.$active_site.' social__link" href="'.get_theme_mod($active_site).'">';
-				echo '<img src="'.THEME_SPRITES.$class.'-alt.svg'.'" alt="">';
+				echo file_get_contents(THEME_SPRITES.$class.'.svg');
 				;
 				echo '</a>';
 				echo '</span>'.PHP_EOL;
