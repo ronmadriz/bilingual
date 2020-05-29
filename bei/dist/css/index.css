@@ -327,6 +327,11 @@ body {
       width: 100%;
       z-index: 100; } }
 
+.footer-nav {
+  display: inline; }
+  .footer-nav li {
+    display: inline-block; }
+
 @media (max-width: 786px) {
   form fieldset:first-of-type {
     width: 47.5%;
