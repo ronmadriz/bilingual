@@ -84,13 +84,15 @@
 		}		
 	}
 	&-collapse {
-		background-color:$base;
-	    height: 85vh;
-	    left: 0vw;
-	    padding: 0 2rem 2rem;
-	    position: absolute;
-	    top: 0;
-	    width: 100%;
-	    z-index:100;
+		@include for-tablet-below {
+			background-color:$base;
+		    height: 85vh;
+		    left: 0vw;
+		    padding: 0 2rem 2rem;
+		    position: absolute;
+		    top: 0;
+		    width: 100%;
+		    z-index:100;
+		}
 	}	
 }
