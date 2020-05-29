@@ -147,7 +147,7 @@ body main p {
     min-width: 1rem; }
 
 .main__nav .nav-link {
-  color: #192f59;
+  color: #ababab;
   font-size: 1rem;
   font-weight: 500;
   padding-left: .75rem;
@@ -157,6 +157,7 @@ body main p {
   transition: all .3s ease-in-out; }
   @media (min-width: 786px) {
     .main__nav .nav-link {
+      color: #192f59;
       font-size: 1rem;
       line-height: 5.25rem;
       padding-left: 1.5rem;
