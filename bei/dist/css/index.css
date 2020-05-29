@@ -208,7 +208,7 @@ body main p {
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 100; }
+    z-index: 101; }
     .navbar-toggler:not(.collapsed) span {
       background-color: #FEFEFE; }
   .navbar-collapse {
