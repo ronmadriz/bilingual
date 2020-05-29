@@ -39,8 +39,9 @@ body main p {
   color: #FEFEFE;
   padding-bottom: 2.125rem;
   padding-top: 2.125rem; }
-  .base__info {
-    border-bottom: 2px solid #3db166; }
+  @media (min-width: 786px) {
+    .base__info {
+      border-bottom: 2px solid #3db166; } }
   .base li a {
     display: inline-block;
     color: #ababab;

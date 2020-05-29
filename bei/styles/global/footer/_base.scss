@@ -4,7 +4,9 @@
     padding-bottom: 2.125rem;
     padding-top: 2.125rem;
     &__info {
-        border-bottom: 2px solid $accent_2;
+        @include for-tablet-up {
+            border-bottom: 2px solid $accent_2;
+        }
     }
     li {
     	a {
