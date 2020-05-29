@@ -34,16 +34,6 @@ body main h2, body main h3, body main h4 {
 body main p {
   margin-bottom: 1.75rem; }
 
-.navbar {
-  background-color: #e6e6e6; }
-
-.navbar-brand {
-  margin-right: 0;
-  text-transform: uppercase; }
-  @media (max-width: 786px) {
-    .navbar-brand {
-      margin-right: 1rem; } }
-
 .base {
   background-color: #181818;
   color: #FEFEFE;
@@ -97,12 +87,18 @@ body main p {
           flex-direction: column; }
 
 .navbar {
+  background-color: #e6e6e6;
   padding-top: 0;
   padding-bottom: 0; }
-  @media (max-width: 786px) {
-    .navbar .navbar-brand {
-      width: 65%;
-      margin-bottom: .75rem; } }
+  .navbar .navbar-brand {
+    margin-right: 0;
+    text-transform: uppercase; }
+    @media (max-width: 786px) {
+      .navbar .navbar-brand {
+        font-size: .9rem;
+        margin-bottom: .75rem;
+        margin-right: 1rem;
+        width: 65%; } }
   .navbar .navbar-toggler {
     position: relative;
     top: -0.5rem; }
