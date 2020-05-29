@@ -278,6 +278,9 @@ body {
 
 .main__nav .active .nav-link {
   color: #FEFEFE; }
+  @media (min-width: 786px) {
+    .main__nav .active .nav-link {
+      color: #3db166; } }
 
 .navbar {
   background-color: #e6e6e6;

@@ -36,6 +36,9 @@
 	.active {
 		.nav-link {
 			color:$alternate;
+			@include for-tablet-up {
+				color:$accent_2;
+			}
 		}
 	}
 }
