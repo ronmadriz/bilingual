@@ -2,8 +2,7 @@
 $site_logo_header = get_theme_mod('site_logo_header');
 $slogan           = get_bloginfo('description');
 $theme_location   = get_bloginfo('stylesheet_directory');
-echo '<nav class="navbar navbar-expand-lg">'.PHP_EOL;
-echo '<div class="main__nav">'.PHP_EOL;
+echo '<nav class="navbar navbar-expand-lg" class="main__nav">'.PHP_EOL;
 if (!empty($site_logo_header)) {
 	echo '<a href="'.get_bloginfo('url').'" class="navbar-brand"><img src="'.esc_url($site_logo_header).'" alt="'.get_bloginfo('name').'" class="img-fluid"></a>'.PHP_EOL;
 
@@ -37,5 +36,4 @@ $main_menu_args = array(
 wp_nav_menu($main_menu_args);
 echo '</div>'.PHP_EOL;
 echo '<a href="#" class="main__nav--search order-md-12"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
-echo '</div>'.PHP_EOL;
 echo '</nav>'.PHP_EOL;
