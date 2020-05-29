@@ -153,7 +153,7 @@ body main p {
   font-weight: 500;
   padding-left: .75rem;
   padding-right: .75rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
   @media (min-width: 786px) {
