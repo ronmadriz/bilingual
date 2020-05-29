@@ -23,4 +23,7 @@
 	@include for-phone-only {
 		text-align: right;
 	}
+	p {
+		display:inline;
+	}
 }

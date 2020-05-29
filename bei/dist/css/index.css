@@ -177,6 +177,8 @@ body {
   @media (max-width: 786px) {
     .copyright {
       text-align: right; } }
+  .copyright p {
+    display: inline; }
 
 .footer {
   display: -webkit-box;
