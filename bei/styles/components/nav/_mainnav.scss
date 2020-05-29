@@ -27,5 +27,13 @@
 				color:$accent_2;
 			}
 		}
+		&bar-collapse {
+		    height: 85vh;
+		    left: -100vw;
+		    padding: 0 2rem 2rem;
+		    position: absolute;
+		    top: 15vh;
+		    width: 100%;
+		}
 	}
 }
