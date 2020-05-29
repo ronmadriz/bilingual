@@ -6,7 +6,7 @@ echo '<div id="social" class="boilerplate__item social col-6 col-md-6">'.PHP_EOL
 social_media_icons_ft();
 echo '</div>'.PHP_EOL;
 echo '<div id="copyright" class="boilerplate__item copyright col-6 col-md-6 text-md-right">'.PHP_EOL;
-echo '<p>&copy; Copyright '.date('Y').' '.get_bloginfo('name');
+echo '<p>&copy; Copyright '.date('Y').' '.get_bloginfo('name').'</p>'.PHP_EOL;
 $foot_menu_args = array(
 	'theme_location'  => 'footer-nav',
 	'menu'            => 'footer-nav',
@@ -25,7 +25,6 @@ $foot_menu_args = array(
 	'depth'           => 3,
 );
 wp_nav_menu($foot_menu_args);
-echo '</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
