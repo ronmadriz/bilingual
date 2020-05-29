@@ -35,4 +35,4 @@ $main_menu_args = array(
 );
 wp_nav_menu($main_menu_args);
 echo '</div>'.PHP_EOL;
-echo '<a href="#" class="main__nav--search"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
+echo '<a href="#" class="main__nav--search order-md-12"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
