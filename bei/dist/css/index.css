@@ -212,7 +212,7 @@ body main p {
     z-index: 101; }
     .navbar-toggler:not(.collapsed) span {
       background-color: #FEFEFE; }
-  @media (max-width: 991px) {
+  @media (max-width: 786px) {
     .navbar-collapse {
       background-color: #101010;
       height: 85vh;

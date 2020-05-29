@@ -84,7 +84,7 @@
 		}		
 	}
 	&-collapse {
-		@include for-tablet-below {
+		@include for-phone-only {
 			background-color:$base;
 		    height: 85vh;
 		    left: 0vw;
