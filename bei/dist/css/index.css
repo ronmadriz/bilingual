@@ -212,7 +212,7 @@ body main p {
     z-index: 101; }
     .navbar-toggler:not(.collapsed) span {
       background-color: #FEFEFE; }
-  @media media-only-screen and (max-width: 991px) {
+  @media (max-width: 991px) {
     .navbar-collapse {
       background-color: #101010;
       height: 85vh;
@@ -316,7 +316,7 @@ form .row.buttons {
       padding: .75rem 1rem;
       line-height: 115%; } }
 
-@media media-only-screen and (max-width: 991px) {
+@media (max-width: 991px) {
   table {
     width: 100%;
     margin-bottom: 1rem; }

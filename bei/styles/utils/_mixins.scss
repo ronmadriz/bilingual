@@ -5,7 +5,7 @@
   @media (min-width: 786px) { @content; }
 }
 @mixin for-tablet-below {
-  @media media-only-screen and (max-width: 991px) { @content; }
+  @media (max-width: 991px) { @content; }
 }
 @mixin for-desktop-up {
   @media (min-width: 1200px) { @content; }
