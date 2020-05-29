@@ -3,7 +3,7 @@ $site_logo_header = get_theme_mod('site_logo_header');
 $slogan           = get_bloginfo('description');
 $theme_location   = get_bloginfo('stylesheet_directory');
 echo '<nav class="navbar navbar-expand-lg">'.PHP_EOL;
-echo '<div class="container-fluid main__nav">'.PHP_EOL;
+echo '<div class="main__nav">'.PHP_EOL;
 if (!empty($site_logo_header)) {
 	echo '<a href="'.get_bloginfo('url').'" class="navbar-brand"><img src="'.esc_url($site_logo_header).'" alt="'.get_bloginfo('name').'" class="img-fluid"></a>'.PHP_EOL;
 
