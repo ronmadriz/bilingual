@@ -212,11 +212,12 @@ body main p {
 
 .main__nav .navbar-collapse {
   height: 85vh;
-  left: -100vw;
+  left: 0vw;
   padding: 0 2rem 2rem;
   position: absolute;
-  top: 15vh;
-  width: 100%; }
+  top: 0;
+  width: 100%;
+  z-index: 100; }
 
 @media (max-width: 786px) {
   form fieldset:first-of-type {

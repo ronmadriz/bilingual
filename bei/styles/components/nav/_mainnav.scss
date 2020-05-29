@@ -29,11 +29,12 @@
 		}
 		&bar-collapse {
 		    height: 85vh;
-		    left: -100vw;
+		    left: 0vw;
 		    padding: 0 2rem 2rem;
 		    position: absolute;
-		    top: 15vh;
+		    top: 0;
 		    width: 100%;
+		    z-index:100;
 		}
 	}
 }
