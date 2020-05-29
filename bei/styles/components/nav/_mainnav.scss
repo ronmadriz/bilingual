@@ -14,6 +14,10 @@
 			padding-right: .75rem;
 			text-transform:capitalize;
 			transition: all .3s ease-in-out;
+			@include for-phone-only {
+			    border-bottom: 1px solid $accent_7;
+			    padding:1.0675rem .75rem;
+			}
 			@include for-tablet-up {
 				color:$accent_1;
 				font-size:1rem;
@@ -27,6 +31,11 @@
 			&.active {
 				color:$accent_2;
 			}
+		}
+	}
+	.active {
+		.nav-link {
+			color:$alternate;
 		}
 	}
 }

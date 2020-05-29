@@ -260,6 +260,10 @@ body {
   text-transform: capitalize;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
+  @media (max-width: 786px) {
+    .main__nav .nav-link {
+      border-bottom: 1px solid #ababab;
+      padding: 1.0675rem .75rem; } }
   @media (min-width: 786px) {
     .main__nav .nav-link {
       color: #192f59;
@@ -271,6 +275,9 @@ body {
     color: #3db166; }
   .main__nav .nav-link.active {
     color: #3db166; }
+
+.main__nav .active .nav-link {
+  color: #FEFEFE; }
 
 .navbar {
   background-color: #e6e6e6;
