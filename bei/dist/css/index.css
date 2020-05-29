@@ -211,6 +211,7 @@ body main p {
     color: #3db166; }
 
 .main__nav .navbar-collapse {
+  background-color: #101010;
   height: 85vh;
   left: 0vw;
   padding: 0 2rem 2rem;
