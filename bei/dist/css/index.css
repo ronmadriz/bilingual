@@ -194,17 +194,17 @@ body main p {
   color: #192f59;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 5.25rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
   text-transform: uppercase;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out; }
   @media (min-width: 786px) {
     .main__nav .nav-link {
       font-size: 1rem;
-      padding-right: .75rem;
-      padding-left: .75rem; } }
+      line-height: 5.25rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   .main__nav .nav-link:hover {
     color: #3db166; }
   .main__nav .nav-link.active {
