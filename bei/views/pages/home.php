@@ -1,3 +1,3 @@
 <?php
 // home
-include ('../components/banner/home.php')
+include ('../components/banner/home.php');
