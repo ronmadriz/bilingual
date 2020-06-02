@@ -4,7 +4,7 @@ $size          = 'full';
 ?>
 <section id="banner" class="banner">
   <div class="container-fluid">
-	<div id="bannerSlides" class="carousel slide" data-ride="carousel">
+	<div id="banner__slides" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner row banner__slides" role="listbox">
 			<figure class="carousel-item banner__slide active">
 				<img src="https://demo.goodlayers.com/kingster/wp-content/uploads/2018/08/slider-1-2.jpg" alt="" class="img-fluid banner__image">
