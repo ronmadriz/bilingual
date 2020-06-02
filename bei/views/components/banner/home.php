@@ -1,4 +1,7 @@
-<?php ?>
+<?php
+$banner_images = get_field('banner');
+$size          = 'full';
+?>
 <section id="banner" class="banner">
   <div class="container-fluid">
 	<div id="bannerSlides" class="carousel slide" data-ride="carousel">
@@ -6,8 +9,16 @@
 			<figure class="carousel-item">
 				<img src="https://demo.goodlayers.com/kingster/wp-content/uploads/2018/08/slider-1-2.jpg" alt="" class="img-fluid banner__image">
 				<figcaption class="banner__caption">
-					<span class="banner__subtitle subtitle"></span>
-					<h2 class="banner__title title"></h2>
+					<span class="banner__subtitle subtitle text-capitalize">Kingster has more than</span>
+					<h2 class="banner__title title">180 Majors &amp; Minors</h2>
+					<a class="banner__button d-inline-block" href="#">Take a Tour</a>
+				</figcaption>
+			</figure>
+			<figure class="carousel-item">
+				<img src="https://demo.goodlayers.com/kingster/wp-content/uploads/2018/08/slider-1-2.jpg" alt="" class="img-fluid banner__image">
+				<figcaption class="banner__caption">
+					<span class="banner__subtitle subtitle text-capitalize">The best university of the state</span>
+					<h2 class="banner__title title">Kingster University</h2>
 					<a class="banner__button d-inline-block" href="#">Take a Tour</a>
 				</figcaption>
 			</figure>
