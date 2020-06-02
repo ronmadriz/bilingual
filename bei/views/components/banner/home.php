@@ -6,7 +6,7 @@ $size          = 'full';
   <div class="container-fluid">
 	<div id="bannerSlides" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner row" role="listbox">
-			<figure class="carousel-item">
+			<figure class="carousel-item active">
 				<img src="https://demo.goodlayers.com/kingster/wp-content/uploads/2018/08/slider-1-2.jpg" alt="" class="img-fluid banner__image">
 				<figcaption class="banner__caption">
 					<span class="banner__subtitle subtitle text-capitalize">Kingster has more than</span>
