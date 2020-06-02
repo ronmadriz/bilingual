@@ -1,24 +1,18 @@
-<?php
-if ($banner_images):?>
+<?php ?>
 <section id="banner">
   <div class="container-fluid">
     <div class="row">
 		<div id="bannerSlides" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner row w-100 fixme" role="listbox">
-<?php $count = 0;
-foreach ($banner_images as $banner_image):?>
-			<div class="carousel-item col-md-4 align-middle <?php if ($count == 0) {echo ' active';}?>">
-				<img src="<?php echo $banner_image['url'];?>" alt="<?php echo $banner_image['alt'];?>" class="img-fluid mx-auto my-auto d-block">
+			<div class="carousel-inner row" role="listbox">
+				<figure class="carousel-item">
+					<img src="https://demo.goodlayers.com/kingster/wp-content/uploads/2018/08/slider-1-2.jpg" alt="" class="img-fluid mx-auto my-auto d-block">
+					<figcaption class=""></figcaption>
+				</figure>
 			</div>
-<?php $count++;
-endforeach;?>
-</div>
 			<a class="carousel-control-prev" href="#bannerSlides" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
 			<a class="carousel-control-next" href="#bannerSlides" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>
 		</div>
     </div>
   </div>
 </section>
-<?php
-endif;
-?>
+<?php ?>
