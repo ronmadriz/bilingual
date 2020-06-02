@@ -474,3 +474,7 @@ form .row.buttons {
           white-space: nowrap; }
       table tbody tr + tr {
         margin-top: 1.5em; } }
+
+#page-home .banner .container-fluid, #page-home .banner .row {
+  padding-left: 0;
+  padding-right: 0; }
