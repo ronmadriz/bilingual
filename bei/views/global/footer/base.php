@@ -3,7 +3,7 @@ $footer__logo   = get_theme_mod('site_logo_footer');
 $footer__about  = get_theme_mod('footer_about');
 $footer__slogan = get_bloginfo('description');
 echo '<section id="base" class="base">'.PHP_EOL;
-echo '<div clas="container-fluid">'.PHP_EOL;
+echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="base__info col-12 col-md-3">'.PHP_EOL;
 if (!empty($footer__logo)):
