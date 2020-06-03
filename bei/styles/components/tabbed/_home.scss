@@ -1,5 +1,9 @@
 .tabbed {
-	&__wrapper {}
+	&__wrapper {
+		background-color: $alternate;		
+		position: relative;
+		top: -2.875rem;
+	}
 	&__item {}
 	&__title {
 		color:$accent_1;

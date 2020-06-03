@@ -498,6 +498,11 @@ form .row.buttons {
 #page-home .banner__image {
   min-width: 100%; }
 
+#page-home .tabbed__wrapper {
+  background-color: #FEFEFE;
+  position: relative;
+  top: -2.875rem; }
+
 #page-home .tabbed__title {
   color: #192f59;
   font-family: "Poppins", sans-serif;
