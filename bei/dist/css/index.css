@@ -479,5 +479,16 @@ form .row.buttons {
   padding-left: 0;
   padding-right: 0; }
 
-#page-home .banner .banner__image {
+#page-home .banner__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 5.1875rem;
+  font-weight: 600; }
+
+#page-home .banner__slide {
+  max-height: 713px; }
+
+#page-home .banner__image {
   min-width: 100%; }
+
+#page-home .tabbed__image {
+  max-height: 1rem; }
