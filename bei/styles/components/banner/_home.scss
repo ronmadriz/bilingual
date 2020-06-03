@@ -3,6 +3,11 @@
 	    padding-left: 0;
 	    padding-right: 0;
 	}
+	&__title {
+		font-family: $primary;
+	    font-size: 5.1875rem;
+	    font-weight: 600;
+	}
 	&__slide {
 		max-height:713px;
 	}

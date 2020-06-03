@@ -28,4 +28,15 @@ $size          = 'full';
 	</div>
   </div>
 </section>
-<?php ?>
+<?php
+/*$count++;
+endforeach;
+$count = 0;
+foreach ($banner_images as $banner_image):?>
+
+<?php if ($count == 0) {echo ' active';}?>
+
+<?php echo $banner_image['url'];?>
+<?php echo $banner_image['alt'];?>*/
+
+?>
