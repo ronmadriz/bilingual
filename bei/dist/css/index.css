@@ -490,5 +490,10 @@ form .row.buttons {
 #page-home .banner__image {
   min-width: 100%; }
 
+#page-home .tabbed__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: none; }
+
 #page-home .tabbed__image {
-  max-height: 1rem; }
+  max-height: 2.5rem; }
