@@ -500,6 +500,7 @@ form .row.buttons {
 
 #page-home .tabbed__title {
   color: #192f59;
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: none; }
