@@ -509,6 +509,9 @@ form .row.buttons {
   color: #b7b7b7;
   font-size: 1rem; }
 
+#page-home .tabbed__button {
+  padding: 2.125rem 1.875rem; }
+
 #page-home .tabbed__text {
   display: inline-block;
   text-align: left;

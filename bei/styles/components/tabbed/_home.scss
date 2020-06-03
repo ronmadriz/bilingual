@@ -12,7 +12,9 @@
 		color:$accent_9;
 		font-size:1rem;
 	}
-	&__button {}
+	&__button {
+		padding:2.125rem 1.875rem;
+	}
 	&__text {
 		display: inline-block;
 		text-align: left;
