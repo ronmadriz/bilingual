@@ -503,6 +503,9 @@ form .row.buttons {
   font-weight: 600;
   text-transform: none; }
 
+#page-home .tabbed__text {
+  display: inline-block; }
+
 #page-home .tabbed__image {
   float: left;
   max-height: 2.5rem; }

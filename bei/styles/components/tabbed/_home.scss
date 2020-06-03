@@ -8,6 +8,9 @@
 	}
 	&__subtitle {}
 	&__button {}
+	&__text {
+		display: inline-block;
+	}
 	&__image {
 		float: left;
 		max-height: 2.5rem;
