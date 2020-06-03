@@ -4,7 +4,9 @@
 	&__title {}
 	&__subtitle {}
 	&__button {}
-	&__image {}
+	&__image {
+		max-height: 1rem;
+	}
 	&__content {}
 	&__pane {}
 }
