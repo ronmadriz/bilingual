@@ -24,7 +24,7 @@ echo '<span class="tabbed__subtitle">Direct and Focused Instructors</span>'.PHP_
 echo '</span></a></li>'.PHP_EOL;
 echo '</ul>'.PHP_EOL;
 echo '<div class="tab-content tabbed__content">'.PHP_EOL;
-echo '<div id="home__tab-0" role="tabpanel" class="tab-pane tabbed__pane fade in active">'.PHP_EOL;
+echo '<div id="home__tab-0" role="tabpanel" class="tab-pane tabbed__pane fade show active">'.PHP_EOL;
 echo '<h3>HOME</h3>'.PHP_EOL;
 echo '<p>Some content.</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
