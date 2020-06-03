@@ -21,15 +21,15 @@ echo '<span class="tabbed__subtitle">Direct and Focused Instructors</span>'.PHP_
 echo '</a></li>'.PHP_EOL;
 echo '</ul>'.PHP_EOL;
 echo '<div class="tab-content tabbed__content">'.PHP_EOL;
-echo '<div id="home__tab-0" class="tab-pane fade in active">'.PHP_EOL;
+echo '<div id="home__tab-0" class="tab-pane tabbed__pane fade in active">'.PHP_EOL;
 echo '<h3>HOME</h3>'.PHP_EOL;
 echo '<p>Some content.</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
-echo '<div id="home__tab-1" class="tab-pane fade">'.PHP_EOL;
+echo '<div id="home__tab-1" class="tab-pane tabbed__pane fade">'.PHP_EOL;
 echo '<h3>Menu 1</h3>'.PHP_EOL;
 echo '<p>Some content in menu 1.</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
-echo '<div id="home__tab-2" class="tab-pane fade">'.PHP_EOL;
+echo '<div id="home__tab-2" class="tab-pane tabbed__pane fade">'.PHP_EOL;
 echo '<h3>Menu 2</h3>'.PHP_EOL;
 echo '<p>Some content in menu 2.</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
