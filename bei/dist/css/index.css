@@ -505,7 +505,8 @@ form .row.buttons {
 
 #page-home .tabbed__text {
   display: inline-block;
-  text-align: left; }
+  text-align: left;
+  width: 75%; }
 
 #page-home .tabbed__image {
   float: left;
