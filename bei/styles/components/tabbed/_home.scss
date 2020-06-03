@@ -6,7 +6,10 @@
 	    font-weight: 600;
 	    text-transform: none;		
 	}
-	&__subtitle {}
+	&__subtitle {
+		color:$accent_9;
+		font-size:1rem;
+	}
 	&__button {}
 	&__text {
 		display: inline-block;

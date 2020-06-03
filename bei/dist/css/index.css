@@ -503,6 +503,10 @@ form .row.buttons {
   font-weight: 600;
   text-transform: none; }
 
+#page-home .tabbed__subtitle {
+  color: #b7b7b7;
+  font-size: 1rem; }
+
 #page-home .tabbed__text {
   display: inline-block;
   text-align: left;
