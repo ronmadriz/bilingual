@@ -1,3 +1,11 @@
+.nav-pills .nav-link.active {
+  color: inherit;
+  background-color: transparent; }
+
+.nav-pills .nav-pills .show > .nav-link {
+  color: inherit;
+  background-color: transparent; }
+
 @font-face {
   font-family: 'Poppins';
   src: url("../../fonts/Poppins-Thin.woff2") format("woff2"), url("../../fonts/Poppins-Thin.woff") format("woff");
