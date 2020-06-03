@@ -1,7 +1,11 @@
 .tabbed {
 	&__wrapper {}
 	&__item {}
-	&__title {}
+	&__title {
+		font-size: 1.125rem;
+	    font-weight: 600;
+	    text-transform: none;		
+	}
 	&__subtitle {}
 	&__button {}
 	&__image {
