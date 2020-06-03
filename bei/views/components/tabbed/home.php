@@ -3,7 +3,7 @@ echo '<section id="tabbed" class="tabbed">'.PHP_EOL;
 echo '<div class="container">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="tabbed__wrapper col-12">'.PHP_EOL;
-echo '<ul class="nav nav-pills nav-justified">'.PHP_EOL;
+echo '<ul class="tabbed_items nav nav-pills nav-justified">'.PHP_EOL;
 echo '<li class="nav-item tabbed__item"><a data-toggle="tab" href="#home__tab-0" class="active nav-link tabbed__button">'.PHP_EOL;
 echo '<img src="'.get_stylesheet_directory_uri().'/sprites/traditional.svg" class="tabbed__image">'.PHP_EOL;
 echo '<span class="tabbed__text">'.PHP_EOL;
