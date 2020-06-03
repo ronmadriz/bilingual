@@ -1,0 +1,16 @@
+.nav-pills {
+	 .nav-link {
+	 	&.active {
+	 		color:inherit;
+	 		background-color: transparent;
+	 	}
+	 }
+	 .nav-pills {
+	 	 .show {
+	 	 	&>.nav-link {
+	 	 		color:inherit;
+	 	 		background-color: transparent;
+	 	 	}
+	 	 }
+	 }
+}
