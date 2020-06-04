@@ -6,10 +6,10 @@ if (have_rows('tab')) {
 		echo '<div class="container">'.PHP_EOL;
 		echo '<div class="row">'.PHP_EOL;
 		echo '<div class="tabbed__wrapper col-12">'.PHP_EOL;
-		if (have_rows('tabbed__item')) {
+		if (have_rows('tab__item')) {
 			echo '<ul class="tabbed_items nav nav-pills nav-justified">'.PHP_EOL;
 			$tab__count = 0;
-			while (have_rows('tab')) {
+			while (have_rows('tab__item')) {
 				the_row();
 				$tab__icon     = get_sub_field('tab__icon');
 				$tab__title    = get_sub_field('tab__title');
