@@ -317,10 +317,22 @@ add_filter('get_image_tag_class', 'rmc_img_tag');
 
 // SVG Icons
 
-add_filter('acf_svg_icon_filepath', 'bea_svg_icon_filepath');
-function bea_svg_icon_filepath($filepath) {
-	if (is_file(get_stylesheet_directory().'/sprites/*.svg')) {
-		$filepath[] = get_stylesheet_directory().'/sprites/*.svg';
-	}
-	return $filepath;
+add_filter('acf_icon_path_suffix', 'acf_icon_path_suffix');
+
+function acf_icon_path_suffix($path_suffix) {
+	return 'sprites/';
+}
+
+// modify the path to the above prefix
+add_filter('acf_icon_path', 'acf_icon_path');
+
+function acf_icon_path($path_suffix) {
+	return plugin_dir_path(__FILE__);
+}
+
+// modify the URL to the icons directory to display on the page
+add_filter('acf_icon_url', 'acf_icon_url');
+
+function acf_icon_url($path_suffix) {
+	return plugin_dir_url(__FILE__);
 }
