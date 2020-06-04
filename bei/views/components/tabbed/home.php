@@ -1,12 +1,14 @@
 <?php
-if (have_rows('tab')) {
+$tab = get_field('tab');
+if ($tab) {
 	echo '<section id="tabbed" class="tabbed">'.PHP_EOL;
 	while (have_rows('tab')) {
 		the_row();
 		echo '<div class="container">'.PHP_EOL;
 		echo '<div class="row">'.PHP_EOL;
 		echo '<div class="tabbed__wrapper col-12">'.PHP_EOL;
-		if (have_rows('tab__item')) {
+		$tab__item = get_sub_field('tab__item');
+		if ($tab__item) {
 			echo '<ul class="tabbed_items nav nav-pills nav-justified">'.PHP_EOL;
 			$tab__count = 0;
 			while (have_rows('tab__item')) {
@@ -23,10 +25,8 @@ if (have_rows('tab')) {
 				echo '<p class="tabbed__subtitle">'.$tab__subtitle.'</p>'.PHP_EOL;
 				echo '</span></a></li>'.PHP_EOL;
 			}
-			wp_reset_postdata();
+			wp_reset_query();
 			echo '</ul>'.PHP_EOL;
-		}
-		if (have_rows('tabbed__item')) {
 			echo '<div class="tabbed__content tab-content">'.PHP_EOL;
 			$tabpanel__count = 0;
 			while (have_rows('tab')) {
@@ -42,7 +42,7 @@ if (have_rows('tab')) {
 				echo '</span>'.PHP_EOL;
 				echo '</div>'.PHP_EOL;
 			}
-			wp_reset_postdata();
+			wp_reset_query();
 			echo '</div>'.PHP_EOL;
 		}
 		echo '</div>'.PHP_EOL;
