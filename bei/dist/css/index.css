@@ -621,7 +621,10 @@ form .row.buttons {
     width: 50%; } }
 
 #page-home .tabbed__details {
-  padding: 3rem; }
+  padding: 3rem;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: cover; }
   @media (min-width: 786px) {
     #page-home .tabbed__details {
       width: 50%; } }
