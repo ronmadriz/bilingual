@@ -624,20 +624,10 @@ form .row.buttons {
     width: 50%; } }
 
 #page-home .tabbed__details {
+  background-color: #192f59;
+  color: #FEFEFE;
   padding: 3rem;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center, center;
-  background-size: cover; }
-  #page-home .tabbed__details:before {
-    background-color: rgba(25, 47, 89, 0.3);
-    content: '';
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%; }
+  position: relative; }
   @media (min-width: 786px) {
     #page-home .tabbed__details {
       width: 50%; } }
