@@ -622,6 +622,7 @@ form .row.buttons {
 
 #page-home .tabbed__details {
   padding: 3rem;
+  position: relative;
   background-repeat: no-repeat;
   background-position: center, center;
   background-size: cover; }
