@@ -521,6 +521,8 @@ form .row.buttons {
   visibility: inherit;
   white-space: nowrap;
   z-index: 7; }
+  #page-home .banner__button:hover {
+    color: #192f59; }
 
 #page-home .banner__caption {
   color: #FEFEFE;

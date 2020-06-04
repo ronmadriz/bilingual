@@ -10,7 +10,7 @@
 	    border-width: 0px 0px 0px 5px;
 	    box-shadow: $gray 0px 0px 0px 0px;
 	    box-sizing: border-box;
-	    color: rgb(45, 45, 45);
+	    color: $accent_10;
 	    cursor: pointer;
 	    font-family: $primary;
 	    font-size: 1rem;
@@ -32,6 +32,9 @@
 	    visibility: inherit;
 	    white-space: nowrap;
 	    z-index: 7;
+	    &:hover {
+	    	color:$accent_1;
+	    }
 	}
 	&__caption {
 		color: $alternate;
