@@ -9,9 +9,13 @@
 	    font-weight: 600;
 	}
 	&__slide {
-		max-height:713px;
+		
+	}
+	&__slide {
+		
 	}
 	&__image {
-		min-width: 100%;		
+		min-width: 100%;
+		max-height:713px;
 	}
 }

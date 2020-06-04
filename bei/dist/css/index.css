@@ -492,11 +492,9 @@ form .row.buttons {
   font-size: 5.1875rem;
   font-weight: 600; }
 
-#page-home .banner__slide {
-  max-height: 713px; }
-
 #page-home .banner__image {
-  min-width: 100%; }
+  min-width: 100%;
+  max-height: 713px; }
 
 #page-home .tabbed__wrapper {
   background-color: #FEFEFE;
