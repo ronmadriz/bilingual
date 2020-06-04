@@ -6,7 +6,9 @@
 		position: relative;
 		top: -2.875rem;
 	}
-	&__item {}
+	&__items {
+		box-shadow: 0 -6px 24px rgba($accent_11,0.09);
+	}
 	&__title {
 		color:$accent_1;
 		font-family: $primary;

@@ -574,6 +574,10 @@ form .row.buttons {
   position: relative;
   top: -2.875rem; }
 
+#page-home .tabbed__items {
+  -webkit-box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.09);
+          box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.09); }
+
 #page-home .tabbed__title {
   color: #192f59;
   font-family: "Poppins", sans-serif;
