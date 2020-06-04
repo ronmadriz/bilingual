@@ -51,6 +51,7 @@
 	&__details {
 		padding: 3rem;
 		@include has-bg(center, center);
+		@include bg-before($accent_1);
 		@include for-tablet-up {
 			width:50%;
 		}

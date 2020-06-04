@@ -28,3 +28,15 @@
   background-position: $pos_x, $pos_y;
   background-size: cover;
 }
+@mixin bg-before ($bg-color) {
+  &:before{
+    background-color: rgba($bg-color, .3);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; 
+  }
+}
