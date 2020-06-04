@@ -8,7 +8,7 @@
 	    font-size: 5.1875rem;
 	    font-weight: 600;
 	}
-	&__slide {
+	&__slides {
 		
 	}
 	&__slide {
@@ -17,5 +17,12 @@
 	&__image {
 		min-width: 100%;
 		max-height:713px;
+	}
+	&__caption {
+		color: $alternate;
+		left: 2rem;
+		position: absolute;
+		top: 37.25%;
+		z-index: 4;
 	}
 }
