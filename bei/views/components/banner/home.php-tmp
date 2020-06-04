@@ -22,31 +22,31 @@ if (have_rows('banner')) {
 				echo (!empty($subtitle)?'<span class="banner__subtitle subtitle text-capitalize">'.$subtitle.'</span>'.PHP_EOL:'');
 				echo (!empty($title)?'<h2 class="banner__title title">'.$title.'</h2>'.PHP_EOL:'');
 				echo (!empty($button)?'<a class="banner__button d-inline-block" href="'.esc_url($button['url']).'">'.$button['title'].'</a>'.PHP_EOL;
-				echo '</figcaption>'.PHP_EOL;
-				echo '</figure>'.PHP_EOL;
-				$slide__count++;
+					echo '</figcaption>'.PHP_EOL;
+					echo '</figure>'.PHP_EOL;
+					$slide__count++;
+				}
+				echo '</div>'.PHP_EOL;
 			}
+			echo '<a class="carousel-control-prev banner__nav banner__nav--prev" href="#banner__slides" role="button" data-slide="prev"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Previous</span></a>'.PHP_EOL;
+			echo '<a class="carousel-control-next banner__nav banner__nav--next" href="#banner__slides" role="button" data-slide="next"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Next</span></a>'.PHP_EOL;
 			echo '</div>'.PHP_EOL;
 		}
-		echo '<a class="carousel-control-prev banner__nav banner__nav--prev" href="#banner__slides" role="button" data-slide="prev"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Previous</span></a>'.PHP_EOL;
-		echo '<a class="carousel-control-next banner__nav banner__nav--next" href="#banner__slides" role="button" data-slide="next"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Next</span></a>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
+		echo '</section>'.PHP_EOL;
+
 	}
-	echo '</div>'.PHP_EOL;
-	echo '</section>'.PHP_EOL;
 
-}
+	// USE LATER
 
-// USE LATER
+	/*
+	endforeach;
+	$count = 0;
+	foreach ($banner_images as $banner_image):?>
 
-/*
-endforeach;
-$count = 0;
-foreach ($banner_images as $banner_image):?>
+	<?php ?>
 
-<?php ?>
+	<?php echo $banner_image['url'];?>
+	<?php echo $banner_image['alt'];?>*/
 
-<?php echo $banner_image['url'];?>
-<?php echo $banner_image['alt'];?>*/
-
-?>
+	?>
