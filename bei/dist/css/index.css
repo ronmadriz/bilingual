@@ -536,9 +536,11 @@ form .row.buttons {
   min-width: 100%;
   z-index: 1; }
 
-#page-home .banner__nav--prev img {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg); }
+#page-home .banner__nav {
+  width: 3.5rem; }
+  #page-home .banner__nav--prev img {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
 
 #page-home .banner__slide {
   max-height: 713px; }
