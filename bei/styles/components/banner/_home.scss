@@ -48,6 +48,13 @@
 		min-width: 100%;
 	    z-index: 1;
 	}
+	&__nav {
+		&--prev {
+			img {
+				transform: rotate(180deg);
+			}			
+		}
+	}
 	&__slide {
 		max-height:713px;
 	}
