@@ -314,3 +314,13 @@ function rmc_img_tag($class) {
 	return $class;
 }
 add_filter('get_image_tag_class', 'rmc_img_tag');
+
+// SVG Icons
+
+add_filter('acf_svg_icon_filepath', 'bea_svg_icon_filepath');
+function bea_svg_icon_filepath($filepath) {
+	if (is_file(get_stylesheet_directory().'/sprites/*.svg')) {
+		$filepath[] = get_stylesheet_directory().'/sprites/*.svg';
+	}
+	return $filepath;
+}
