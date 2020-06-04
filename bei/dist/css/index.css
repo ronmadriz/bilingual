@@ -493,7 +493,7 @@ form .row.buttons {
   font-weight: 600; }
 
 #page-home .banner__slide {
-  max-height: 713px; }
+  min-height: 713px; }
 
 #page-home .banner__image {
   min-width: 100%;
