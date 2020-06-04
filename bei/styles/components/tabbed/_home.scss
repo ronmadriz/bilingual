@@ -24,7 +24,7 @@
 		text-align: left;
 		width:75%;
 	}
-	&__image {
+	&__icon {
 		float: left;
 		height: 2.5rem;
 		width: 2.5rem;
@@ -34,12 +34,12 @@
 		> span {
 			display:inline-flex;
 		}
-		&--img {
+		&__image {
 			@include for-tablet-up {
 				width:50%;
 			}
 		}
-		&--content {
+		&details {
 			@include for-tablet-up {
 				width:50%;
 			}

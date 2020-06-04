@@ -591,7 +591,7 @@ form .row.buttons {
   text-align: left;
   width: 75%; }
 
-#page-home .tabbed__image {
+#page-home .tabbed__icon {
   float: left;
   height: 2.5rem;
   width: 2.5rem; }
@@ -602,9 +602,9 @@ form .row.buttons {
   display: inline-flex; }
 
 @media (min-width: 786px) {
-  #page-home .tabbed__pane--img {
+  #page-home .tabbed__pane__image {
     width: 50%; } }
 
 @media (min-width: 786px) {
-  #page-home .tabbed__pane--content {
+  #page-home .tabbed__panedetails {
     width: 50%; } }
