@@ -5,7 +5,7 @@
 		padding-right: 0;		
 		position: relative;
 		@include for-desktop-up{
-			transform: translate(0px, -2.875rem);
+			transform: translate(0, -2.875rem);
 		}
 	}
 	&__items {
