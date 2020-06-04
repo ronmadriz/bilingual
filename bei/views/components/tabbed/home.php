@@ -8,7 +8,7 @@ if (have_rows('tab')) {
 		echo '<div class="tabbed__wrapper col-12">'.PHP_EOL;
 		$tab__item = get_sub_field('tab__item');
 		if ($tab__item) {
-			echo '<ul class="tabbed_items nav nav-pills nav-justified">'.PHP_EOL;
+			echo '<ul class="tabbed__items nav nav-pills nav-justified">'.PHP_EOL;
 			$tab__count = 0;
 			while (have_rows('tab__item')) {
 				the_row();
