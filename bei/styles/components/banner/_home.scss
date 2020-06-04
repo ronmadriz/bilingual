@@ -3,10 +3,52 @@
 	    padding-left: 0;
 	    padding-right: 0;
 	}
-	&__title {
-		font-family: $primary;
-	    font-size: 5.1875rem;
+	&__button {
+	    background-color: $alternate;
+	    border-color: $accent_2;
+	    border-style: solid;
+	    border-width: 0px 0px 0px 5px;
+	    box-shadow: $gray 0px 0px 0px 0px;
+	    box-sizing: border-box;
+	    color: rgb(45, 45, 45);
+	    cursor: pointer;
+	    font-family: $primary;
+	    font-size: 1rem;
 	    font-weight: 600;
+	    letter-spacing: 0px;
+	    line-height: 15px;
+	    margin: 0px;
+	    max-height: none;
+	    max-width: none;
+	    min-height: 0px;
+	    min-width: 0px;
+	    opacity: 1;
+	    outline: none;
+	    padding: 18px 20px;
+	    text-align: inherit;
+	    transform-origin: 50% 50% 0px;
+	    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+	    transition: none 0s ease 0s;
+	    visibility: inherit;
+	    white-space: nowrap;
+	    z-index: 7;
+	}
+	&__caption {
+		color: $alternate;
+		left: 2rem;
+		position: absolute;
+		top: 37.25%;
+		z-index: 4;
+	}
+	&__image {
+		min-width: 100%;
+	    z-index: 1;
+	}
+	&__slide {
+		max-height:713px;
+	}
+	&__slides {
+		
 	}
 	&__subtitle {
 		color: $white;
@@ -16,22 +58,10 @@
 		font-weight: 300;
 		letter-spacing: 0px;
 		white-space: nowrap;
-	}
-	&__slides {
-		
-	}
-	&__slide {
-		max-height:713px;
-	}
-	&__image {
-		min-width: 100%;
-	    z-index: 1;
-	}
-	&__caption {
-		color: $alternate;
-		left: 2rem;
-		position: absolute;
-		top: 37.25%;
-		z-index: 4;
+	}	
+	&__title {
+		font-family: $primary;
+	    font-size: 5.1875rem;
+	    font-weight: 600;
 	}
 }
