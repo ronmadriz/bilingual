@@ -26,7 +26,7 @@ if (have_rows('banner')) {
 				echo '</figure>'.PHP_EOL;
 				$slide__count++;
 			}
-			wp_reset_postdata()
+			wp_reset_postdata();
 			echo '</div>'.PHP_EOL;
 		}
 		echo '<a class="carousel-control-prev banner__nav banner__nav--prev" href="#banner__slides" role="button" data-slide="prev"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Previous</span></a>'.PHP_EOL;
