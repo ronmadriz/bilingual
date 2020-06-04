@@ -522,7 +522,8 @@ form .row.buttons {
   white-space: nowrap;
   z-index: 7; }
   #page-home .banner__button:hover {
-    color: #192f59; }
+    color: #192f59;
+    text-decoration: none; }
 
 #page-home .banner__caption {
   color: #FEFEFE;
