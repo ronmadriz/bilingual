@@ -587,3 +587,11 @@ form .row.buttons {
   float: left;
   height: 2.5rem;
   width: 2.5rem; }
+
+@media (min-width: 786px) {
+  #page-home .tabbed__pane--img {
+    width: 50%; } }
+
+@media (min-width: 786px) {
+  #page-home .tabbed__pane--content {
+    width: 50%; } }
