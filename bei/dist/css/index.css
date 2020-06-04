@@ -602,9 +602,9 @@ form .row.buttons {
   display: inline-flex; }
 
 @media (min-width: 786px) {
-  #page-home .tabbed__pane__image {
+  #page-home .tabbed__image {
     width: 50%; } }
 
 @media (min-width: 786px) {
-  #page-home .tabbed__panedetails {
+  #page-home .tabbed__details {
     width: 50%; } }

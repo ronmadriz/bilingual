@@ -34,15 +34,15 @@
 		> span {
 			display:inline-flex;
 		}
-		&__image {
-			@include for-tablet-up {
-				width:50%;
-			}
+	}
+	&__image {
+		@include for-tablet-up {
+			width:50%;
 		}
-		&details {
-			@include for-tablet-up {
-				width:50%;
-			}
+	}
+	&__details {
+		@include for-tablet-up {
+			width:50%;
 		}
 	}
 }
