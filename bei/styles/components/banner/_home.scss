@@ -12,11 +12,11 @@
 		
 	}
 	&__slide {
-		
+		max-height:713px;
 	}
 	&__image {
 		min-width: 100%;
-		max-height:713px;
+	    z-index: 1;
 	}
 	&__caption {
 		color: $alternate;
