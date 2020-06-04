@@ -27,22 +27,6 @@ if (have_rows('tab')) {
 			wp_reset_query();
 			echo '</ul>'.PHP_EOL;
 			echo '<div class="tabbed__content tab-content">'.PHP_EOL;
-			$tabpanel__count = 0;
-			while (have_rows('tab')) {
-				the_row();
-				$tab__image   = get_sub_field('tab__image');
-				$tab__content = get_sub_field('tab__content');
-				$tab__button  = get_sub_field('tab__button');
-				echo '<div class="tab-pane row tabbed__pane fade show'.($tabpanel__count == 0?' active':'').'" id="home__tab-'.$tabpanel__count++ .'" role="tabpanel">'.PHP_EOL;
-				echo '<span class="tabbed__image"><img src="'.$tab__image['url'].'" alt="'.$tab__image['alt'].'" class="img-fluid"></span>'.PHP_EOL;
-				echo '<span class="tabbed__details">'.PHP_EOL;
-				echo $tab__content.PHP_EOL;
-				echo (!empty($tab__button)?''.PHP_EOL:'');
-				echo '</span>'.PHP_EOL;
-				echo '</div>'.PHP_EOL;
-			}
-			wp_reset_query();
-			echo '</div>'.PHP_EOL;
 		}
 		echo '</div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
