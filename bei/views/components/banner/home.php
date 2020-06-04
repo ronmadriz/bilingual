@@ -22,8 +22,8 @@ echo '<a class="banner__button d-inline-block" href="#">Take a Tour</a>'.PHP_EOL
 echo '</figcaption>'.PHP_EOL;
 echo '</figure>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
-echo '<a class="carousel-control-prev banner__nav" href="#bannerSlides" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>'.PHP_EOL;
-echo '<a class="carousel-control-next banner__nav" href="#bannerSlides" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>'.PHP_EOL;
+echo '<a class="carousel-control-prev banner__nav" href="#bannerSlides" role="button" data-slide="prev"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Previous</span></a>'.PHP_EOL;
+echo '<a class="carousel-control-next banner__nav" href="#bannerSlides" role="button" data-slide="next"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Next</span></a>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</section>'.PHP_EOL;
