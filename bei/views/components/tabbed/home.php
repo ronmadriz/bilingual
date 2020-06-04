@@ -1,6 +1,5 @@
 <?php
-$tab = get_field('tab');
-if ($tab) {
+if (have_rows('tab')) {
 	echo '<section id="tabbed" class="tabbed">'.PHP_EOL;
 	while (have_rows('tab')) {
 		the_row();
