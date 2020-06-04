@@ -30,5 +30,16 @@
 		width: 2.5rem;
 	}
 	&__content {}
-	&__pane {}
+	&__pane {
+		&--img {
+			@include for-tablet-up {
+				width:50%;
+			}
+		}
+		&--content {
+			@include for-tablet-up {
+				width:50%;
+			}
+		}
+	}
 }
