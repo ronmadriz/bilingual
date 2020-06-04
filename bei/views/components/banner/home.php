@@ -21,7 +21,7 @@ if (have_rows('banner')) {
 				echo '<figcaption class="banner__caption">'.PHP_EOL;
 				echo (!empty($subtitle)?'<span class="banner__subtitle subtitle text-capitalize">'.$subtitle.'</span>'.PHP_EOL:'');
 				echo (!empty($title)?'<h2 class="banner__title title">'.$title.'</h2>'.PHP_EOL:'');
-				echo (!empty($button)?'<a class="banner__button d-inline-block" href="'.esc_url($button['url']).'">'.$button['title'].'</a>'.PHP_EOL;
+				echo (!empty($button)?'<a class="banner__button d-inline-block" href="'.esc_url($button['url']).'">'.$button['title'].'</a>'.PHP_EOL:'');
 				echo '</figcaption>'.PHP_EOL;
 				echo '</figure>'.PHP_EOL;
 				$slide__count++;
