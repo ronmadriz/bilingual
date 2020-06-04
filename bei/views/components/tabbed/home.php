@@ -25,6 +25,8 @@ if (have_rows('tab')) {
 			}
 			wp_reset_postdata();
 			echo '</ul>'.PHP_EOL;
+		}
+		if (have_rows('tabbed__item')) {
 			echo '<div class="tabbed__content tab-content">'.PHP_EOL;
 			$tabpanel__count = 0;
 			while (have_rows('tab')) {
