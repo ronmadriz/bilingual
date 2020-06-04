@@ -1,6 +1,8 @@
 .tabbed {
 	&__wrapper {
 		background-color: $alternate;		
+		padding-left: 0;
+		padding-right: 0;		
 		position: relative;
 		top: -2.875rem;
 	}
@@ -45,6 +47,7 @@
 		}
 	}
 	&__details {
+		padding: 3rem;
 		@include for-tablet-up {
 			width:50%;
 		}

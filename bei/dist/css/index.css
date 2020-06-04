@@ -569,6 +569,8 @@ form .row.buttons {
 
 #page-home .tabbed__wrapper {
   background-color: #FEFEFE;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
   top: -2.875rem; }
 
@@ -614,6 +616,8 @@ form .row.buttons {
   #page-home .tabbed__image {
     width: 50%; } }
 
-@media (min-width: 786px) {
-  #page-home .tabbed__details {
-    width: 50%; } }
+#page-home .tabbed__details {
+  padding: 3rem; }
+  @media (min-width: 786px) {
+    #page-home .tabbed__details {
+      width: 50%; } }
