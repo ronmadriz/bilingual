@@ -16,7 +16,7 @@ if (have_rows('tab')) {
 				$tab__subtitle = get_sub_field('tab__subtitle');
 				echo '<li class="nav-item tabbed__item"><a class="nav-link tabbed__button'.($tab__count == 0?' active':'').'" data-toggle="tab" href="#home__tab-'.$tab__count++ .'">'.PHP_EOL;
 				echo '<svg widht="16" height="16">'.PHP_EOL;
-				echo '<use xlink:href="'.$tab__icon.'.svg"></use>'.PHP_EOL;
+				echo '<use xlink:href="'.get_stylesheet_directory().$tab__icon.'.svg"></use>'.PHP_EOL;
 				echo '</svg>'.PHP_EOL;
 				echo '<span class="tabbed__text">'.PHP_EOL;
 				echo '<h3 class="tabbed__title">'.$tab__title.'</h3>'.PHP_EOL;
