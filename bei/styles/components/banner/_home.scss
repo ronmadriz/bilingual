@@ -8,11 +8,20 @@
 	    font-size: 5.1875rem;
 	    font-weight: 600;
 	}
+	&__subtitle {
+		color: $white;
+		line-height: 1.8725rem;
+		font-family: $primary;
+		font-size: 1.8725rem;
+		font-weight: 300;
+		letter-spacing: 0px;
+		white-space: nowrap;
+	}
 	&__slides {
 		
 	}
 	&__slide {
-		min-height:713px;
+		max-height:713px;
 	}
 	&__image {
 		min-width: 100%;
