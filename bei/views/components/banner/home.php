@@ -12,16 +12,16 @@ if (have_rows('banner')) {
 			$slide__count = 0;
 			while (have_rows('slides')) {
 				the_row();
-				$subtitle = get_sub_field('subtitle');
-				$title    = get_sub_field('title');
-				$button   = get_sub_field('button');
-				$image    = get_sub_field('image');
+				$banner__subtitle = get_sub_field('subtitle');
+				$banner__title    = get_sub_field('title');
+				$banner__button   = get_sub_field('button');
+				$banner__image    = get_sub_field('image');
 				echo '<figure class="carousel-item banner__slide h-100 align-items-center '.($slide__count == 0?' active':'').'">'.PHP_EOL;
-				echo '<img src="https://demo.goodlayers.com/kingster/wp-content/uploads/2018/08/slider-1-2.jpg" alt="" class="img-fluid banner__image">'.PHP_EOL;
+				echo '<img src="'.$banner__image['url'].'" alt="'.$banner__image['alt'].'" class="img-fluid banner__image">'.PHP_EOL;
 				echo '<figcaption class="banner__caption">'.PHP_EOL;
-				echo (!empty($subtitle)?'<span class="banner__subtitle subtitle text-capitalize">'.$subtitle.'</span>'.PHP_EOL:'');
-				echo (!empty($title)?'<h2 class="banner__title title">'.$title.'</h2>'.PHP_EOL:'');
-				echo (!empty($button)?'<a class="banner__button d-inline-block" href="'.$button['url'].'">'.$button['title'].'</a>'.PHP_EOL:'');
+				echo (!empty($banner__subtitle)?'<span class="banner__subtitle subtitle text-capitalize">'.$banner__subtitle.'</span>'.PHP_EOL:'');
+				echo (!empty($banner__title)?'<h2 class="banner__title title">'.$banner__title.'</h2>'.PHP_EOL:'');
+				echo (!empty($banner__button)?'<a class="banner__button d-inline-block" href="'.$banner__button['url'].'">'.$banner__button['title'].'</a>'.PHP_EOL:'');
 				echo '</figcaption>'.PHP_EOL;
 				echo '</figure>'.PHP_EOL;
 				$slide__count++;
