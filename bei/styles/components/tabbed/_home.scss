@@ -31,6 +31,9 @@
 	}
 	&__content {}
 	&__pane {
+		> span {
+			display:inline-flex;
+		}
 		&--img {
 			@include for-tablet-up {
 				width:50%;

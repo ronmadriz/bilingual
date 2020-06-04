@@ -588,6 +588,11 @@ form .row.buttons {
   height: 2.5rem;
   width: 2.5rem; }
 
+#page-home .tabbed__pane > span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
 @media (min-width: 786px) {
   #page-home .tabbed__pane--img {
     width: 50%; } }
