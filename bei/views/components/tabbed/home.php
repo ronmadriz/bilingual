@@ -35,7 +35,7 @@ if (have_rows('tab')) {
 				$tab__button  = get_sub_field('tab__button');
 				echo '<div class="tab-pane row tabbed__pane fade show'.($tabpanel__count == 0?' active':'').'" id="home__tab-'.$tabpanel__count++ .'" role="tabpanel">'.PHP_EOL;
 				echo '<span class="tabbed__image"><img src="'.$tab__image['url'].'" alt="'.$tab__image['alt'].'" class="img-fluid"></span>'.PHP_EOL;
-				echo '<span class="tabbed__details" style="background_image:url(https://bei.ronmadriz.com/wp-content/uploads/2020/06/bei.jpg)">'.PHP_EOL;
+				echo '<span class="tabbed__details" style="background-image:url(https://bei.ronmadriz.com/wp-content/uploads/2020/06/bei.jpg)">'.PHP_EOL;
 				echo $tab__content.PHP_EOL;
 				echo (!empty($tab__button)?''.PHP_EOL:'');
 				echo '</span>'.PHP_EOL;
