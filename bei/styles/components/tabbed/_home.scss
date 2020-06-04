@@ -4,7 +4,9 @@
 		padding-left: 0;
 		padding-right: 0;		
 		position: relative;
-		top: -2.875rem;
+		@include for-desktop-up{
+			transform: translate(0px, -2.875rem);
+		}
 	}
 	&__items {
 		box-shadow: 0 -6px 24px rgba($accent_11,0.09);

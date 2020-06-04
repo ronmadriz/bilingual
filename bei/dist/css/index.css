@@ -571,8 +571,11 @@ form .row.buttons {
   background-color: #FEFEFE;
   padding-left: 0;
   padding-right: 0;
-  position: relative;
-  top: -2.875rem; }
+  position: relative; }
+  @media (min-width: 1200px) {
+    #page-home .tabbed__wrapper {
+      -webkit-transform: translate(0px, -2.875rem);
+              transform: translate(0px, -2.875rem); } }
 
 #page-home .tabbed__items {
   -webkit-box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.09);
