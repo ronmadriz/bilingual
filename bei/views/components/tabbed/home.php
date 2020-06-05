@@ -3,7 +3,7 @@ if (have_rows('tab')) {
 	echo '<section id="tabbed" class="tabbed">'.PHP_EOL;
 	while (have_rows('tab')) {
 		the_row();
-		echo '<div class="container">'.PHP_EOL;
+		echo '<div class="container-fluid">'.PHP_EOL;
 		echo '<div class="row">'.PHP_EOL;
 		echo '<div class="tabbed__wrapper col-12">'.PHP_EOL;
 		$tab__item = get_sub_field('tab__item');
