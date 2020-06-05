@@ -624,6 +624,10 @@ form .row.buttons {
   #page-home .tabbed__image {
     width: 50%; } }
 
+#page-home .tabbed__link {
+  margin-bottom: 2rem;
+  margin-top: 4rem; }
+
 #page-home .tabbed__details {
   background-color: #192f59;
   color: #FEFEFE;
