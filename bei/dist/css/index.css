@@ -618,11 +618,7 @@ form .row.buttons {
   display: flex; }
 
 #page-home .tabbed__pane > span {
-  display: block;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  display: block; }
 
 @media (min-width: 786px) {
   #page-home .tabbed__image {
