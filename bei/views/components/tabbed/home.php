@@ -35,7 +35,7 @@ if (have_rows('tab')) {
 				echo '<span class="tabbed__image"><img src="'.$tab__image['url'].'" alt="'.$tab__image['alt'].'" class="img-fluid"></span>'.PHP_EOL;
 				echo '<span class="tabbed__details">'.PHP_EOL;
 				echo $tab__content.PHP_EOL;
-				echo (!empty($tab__button)?'<a class="tabbed__button button__green" href="'.$tab__button['url'].'">'.$tab__button['title'].'</a>'.PHP_EOL:'');
+				echo (!empty($tab__button)?'<p><a class="tabbed__button button__green" href="'.$tab__button['url'].'">'.$tab__button['title'].'</a></p>'.PHP_EOL:'');
 				echo '</span>'.PHP_EOL;
 				echo '</div>'.PHP_EOL;
 			}
