@@ -9,7 +9,7 @@ echo '<p class="icons__desc">Kingster University was established by John Smith i
 echo '<a class="icons__button">Learn More</a>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="icons__item col-6 col-md-3">'.PHP_EOL;
-echo '<img class="icons__img" src="'.get_stylesheet_directory_uri().'/sprites/globe.svg" alt="">'.PHP_EOL;
+echo '<img class="icons__img" src="'.get_stylesheet_directory_uri().'/sprites/global.svg" alt="">'.PHP_EOL;
 echo '<h3 class="icons__title">International Hubs</h3>'.PHP_EOL;
 echo '<p class="icons__desc">Kingster University was established by John Smith in 1920 for the public benefit and it is recognized.</p>'.PHP_EOL;
 echo '<a class="icons__button">Learn More</a>'.PHP_EOL;
