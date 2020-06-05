@@ -626,6 +626,7 @@ form .row.buttons {
 #page-home .tabbed__details {
   background-color: #192f59;
   color: #FEFEFE;
+  line-height: 1.7;
   padding: 3rem;
   position: relative; }
   @media (min-width: 786px) {

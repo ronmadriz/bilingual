@@ -53,6 +53,7 @@
 	&__details {
 		background-color:$accent_1;
 		color:$alternate;
+		line-height: 1.7;
 		padding: 3rem;
 		position:relative;
 		@include for-tablet-up {
