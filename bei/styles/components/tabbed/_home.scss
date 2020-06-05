@@ -58,5 +58,14 @@
 		@include for-tablet-up {
 			width:50%;
 		}
+		h2 {
+
+		}
+		h3 {
+			font-size: 1.3725rem;
+		    font-weight: 500;
+		    font-style: normal;
+		    color: #51be78;
+		}
 	}
 }

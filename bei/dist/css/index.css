@@ -631,3 +631,8 @@ form .row.buttons {
   @media (min-width: 786px) {
     #page-home .tabbed__details {
       width: 50%; } }
+  #page-home .tabbed__details h3 {
+    font-size: 1.3725rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #51be78; }
