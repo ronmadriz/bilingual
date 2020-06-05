@@ -231,7 +231,14 @@ body {
     -webkit-box-shadow: #838383 0px 0px 0px 0px;
             box-shadow: #838383 0px 0px 0px 0px; }
   .button__green {
-    background: #3db166; }
+    background: #3db166;
+    font-size: 15px;
+    color: #FEFEFE;
+    padding: 12px 29px 17px 31px;
+    text-transform: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px; }
     .button__green:hover {
       background: #339355;
       -webkit-transition: all 0.3s ease;

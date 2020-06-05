@@ -27,6 +27,6 @@
 	    box-shadow: $gray 0px 0px 0px 0px;
 	}
 	&__green {
-	   @include button-bg($accent_2);
+	   @include button-big($accent_2, $alternate);
 	}   
 }
