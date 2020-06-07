@@ -246,6 +246,9 @@ body {
     .button__green:active {
       background: #1c522f; }
 
+section:not(.banner) .container-fluid {
+  max-width: 1360px; }
+
 .subsites {
   background-color: #192f59;
   color: #FEFEFE; }

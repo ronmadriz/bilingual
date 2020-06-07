@@ -1,0 +1,7 @@
+section {
+	&:not(.banner) {
+		.container-fluid {
+		    max-width: 1360px;
+		}	
+	}
+}
