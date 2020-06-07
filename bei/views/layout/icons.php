@@ -1,6 +1,6 @@
 <?php
 echo '<section id="icons">'.PHP_EOL;
-echo '<div class="container-fluid">'.PHP_EOL;
+echo '<div class="container">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="icons__item col-6 col-md-3">'.PHP_EOL;
 echo '<img class="icons__img" src="'.get_stylesheet_directory_uri().'/sprites/books.svg" alt="">'.PHP_EOL;
