@@ -1,5 +1,5 @@
 <?php
-echo '<section id="icons">'.PHP_EOL;
+echo '<section id="icons" class="icons">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="icons__item col-6 col-md-3">'.PHP_EOL;

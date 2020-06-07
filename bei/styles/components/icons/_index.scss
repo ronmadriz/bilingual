@@ -1,0 +1,8 @@
+.icons {
+	&__item {
+		margin-bottom: 1.875rem;
+		@include for-desktop-up {
+			margin-bottom: 2.125rem;
+		}
+	}
+}
