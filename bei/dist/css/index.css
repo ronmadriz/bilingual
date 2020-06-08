@@ -697,3 +697,7 @@ form .row.buttons {
 
 #page-home .vidTab {
   padding: 5.625rem 0 3.75rem 0; }
+  #page-home .vidTab__link {
+    border: 0;
+    margin-left: 0;
+    padding: 1.5rem 2.5rem 1.5rem; }
