@@ -701,6 +701,7 @@ form .row.buttons {
   #page-home .vidTab__link {
     background-color: #f7f7f7;
     border: 0;
+    border-radius: 0;
     color: #8d8d8d;
     font-size: 1.0625rem;
     font-weight: 700;
