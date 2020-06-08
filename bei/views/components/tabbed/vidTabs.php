@@ -7,29 +7,29 @@
 				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link active" id="vidTab-1-tab" data-toggle="tab" href="#vidTab-1" role="tab" aria-controls="vidTab-1" aria-selected="true">Home</a></li>
 				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link" id="vidTab-2-tab" data-toggle="tab" href="#vidTab-2" role="tab" aria-controls="vidTab-2" aria-selected="false">Profile</a></li>
 				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link" id="vidTab-3-tab" data-toggle="tab" href="#vidTab-3" role="tab" aria-controls="vidTab-3" aria-selected="false">Contact</a></li>
+				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link" id="vidTab-4-tab" data-toggle="tab" href="#vidTab-4" role="tab" aria-controls="vidTab-4" aria-selected="false">Contact</a></li>
 				</ul>
 				<div class="tab-content vidTab__content">
-				  <div class="tab-pane fade show active vidTab__pane" id="vidTab-1" role="tabpanel" aria-labelledby="vidTab-1-tab">Raw denim you
-				    probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
-				    cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
-				    keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
-				    placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi
-				    qui.</div>
-				  <div class="tab-pane fade vidTab__pane" id="vidTab-2" role="tabpanel" aria-labelledby="vidTab-2-tab">Food truck fixie
-				    locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit,
-				    blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
-				    Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum
-				    PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS
-				    salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit,
-				    sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
-				    stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
-				  <div class="tab-pane fade vidTab__pane" id="vidTab-3" role="tabpanel" aria-labelledby="vidTab-3-tab">Etsy mixtape
-				    wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack
-				    lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
-				    locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify
-				    squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie
-				    etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog
-				    stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+					<div class="tab-pane fade show active vidTab__pane" id="vidTab-1" role="tabpanel" aria-labelledby="vidTab-1-tab">
+						<h3>Why Choose Kingster?</h3>
+						<p>The Kingster University Alumni Association is excited to announce the arrival of KU Alumni Connect. This is a new community building platform for Kinster’s alumni. It is the only place online where you can find, and connect with, all 90,000 Kingster’s alumni. All alumni are automatically enrolled!</p>
+						<p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized globally. Throughout our great history, Kingster has offered access to a wide range of academic opportunities. As a world leader in higher education, the University has pioneered change in the sector.</p>
+					</div>
+					<div class="tab-pane fade vidTab__pane" id="vidTab-2" role="tabpanel" aria-labelledby="vidTab-2-tab">
+						<h3>Self Development</h3>
+						<p>The Kingster University Alumni Association is excited to announce the arrival of KU Alumni Connect. This is a new community building platform for Kinster’s alumni. It is the only place online where you can find, and connect with, all 90,000 Kingster’s alumni. All alumni are automatically enrolled!</p>
+						<p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized globally. Throughout our great history, Kingster has offered access to a wide range of academic opportunities. As a world leader in higher education, the University has pioneered change in the sector.</p>
+					</div>
+					<div class="tab-pane fade vidTab__pane" id="vidTab-3" role="tabpanel" aria-labelledby="vidTab-3-tab">
+						<h3>Spirituality</h3>
+						<p>The Kingster University Alumni Association is excited to announce the arrival of KU Alumni Connect. This is a new community building platform for Kinster’s alumni. It is the only place online where you can find, and connect with, all 90,000 Kingster’s alumni. All alumni are automatically enrolled!</p>
+						<p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized globally. Throughout our great history, Kingster has offered access to a wide range of academic opportunities. As a world leader in higher education, the University has pioneered change in the sector.</p>
+					</div>
+					<div class="tab-pane fade vidTab__pane" id="vidTab-4" role="tabpanel" aria-labelledby="vidTab-4-tab">
+						<h3>Alumni</h3>
+						<p>The Kingster University Alumni Association is excited to announce the arrival of KU Alumni Connect. This is a new community building platform for Kinster’s alumni. It is the only place online where you can find, and connect with, all 90,000 Kingster’s alumni. All alumni are automatically enrolled!</p>
+						<p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized globally. Throughout our great history, Kingster has offered access to a wide range of academic opportunities. As a world leader in higher education, the University has pioneered change in the sector.</p>
+					</div>
 				</div>
 			</div>
 			<div class="col-12 col-md-3"></div>
