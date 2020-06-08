@@ -718,3 +718,8 @@ form .row.buttons {
     padding: 3.9375rem 3.6875rem 2.8125rem; }
     #page-home .vidTab__pane.active {
       background-color: #fefefe; }
+    #page-home .vidTab__pane h1, #page-home .vidTab__pane h2, #page-home .vidTab__pane h3 {
+      color: #192f59;
+      font-size: 1.375rem;
+      font-weight: 700;
+      text-transform: none; }

@@ -26,6 +26,12 @@
 		padding:3.9375rem 3.6875rem 2.8125rem;
 		&.active {
 			background-color:$alternate;
-		}		
+		}
+		h1, h2, h3 {
+			color: $accent_1;			
+			font-size: 1.375rem;
+			font-weight: 700;
+			text-transform: none;
+		}
 	}
 }
