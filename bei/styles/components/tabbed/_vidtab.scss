@@ -3,9 +3,10 @@
 	&__list {}
 	&__item {}
 	&__link {
+		background-color:$accent_12;
 		border: 0;
 		margin-left: 0;
-		padding: 1.5rem 2.5rem 1.5rem;		
+		padding: 1.5rem 2.5rem 1.5rem;
 	}
 	&__content {}
 	&__pane {}
