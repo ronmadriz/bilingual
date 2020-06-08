@@ -10,7 +10,7 @@ if (have_rows('icons')) {
 		$icons_desc   = get_sub_field('desc');
 		$icons_button = get_sub_field('button');
 		echo '<div class="icons__item col-6 col-md-3">'.PHP_EOL;
-		echo '<img class="icons__img" src="'.$icons_icon['url'].'" alt="'.$icons_icon['alt'].'" class="img-fluid">'.PHP_EOL;
+		echo '<img class="icons__img" src="'.get_stylesheet_directory_uri().'/sprites/'.$tab__icon.'.svg" alt="'.$icons_icon.'" class="img-fluid">'.PHP_EOL;
 		echo '<h3 class="icons__title">'.$icons_title.'</h3>'.PHP_EOL;
 		echo '<p class="icons__desc">'.$icons_desc.'</p>'.PHP_EOL;
 		echo '<a class="icons__button" href="'.$icons_button['url'].'">'.$icons_button['title'].'</a>'.PHP_EOL;
