@@ -8,6 +8,10 @@
 	&__img {
 		height:2.5rem;
 		width:2.5rem;
+	    margin-bottom: 1.75rem;
+	    @include for-desktop-up {
+		    margin-bottom: 2.1875rem;
+	    }
 	}
 	&__title {
 	    font-size: 1.5rem;

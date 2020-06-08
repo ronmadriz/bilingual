@@ -541,7 +541,11 @@ form .row.buttons {
 
 .icons__img {
   height: 2.5rem;
-  width: 2.5rem; }
+  width: 2.5rem;
+  margin-bottom: 1.75rem; }
+  @media (min-width: 1200px) {
+    .icons__img {
+      margin-bottom: 2.1875rem; } }
 
 .icons__title {
   font-size: 1.5rem;
