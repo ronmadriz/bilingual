@@ -685,3 +685,10 @@ form .row.buttons {
     font-style: normal;
     font-weight: 500;
     line-height: 3rem; }
+
+#page-home #page-home .icons {
+  background-color: #192f59; }
+  #page-home #page-home .icons__title {
+    color: #FEFEFE; }
+  #page-home #page-home .icons__desc {
+    color: #e6e6e6; }
