@@ -5,13 +5,17 @@
 	&__link {
 		background-color:$accent_12;
 		border: 0;
-		color:$alto;
+		color:$outline;
 		font-size: 1.0625rem;
 		font-weight: 700;
 		letter-spacing: 0;
 		margin-left: 0;
 		padding: 1.5rem 2.5rem 1.5rem;
 	    text-transform: none;
+	    &.active {
+	    	background-color: $alternate;
+	    	color:$base;
+	    }
 	}
 	&__content {}
 	&__pane {}
