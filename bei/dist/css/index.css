@@ -533,6 +533,23 @@ form .row.buttons {
       table tbody tr + tr {
         margin-top: 1.5em; } }
 
+.icons__item {
+  margin-bottom: 1.875rem; }
+  @media (min-width: 1200px) {
+    .icons__item {
+      margin-bottom: 2.125rem; } }
+
+.icons__img {
+  height: 2.5rem;
+  width: 2.5rem; }
+
+.icons__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-bottom: 1.375rem;
+  text-transform: none; }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
