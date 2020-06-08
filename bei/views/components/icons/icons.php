@@ -16,6 +16,7 @@ if (have_rows('icons')) {
 		echo (!empty($icons_button)?'<a class="icons__button" href="'.$icons_button['url'].'">'.$icons_button['title'].'</a>'.PHP_EOL:'');
 		echo '</div>'.PHP_EOL;
 	}
+	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
