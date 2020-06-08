@@ -550,6 +550,11 @@ form .row.buttons {
   margin-bottom: 1.375rem;
   text-transform: none; }
 
+.icons__desc {
+  line-height: 1.7;
+  margin-bottom: 20px;
+  margin-top: 0; }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
