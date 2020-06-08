@@ -561,6 +561,7 @@ form .row.buttons {
     margin-bottom: 20px;
     margin-top: 0; }
   .icons__button {
+    color: #3db166;
     display: inline-block;
     font-family: "Poppins", sans-serif;
     font-size: .875rem;
