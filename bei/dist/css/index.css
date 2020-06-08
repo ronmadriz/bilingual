@@ -711,5 +711,8 @@ form .row.buttons {
     #page-home .vidTab__link.active {
       background-color: #fefefe;
       color: #101010; }
-  #page-home .vidTab__content {
+  #page-home .vidTab__pane {
+    background-color: #f7f7f7;
     padding: 3.9375rem 3.6875rem 2.8125rem; }
+    #page-home .vidTab__pane.active {
+      background-color: #fefefe; }
