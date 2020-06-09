@@ -48,7 +48,7 @@
   }
 }
 
-@mixin color-block ($color-block) {
+@mixin color-block ($color-block, $color-block-width) {
   &:after {
       background-color: $color-block;
       content: '';
@@ -56,7 +56,7 @@
       height: 100%;
       position: absolute;
       top: 0;
-      width: 100%;      
+      width: $color-block-width;      
       z-index: -1;
   } 
 }

@@ -750,11 +750,11 @@ form .row.buttons {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 100%;
     z-index: -1; }
   @media (min-width: 786px) {
     #page-home .news-brief:after {
-      right: 0; } }
+      right: 0;
+      width: 38%; } }
   #page-home .news-brief .brief {
     padding: 5rem 3.125rem 0 0; }
     #page-home .news-brief .brief__details {
