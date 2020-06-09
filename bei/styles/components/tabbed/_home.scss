@@ -35,7 +35,9 @@
 		height: 2.5rem;
 		width: 2.5rem;
 	}
-	&__content {}
+	&__content {
+		background-color: $alternate;
+	}
 	&__pane {
 		&.active {
 			display:flex;

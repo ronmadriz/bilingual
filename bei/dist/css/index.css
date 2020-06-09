@@ -567,6 +567,10 @@ form .row.buttons {
     font-size: .875rem;
     font-style: normal; }
 
+.inline_icon {
+  height: 0.95rem;
+  width: 0.95rem; }
+
 .logos {
   padding: 3.4375rem 0 1.25rem 0; }
 
@@ -652,6 +656,9 @@ form .row.buttons {
   height: 2.5rem;
   width: 2.5rem; }
 
+#page-home .tabbed__content {
+  background-color: #fefefe; }
+
 #page-home .tabbed__pane.active {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -697,37 +704,3 @@ form .row.buttons {
     color: #fefefe; }
   #page-home .icons__desc {
     color: #e6e6e6; }
-
-#page-home .vidTab {
-  background-color: #e6e6e6;
-  padding: 5.625rem 0 3.75rem 0; }
-  #page-home .vidTab__link {
-    background-color: #f7f7f7;
-    border: 0;
-    border-radius: 0;
-    color: #8d8d8d;
-    font-size: 1.0625rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    margin-left: 0;
-    padding: 1.5rem 2.5rem 1.5rem;
-    text-transform: none; }
-    #page-home .vidTab__link.active {
-      background-color: #fefefe;
-      color: #101010; }
-  #page-home .vidTab__pane {
-    background-color: #f7f7f7;
-    color: #8d8d8d;
-    line-height: 1.7;
-    padding: 3.9375rem 3.6875rem 2.8125rem; }
-    #page-home .vidTab__pane.active {
-      background-color: #fefefe; }
-    #page-home .vidTab__pane h1, #page-home .vidTab__pane h2, #page-home .vidTab__pane h3 {
-      color: #192f59;
-      font-size: 1.375rem;
-      font-weight: 700;
-      margin-bottom: 1.875rem;
-      text-transform: none; }
-  #page-home .vidTab__info {
-    padding-left: 0;
-    padding-right: 0; }
