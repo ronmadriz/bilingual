@@ -2,7 +2,7 @@
 <section id="vidTab" class="vidTab">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 vidTab__info col-lg-9 order-md-12">
+			<div class="col-12 vidTab__info order-md-12">
 				<ul class="nav nav-tabs vidTab__list" role="tablist">
 				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link active" id="vidTab-1-tab" data-toggle="tab" href="#vidTab-1" role="tab" aria-controls="vidTab-1" aria-selected="true">Home</a></li>
 				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link" id="vidTab-2-tab" data-toggle="tab" href="#vidTab-2" role="tab" aria-controls="vidTab-2" aria-selected="false">Profile</a></li>
