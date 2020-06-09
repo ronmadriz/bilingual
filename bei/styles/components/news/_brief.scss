@@ -41,7 +41,9 @@
 		}
 		&__date {}
 		&__author {}
-		&__featured {}
+		&__featured {
+			padding-left: 0;
+		}
 		&__list {}
 		&__item {
 			margin-bottom: 1rem;
