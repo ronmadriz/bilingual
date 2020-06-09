@@ -739,7 +739,6 @@ form .row.buttons {
     padding-right: 0; }
 
 #page-home .news-brief:after {
-  background-color: #192f59;
   content: '';
   display: block;
   height: 100%;
@@ -748,6 +747,9 @@ form .row.buttons {
   top: 0;
   width: 33%;
   z-index: -1; }
+
+#page-home .news-brief:after {
+  background-color: #192f59; }
 
 #page-home .quick {
   color: #fefefe;
