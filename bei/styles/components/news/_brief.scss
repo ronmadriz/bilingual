@@ -4,6 +4,7 @@
 	@include for-tablet-up {
 		&:after{
 			right:0;
+			width: 38%;
 		}
 	}
 	.brief {

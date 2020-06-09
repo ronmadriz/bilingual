@@ -750,7 +750,7 @@ form .row.buttons {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 33%;
+    width: 100%;
     z-index: -1; }
   @media (min-width: 786px) {
     #page-home .news-brief:after {
