@@ -15,4 +15,16 @@
 		height:.75rem;
 		width:.75rem;
 	}
+	&__list {}
+	&__item {
+		font-size: 1rem;
+		font-weight: 600;
+		letter-spacing: 0;
+		text-transform: none;
+	}
+	&__link {
+		display:block;
+		padding:0 1.25rem 1.25rem 1.25rem;
+		color:$accent_2;		
+	}
 }
