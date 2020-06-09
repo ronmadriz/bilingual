@@ -725,3 +725,9 @@ form .row.buttons {
       font-weight: 700;
       margin-bottom: 1.875rem;
       text-transform: none; }
+  #page-home .vidTab__info {
+    padding-left: 0;
+    padding-right: 0; }
+  #page-home .vidTab__images {
+    padding-left: 0;
+    padding-right: 0; }
