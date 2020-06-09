@@ -750,7 +750,6 @@ form .row.buttons {
   z-index: -1; }
 
 #page-home .quick {
-  background-color: #192f59;
   color: #fefefe;
   padding: 6rem 0px 0px 4.0625rem; }
   #page-home .quick__title {
@@ -774,6 +773,6 @@ form .row.buttons {
     text-transform: none; }
   #page-home .quick__link {
     display: block;
-    border: 0.0625rem solid #e6e6e6;
+    border-bottom: 0.0625rem solid #e6e6e6;
     padding: 0 1.25rem 1.25rem 1.25rem;
     color: #3db166; }

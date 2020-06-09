@@ -2,7 +2,7 @@
 echo '<section id="news" class="news-brief">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
-echo '<div id="briefd" class="brief col-12 col-md-9">'.PHP_EOL;
+echo '<div id="brief" class="brief col-12 col-md-9">'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div id="quick" class="quick col-12 col-md-3">'.PHP_EOL;
 echo '<h3 class="quick__title">';
