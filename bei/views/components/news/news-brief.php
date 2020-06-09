@@ -45,6 +45,7 @@ if ($brief_query->have_posts()) {
 		echo '<h3 class="brief__title brief__item--title"><a href="#" class="brief__link">Professor Albert joint research on mobile money in Tanzania</a></h3>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
+	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
 }
 echo '</div>'.PHP_EOL;
