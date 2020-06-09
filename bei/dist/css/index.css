@@ -741,15 +741,17 @@ form .row.buttons {
     padding-left: 0;
     padding-right: 0; }
 
-#page-home .news-brief:after {
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 33%;
-  z-index: -1; }
+@media (min-width: 786px) {
+  #page-home .news-brief {
+    right: 0; }
+    #page-home .news-brief:after {
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 33%;
+      z-index: -1; } }
 
 #page-home .news-brief:after {
   background-color: #192f59; }
