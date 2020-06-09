@@ -769,10 +769,12 @@ form .row.buttons {
   #page-home .news-brief__title {
     font-size: 1.5rem;
     font-style: normal;
+    font-weight: 700;
     text-transform: none;
     letter-spacing: 0px;
     color: #192f59; }
   #page-home .news-brief__link {
+    font-size: 0.875rem;
     color: #3db166;
     display: inline-block;
     margin-top: 8px; }
