@@ -2,7 +2,7 @@
 <section id="vidTab" class="vidTab">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-md-9 order-md-12">
+			<div class="col-12 col-lg-9 order-md-12">
 				<ul class="nav nav-tabs vidTab__list" role="tablist">
 				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link active" id="vidTab-1-tab" data-toggle="tab" href="#vidTab-1" role="tab" aria-controls="vidTab-1" aria-selected="true">Home</a></li>
 				  <li class="nav-item vidTab__item"><a class="vidTab__link nav-link" id="vidTab-2-tab" data-toggle="tab" href="#vidTab-2" role="tab" aria-controls="vidTab-2" aria-selected="false">Profile</a></li>
@@ -32,7 +32,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-3"></div>
+			<div class="vidTab__images d-none d-lg-block col-lg-3">
+				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-1.jpg" class="vidTab__image img-fluid"></a>
+				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-2.jpg" class="vidTab__image img-fluid"></a>
+				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-3.jpg" class="vidTab__image img-fluid"></a>
+				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-4.jpg" class="vidTab__image img-fluid"></a>
+			</div>
 		</div>
 	</div>
 </section>
