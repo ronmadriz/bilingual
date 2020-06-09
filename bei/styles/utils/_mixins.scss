@@ -48,9 +48,8 @@
   }
 }
 
-@mixin color-block-right ($block-bg-color) {
+@mixin color-block-right {
   &:after {
-      background-color: $block-bg-color;
       content: '';
       display: block;
       height: 100%;
