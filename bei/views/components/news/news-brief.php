@@ -1,5 +1,5 @@
 <?php
-echo '<section id="news" class="news">'.PHP_EOL;
+echo '<section id="news" class="news-brief">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div id="briefd" class="brief col-12 col-md-9">'.PHP_EOL;

@@ -738,6 +738,17 @@ form .row.buttons {
     padding-left: 0;
     padding-right: 0; }
 
+#page-home .news-brief:after {
+  background-color: #192f59;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 33%;
+  z-index: -1; }
+
 #page-home .quick {
   background-color: #192f59;
   color: #fefefe;
@@ -753,6 +764,9 @@ form .row.buttons {
     fill: #fefefe;
     height: .75rem;
     width: .75rem; }
+  #page-home .quick__list {
+    list-style-type: none;
+    padding-left: 0; }
   #page-home .quick__item {
     font-size: 1rem;
     font-weight: 600;
@@ -760,5 +774,6 @@ form .row.buttons {
     text-transform: none; }
   #page-home .quick__link {
     display: block;
+    border: 0.0625rem solid #e6e6e6;
     padding: 0 1.25rem 1.25rem 1.25rem;
     color: #3db166; }

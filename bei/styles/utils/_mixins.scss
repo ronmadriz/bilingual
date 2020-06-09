@@ -47,3 +47,17 @@
     width: 100%; 
   }
 }
+
+@mixin color-block-right ($block-bg-color) {
+  &:after {
+      background-color: $block-bg-color;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 33%;
+      z-index: -1;
+  } 
+}

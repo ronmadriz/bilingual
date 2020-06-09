@@ -1,1 +1,5 @@
 @import 'brief';
+
+.news-brief {
+	@include color-block-right($accent_1);
+}
