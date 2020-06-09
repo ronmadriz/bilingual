@@ -6,7 +6,7 @@ echo '<div id="briefd" class="brief col-12 col-md-9">'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div id="quick" class="quick col-12 col-md-3">'.PHP_EOL;
 echo '<h3 class="quick__title">';
-echo '<span class="inline_icon">'.file_get_contents(get_template_directory_uri().'/sprites/link.svg').'</span> ';
+echo '<span class="quick__icon">'.file_get_contents(get_template_directory_uri().'/sprites/link.svg').'</span> ';
 _e('Quick Links', 'bei_core');
 echo '</h3>'.PHP_EOL;
 echo '<ul class="quick__list">'.PHP_EOL;
