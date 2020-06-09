@@ -1,7 +1,10 @@
 .news-brief {
+	position:relative;
 	@include color-block($accent_1);
 	@include for-tablet-up {
-		right: 0;
+		&:after{
+			right:0;
+		}
 	}
 	.brief {
 		padding: 5rem 3.125rem 0 0;
