@@ -37,8 +37,8 @@ $brief_args = array(
 $brief_query = new WP_query($brief_args);
 if ($brief_query->have_posts()) {
 	echo '<div class="brief__list col-12 col-md-6">'.PHP_EOL;
-	while ($featured_brief_query->have_posts()) {
-		$featured_brief_query->the_post();
+	while ($brief_query->have_posts()) {
+		$brief_query->the_post();
 		echo '<article class="brief__item">'.PHP_EOL;
 		echo '<span class="brief__image brief__item--image"><img src="https://via.placeholder.com/90" alt="featured story image" class="img-fluid"></span>'.PHP_EOL;
 		echo '<span class="brief__details brief__item--details"><date class="brief__date">JUNE 6, 2016</date> <a href="#" class="brief__category">ADMISSION</a>, <a href="#" class="brief__author">STUDENT</a></span>'.PHP_EOL;
