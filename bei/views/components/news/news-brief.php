@@ -2,8 +2,6 @@
 echo '<section id="news" class="news-brief">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
-$brief_id            = get_the_ID();
-$brief_cats          = wp_get_post_categories($brief_id);
 $featured_brief_args = array(
 	'post_type'      => 'post',
 	'posts_per_page' => '1',
@@ -19,6 +17,8 @@ if ($featured_brief_query->have_posts()) {
 	echo '</a></p>'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
 	while ($featured_brief_query->have_posts()) {
+		$brief_id   = get_the_ID();
+		$brief_cats = wp_get_post_categories($brief_id);
 		$featured_brief_query->the_post();
 		echo '<div class="brief__featured col-12 col-md-6">'.PHP_EOL;
 		echo '<span class="brief__image"><a href="'.get_the_permalink().'"><img src="https://via.placeholder.com/640x480" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
