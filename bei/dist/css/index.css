@@ -753,3 +753,12 @@ form .row.buttons {
     fill: #fefefe;
     height: .75rem;
     width: .75rem; }
+  #page-home .quick__item {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none; }
+  #page-home .quick__link {
+    display: block;
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    color: #3db166; }
