@@ -1,4 +1,5 @@
 <?php
+$brief_id = get_the_ID();
 echo '<section id="news" class="news-brief">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
@@ -17,12 +18,12 @@ if ($featured_brief_query->have_posts()) {
 	echo '</a></p>'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
 	while ($featured_brief_query->have_posts()) {
-		$brief_id  = get_the_ID();
-		$brief_cat = wp_get_post_categories($brief_id);
 		$featured_brief_query->the_post();
 		echo '<div class="brief__featured col-12 col-md-6">'.PHP_EOL;
-		echo '<span class="brief__image"><a href="'.get_the_permalink().'"><img src="https://via.placeholder.com/640x480" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
-		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> <a href="#" class="brief__category">'.$brief_cat[0]->name.'</a>, <a href="#" class="brief__author">STUDENT</a></span>'.PHP_EOL;
+		echo '<span class="brief__image"><a href="'.get_the_permalink($brief_id).'"><img src="https://via.placeholder.com/640x480" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
+		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> <a href="#" class="brief__category">';
+		the_category();
+		echo '</a>, <a href="#" class="brief__author">STUDENT</a></span>'.PHP_EOL;
 		echo '<h3 class="brief__title"><a href="'.get_the_permalink().'" class="brief__link">'.get_the_title().'</a></h3>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	}
