@@ -1,8 +1,10 @@
 .news-brief {
-	.container-fluid {
-		max-width:100%;
+	@include color-block-right;
+	&:after {
+		background-color: $accent_1;
 	}
 	.brief {
+		padding: 5rem 3.125rem 0 0;
 		&__image {}
 		&__details {
 			border: none;
