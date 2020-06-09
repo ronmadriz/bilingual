@@ -6,6 +6,9 @@
   color: inherit;
   background-color: transparent; }
 
+a:hover {
+  text-transform: none; }
+
 @font-face {
   font-family: 'Poppins';
   src: url("../../fonts/Poppins-Thin.woff2") format("woff2"), url("../../fonts/Poppins-Thin.woff") format("woff");
@@ -775,7 +778,7 @@ form .row.buttons {
     letter-spacing: 0;
     text-transform: none; }
   #page-home .quick__link {
+    color: #3db166;
     display: block;
     border-bottom: 0.0625rem solid #e6e6e6;
-    padding: 0 1.25rem 1.25rem 1.25rem;
-    color: #3db166; }
+    padding: 1.25rem; }

@@ -25,9 +25,9 @@
 		text-transform: none;
 	}
 	&__link {
+		color:$accent_2;		
 		display:block;
 		border-bottom:.0625rem solid $accent_5;
-		padding:0 1.25rem 1.25rem 1.25rem;
-		color:$accent_2;		
+		padding:1.25rem;
 	}
 }
