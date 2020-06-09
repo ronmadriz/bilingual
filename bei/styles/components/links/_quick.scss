@@ -10,6 +10,7 @@
 		text-transform: none;
 	}
 	&__icon {
+		display: inline-block;
 		fill:$alternate;
 		height:.75rem;
 		width:.75rem;
