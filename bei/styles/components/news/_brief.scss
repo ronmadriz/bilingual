@@ -3,7 +3,6 @@
 		max-width:100%;
 	}
 	.brief {
-		&__list {}
 		&__image {}
 		&__details {
 			border: none;
@@ -20,6 +19,15 @@
 		&__date {}
 		&__author {}
 		&__featured {}
+		&__list {}
+		&__item {
+			margin-bottom: 1rem;
+			&--image {
+			    display: inline-block;
+			    float: left;
+			    margin-right: 1rem;				
+			}
+		}
 	}
 	.quick {
 		background-color: $accent_1;
