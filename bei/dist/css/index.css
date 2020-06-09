@@ -766,6 +766,16 @@ form .row.buttons {
     #page-home .news-brief:after {
       right: 0;
       width: 38%; } }
+  #page-home .news-brief__title {
+    font-size: 1.5rem;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #192f59; }
+  #page-home .news-brief__link {
+    color: #3db166;
+    display: inline-block;
+    margin-top: 8px; }
   #page-home .news-brief .brief {
     padding: 5rem 3.125rem 0 0; }
     #page-home .news-brief .brief__details {

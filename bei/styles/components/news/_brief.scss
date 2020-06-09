@@ -17,7 +17,11 @@
 		letter-spacing: 0px;
 		color: $accent_1;
 	}
-	&__link {}
+	&__link {
+		color: $accent_2;
+	    display: inline-block;
+	    margin-top: 8px;
+	}
 	.brief {
 		padding: 5rem 3.125rem 0 0;
 		&__image {}
