@@ -37,12 +37,10 @@ echo '<span class="quick__icon">'.file_get_contents(get_template_directory_uri()
 _e('Quick Links', 'bei_core');
 echo '</h3>'.PHP_EOL;
 echo '<ul class="quick__list">'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">Alumni &amp; Donors</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">Athletic Calendar</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">All Kingster&apos;s Events</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">Partnership &amp; Out Reach</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">Academic Programs</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">Tution And Fees</a></li>'.PHP_EOL;
+echo '<li class="quick__item"><a href="#" class="quick__link">Do you like to Learn Spanish?</a></li>'.PHP_EOL;
+echo '<li class="quick__item"><a href="#" class="quick__link">#BEIOnline #BEIStrong</a></li>'.PHP_EOL;
+echo '<li class="quick__item"><a href="#" class="quick__link">Our Promotion</a></li>'.PHP_EOL;
+echo '<li class="quick__item"><a href="#" class="quick__link">About Change of StatusCorona Virus Update</a></li>'.PHP_EOL;
 echo '</ul>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
