@@ -728,6 +728,8 @@ form .row.buttons {
   #page-home .vidTab__info {
     padding-left: 0;
     padding-right: 0; }
-  #page-home .vidTab__images {
+  #page-home .vidTab__image {
     padding-left: 0;
     padding-right: 0; }
+    #page-home .vidTab__image--link {
+      position: absolute; }

@@ -32,12 +32,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="vidTab__images d-none d-lg-block col-lg-3">
-				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-1.jpg" class="vidTab__image img-fluid"></a>
-				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-2.jpg" class="vidTab__image img-fluid"></a>
-				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-3.jpg" class="vidTab__image img-fluid"></a>
-				<a href="#" class="vidTab__image--link"><img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/tab-4.jpg" class="vidTab__image img-fluid"></a>
-			</div>
 		</div>
 	</div>
 </section>
