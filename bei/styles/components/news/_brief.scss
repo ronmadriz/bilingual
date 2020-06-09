@@ -3,7 +3,13 @@
 		max-width:100%;
 	}
 	.brief {
-		
+		&__list {}
+		&__image {}
+		&__details {}
+		&__title {}
+		&__date {}
+		&__author {}
+		&__featured {}
 	}
 	.quick {
 		background-color: $accent_1;
