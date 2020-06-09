@@ -749,6 +749,7 @@ form .row.buttons {
     padding-bottom: 2.5rem;
     text-transform: none; }
   #page-home .quick__icon {
+    display: inline-block;
     fill: #fefefe;
     height: .75rem;
     width: .75rem; }
