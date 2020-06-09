@@ -5,7 +5,7 @@ echo '<div class="row">'.PHP_EOL;
 echo '<div class="col-12 col-md-9">'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="col-12 col-md-3">'.PHP_EOL;
-echo '<h3><img src="'.get_template_directory().'/sprites/link.svg" alt="" class="inline_icon">';
+echo '<h3><img src="'.get_template_directory_uri().'/sprites/link.svg" alt="" class="inline_icon">';
 _e('Quick Links', 'bei_core');
 echo '</h3>'.PHP_EOL;
 echo '<ul>'.PHP_EOL;
