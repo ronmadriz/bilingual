@@ -742,16 +742,28 @@ form .row.buttons {
     padding-right: 0; }
 
 #page-home .news-brief {
+  background-color: #e6e6e6;
   position: relative; }
-  #page-home .news-brief:after {
-    background-color: #192f59;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1; }
+  @media (max-width: 786px) {
+    #page-home .news-brief:after {
+      background-color: #192f59;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1; } }
   @media (min-width: 786px) {
+    #page-home .news-brief:after {
+      background-color: #192f59;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 38%;
+      z-index: -1; }
     #page-home .news-brief:after {
       right: 0;
       width: 38%; } }
