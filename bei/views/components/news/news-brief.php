@@ -4,7 +4,8 @@ echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div id="brief" class="brief col-12 col-md-8">'.PHP_EOL;
 ?>
-<h2>News &amp; Updates</h2>
+<h2 class="news-brief__title">News &amp; Updates</h2>
+<p><a class="news-brief__link" href="#">Read All News</a></p>
 <div class="row">
 	<div class="brief__featured col-12 col-md-6">
 		<span class="brief__image"><img src="https://via.placeholder.com/640x480" alt="featured story image" class="img-fluid"></span>
