@@ -738,5 +738,17 @@ form .row.buttons {
     padding-left: 0;
     padding-right: 0; }
 
-#page-home .quick_links {
+#page-home .quick {
+  background-color: #192f59;
+  color: #fefefe;
   padding: 6rem 0px 0px 4.0625rem; }
+  #page-home .quick__title {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding-bottom: 2.5rem;
+    text-transform: none; }
+  #page-home .quick__icon {
+    fill: #fefefe;
+    height: .75rem;
+    width: .75rem; }
