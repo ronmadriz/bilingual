@@ -20,7 +20,7 @@ if ($featured_brief_query->have_posts()) {
 	while ($featured_brief_query->have_posts()) {
 		$featured_brief_query->the_post();
 		echo '<div class="brief__featured col-12 col-md-6">'.PHP_EOL;
-		echo '<span class="brief__image"><a href="'.get_the_permalink($brief_id).'"><img src="https://via.placeholder.com/640x480" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
+		echo '<span class="brief__image"><a href="'.get_the_permalink().'"><img src="https://via.placeholder.com/640x480" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
 		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> <a href="#" class="brief__category">';
 		the_category(' ');
 		echo '</a>, <a href="#" class="brief__author">STUDENT</a></span>'.PHP_EOL;
@@ -40,9 +40,9 @@ if ($brief_query->have_posts()) {
 	while ($brief_query->have_posts()) {
 		$brief_query->the_post();
 		echo '<article class="brief__item">'.PHP_EOL;
-		echo '<span class="brief__image brief__item--image"><a href="'.get_the_permalink($brief_id).'"><img src="https://via.placeholder.com/90" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
+		echo '<span class="brief__image brief__item--image"><a href="'.get_the_permalink().'"><img src="https://via.placeholder.com/90" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
 		echo '<span class="brief__details brief__item--details"><date class="brief__date">JUNE 6, 2016</date> <a href="#" class="brief__category">ADMISSION</a>, <a href="#" class="brief__author">STUDENT</a></span>'.PHP_EOL;
-		echo '<h3 class="brief__title brief__item--title"><a href="'.get_the_permalink($brief_id).'" class="brief__link">Professor Albert joint research on mobile money in Tanzania</a></h3>'.PHP_EOL;
+		echo '<h3 class="brief__title brief__item--title"><a href="'.get_the_permalink().'" class="brief__link">Professor Albert joint research on mobile money in Tanzania</a></h3>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
 	wp_reset_postdata();
