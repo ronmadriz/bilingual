@@ -1,4 +1,5 @@
 .news-brief {
+	background-color:$accent_5;
 	position:relative;
 	@include for-phone-only {
 		@include color-block($accent_1, 100%);
