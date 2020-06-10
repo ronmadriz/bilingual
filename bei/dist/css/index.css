@@ -305,6 +305,11 @@ section:not(.banner) .container-fluid {
         .subsites__nav li:last-of-type a:hover {
           background-color: #5bc681; }
 
+@media (min-width: 1200px) {
+  .main__nav {
+    padding-left: 15.5vw;
+    padding-right: 15.5vw; } }
+
 .main__nav--search {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -839,6 +844,10 @@ form .row.buttons {
       margin-bottom: 20px; }
     #page-home .news-brief .brief__featured {
       padding-left: 0; }
+    @media (max-width: 786px) {
+      #page-home .news-brief .brief__list {
+        padding-left: 0;
+        padding-right: 0; } }
     #page-home .news-brief .brief__item {
       clear: both;
       margin-bottom: 1rem; }
