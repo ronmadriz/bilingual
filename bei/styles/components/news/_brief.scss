@@ -26,7 +26,9 @@
 	}
 	.brief {
 		padding: 5rem 3.125rem 0 0;
-		&__image {}
+		&__image {
+		    margin-bottom:3.125rem;
+		}
 		&__details {
 			border: none;
 			color:$accent_13;
