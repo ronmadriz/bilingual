@@ -623,7 +623,8 @@ form .row.buttons {
 #page-home .banner__title {
   font-family: "Poppins", sans-serif;
   font-size: 2.1875rem;
-  font-weight: 600; }
+  font-weight: 600;
+  line-height: 2; }
   @media (min-width: 786px) {
     #page-home .banner__title {
       font-size: 5.1875rem; } }
