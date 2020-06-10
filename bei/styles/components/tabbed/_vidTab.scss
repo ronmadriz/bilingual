@@ -30,7 +30,10 @@
 		background-color:$accent_12;
 		color:$outline;
 		line-height: 1.7;
-		padding:3.9375rem 3.6875rem 2.8125rem;
+		padding: 1.9375rem 2.25rem 1.8125rem;
+		@include for-tablet-up {
+			padding:3.9375rem 3.6875rem 2.8125rem;
+		}
 		&.active {
 			background-color:$alternate;
 		}

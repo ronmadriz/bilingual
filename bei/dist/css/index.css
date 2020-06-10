@@ -760,7 +760,10 @@ form .row.buttons {
     background-color: #f7f7f7;
     color: #8d8d8d;
     line-height: 1.7;
-    padding: 3.9375rem 3.6875rem 2.8125rem; }
+    padding: 1.9375rem 2.25rem 1.8125rem; }
+    @media (min-width: 786px) {
+      #page-home .vidTab__pane {
+        padding: 3.9375rem 3.6875rem 2.8125rem; } }
     #page-home .vidTab__pane.active {
       background-color: #fefefe; }
     #page-home .vidTab__pane h1, #page-home .vidTab__pane h2, #page-home .vidTab__pane h3 {
