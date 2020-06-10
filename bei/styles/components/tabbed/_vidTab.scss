@@ -8,12 +8,16 @@
 		border: 0;
 		border-radius: 0;
 		color:$outline;
-		font-size: 1.0625rem;
+		font-size:.875rem;
 		font-weight: 700;
 		letter-spacing: 0;
 		margin-left: 0;
-		padding: 1.5rem 2.5rem 1.5rem;
+		padding:1.15rem .875rem;
 		text-transform: none;
+		@include for-tablet-up{
+			font-size: 1.0625rem;
+			padding: 1.5rem 2.5rem;
+		}
 		&.active {
 			background-color: $alternate;
 			color:$base;
