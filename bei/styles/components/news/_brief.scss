@@ -62,6 +62,7 @@
 		}
 		&__list {}
 		&__item {
+			clear:both;
 			margin-bottom: 1rem;
 			&--image {
 			    display: inline-block;

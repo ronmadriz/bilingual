@@ -840,6 +840,7 @@ form .row.buttons {
     #page-home .news-brief .brief__featured {
       padding-left: 0; }
     #page-home .news-brief .brief__item {
+      clear: both;
       margin-bottom: 1rem; }
       #page-home .news-brief .brief__item--image {
         display: inline-block;
