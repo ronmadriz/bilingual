@@ -60,7 +60,12 @@
 		&__featured {
 			padding-left: 0;
 		}
-		&__list {}
+		&__list {
+			@include for-phone-only {
+				padding-left: 0;
+				padding-right: 0;
+			}			
+		}
 		&__item {
 			clear:both;
 			margin-bottom: 1rem;
