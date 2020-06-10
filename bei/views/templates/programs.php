@@ -1,5 +1,8 @@
 <?php
 if(have_posts()) {
-	the_title();
-	the_content()
+	while(have_posts()){
+		the_post();
+		the_title();
+		the_content()		
+	}
 }
