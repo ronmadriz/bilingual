@@ -639,6 +639,10 @@ form .row.buttons {
     #page-home .banner__title {
       font-size: 5.1875rem; } }
 
+@media (max-width: 786px) {
+  #page-home .tabbed {
+    padding-bottom: .9375rem; } }
+
 #page-home .tabbed__wrapper {
   background-color: #fefefe;
   padding-left: 0;

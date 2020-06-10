@@ -1,4 +1,7 @@
 .tabbed {
+	@include for-phone-only {
+		padding-bottom:.9375rem;
+	}
 	&__wrapper {
 		background-color: $alternate;		
 		padding-left: 0;
