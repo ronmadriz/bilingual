@@ -27,6 +27,7 @@
 	.brief {
 		padding: 5rem 3.125rem 0 0;
 		&__image {
+			display:block;
 		    margin-bottom:1.6875rem;
 		}
 		&__details {
@@ -60,17 +61,15 @@
 		&__item {
 			margin-bottom: 1rem;
 			&--image {
-			    display: flex;
-			    flex: 0 0 100%;
+			    display: inline-block;
+			    float: left;
 			    margin-right: 1rem;				
 			}
 			&--details {
-				display:flex;
-				flex:0 0 50%;
+				float:left;
 			}
 			&--title {
-				display:flex;
-				flex:0 0 50%;
+				float:left;
 			}
 		}
 	}
