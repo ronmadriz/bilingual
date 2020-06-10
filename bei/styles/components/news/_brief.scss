@@ -74,6 +74,9 @@
 			}
 			&--title {
 				float:left;
+				@include for-phone-only {
+					width:66%;
+				}
 			}
 		}
 	}
