@@ -29,9 +29,11 @@
 		&__image {}
 		&__details {
 			border: none;
+			color:$accent_13;
 			display:block;
 			margin-bottom: 6px;
 			padding-top: 0px;
+			text-transform:uppercase;
 			a {
 				color:$accent_13;
 			}
