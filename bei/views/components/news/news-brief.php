@@ -19,7 +19,7 @@ if ($featured_brief_query->have_posts()) {
 	while ($featured_brief_query->have_posts()) {
 		$featured_brief_query->the_post();
 		echo '<div class="brief__featured col-12 col-md-6">'.PHP_EOL;
-		echo '<span class="brief__image"><a href="'.get_the_permalink().'"><img src="https://via.placeholder.com/640x480" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
+		echo '<span class="brief__image"><a href="'.get_the_permalink().'"><img src="https://via.placeholder.com/367x224" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
 		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
 		echo ', <a href="#" class="brief__author">'.get_the_author().'</a></span>'.PHP_EOL;
