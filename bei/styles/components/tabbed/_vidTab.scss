@@ -29,6 +29,7 @@
 	&__pane {
 		background-color:$accent_12;
 		color:$outline;
+		font-size:90%;
 		line-height: 1.7;
 		padding: 1.9375rem 2.25rem 1.8125rem;
 		@include for-tablet-up {
@@ -41,7 +42,7 @@
 			color: $accent_1;			
 			font-size: 1.375rem;
 			font-weight: 700;
-			margin-bottom: 1.875rem;
+			margin-bottom: 1.6275rem;
 			text-transform: none;
 		}
 	}
