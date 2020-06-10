@@ -586,6 +586,10 @@ form .row.buttons {
   color: #2d2d2d; }
   #page-home .banner__button:hover {
     color: #192f59; }
+  @media (max-width: 786px) {
+    #page-home .banner__button {
+      font-size: .75rem;
+      padding: .75rem; } }
 
 #page-home .banner__caption {
   color: #fefefe;

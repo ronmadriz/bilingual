@@ -9,6 +9,10 @@
 	    &:hover{
 	    	color:$accent_1;
 	    }
+	    @include for-phone-only {
+			font-size: .75rem;
+			padding: .75rem;
+	    }
 	}
 	&__caption {
 		color: $alternate;
