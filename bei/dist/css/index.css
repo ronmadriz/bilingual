@@ -609,17 +609,24 @@ form .row.buttons {
 
 #page-home .banner__subtitle {
   color: #fefefe;
-  line-height: 1.8725rem;
   font-family: "Poppins", sans-serif;
-  font-size: 1.8725rem;
+  font-size: 1rem;
   font-weight: 300;
+  line-height: 1.7rem;
   letter-spacing: 0px;
   white-space: nowrap; }
+  @media (max-width: 786px) {
+    #page-home .banner__subtitle {
+      line-height: 1.8725rem;
+      font-size: 1.8725rem; } }
 
 #page-home .banner__title {
   font-family: "Poppins", sans-serif;
-  font-size: 5.1875rem;
+  font-size: 2.1875rem;
   font-weight: 600; }
+  @media (max-width: 786px) {
+    #page-home .banner__title {
+      font-size: 5.1875rem; } }
 
 #page-home .tabbed__wrapper {
   background-color: #fefefe;
