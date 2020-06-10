@@ -607,6 +607,9 @@ form .row.buttons {
 
 #page-home .banner__nav {
   width: 3.5rem; }
+  @media (max-width: 786px) {
+    #page-home .banner__nav {
+      width: 1.5rem; } }
   #page-home .banner__nav--prev img {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg); }
