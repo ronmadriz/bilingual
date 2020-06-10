@@ -16,6 +16,9 @@
 		position: absolute;
 		top: 25%;
 		z-index: 4;
+		@include for-phone-only {
+			top:15%;
+		}
 	}
 	&__image {
 		min-width: 100%;
@@ -52,7 +55,7 @@
 		font-family: $primary;
 		font-size:2.1875rem;
 	    font-weight: 600;
-	    line-height: 2;
+	    line-height:1.25;
 	    @include for-tablet-up {
 		    font-size: 5.1875rem;
 	    }

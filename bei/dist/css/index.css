@@ -593,6 +593,9 @@ form .row.buttons {
   position: absolute;
   top: 25%;
   z-index: 4; }
+  @media (max-width: 786px) {
+    #page-home .banner__caption {
+      top: 15%; } }
 
 #page-home .banner__image {
   min-width: 100%;
@@ -624,7 +627,7 @@ form .row.buttons {
   font-family: "Poppins", sans-serif;
   font-size: 2.1875rem;
   font-weight: 600;
-  line-height: 2; }
+  line-height: 1.25; }
   @media (min-width: 786px) {
     #page-home .banner__title {
       font-size: 5.1875rem; } }
