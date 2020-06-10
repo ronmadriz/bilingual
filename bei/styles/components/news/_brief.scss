@@ -25,7 +25,10 @@
 	    margin-top: 8px;
 	}
 	.brief {
-		padding: 5rem 3.125rem 0 0;
+	    padding: 0;
+	    @include for-tablet-up {
+			padding: 5rem 3.125rem 0 0;
+	    }
 		&__image {
 			display:block;
 		    margin-bottom:1.6875rem;
