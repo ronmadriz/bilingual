@@ -782,9 +782,13 @@ form .row.buttons {
     padding: 5rem 3.125rem 0 0; }
     #page-home .news-brief .brief__details {
       border: none;
+      color: #959595;
       display: block;
       margin-bottom: 6px;
-      padding-top: 0px; }
+      padding-top: 0px;
+      text-transform: uppercase; }
+      #page-home .news-brief .brief__details a {
+        color: #959595; }
     #page-home .news-brief .brief__title {
       font-size: 1.1875rem;
       font-weight: 700;
