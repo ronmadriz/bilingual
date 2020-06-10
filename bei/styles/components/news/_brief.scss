@@ -32,6 +32,9 @@
 			display:block;
 			margin-bottom: 6px;
 			padding-top: 0px;
+			a {
+				color:$accent_13;
+			}
 		}
 		&__title {
 			font-size: 1.1875rem;
@@ -39,8 +42,12 @@
 			letter-spacing: 0px;
 			margin-bottom: 20px;			
 		}
-		&__date {}
-		&__author {}
+		&__date {
+
+		}
+		&__author {
+
+		}
 		&__featured {
 			padding-left: 0;
 		}
