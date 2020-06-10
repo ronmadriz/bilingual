@@ -652,6 +652,12 @@ form .row.buttons {
 #page-home .tabbed__items {
   -webkit-box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.09);
           box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.09); }
+  @media (max-width: 786px) {
+    #page-home .tabbed__items {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
 
 #page-home .tabbed__title {
   color: #192f59;

@@ -10,6 +10,9 @@
 	}
 	&__items {
 		box-shadow: 0 -6px 24px rgba($accent_11,0.09);
+		@include for-phone-only {
+		    flex-direction: column;
+		}
 	}
 	&__title {
 		color:$accent_1;
