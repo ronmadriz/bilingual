@@ -895,6 +895,14 @@ form .row.buttons {
       border-bottom: 0.0625rem solid #e6e6e6;
       padding: 1.25rem; }
 
+.single-programs .subjects__img {
+  display: block;
+  width: 2rem;
+  height: 2rem; }
+  .single-programs .subjects__img svg {
+    max-width: 100%;
+    height: auto; }
+
 @media (max-width: 786px) {
   .single-programs .tabbed {
     padding-bottom: .9375rem; } }
