@@ -13,13 +13,13 @@ if (have_rows('schedules')) {
 		echo '<thead>'.PHP_EOL;
 		echo '<tr>'.PHP_EOL;
 		echo '<th>'.PHP_EOL;
-		_e('Cycle # &amp; Year');
+		_e('Cycle # &amp; Year', 'bei_core');
 		echo '</th>'.PHP_EOL;
 		echo '<th>'.PHP_EOL;
-		_e('Start Date');
+		_e('Start Date', 'bei_core');
 		echo '</th>'.PHP_EOL;
 		echo '<th>'.PHP_EOL;
-		_e('End Date');
+		_e('End Date', 'bei_core');
 		echo '</th></tr>'.PHP_EOL;
 		echo '</thead>'.PHP_EOL;
 		if (have_rows('schedule')) {
@@ -31,13 +31,13 @@ if (have_rows('schedules')) {
 				$cycle_end   = get_sub_field('end');
 				echo '<tr>'.PHP_EOL;
 				echo '<td data-label="';
-				_e('Cycle # &amp; Year');
+				_e('Cycle # &amp; Year', 'bei_core');
 				echo '">'.(!empty($cycle_info)?$cycle_info:'').'</td>'.PHP_EOL;
 				echo '<td data-label="';
-				_e('Start Date');
+				_e('Start Date', 'bei_core');
 				echo '">'.(!empty($cycle_start)?$cycle_start:'').'</td>'.PHP_EOL;
 				echo '<td data-label="';
-				_e('End Date');
+				_e('End Date', 'bei_core');
 				echo '">'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
 				echo '</tr>'.PHP_EOL;
 			}
