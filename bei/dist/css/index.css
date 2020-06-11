@@ -944,6 +944,13 @@ form .row.buttons {
     max-width: 100%;
     height: auto; }
 
+.single-programs .subjects {
+  background-color: navy;
+  color: white;
+  fill: white;
+  padding-top: 5rem;
+  padding-bottom: 7rem; }
+
 @media (max-width: 786px) {
   .single-programs .tabbed {
     padding-bottom: .9375rem; } }
