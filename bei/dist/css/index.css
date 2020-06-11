@@ -294,6 +294,9 @@ section:not(.banner) .container-fluid {
   padding-bottom: 1.875rem;
   text-transform: none; }
 
+.main__thumbnail {
+  margin-bottom: 1.5rem; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
