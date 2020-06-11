@@ -1,13 +1,14 @@
 <?php
 // Used on Program Schedules
+echo '<section id="schedule" class="schedule">'.PHP_EOL;
+echo '<div class="container-fluid">'.PHP_EOL;
 $schedule_section_title = get_field('schedule_title');
-
-if (have_rows('schedules')) {
-	echo '<section id="schedule" class="schedule">'.PHP_EOL;
-	echo '<div class="container-fluid">'.PHP_EOL;
+if ($schedule_section_title) {
 	echo '<div class="row">'.PHP_EOL;
 	echo '<div class="col-12"><h2 class="schedule__title">'.$schedule_section_title.'</h2></div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
+}
+if (have_rows('schedules')) {
 	while (have_rows('schedules')) {
 		the_row();
 		$schedule_title = get_sub_field('schedule_title');
@@ -52,6 +53,6 @@ if (have_rows('schedules')) {
 		echo '</div>'.PHP_EOL;
 	}
 	wp_reset_postdata();
-	echo '</div>'.PHP_EOL;
-	echo '</section>'.PHP_EOL;
 }
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
