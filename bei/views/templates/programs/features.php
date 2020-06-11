@@ -1,5 +1,5 @@
 <?php
-if (have_rows('features')) {
+if (have_rows('featured')) {
 	echo '<section id="featured" class="featured">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
