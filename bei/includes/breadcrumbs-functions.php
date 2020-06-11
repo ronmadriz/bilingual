@@ -13,12 +13,12 @@ function the_breadcrumb() {
 	if (!is_front_page()) {
 
 		// Start the breadcrumb with a link to your homepage
-		echo '<section id="breadcrumbs">'.PHP_EOL;
+		echo '<section id="breadcrumbs" class="breadcrumbs">'.PHP_EOL;
 		echo '<div class="container-fluid">'.PHP_EOL;
 		echo '<div class="row">'.PHP_EOL;
 		echo '<div class="col-12">'.PHP_EOL;
 		echo '<ul class="list-inline">'.PHP_EOL;
-		echo '<li class="list-inline-item"><a href="';
+		echo '<li class="list-inline-item breadcrumbs__item"><a class="breadcrumbs__link" href="';
 		echo get_option('home');
 		echo '">';
 		echo 'Home';
@@ -40,7 +40,7 @@ function the_breadcrumb() {
 		}
 
 		if (is_singular('programs')) {
-			echo '<li class="list-inline-item"><a href="/programs/overview/">Programs</a></li>'.PHP_EOL;
+			echo '<li class="list-inline-item breadcrumbs__item"><a href="/programs/overview/" class="breadcrumbs__link">Programs</a></li>'.PHP_EOL;
 		}
 
 		// If the current page is a single post, show its title with the separator
@@ -54,7 +54,7 @@ function the_breadcrumb() {
 			krsort($sortedAncestorArray);// Sort an array by key in reverse order
 
 			foreach ($sortedAncestorArray as $ancestor) {
-				echo '<li class="list-inline-item"><a class="breadcrumb-link-'.$bc_count.'" href="'.esc_url(get_permalink($ancestor)).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li>';
+				echo '<li class="list-inline-item breadcrumbs__item"><a class="breadcrumbs__link breadcrumb-link-'.$bc_count.'" href="'.esc_url(get_permalink($ancestor)).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li>';
 				$bc_count++;
 			}
 			echo '<li class="list-inline-item">'.get_the_title($post).'</li>';
