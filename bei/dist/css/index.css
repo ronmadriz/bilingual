@@ -952,8 +952,15 @@ form .row.buttons {
   padding-top: 4rem; }
   .single-programs .subjects__section {
     margin-bottom: 2.8725rem; }
+  .single-programs .subjects__item {
+    margin-bottom: 1rem; }
   .single-programs .subjects__img {
     margin-bottom: 1.8125rem; }
+  .single-programs .subjects__title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem; }
+  .single-programs .subjects__desc {
+    font-size: .85rem; }
 
 @media (max-width: 786px) {
   .single-programs .tabbed {
