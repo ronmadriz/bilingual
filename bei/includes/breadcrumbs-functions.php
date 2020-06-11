@@ -13,8 +13,6 @@ function the_breadcrumb() {
 	if (!is_front_page()) {
 
 		// Start the breadcrumb with a link to your homepage
-		echo '<div id="breadcrumbs" class="row breadcrumbs">'.PHP_EOL;
-		echo '<div class="col-12 breadcrumbs__content">'.PHP_EOL;
 		echo '<span class="breadcrumbs__item"><a class="breadcrumbs__link" href="';
 		echo get_option('home');
 		echo '">';
@@ -68,8 +66,6 @@ function the_breadcrumb() {
 				rewind_posts();
 			}
 		}
-		echo '</div>'.PHP_EOL;
-		echo '</div>'.PHP_EOL;
 	}
 }
 /*
