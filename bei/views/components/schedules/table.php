@@ -2,7 +2,7 @@
 // Used on Program Schedules
 echo '<section id="schedule" class="schedule">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
-$schedule_section_title = get_field('schedule_title');
+$schedule_section_title = get_field('schedule_section_title');
 if ($schedule_section_title) {
 	echo '<div class="row">'.PHP_EOL;
 	echo '<div class="col-12"><h2 class="schedule__title">'.$schedule_section_title.'</h2></div>'.PHP_EOL;
