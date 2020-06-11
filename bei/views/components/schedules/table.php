@@ -23,11 +23,18 @@ if (have_rows('schedules')) {
 		echo '</thead>'.PHP_EOL;
 		if (have_rows('schedule')) {
 			echo '<tbody>'.PHP_EOL;
-			echo '<tr>'.PHP_EOL;
-			echo '<td>Value 1</td>'.PHP_EOL;
-			echo '<td>Value 2</td>'.PHP_EOL;
-			echo '<td>Value 3</td>'.PHP_EOL;
-			echo '</tr>'.PHP_EOL;
+			while (have_rows('schedule')) {
+				the_row();
+				$cycle_info  = get_sub_field('cycle');
+				$cycle_start = get_sub_field('start');
+				$cycle_end   = get_sub_field('end');
+				echo '<tr>'.PHP_EOL;
+				echo '<td>'.(!empty($cycle_info)?$cycle_info:'').'</td>'.PHP_EOL;
+				echo '<td>'.(!empty($cycle_start)?$cycle_start:'').'</td>'.PHP_EOL;
+				echo '<td>'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
+				echo '</tr>'.PHP_EOL;
+			}
+			wp_reset_postdata();
 			echo '</tbody>'.PHP_EOL;
 		}
 		echo '</table>'.PHP_EOL;
