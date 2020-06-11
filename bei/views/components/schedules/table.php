@@ -8,7 +8,7 @@ echo '<div class="col-12">'.PHP_EOL;
 echo '<table class="table">'.PHP_EOL;
 echo '<thead>'.PHP_EOL;
 echo '<tr><th>';
-_e('Cycle # amp&; Date');
+_e('Cycle # &amp; Date');
 echo '</th></tr>'.PHP_EOL;
 echo '</thead>'.PHP_EOL;
 echo '</table>'.PHP_EOL;
