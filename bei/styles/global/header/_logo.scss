@@ -1,0 +1,8 @@
+.site {
+	&__home {}
+	&__logo {
+		@include for-tablet-up {
+			min-width: 350px;
+		}
+	}
+}

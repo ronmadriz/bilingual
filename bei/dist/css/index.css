@@ -146,6 +146,10 @@ body {
 :focus {
   outline: 0; }
 
+@media (min-width: 786px) {
+  .site__logo {
+    min-width: 350px; } }
+
 .base {
   background-color: #181818;
   color: #fefefe;
