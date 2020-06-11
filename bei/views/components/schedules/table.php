@@ -30,9 +30,15 @@ if (have_rows('schedules')) {
 				$cycle_start = get_sub_field('start');
 				$cycle_end   = get_sub_field('end');
 				echo '<tr>'.PHP_EOL;
-				echo '<td>'.(!empty($cycle_info)?$cycle_info:'').'</td>'.PHP_EOL;
-				echo '<td>'.(!empty($cycle_start)?$cycle_start:'').'</td>'.PHP_EOL;
-				echo '<td>'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
+				echo '<td data-label="';
+				_e('Cycle # &amp; Year');
+				echo '">'.(!empty($cycle_info)?$cycle_info:'').'</td>'.PHP_EOL;
+				echo '<td data-label="';
+				_e('Start Date');
+				echo '">'.(!empty($cycle_start)?$cycle_start:'').'</td>'.PHP_EOL;
+				echo '<td data-label="';
+				_e('End Date');
+				echo '">'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
 				echo '</tr>'.PHP_EOL;
 			}
 			wp_reset_postdata();
