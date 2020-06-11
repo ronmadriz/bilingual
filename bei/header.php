@@ -13,7 +13,7 @@ $site_settings = get_option('rmc_settings');
 echo '<!DOCTYPE html>'.PHP_EOL;
 echo '<html lang="en">'.PHP_EOL;
 echo '<head>'.PHP_EOL;
-echo '<meta charset="'get_bloginfo('charset').'" />'.PHP_EOL;
+echo '<meta charset="'.get_bloginfo('charset').'" />'.PHP_EOL;
 echo '<meta http-equiv="X-UA-Compatible" content="IE=edge" />'.PHP_EOL;
 echo '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />'.PHP_EOL;
 echo '<meta name="theme-color" content="#0099ff">'.PHP_EOL;
