@@ -284,8 +284,11 @@ section:not(.banner) .container-fluid {
   font-weight: 700;
   letter-spacing: 0px;
   padding-top: 3.75rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: 1.875rem;
   text-transform: none; }
+  @media (min-width: 786px) {
+    .main__title {
+      padding-bottom: 3.125rem; } }
 
 .subsites {
   background-color: #192f59;
