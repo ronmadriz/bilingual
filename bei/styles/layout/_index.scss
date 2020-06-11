@@ -16,6 +16,10 @@ section {
 		padding-top: 3.75rem;
 		padding-bottom: 3.125rem;
 		text-transform: none;
+		@include for-tablet-up {		
+			padding-top: 3.75rem;
+			padding-bottom: 3.125rem;
+		}
 	}
 }
 .page {
