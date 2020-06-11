@@ -271,6 +271,14 @@ section:not(.banner) .container-fluid {
   padding-bottom: 3.125rem;
   text-transform: none; }
 
+.page__title {
+  padding-left: 0;
+  padding-right: 0; }
+
+.page__content {
+  padding-left: 0;
+  padding-right: 0; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
