@@ -945,11 +945,11 @@ form .row.buttons {
     height: auto; }
 
 .single-programs .subjects {
-  background-color: navy;
-  color: white;
-  fill: white;
-  padding-top: 5rem;
-  padding-bottom: 7rem; }
+  background-color: #192f59;
+  color: #fefefe;
+  fill: #fefefe;
+  padding-bottom: 7rem;
+  padding-top: 5rem; }
 
 @media (max-width: 786px) {
   .single-programs .tabbed {
