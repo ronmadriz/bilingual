@@ -16,8 +16,8 @@ function the_breadcrumb() {
 		echo '<section id="breadcrumbs" class="breadcrumbs">'.PHP_EOL;
 		echo '<div class="container-fluid">'.PHP_EOL;
 		echo '<div class="row">'.PHP_EOL;
-		echo '<div class="col-12">'.PHP_EOL;
-		echo '<ul class="list-inline">'.PHP_EOL;
+		echo '<div class="col-12 breadcrumbs__content">'.PHP_EOL;
+		echo '<ul class="list-inline breadcrumbs__list">'.PHP_EOL;
 		echo '<li class="list-inline-item breadcrumbs__item"><a class="breadcrumbs__link" href="';
 		echo get_option('home');
 		echo '">';
