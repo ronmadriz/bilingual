@@ -50,9 +50,9 @@
 					text-align: left;
 					&:before{
 					    content: attr(data-label);
-					    display: inline-block;
+					    display: inline;
 					    line-height: 1.5;
-					    margin-left:1rem;
+					    margin-right:1rem;
 					    width: 100%;
 					    white-space: nowrap;
 					}								
