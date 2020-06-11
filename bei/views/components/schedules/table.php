@@ -3,7 +3,7 @@
 if (have_rows('schedules_section')) {
 	while (have_rows('schedules_section')) {
 		the_row();
-		$schedule_section_title = get_field('schedule_section_title');
+		$schedule_section_title = get_sub_field('schedule_section_title');
 		echo '<section id="schedule" class="schedule">'.PHP_EOL;
 		echo '<div class="container-fluid">'.PHP_EOL;
 		echo (!empty($schedule_section_title)?'<div class="row"><div class="col-12"><h2 class="schedule__title">'.$schedule_section_title.'</h2></div></div>'.PHP_EOL:'');
