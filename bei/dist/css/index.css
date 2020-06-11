@@ -265,6 +265,7 @@ body {
   color: #3db166;
   margin: 0; }
   .breadcrumbs__item:not(:last-of-type):after {
+    color: #ababab;
     content: '>';
     display: inline-block;
     margin: 0 0.9375rem; }

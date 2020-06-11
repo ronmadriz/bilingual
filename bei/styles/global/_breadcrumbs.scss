@@ -9,6 +9,7 @@
 		margin:0;
 		&:not(:last-of-type){
 			&:after {
+				color:$placeholder;
 				content:'>';
 				display: inline-block;
 				margin:0 0.9375rem;
