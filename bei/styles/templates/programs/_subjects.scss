@@ -5,5 +5,8 @@
     color: $alternate;
     fill: $alternate;
     padding-bottom: 7rem;		
-    padding-top: 5rem;
+    padding-top: 4rem;
+    &__img {
+    	margin-bottom:1.8125rem;
+    }
 }
