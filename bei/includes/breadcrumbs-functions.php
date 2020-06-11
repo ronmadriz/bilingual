@@ -13,9 +13,7 @@ function the_breadcrumb() {
 	if (!is_front_page()) {
 
 		// Start the breadcrumb with a link to your homepage
-		echo '<section id="breadcrumbs" class="breadcrumbs">'.PHP_EOL;
-		echo '<div class="container-fluid">'.PHP_EOL;
-		echo '<div class="row">'.PHP_EOL;
+		echo '<div id="breadcrumbs"  class="row breadcrumbs">'.PHP_EOL;
 		echo '<div class="col-12 breadcrumbs__content">'.PHP_EOL;
 		echo '<ul class="list-inline breadcrumbs__list">'.PHP_EOL;
 		echo '<li class="list-inline-item breadcrumbs__item"><a class="breadcrumbs__link" href="';
@@ -74,8 +72,6 @@ function the_breadcrumb() {
 		echo '</ul>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
-		echo '</div>'.PHP_EOL;
-		echo '</section>'.PHP_EOL;
 	}
 }
 /*
