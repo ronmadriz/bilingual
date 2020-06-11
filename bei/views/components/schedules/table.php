@@ -56,5 +56,5 @@ if (have_rows('schedules_section')) {
 		echo '</div>'.PHP_EOL;
 		echo '</section>'.PHP_EOL;
 	}
-
+	wp_reset_postdata();
 }
