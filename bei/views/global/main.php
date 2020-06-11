@@ -7,6 +7,7 @@ if (have_posts()) {
 		the_post();
 		echo '<div class="main__content col-12">'.PHP_EOL;
 		echo '<h1 class="main__title">'.get_the_title().'</h1>'.PHP_EOL;
+		the_breadcrumb();
 		echo '<div class="main__desc">'.get_the_content().'</div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	}
