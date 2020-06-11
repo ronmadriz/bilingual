@@ -5,8 +5,8 @@ if (have_rows('schedules')) {
 	echo '<div class="container-fluid">'.PHP_EOL;
 	while (have_rows('schedules')) {
 		the_row();
-		echo '<div class="row">'.PHP_EOL;
-		echo '<div class="col-12">'.PHP_EOL;
+		echo '<div class="row justify-content-end">'.PHP_EOL;
+		echo '<div class="col-12 col-md-10">'.PHP_EOL;
 		echo '<table class="table">'.PHP_EOL;
 		echo '<caption>CAPTION</caption>'.PHP_EOL;
 		echo '<thead>'.PHP_EOL;
