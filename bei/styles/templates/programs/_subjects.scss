@@ -4,8 +4,11 @@
     background-color: $accent_1;
     color: $alternate;
     fill: $accent_2;
-    padding-bottom: 7rem;		
+    padding-bottom: 2rem;		
     padding-top: 4rem;
+    @include for-tablet-up {
+	    padding-bottom: 7rem;
+    }
 	&__section {
 	    margin-bottom: 2.8725rem;
 	}

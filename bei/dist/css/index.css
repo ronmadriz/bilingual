@@ -948,8 +948,11 @@ form .row.buttons {
   background-color: #192f59;
   color: #fefefe;
   fill: #3db166;
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
   padding-top: 4rem; }
+  @media (min-width: 786px) {
+    .single-programs .subjects {
+      padding-bottom: 7rem; } }
   .single-programs .subjects__section {
     margin-bottom: 2.8725rem; }
   .single-programs .subjects__item {
