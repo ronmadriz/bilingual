@@ -1,2 +1,2 @@
 <?php
-include (get_template_directory_uri().'/views/global/main.php');
+include (get_template_directory().'/views/global/main.php');
