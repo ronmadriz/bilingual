@@ -5,10 +5,11 @@ if (have_rows('schedules')) {
 	echo '<div class="container-fluid">'.PHP_EOL;
 	while (have_rows('schedules')) {
 		the_row();
+		$schedule_title = get_sub_field('schedule_title');
 		echo '<div class="row justify-content-end">'.PHP_EOL;
 		echo '<div class="col-12 col-md-10">'.PHP_EOL;
+		echo (!empty($schedule_title)?'<h3>'.$schedule_title.'</h3>'.PHP_EOL:'');
 		echo '<table class="table">'.PHP_EOL;
-		echo '<caption>CAPTION</caption>'.PHP_EOL;
 		echo '<thead>'.PHP_EOL;
 		echo '<tr>'.PHP_EOL;
 		echo '<th>'.PHP_EOL;
