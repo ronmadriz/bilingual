@@ -256,6 +256,9 @@ body {
     .button__green:active {
       background: #1c522f; }
 
+.breadcrumbs__item {
+  margin: 0 0.9375rem; }
+
 section:not(.banner) .container-fluid {
   max-width: 1360px; }
 
