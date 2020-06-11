@@ -276,6 +276,11 @@ body {
 section:not(.banner) .container-fluid {
   max-width: 1360px; }
 
+.main__content {
+  color: #6b6b6b;
+  font-size: 1.0625rem;
+  line-height: 2; }
+
 .main__title {
   color: #101010;
   font-size: 2.8125rem;

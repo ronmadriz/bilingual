@@ -7,6 +7,9 @@ section {
 }
 .main {
 	&__content {
+    color:$led;
+    font-size: 1.0625rem;
+    line-height: 2;
 	}
 	&__title {
 		color: $base;
