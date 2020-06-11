@@ -256,6 +256,10 @@ body {
     .button__green:active {
       background: #1c522f; }
 
+.breadcrumbs__content {
+  padding-left: 0;
+  padding-right: 0; }
+
 .breadcrumbs__item {
   margin: 0 0.9375rem; }
 
