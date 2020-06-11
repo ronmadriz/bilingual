@@ -15,12 +15,11 @@ function the_breadcrumb() {
 		// Start the breadcrumb with a link to your homepage
 		echo '<div id="breadcrumbs" class="row breadcrumbs">'.PHP_EOL;
 		echo '<div class="col-12 breadcrumbs__content">'.PHP_EOL;
-		echo '<ul class="list-inline breadcrumbs__list">'.PHP_EOL;
-		echo '<li class="list-inline-item breadcrumbs__item"><a class="breadcrumbs__link" href="';
+		echo '<span class="breadcrumbs__item"><a class="breadcrumbs__link" href="';
 		echo get_option('home');
 		echo '">';
 		echo 'Home';
-		echo '</a></li>'.PHP_EOL;
+		echo '</a></span>'.PHP_EOL;
 
 		// Check if the current page is a category, an archive or a single page. If so show the category or archive name.
 		if (is_category() || is_single()) {
@@ -38,7 +37,7 @@ function the_breadcrumb() {
 		}
 
 		if (is_singular('programs')) {
-			echo '<li class="list-inline-item breadcrumbs__item"><a href="/programs/overview/" class="breadcrumbs__link">Programs</a></li>'.PHP_EOL;
+			echo '<span class="breadcrumbs__item"><a href="/programs/overview/" class="breadcrumbs__link">Programs</a></span>'.PHP_EOL;
 		}
 
 		// If the current page is a single post, show its title with the separator
@@ -52,10 +51,10 @@ function the_breadcrumb() {
 			krsort($sortedAncestorArray);// Sort an array by key in reverse order
 
 			foreach ($sortedAncestorArray as $ancestor) {
-				echo '<li class="list-inline-item breadcrumbs__item"><a class="breadcrumbs__link breadcrumb-link-'.$bc_count.'" href="'.esc_url(get_permalink($ancestor)).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li>';
+				echo '<span class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumb-link-'.$bc_count.'" href="'.esc_url(get_permalink($ancestor)).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></span>';
 				$bc_count++;
 			}
-			echo '<li class="list-inline-item breadcrumbs__item">'.get_the_title($post).'</li>';
+			echo '<span class="breadcrumbs__item">'.get_the_title($post).'</span>';
 		}
 
 		// if you have a static page assigned to be you posts list page. It will find the title of the static page and display it. i.e Home >> Blog
@@ -69,7 +68,6 @@ function the_breadcrumb() {
 				rewind_posts();
 			}
 		}
-		echo '</ul>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	}
