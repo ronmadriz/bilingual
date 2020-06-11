@@ -4,7 +4,15 @@
 		padding-right:0;
 	}
 	&__item {
+		font-size: .875rem;
+		color:$placeholder;
 		margin-right:0.9375rem;
+		&:not(:last-of-type){
+			&:after {
+				content:'>';
+				display: inline-block;
+			}
+		}
 	}
 	
 }
