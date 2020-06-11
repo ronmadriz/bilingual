@@ -40,7 +40,7 @@ function the_breadcrumb() {
 		}
 
 		if (is_singular('programs')) {
-			echo '<li class="list-inline-item"><a href="/programs/overview/">All Industries</a></li>'.PHP_EOL;
+			echo '<li class="list-inline-item"><a href="/programs/overview/">Programs</a></li>'.PHP_EOL;
 		}
 
 		// If the current page is a single post, show its title with the separator
