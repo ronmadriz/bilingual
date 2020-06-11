@@ -264,12 +264,12 @@ body {
   font-size: .875rem;
   color: #ababab;
   margin-right: 0.9375rem; }
+  .breadcrumbs__item:not(:last-of-type):after {
+    content: '>';
+    display: inline-block; }
 
 .breadcrumbs__link {
   color: #ababab; }
-  .breadcrumbs__link:not(:last-of-type):after {
-    content: '>';
-    display: inline-block; }
 
 section:not(.banner) .container-fluid {
   max-width: 1360px; }
