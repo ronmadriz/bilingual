@@ -10,7 +10,7 @@ if (have_posts()) {
 		echo '</div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '<div class="row"><div class="main__thumbnail col-12 col-md-4">'.get_the_post_thumbnail('post-thumbnail', 'class="img-fluid"').'</div></div>'.PHP_EOL;
-		echo '<div class="row"><div class="main__content col-12 col-md-8>'.get_the_content().'</div></div>'.PHP_EOL;
+		echo '<div class="row"><div class="main__content col-12 col-md-8">'.get_the_content().'</div></div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	}
 	wp_reset_postdata();
