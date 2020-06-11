@@ -265,9 +265,9 @@ body {
   color: #ababab;
   margin-right: 0.9375rem; }
 
-.breadcrumbs__links {
+.breadcrumbs__link {
   color: #ababab; }
-  .breadcrumbs__links:not(:last-of-type):after {
+  .breadcrumbs__link:not(:last-of-type):after {
     content: '>';
     display: inline-block; }
 
