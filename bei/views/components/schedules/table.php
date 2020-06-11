@@ -6,6 +6,7 @@ echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="col-12">'.PHP_EOL;
 echo '<table class="table">'.PHP_EOL;
+echo '<caption>CAPTION</caption>'.PHP_EOL;
 echo '<thead>'.PHP_EOL;
 echo '<tr>'.PHP_EOL;
 echo '<th>'.PHP_EOL;
