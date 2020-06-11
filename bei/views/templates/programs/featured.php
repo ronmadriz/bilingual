@@ -2,6 +2,7 @@
 if (have_rows('featured')) {
 	echo '<section id="featured" class="featured">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
+	echo '<div class="row"><div class="col-12"><h2>Program Features</h2></div></div>'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
 	while (have_rows('featured')) {
 		the_row();
