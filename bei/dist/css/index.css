@@ -992,3 +992,6 @@ form .row.buttons {
     font-style: normal;
     font-weight: 500;
     line-height: 3rem; }
+
+.single-programs table tbody td:first-of-type:before {
+  margin-right: 0; }

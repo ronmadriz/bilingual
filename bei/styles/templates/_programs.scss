@@ -1,4 +1,7 @@
 .single-programs {
 	@import '../components/subjects/subjects';
 	@import '../components/tabbed/home';
+	table tbody td:first-of-type:before {
+	    margin-right: 0;
+	}	
 }
