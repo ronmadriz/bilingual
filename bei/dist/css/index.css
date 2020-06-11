@@ -256,22 +256,23 @@ body {
     .button__green:active {
       background: #1c522f; }
 
-.breadcrumbs__content {
-  padding-left: 0;
-  padding-right: 0; }
-
-.breadcrumbs__item {
-  font-size: .875rem;
-  color: #3db166;
-  margin: 0; }
-  .breadcrumbs__item:not(:last-of-type):after {
-    color: #ababab;
-    content: '>';
-    display: inline-block;
-    margin: 0 0.9375rem; }
-
-.breadcrumbs__link {
-  color: #ababab; }
+.breadcrumbs {
+  padding-top: 0.75rem;
+  padding-bottom: 3.75rem; }
+  .breadcrumbs__content {
+    padding-left: 0;
+    padding-right: 0; }
+  .breadcrumbs__item {
+    font-size: .875rem;
+    color: #3db166;
+    margin: 0; }
+    .breadcrumbs__item:not(:last-of-type):after {
+      color: #ababab;
+      content: '>';
+      display: inline-block;
+      margin: 0 0.9375rem; }
+  .breadcrumbs__link {
+    color: #ababab; }
 
 section:not(.banner) .container-fluid {
   max-width: 1360px; }
