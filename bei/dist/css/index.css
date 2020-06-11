@@ -261,7 +261,7 @@ body {
   padding-right: 0; }
 
 .breadcrumbs__item {
-  margin: 0 0.9375rem; }
+  margin-right: 0.9375rem; }
 
 section:not(.banner) .container-fluid {
   max-width: 1360px; }
