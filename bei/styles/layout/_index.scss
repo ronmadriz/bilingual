@@ -6,6 +6,10 @@ section {
 	}
 }
 .main {
+	&__content {
+		padding-top: 3.75rem;
+		padding-bottom: 3.125rem;
+	}
 	&__title {
 		color: $base;
 		font-size:2.8125rem;

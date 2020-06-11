@@ -259,6 +259,10 @@ body {
 section:not(.banner) .container-fluid {
   max-width: 1360px; }
 
+.main__content {
+  padding-top: 3.75rem;
+  padding-bottom: 3.125rem; }
+
 .main__title {
   color: #101010;
   font-size: 2.8125rem;
