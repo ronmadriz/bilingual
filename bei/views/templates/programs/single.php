@@ -6,11 +6,11 @@ if (have_posts()) {
 	echo '<div class="container-fluid">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
-		echo '<div class="row">'.PHP_EOL;
-		echo '<div class="col-12"><h1 class="main__title">'.get_the_title().'</h1></div>'.PHP_EOL;
-		echo '<div class="col-12 breadcrumbs__content">'.PHP_EOL;
+		echo '<header>'.PHP_EOL;
+		echo '<h1 class="main__title">'.get_the_title().'</h1>'.PHP_EOL;
+		echo '<div class="breadcrumbs__content">'.PHP_EOL;
 		the_breadcrumb();
-		echo '</div>'.PHP_EOL;
+		echo '</header>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '<div class="row">'.PHP_EOL;
 		echo '<div class="main__thumbnail col-12 col-md-4">'.get_the_post_thumbnail($pageID, 'medium', array('class' => 'alignleft')).'</div>'.PHP_EOL;
