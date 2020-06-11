@@ -2,7 +2,7 @@
 // Used on Program Schedules
 if (have_rows('schedules_section')) {
 	while (have_rows('schedules_section')) {
-		have_rows();
+		the_row();
 		$schedule_section_title = get_field('schedule_section_title');
 		echo '<section id="schedule" class="schedule">'.PHP_EOL;
 		echo '<div class="container-fluid">'.PHP_EOL;
