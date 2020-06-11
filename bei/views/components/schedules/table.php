@@ -30,9 +30,7 @@ if (have_rows('schedules')) {
 				$cycle_start = get_sub_field('start');
 				$cycle_end   = get_sub_field('end');
 				echo '<tr>'.PHP_EOL;
-				echo '<td data-label="';
-				_e('Cycle # &amp; Year', 'bei_core');
-				echo '">'.(!empty($cycle_info)?$cycle_info:'').'</td>'.PHP_EOL;
+				echo '<td>'.(!empty($cycle_info)?$cycle_info:'').'</td>'.PHP_EOL;
 				echo '<td data-label="';
 				_e('Start Date', 'bei_core');
 				echo '">'.(!empty($cycle_start)?$cycle_start:'').'</td>'.PHP_EOL;
