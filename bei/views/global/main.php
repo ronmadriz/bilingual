@@ -2,7 +2,6 @@
 if (have_posts()) {
 	echo '<section id="main" class="main">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
-	echo '<div class="row">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
 		echo '<div class="row"><div class="main__title col-12"><h1 class="main__title--text">'.get_the_title().'</h1></div></div>'.PHP_EOL;
@@ -11,7 +10,6 @@ if (have_posts()) {
 		echo '</div>'.PHP_EOL;
 	}
 	wp_reset_postdata();
-	echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 	echo '</section>'.PHP_EOL;
 }
