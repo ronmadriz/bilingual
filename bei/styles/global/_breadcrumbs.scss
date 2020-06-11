@@ -7,6 +7,9 @@
 		font-size: .875rem;
 		color:$placeholder;
 		margin-right:0.9375rem;
+	}
+	&__links {
+		color:$placeholder;
 		&:not(:last-of-type){
 			&:after {
 				content:'>';
@@ -14,5 +17,4 @@
 			}
 		}
 	}
-	
 }

@@ -264,7 +264,10 @@ body {
   font-size: .875rem;
   color: #ababab;
   margin-right: 0.9375rem; }
-  .breadcrumbs__item:not(:last-of-type):after {
+
+.breadcrumbs__links {
+  color: #ababab; }
+  .breadcrumbs__links:not(:last-of-type):after {
     content: '>';
     display: inline-block; }
 
