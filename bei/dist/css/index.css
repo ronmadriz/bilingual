@@ -262,13 +262,12 @@ body {
 
 .breadcrumbs__item {
   font-size: .875rem;
-  color: #ababab; }
-  .breadcrumbs__item:not(:last-of-type) {
-    margin: 0; }
-    .breadcrumbs__item:not(:last-of-type):after {
-      content: '>';
-      display: inline-block;
-      margin: 0 0.9375rem; }
+  color: #ababab;
+  margin: 0; }
+  .breadcrumbs__item:not(:last-of-type):after {
+    content: '>';
+    display: inline-block;
+    margin: 0 0.9375rem; }
 
 .breadcrumbs__link {
   color: #ababab; }
