@@ -7,6 +7,7 @@
 		font-size: .875rem;
 		color:$placeholder;
 		&:not(:last-of-type){
+			margin:0;
 			&:after {
 				content:'>';
 				display: inline-block;
