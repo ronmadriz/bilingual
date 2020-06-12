@@ -13,7 +13,7 @@ if (have_rows('schedules_section')) {
 				the_row();
 				$schedule_title = get_sub_field('schedule_title');
 				echo '<div class="schedule__wrapper col-12 col-md-6">'.PHP_EOL;
-				echo (!empty($schedule_title)?'<h3>'.$schedule_title.'</h3>'.PHP_EOL:'');
+				echo (!empty($schedule_title)?'<h3 class="schedule__label">'.$schedule_title.'</h3>'.PHP_EOL:'');
 				echo '<table class="table schedule__table">'.PHP_EOL;
 				echo '<thead>'.PHP_EOL;
 				echo '<tr>'.PHP_EOL;
