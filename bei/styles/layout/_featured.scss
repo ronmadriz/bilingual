@@ -7,7 +7,7 @@
 	.row:nth-of-type(odd) {
 	    flex-direction: row-reverse;
 	}
-	&__content {
+	&__desc {
 		color:$accent_13;
 		padding:5rem;
 		h2 {

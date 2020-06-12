@@ -1094,10 +1094,10 @@ form .row.buttons {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
-  .single-programs .featured__content {
+  .single-programs .featured__desc {
     color: #959595;
     padding: 5rem; }
-    .single-programs .featured__content h2 {
+    .single-programs .featured__desc h2 {
       color: #192f59; }
   .single-programs .featured__image {
     background-position: center, center;

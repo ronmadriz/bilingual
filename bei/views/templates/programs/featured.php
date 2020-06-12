@@ -12,7 +12,6 @@ if (have_rows('featured')) {
 		echo '</style>'.PHP_EOL;
 		echo '<div class="row">'.PHP_EOL;
 		echo '<div class="featured__content col-12 col-md-6">'.PHP_EOL;
-		echo '<h3 class="featured__title">'.$featured_item_title.'</h3>'.PHP_EOL;
 		echo '<span class="featured__desc">'.$featured_item_content.'</span>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '<div class="featured__image col-12 col-md-6"><img src="'.$featured_item_image['url'].'" alt="" class="d-md-none"></div>'.PHP_EOL;
