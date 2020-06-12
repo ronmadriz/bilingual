@@ -1065,6 +1065,7 @@ form .row.buttons {
     border-bottom: 0.0625rem solid #fefefe; } }
 
 .single-programs .schedule__table .schedule__data {
-  background-color: #e6e6e6; }
+  background-color: #e6e6e6;
+  color: #959595; }
   .single-programs .schedule__table .schedule__data:first-of-type:before {
     margin-right: 0; }
