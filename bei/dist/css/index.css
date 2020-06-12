@@ -1051,3 +1051,13 @@ form .row.buttons {
     font-style: normal;
     font-weight: 500;
     line-height: 3rem; }
+
+@media (min-width: 786px) {
+  .single-programs .schedule__table .schedule__headers {
+    background-color: #3db166;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.8125rem 0; } }
+
+.single-programs .schedule__table .schedule__data:first-of-type:before {
+  margin-right: 0; }
