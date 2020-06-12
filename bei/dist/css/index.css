@@ -1057,7 +1057,7 @@ form .row.buttons {
     line-height: 3rem; }
 
 .single-programs .schedule {
-  padding-bottom: 4rem;
+  padding-bottom: .9375rem;
   padding-top: 4rem; }
   .single-programs .schedule__title {
     margin-bottom: 1.875rem; }
