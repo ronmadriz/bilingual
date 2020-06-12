@@ -1,5 +1,5 @@
 section {
-	&:not(.banner) {
+	&:not(.banner), &:not(.featured) {
 		.container-fluid {
 		    max-width: 1360px;
 		}	
