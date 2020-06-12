@@ -1,11 +1,5 @@
 .single-programs {
 	@import 'subjects';
 	@import '../../components/tabbed/home';
-
-	// Template Specific 
-
-	table tbody td:first-of-type:before {
-	    margin-right: 0;
-	}
-
+	@import '../../components/schedules/tables';
 }

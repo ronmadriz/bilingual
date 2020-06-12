@@ -1,0 +1,10 @@
+.schedule__table {
+		tbody {
+			td {
+				&:first-of-type:before {
+				    margin-right: 0;
+				}		
+			}
+		} 
+	}
+}
