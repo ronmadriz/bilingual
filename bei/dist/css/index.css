@@ -1059,12 +1059,15 @@ form .row.buttons {
       .single-programs .featured__desc {
         padding: 5rem; } }
     .single-programs .featured__desc h2 {
-      color: #192f59; }
+      color: #192f59;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      position: relative; }
       .single-programs .featured__desc h2:after {
         content: '';
         height: 0.125rem;
         width: 7rem;
-        background-color: #959595;
+        background-color: #3db166;
         position: absolute;
         display: block;
         bottom: 0; }

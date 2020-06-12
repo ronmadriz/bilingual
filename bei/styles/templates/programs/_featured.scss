@@ -20,7 +20,10 @@
 		}
 		h2 {
 			color:$accent_1;
-			@include title-bottom($accent_13);
+		    margin-bottom: 2rem;
+		    padding-bottom: 1rem;			
+		    position: relative;
+			@include title-bottom($accent_2);
 		}
 	}
 	&__image {
