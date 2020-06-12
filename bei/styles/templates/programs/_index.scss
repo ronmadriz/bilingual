@@ -1,23 +1,6 @@
 .single-programs {
 	@import 'subjects';
-	@import '../../components/tabbed/home';
-	@import '../../components/schedules/tables';
-	@import '../../layout/featured';
-	.block {
-	    padding:0 0 2rem;
-		&__desc {
-		    align-items: center;
-		    border: .5rem solid $accent_7;
-		    color:$accent_7;
-		    display: flex;
-		    font-size: 2rem;
-		    height: 8rem;
-		    margin-bottom: 2rem;
-		    text-align: center;
-		    @include for-tablet-up {
-		    	margin-bottom:0;
-			    padding: 6.5rem 2rem;
-		    }
-		}
-	}
+	@import 'blocks';
+	@import 'schedules';
+	@import 'featured';
 }
