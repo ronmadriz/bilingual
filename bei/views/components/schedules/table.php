@@ -6,7 +6,7 @@ if (have_rows('schedules_section')) {
 		$schedule_section_title = get_sub_field('schedule_section_title');
 		echo '<section id="schedule" class="schedule">'.PHP_EOL;
 		echo '<div class="container-fluid">'.PHP_EOL;
-		echo (!empty($schedule_section_title)?'<div class="row justify-content-end"><div class="col-12"><h2 class="schedule__title">'.$schedule_section_title.'</h2></div></div>'.PHP_EOL:'');
+		echo (!empty($schedule_section_title)?'<div class="row justify-content-end"><div class="col-12 schedule__title"><h2>'.$schedule_section_title.'</h2></div></div>'.PHP_EOL:'');
 		if (have_rows('schedules')) {
 			echo '<div class="row">'.PHP_EOL;
 			while (have_rows('schedules')) {
