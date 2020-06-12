@@ -1084,6 +1084,16 @@ form .row.buttons {
         border-right: 0.0625rem solid #fefefe;
         border-bottom: 0.0625rem solid #fefefe; } }
 
+.single-programs .featured .container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.single-programs .featured .row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+
 .single-programs .featured__content {
   padding: 5rem; }
 
