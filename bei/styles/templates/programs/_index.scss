@@ -12,8 +12,12 @@
 		    display: flex;
 		    font-size: 2rem;
 		    height: 8rem;
+		    margin-bottom: 2rem;
 		    text-align: center;
-		    padding: 6.5rem 2rem;
+		    @include for-tablet-up {
+		    	margin-bottom:0;
+			    padding: 6.5rem 2rem;
+		    }
 		}
 	}
 }

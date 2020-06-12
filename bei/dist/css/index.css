@@ -1132,5 +1132,9 @@ form .row.buttons {
     display: flex;
     font-size: 2rem;
     height: 8rem;
-    text-align: center;
-    padding: 6.5rem 2rem; }
+    margin-bottom: 2rem;
+    text-align: center; }
+    @media (min-width: 786px) {
+      .single-programs .block__desc {
+        margin-bottom: 0;
+        padding: 6.5rem 2rem; } }
