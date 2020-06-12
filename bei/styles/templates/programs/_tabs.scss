@@ -1,3 +1,15 @@
 .simple_tabs {
-		
+	&__item {
+		background-color: $alternate;
+	    border: 0;
+	    border-radius: 0;
+	    color: $outline;
+	    font-size: .92375rem;
+	    font-weight: 700;
+	    letter-spacing: 0;
+	    margin-left: 0;
+	    padding: 1.15rem .875rem;
+	    text-align: left;
+	    text-transform: none;		
+	}	
 }
