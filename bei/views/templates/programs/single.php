@@ -19,26 +19,8 @@ if (have_posts()) {
 	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
 	echo '</section>'.PHP_EOL;
-}?>
-<section id="block" class="block">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="block__item col-6 col-md-3">
-				<span class="block__desc">Hours 20/Week</span>
-			</div>
-			<div class="block__item col-6 col-md-3">
-				<span class="block__desc">Free Tutoring</span>
-			</div>
-			<div class="block__item col-6 col-md-3">
-				<span class="block__desc">F-Visa Eligible</span>
-			</div>
-			<div class="block__item col-6 col-md-3">
-				<span class="block__desc">9 Levels</span>
-			</div>
-		</div>
-	</div>
-</section>
-<?
+}
+include ('blocks.php');
 include ('subjects.php');
 include ('schedules.php');
 include ('featured.php');
