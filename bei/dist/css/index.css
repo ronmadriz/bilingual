@@ -1084,7 +1084,10 @@ form .row.buttons {
         border-right: 0.0625rem solid #fefefe;
         border-bottom: 0.0625rem solid #fefefe; } }
 
+.single-programs .featured__content {
+  padding: 5rem; }
+
 .single-programs .featured__image {
-  background-repeat: no-repeat;
   background-position: center, center;
+  background-repeat: no-repeat;
   background-size: cover; }

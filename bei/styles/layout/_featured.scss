@@ -1,6 +1,6 @@
 .featured {
 	&__content {
-		
+		padding:5rem;
 	}
 	&__image {
 		@include has-bg (center, center);

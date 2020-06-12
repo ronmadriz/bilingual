@@ -31,8 +31,8 @@
   } 
 }
 @mixin has-bg ($pos_x, $pos_y) {
-  background-repeat: no-repeat;
   background-position: $pos_x, $pos_y;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 @mixin bg-before ($bg-color) {
