@@ -5,13 +5,19 @@
 	    padding-right: 0;
 	}	
 	.row:nth-of-type(odd) {
-	    flex-direction: row-reverse;
+	    flex-direction: column-reverse;
+	    @include for-tablet-up {
+	    	flex-direction: row-reverse;
+	    }
 	}
 	&__desc {
 		color:$accent_13;
 		display: block;
 		max-width: 39.8125rem;
-		padding: 5rem;
+		padding:2rem 5rem;
+		@include for-tablet-up {
+			padding: 5rem;
+		}
 		h2 {
 			color:$accent_1;
 		}
