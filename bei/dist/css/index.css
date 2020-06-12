@@ -1055,9 +1055,9 @@ form .row.buttons {
 @media (min-width: 786px) {
   .single-programs .schedule__table .schedule__headers {
     background-color: #3db166;
+    color: #fefefe;
     font-size: 1rem;
-    font-weight: 400;
-    padding: 0.8125rem 0; } }
+    font-weight: 400; } }
 
 .single-programs .schedule__table .schedule__data:first-of-type:before {
   margin-right: 0; }
