@@ -1105,3 +1105,6 @@ form .row.buttons {
     background-position: center, center;
     background-repeat: no-repeat;
     background-size: cover; }
+    @media (max-width: 786px) {
+      .single-programs .featured__image {
+        padding-bottom: 1rem; } }

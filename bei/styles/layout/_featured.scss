@@ -18,5 +18,8 @@
 	}
 	&__image {
 		@include has-bg (center, center);
+		@include for-phone-only {
+			padding-bottom:1rem;
+		}
 	}
 }
