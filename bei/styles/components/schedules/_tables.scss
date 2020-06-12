@@ -1,6 +1,9 @@
 .schedule {
     padding-bottom: 4rem;	
 	padding-top: 4rem;
+	&__title {
+		margin-bottom: 1.875rem;
+	}
 	&__label {
 		color:$accent_13;
 		font-size: 1.125rem;
