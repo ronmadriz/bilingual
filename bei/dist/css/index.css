@@ -1089,7 +1089,7 @@ form .row.buttons {
   .single-programs .featured .container-fluid {
     padding-left: 0;
     padding-right: 0; }
-  .single-programs .featured .row {
+  .single-programs .featured .row:nth-of-type(odd) {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;

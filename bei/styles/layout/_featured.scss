@@ -4,7 +4,7 @@
 	    padding-left: 0;
 	    padding-right: 0;
 	}	
-	.row {
+	.row:nth-of-type(odd) {
 	    flex-direction: row-reverse;
 	}
 	&__content {
