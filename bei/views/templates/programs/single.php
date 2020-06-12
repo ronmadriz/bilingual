@@ -21,5 +21,5 @@ if (have_posts()) {
 	echo '</section>'.PHP_EOL;
 }
 include ('subjects.php');
-include (get_template_directory().'/views/components/schedules/table.php');
+include ('schedules.php');
 include ('featured.php');
