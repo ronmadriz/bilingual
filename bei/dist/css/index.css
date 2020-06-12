@@ -1052,6 +1052,13 @@ form .row.buttons {
     font-weight: 500;
     line-height: 3rem; }
 
+.single-programs .schedule__label {
+  font-size: 1.125rem;
+  margin-bottom: 0; }
+
+.single-programs .schedule__table {
+  margin-top: 1rem; }
+
 .single-programs .schedule__headers {
   background-color: #3db166;
   border-bottom: 0.0625rem solid #fefefe;

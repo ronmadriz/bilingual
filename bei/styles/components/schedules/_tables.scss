@@ -1,5 +1,10 @@
 .schedule {
+	&__label {
+		font-size: 1.125rem;
+		margin-bottom: 0;		
+	}
 	&__table {
+		margin-top: 1rem;
 	}
 	&__headers {
 		background-color: $accent_2;
