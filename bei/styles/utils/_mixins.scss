@@ -60,3 +60,15 @@
       z-index: -1;
   } 
 }
+
+@mixin title-bottom ($tb_color) {
+  &:after {
+    content: '';
+    height: 0.125rem;
+    width: 7rem;
+    background-color:$tb_color;
+    position: absolute;
+    display: block;
+    bottom: 0;      
+  } 
+}

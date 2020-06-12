@@ -931,6 +931,15 @@ form .row.buttons {
       border-bottom: 0.0625rem solid #e6e6e6;
       padding: 1.25rem; }
 
+.single-programs .subjects__section:after {
+  content: '';
+  height: 0.125rem;
+  width: 7rem;
+  background-color: #3db166;
+  position: absolute;
+  display: block;
+  bottom: 0; }
+
 .single-programs .subjects__img {
   display: block;
   width: 2rem;
