@@ -2,9 +2,15 @@
 	@include for-tablet-up {
 		.schedule__headers {
 			background-color: $accent_2;
+		    border-bottom: 0.0625rem solid $alternate;
+		    border-right: 0.0625rem solid $alternate;
 			color:$alternate;
 			font-size: 1rem;
 			font-weight: 400;
+		}
+		.schedule__data {
+		    border-right: 0.0625rem solid $alternate;
+		    border-bottom: 0.0625rem solid $alternate;
 		}
 	}
 	.schedule__data {
