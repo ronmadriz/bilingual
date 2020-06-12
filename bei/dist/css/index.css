@@ -1055,9 +1055,14 @@ form .row.buttons {
 @media (min-width: 786px) {
   .single-programs .schedule__table .schedule__headers {
     background-color: #3db166;
+    border-bottom: 0.0625rem solid #fefefe;
+    border-right: 0.0625rem solid #fefefe;
     color: #fefefe;
     font-size: 1rem;
-    font-weight: 400; } }
+    font-weight: 400; }
+  .single-programs .schedule__table .schedule__data {
+    border-right: 0.0625rem solid #fefefe;
+    border-bottom: 0.0625rem solid #fefefe; } }
 
 .single-programs .schedule__table .schedule__data {
   background-color: #e6e6e6; }
