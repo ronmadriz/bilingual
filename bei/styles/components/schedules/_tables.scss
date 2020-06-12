@@ -2,9 +2,9 @@
 	@include for-tablet-up {
 		.schedule__headers {
 			background-color: $accent_2;
+			color:$alternate;
 			font-size: 1rem;
 			font-weight: 400;
-			padding: 0.8125rem 0;
 		}
 	}
 	.schedule__data {
