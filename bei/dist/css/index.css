@@ -1052,7 +1052,7 @@ form .row.buttons {
     font-weight: 500;
     line-height: 3rem; }
 
-.single-programs .schedule__table__headers {
+.single-programs .schedule__headers {
   background-color: #3db166;
   border-bottom: 0.0625rem solid #fefefe;
   border-right: 0.0625rem solid #fefefe;
@@ -1060,12 +1060,12 @@ form .row.buttons {
   font-size: 1rem;
   font-weight: 400; }
 
-.single-programs .schedule__table__data {
+.single-programs .schedule__data {
   background-color: #e6e6e6;
   color: #959595; }
-  .single-programs .schedule__table__data:first-of-type:before {
+  .single-programs .schedule__data:first-of-type:before {
     margin-right: 0; }
   @media (min-width: 786px) {
-    .single-programs .schedule__table__data {
+    .single-programs .schedule__data {
       border-right: 0.0625rem solid #fefefe;
       border-bottom: 0.0625rem solid #fefefe; } }
