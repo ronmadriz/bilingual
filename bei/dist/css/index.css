@@ -1096,6 +1096,8 @@ form .row.buttons {
             flex-direction: row-reverse; }
   .single-programs .featured__desc {
     color: #959595;
+    display: block;
+    max-width: 39.8125rem;
     padding: 5rem; }
     .single-programs .featured__desc h2 {
       color: #192f59; }
