@@ -3,4 +3,15 @@
 	@import '../../components/tabbed/home';
 	@import '../../components/schedules/tables';
 	@import '../../layout/featured';
+	.block {
+		&__desc {
+		    align-items: center;
+		    border: .5rem solid $accent_1;
+		    color:$accent_1;
+		    display: flex;
+		    font-size: 2rem;
+		    height: 8rem;
+		    padding: 2rem;
+		}
+	}
 }
