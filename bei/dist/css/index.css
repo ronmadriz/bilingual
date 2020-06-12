@@ -1116,4 +1116,5 @@ form .row.buttons {
     background-size: cover; }
     @media (max-width: 786px) {
       .single-programs .featured__image {
-        padding-bottom: 1rem; } }
+        padding-bottom: 1rem;
+        padding-top: 1rem; } }
