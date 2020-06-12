@@ -1,10 +1,15 @@
 .schedule__table {
-		tbody {
-			td {
-				&:first-of-type:before {
-				    margin-right: 0;
-				}		
-			}
-		} 
+	@include for-tablet-up {
+		.schedule__headers {
+			background-color: $accent_2;
+			font-size: 1rem;
+			font-weight: 400;
+			padding: 0.8125rem 0;
+		}
+	}
+	.schedule__data {
+		&:first-of-type:before {
+		    margin-right: 0;
+		}
 	}
 }
