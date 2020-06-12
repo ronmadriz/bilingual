@@ -1050,6 +1050,8 @@ form .row.buttons {
 .single-programs .schedule {
   padding-bottom: 4rem;
   padding-top: 4rem; }
+  .single-programs .schedule__title {
+    margin-bottom: 1.875rem; }
   .single-programs .schedule__label {
     color: #959595;
     font-size: 1.125rem;
