@@ -8,7 +8,11 @@
 	    flex-direction: row-reverse;
 	}
 	&__content {
+		color:$accent_13;
 		padding:5rem;
+		h2 {
+			color:$accent_1;
+		}
 	}
 	&__image {
 		@include has-bg (center, center);

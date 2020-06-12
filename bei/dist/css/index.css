@@ -1095,7 +1095,10 @@ form .row.buttons {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
   .single-programs .featured__content {
+    color: #959595;
     padding: 5rem; }
+    .single-programs .featured__content h2 {
+      color: #192f59; }
   .single-programs .featured__image {
     background-position: center, center;
     background-repeat: no-repeat;
