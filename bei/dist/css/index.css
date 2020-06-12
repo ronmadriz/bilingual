@@ -1132,4 +1132,5 @@ form .row.buttons {
     display: flex;
     font-size: 2rem;
     height: 8rem;
+    text-align: center;
     padding: 2rem; }
