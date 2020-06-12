@@ -1,23 +1,23 @@
 .schedule {
 	&__table {
-		&__headers {
-			background-color: $accent_2;
-		    border-bottom: 0.0625rem solid $alternate;
-		    border-right: 0.0625rem solid $alternate;
-			color:$alternate;
-			font-size: 1rem;
-			font-weight: 400;
+	}
+	&__headers {
+		background-color: $accent_2;
+	    border-bottom: 0.0625rem solid $alternate;
+	    border-right: 0.0625rem solid $alternate;
+		color:$alternate;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+	&__data {
+		background-color:$accent_5;
+		color:$accent_13;
+		&:first-of-type:before {
+		    margin-right: 0;
 		}
-		&__data {
-			background-color:$accent_5;
-			color:$accent_13;
-			&:first-of-type:before {
-			    margin-right: 0;
-			}
-			@include for-tablet-up {
-			    border-right: 0.0625rem solid $alternate;
-			    border-bottom: 0.0625rem solid $alternate;
-			}
+		@include for-tablet-up {
+		    border-right: 0.0625rem solid $alternate;
+		    border-bottom: 0.0625rem solid $alternate;
 		}
 	}
 }
