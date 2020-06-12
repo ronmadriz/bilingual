@@ -1,0 +1,8 @@
+.featured {
+	&__content {
+		
+	}
+	&__image {
+		@include has-bg (center, center);
+	}
+}

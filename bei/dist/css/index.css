@@ -1083,3 +1083,8 @@ form .row.buttons {
       .single-programs .schedule__data {
         border-right: 0.0625rem solid #fefefe;
         border-bottom: 0.0625rem solid #fefefe; } }
+
+.single-programs .featured__image {
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: cover; }
