@@ -20,6 +20,7 @@
 		}
 		h2 {
 			color:$accent_1;
+			@include title-bottom($accent_13);
 		}
 	}
 	&__image {
