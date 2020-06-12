@@ -4,6 +4,7 @@
 	@import '../../components/schedules/tables';
 	@import '../../layout/featured';
 	.block {
+	    padding:0 0 2rem;
 		&__desc {
 		    align-items: center;
 		    border: .5rem solid $accent_1;
