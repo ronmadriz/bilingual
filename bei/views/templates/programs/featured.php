@@ -7,6 +7,7 @@ if (have_rows('featured')) {
 		$featured_item_title   = get_sub_field('featured_item_title');
 		$featured_item_content = get_sub_field('featured_item_content');
 		$featured_item_image   = get_sub_field('featured_item_image');
+		$featured_size         = 'medium';
 		$featured_thumb        = $featured_item_image['sizes'][$featured_size];
 
 		echo '<style type="text/css">'.PHP_EOL;
