@@ -1,1 +1,8 @@
 @import '../../components/schedules/tables';
+.schedule {
+	&__title {
+        @include title-bottom($accent_2);
+		color:$accent_1;
+	    margin-bottom: 2.8725rem;		
+	}
+}

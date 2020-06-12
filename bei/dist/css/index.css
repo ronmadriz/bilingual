@@ -1022,6 +1022,18 @@ form .row.buttons {
       border-right: 0.0625rem solid #fefefe;
       border-bottom: 0.0625rem solid #fefefe; } }
 
+.single-programs .schedule__title {
+  color: #192f59;
+  margin-bottom: 2.8725rem; }
+  .single-programs .schedule__title:after {
+    content: '';
+    height: 0.125rem;
+    width: 7rem;
+    background-color: #3db166;
+    position: absolute;
+    display: block;
+    bottom: 0; }
+
 .single-programs .featured {
   background-color: #f3f3f3; }
   .single-programs .featured .container-fluid {
