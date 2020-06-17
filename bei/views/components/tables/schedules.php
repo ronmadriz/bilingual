@@ -12,8 +12,8 @@ if (have_rows('schedules_section')) {
 			while (have_rows('schedules')) {
 				the_row();
 				$schedule_table = get_sub_field('schedule');
-				echo '<div class="schedule__wrapper col-12 col-md-6">'.PHP_EOL;
 				if (!empty($schedule_table)) {
+					echo '<div class="schedule__wrapper col-12 col-md-6">'.PHP_EOL;
 					if (!empty($schedule_table['caption'])) {
 						echo '<h3 class="schedule__label">'.$schedule_table['caption'].'</h3>'.PHP_EOL;
 					}
@@ -41,6 +41,7 @@ if (have_rows('schedules_section')) {
 					}
 					echo '</tbody>'.PHP_EOL;
 					echo '</table>'.PHP_EOL;
+					echo '</div>'.PHP_EOL;
 				}
 			}
 			wp_reset_postdata();
