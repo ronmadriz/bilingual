@@ -3,7 +3,7 @@
 if (have_rows('calendars_section')) {
 	while (have_rows('calendars_section')) {
 		the_row();
-		$calendar_section_title = get_sub_field('calendar_section_title');
+		$calendar_section_title = get_sub_field('section_title');
 		echo '<section id="calendar" class="calendar">'.PHP_EOL;
 		echo '<div class="container-fluid">'.PHP_EOL;
 		echo (!empty($calendar_section_title)?'<div class="row justify-content-end"><div class="col-12 calendar__title"><h2>'.$calendar_section_title.'</h2></div></div>'.PHP_EOL:'');
