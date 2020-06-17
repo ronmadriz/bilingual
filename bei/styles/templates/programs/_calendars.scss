@@ -1,5 +1,5 @@
-@import '../../components/tables/schedules';
-.schedule {
+@import '../../components/tables/calendars';
+.calendar {
 	&__title {
         @include title-bottom($accent_2);
 		color:$accent_1;
