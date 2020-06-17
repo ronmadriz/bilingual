@@ -1,7 +1,7 @@
 <?php
 include (get_template_directory().'/views/layout/content-with-thumbnail.php');
-include ('blocks.php');
-include ('subjects.php');
-include ('calendars.php');
-include ('schedules.php');
-include ('featured.php');
+include ('single/blocks.php');
+include ('single/subjects.php');
+include ('single/calendars.php');
+include ('single/schedules.php');
+include ('single/featured.php');
