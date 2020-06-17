@@ -989,6 +989,52 @@ form .row.buttons {
         padding: 6.5rem 2rem; } }
 
 @media (min-width: 786px) {
+  .single-programs .calendar {
+    padding-bottom: 4rem;
+    padding-top: 4rem; } }
+
+.single-programs .calendar__title {
+  margin-bottom: 1.875rem; }
+
+.single-programs .calendar__label {
+  color: #959595;
+  font-size: 1.125rem;
+  margin-bottom: 0; }
+
+.single-programs .calendar__table {
+  margin-top: 1rem; }
+
+.single-programs .calendar__headers {
+  background-color: #3db166;
+  border-bottom: 0.0625rem solid #fefefe;
+  border-right: 0.0625rem solid #fefefe;
+  color: #fefefe;
+  font-size: 1rem;
+  font-weight: 400; }
+
+.single-programs .calendar__data {
+  background-color: #e6e6e6;
+  color: #959595; }
+  .single-programs .calendar__data:first-of-type:before {
+    margin-right: 0; }
+  @media (min-width: 786px) {
+    .single-programs .calendar__data {
+      border-right: 0.0625rem solid #fefefe;
+      border-bottom: 0.0625rem solid #fefefe; } }
+
+.single-programs .calendar__title {
+  color: #192f59;
+  margin-bottom: 2.8725rem; }
+  .single-programs .calendar__title:after {
+    content: '';
+    height: 0.125rem;
+    width: 7rem;
+    background-color: #3db166;
+    position: absolute;
+    display: block;
+    bottom: 0; }
+
+@media (min-width: 786px) {
   .single-programs .schedule {
     padding-bottom: 4rem;
     padding-top: 4rem; } }
