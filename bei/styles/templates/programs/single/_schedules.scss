@@ -1,4 +1,4 @@
-@import '../../components/tables/schedules';
+@import '../../../components/tables/schedules';
 .schedule {
 	&__title {
         @include title-bottom($accent_2);
