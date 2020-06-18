@@ -1152,4 +1152,5 @@ form .row.buttons {
       font-size: 1.25rem;
       margin-bottom: 1.5625rem; }
     .overview__sub--desc {
-      font-size: 0.9375rem; }
+      font-size: 0.9375rem;
+      line-height: 1.7; }
