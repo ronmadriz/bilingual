@@ -17,4 +17,9 @@
 		display: block;
 		padding-bottom: 0.8125rem;
 	}
+	&__sub {
+		background-color: $accent_1;
+		color:$alternate;
+		padding:3rem;
+	}
 }
