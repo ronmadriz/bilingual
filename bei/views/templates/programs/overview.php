@@ -8,7 +8,7 @@ if ($program_query->have_posts()) {
 	echo '<section id="overview" class="overview">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
-	echo '<div class="overview__content col-12 col-md-7">'.PHP_EOL;
+	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
 	echo '<ul class="overview__list">'.PHP_EOL;
 	while ($program_query->have_posts()) {
 		$program_query->the_post();
@@ -17,7 +17,7 @@ if ($program_query->have_posts()) {
 	wp_reset_postdata();
 	echo '</ul>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
-	echo '<div class="overview__sub col-12 col-md-5">'.PHP_EOL;
+	echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
 	echo '<h3 class="overview__sub--title">Department Contact Info</h3>'.PHP_EOL;
 	echo '<span class="overview__sub--desc">'.PHP_EOL;
 	echo '<p>Bachelor Of Science in Business Administration</p>'.PHP_EOL;
