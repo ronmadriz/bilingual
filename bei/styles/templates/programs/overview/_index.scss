@@ -3,12 +3,13 @@
 		border-bottom-style: solid;
 		border-bottom-width: .0625rem;
 		list-style-type:none;
-		margin-bottom: 0.8125rem;		
-		padding-bottom: 0.8125rem;
+		margin-bottom: 0.8125rem;
 		position: relative;
 	}
 	&__item {
-
+		border-bottom-color: $accent_5;
+		color: $led;
+		padding-bottom: 0.8125rem;
 	}
 	&__link {
 
