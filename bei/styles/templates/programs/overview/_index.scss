@@ -5,15 +5,13 @@
 		list-style-type:none;
 	}
 	&__item {
-		border-bottom-style: solid;
-		border-bottom-width: .0625rem;
+		border-bottom:.0625rem solid $accent_5;
 		margin-bottom: 0.8125rem;
 	    padding-left: 1.25rem;
 	    padding-right: 1.25rem;
 		position: relative;
 	}
 	&__link {
-		border-bottom-color: $accent_5;
 		color: $led;
 		display: block;
 		padding-bottom: 0.8125rem;
