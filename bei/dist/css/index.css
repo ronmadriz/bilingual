@@ -1140,4 +1140,5 @@ form .row.buttons {
 .overview__link {
   border-bottom-color: #e6e6e6;
   color: #6b6b6b;
+  display: block;
   padding-bottom: 0.8125rem; }
