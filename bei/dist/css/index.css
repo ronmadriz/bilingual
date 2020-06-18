@@ -1133,15 +1133,13 @@ form .row.buttons {
   list-style-type: none; }
 
 .overview__item {
-  border-bottom-style: solid;
-  border-bottom-width: .0625rem;
+  border-bottom: 0.0625rem solid #e6e6e6;
   margin-bottom: 0.8125rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   position: relative; }
 
 .overview__link {
-  border-bottom-color: #e6e6e6;
   color: #6b6b6b;
   display: block;
   padding-bottom: 0.8125rem; }
