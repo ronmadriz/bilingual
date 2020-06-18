@@ -1,6 +1,6 @@
 <?php
 $program_args = array(
-	'post_type'   => 'overview',
+	'post_type'   => 'programs',
 	'post_status' => 'publish',
 );
 $program_query = new WP_Query($program_args);
