@@ -1,10 +1,10 @@
 .overview {
 	&__list {
 		border-bottom-style: solid;
-		border-bottom-width: 1px;
+		border-bottom-width: .0625rem;
 		list-style-type:none;
-		margin-bottom: 13px;		
-		padding-bottom: 13px;
+		margin-bottom: 0.8125rem;		
+		padding-bottom: 0.8125rem;
 		position: relative;
 	}
 	&__item {
