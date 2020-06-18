@@ -1148,3 +1148,6 @@ form .row.buttons {
     background-color: #192f59;
     color: #fefefe;
     padding: 3rem; }
+    .overview__sub--title {
+      font-size: 1.25rem;
+      margin-bottom: 1.5625rem; }
