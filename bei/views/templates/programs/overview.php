@@ -24,7 +24,7 @@ if ($program_query->have_posts()) {
 	echo '<p>1810 Campus Way NE Bothell, WA 98011-8246</p>'.PHP_EOL;
 	echo '<p>+1-2345-5432-45 bsba@kuuniver.edu</p>'.PHP_EOL;
 	echo '<p>Mon – Fri 9:00A.M. – 5:00P.M.</p>'.PHP_EOL;
-	echo '<span class="overview__sub--btn"><a class="btn btn__green">Schedule an Appointment</a></span>'.PHP_EOL;
+	echo '<span class="overview__sub--btn"><a class="btn button__green">Schedule an Appointment</a></span>'.PHP_EOL;
 	echo '</span>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
