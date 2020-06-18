@@ -156,8 +156,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  margin-right: auto;
-  width: 1360px; }
+  margin-right: auto; }
+  @media (min-width: 1360px) {
+    .wrapper {
+      width: 1360px; } }
 
 .site__logo {
   padding: 1rem 0 0;

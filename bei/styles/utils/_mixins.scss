@@ -11,7 +11,7 @@
   @media (min-width: 1200px) { @content; }
 }
 @mixin for-tv-up {
-  @media (min-width: 1800px) { @content; }
+  @media (min-width: 1360px) { @content; }
 }
 @mixin button-big($bg,$bgtext) {
   background: $bg;
