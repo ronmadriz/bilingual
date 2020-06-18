@@ -1,5 +1,6 @@
 <?
-echo '<section id="subsites" class="container-fluid subsites">'.PHP_EOL;
+echo '<section id="subsites" class="subsites">'.PHP_EOL;
+echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="col-12">', PHP_EOL;
 $top_menu_args = array(
@@ -20,6 +21,7 @@ $top_menu_args = array(
 	'depth'           => 1,
 );
 wp_nav_menu($top_menu_args);
+echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</section>'.PHP_EOL;
