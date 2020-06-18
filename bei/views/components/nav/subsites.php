@@ -1,6 +1,6 @@
 <?
 echo '<section id="subsites" class="subsites">'.PHP_EOL;
-echo '<div class="wrapper">'.PHP_EOL;
+echo '<div class="subsites__wrapper wrapper">'.PHP_EOL;
 echo '<div class="subsites__content">', PHP_EOL;
 $top_menu_args = array(
 	'theme_location'  => 'subsites',
