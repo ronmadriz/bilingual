@@ -1,17 +1,19 @@
 .overview {
 	&__list {
+		padding-bottom: 2.8125rem;
+	    padding-left: 1.25rem;
+	    padding-right: 1.25rem;
+		list-style-type:none;
+	}
+	&__item {
 		border-bottom-style: solid;
 		border-bottom-width: .0625rem;
-		list-style-type:none;
 		margin-bottom: 0.8125rem;
 		position: relative;
 	}
-	&__item {
+	&__link {
 		border-bottom-color: $accent_5;
 		color: $led;
 		padding-bottom: 0.8125rem;
-	}
-	&__link {
-
 	}
 }
