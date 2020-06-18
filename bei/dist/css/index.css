@@ -1143,3 +1143,7 @@ form .row.buttons {
     color: #6b6b6b;
     display: block;
     padding-bottom: 0.8125rem; }
+  .overview__sub {
+    background-color: #192f59;
+    color: #fefefe;
+    padding: 3rem; }
