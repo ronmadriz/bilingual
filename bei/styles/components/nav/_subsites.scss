@@ -1,6 +1,10 @@
 .subsites {
 	background-color: $accent_1;
 	color:$alternate;
+	&__wrapper {
+	    flex-direction: row-reverse;
+	}
+	&__content {}
 	&__nav {
 		align-items: flex-start;
 		flex-direction: row;
@@ -39,21 +43,6 @@
 					}
 				}
 			}
-		    /*	&:nth-of-type(1){
-				a {
-					border-bottom-color:$accent_2;
-				}
-			}
-			&:nth-of-type(2){
-				a {
-					border-bottom-color:$accent_3;
-				}
-			}
-			&:nth-of-type(3){
-				a {
-					border-bottom-color:$accent_4;
-				}
-			} */
 		}
 	}
 }
