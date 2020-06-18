@@ -1128,6 +1128,7 @@ form .row.buttons {
         padding-top: 3rem; } }
 
 .overview {
+  padding-bottom: 2rem;
   padding-top: 2rem; }
   .overview__list {
     padding-bottom: 2.8125rem;
