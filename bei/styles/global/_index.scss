@@ -14,6 +14,8 @@ body {
 }
 .wrapper {
     display: flex;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;    
     margin-left: auto;
     margin-right: auto;
     @include for-tv-up {
