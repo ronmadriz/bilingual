@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Program Overview
-Template Post Type: program
+Template Post Type: programs
  */
 get_header();
 include ('views/templates/programs/overview.php');
