@@ -1,3 +1,16 @@
 .overview {
-	
+	&__list {
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		list-style-type:none;
+		margin-bottom: 13px;		
+		padding-bottom: 13px;
+		position: relative;
+	}
+	&__item {
+
+	}
+	&__link {
+
+	}
 }
