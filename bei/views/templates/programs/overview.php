@@ -1,9 +1,7 @@
 <?php
 $program_args = array(
-	'post_parent'    => $post->ID,
-	'posts_per_page' => -1,
-	'post_type'      => 'programs',
-	'post_status'    => 'publish',
+	'post_type'   => 'programs',
+	'post_status' => 'publish',
 );
 $program_query = new WP_Query($program_args);
 if ($program_query->have_posts()) {
