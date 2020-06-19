@@ -1,31 +1,7 @@
-form {
-	fieldset {
-		&:first-of-type {
-			@include for-phone-only {
-				width:47.5%;
-				display: inline-block;
-			}
-		}
-		&:nth-of-type(2) {
-			@include for-phone-only {
-				width:47.5%;
-				display: inline-block;
-				vertical-align: top;
-			}
-		}						
+.sent {
+	.inside {
+		display:none;
 	}
-	&.sent {
-		div {
-			&.inside {
-				display:none;
-			}
-		}
-	}
-	.row {
-		&.buttons {
-			margin-top:2rem
-		}
-	}	
 }
 .form-group {
 	label {
@@ -37,9 +13,7 @@ form {
 				margin-top: .25rem;
 				font-size: 1rem;
 				font-weight: normal;
-				border-width: 0 0 1px;
-				border-style: solid;
-				border-color: $outline;
+				border: 1px solid $outline;
 				border-radius:0;
 				outline: none;
 				transition: border-color 0.2s;
@@ -80,11 +54,6 @@ form {
 					  color: $base;
 					}
 				}
-			}
-		}
-		&[type=submit] {
-			&.btn {
-				border-radius: 0;
 			}
 		}
 	}
