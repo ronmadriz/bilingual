@@ -1146,8 +1146,8 @@ form .row.buttons {
     display: block;
     padding-bottom: 0.8125rem;
     position: relative;
-    -webkit-transition: 1s ease all;
-    transition: 1s ease all; }
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all; }
     .overview__link:hover {
       color: #3db166;
       text-decoration: none; }
