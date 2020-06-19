@@ -7,6 +7,7 @@ if (have_posts()) {
 	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
+		global $post;
 		if ($post->post_parent) {
 
 			$children = wp_list_pages(array(
