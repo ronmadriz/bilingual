@@ -1143,10 +1143,16 @@ form .row.buttons {
   .overview__link {
     color: #6b6b6b;
     display: block;
-    padding-bottom: 0.8125rem; }
+    padding-bottom: 0.8125rem;
+    position: relative; }
     .overview__link:after {
       content: url(../../sprites/chevron.svg);
+      -webkit-filter: hue-rotate(45deg);
+              filter: hue-rotate(45deg);
       height: 2rem;
+      position: absolute;
+      right: 0;
+      top: 0;
       width: 2rem; }
   .overview__sub {
     background-color: #192f59;
