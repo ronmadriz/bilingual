@@ -17,6 +17,11 @@
 		color: $led;
 		display: block;
 		padding-bottom: 0.8125rem;
+		&:after {
+			content: url(test.svg);
+			height: 2rem;
+			width: 2rem;
+		}
 	}
 	&__sub {
 		background-color: $accent_1;
