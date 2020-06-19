@@ -14,7 +14,6 @@ if (have_posts()) {
 				'echo'      => 0, // do not echo
 				'exclude'   => $post->ID, // exclude the parent page from being added to array
 				'post_type' => 'programs', // only posts from the location post type
-				'walker'    => new Programs_Walker
 			)
 		);
 		if ($children) {
