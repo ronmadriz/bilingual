@@ -15,7 +15,7 @@ if (have_posts()) {
 					'child_of'  => $post->post_parent, // child of only the parent page
 					'echo'      => 0, // do not echo
 					'exclude'   => $post->ID, // exclude the parent page from being added to array
-					'post_type' => 'location'// only posts from the location post type
+					'post_type' => 'programs'// only posts from the location post type
 				));
 
 		}
