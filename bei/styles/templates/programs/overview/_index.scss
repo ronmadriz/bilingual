@@ -5,32 +5,32 @@
 		padding-bottom: 2.8125rem;
 		padding-left:0;
 		list-style-type:none;
-	}
-	&__item {
-		border-bottom:.0625rem solid $accent_5;
-		margin-bottom: 0.8125rem;
-	    padding-left: 1.25rem;
-	    padding-right: 1.25rem;
-		position: relative;
-	}
-	&__link {
-		color: $led;
-		display: block;
-		padding-bottom: 0.8125rem;
-		position:relative;
-		transition: .5s ease all;
-		&:hover {
-			color:$accent_2;
-			text-decoration: none;
-		}
-		&:after {
-			content: url(../../sprites/arrow.svg);
-		    filter: hue-rotate(45deg);
-			height: 2rem;
-		    position: absolute;
-		    right: 0;
-		    top: 5%;		
-			width: 1rem;
+		li {
+			border-bottom:.0625rem solid $accent_5;
+			margin-bottom: 0.8125rem;
+		    padding-left: 1.25rem;
+		    padding-right: 1.25rem;
+			position: relative;
+			a {
+				color: $led;
+				display: block;
+				padding-bottom: 0.8125rem;
+				position:relative;
+				transition: .5s ease all;
+				&:hover {
+					color:$accent_2;
+					text-decoration: none;
+				}
+				&:after {
+					content: url(../../sprites/arrow.svg);
+				    filter: hue-rotate(45deg);
+					height: 2rem;
+				    position: absolute;
+				    right: 0;
+				    top: 5%;		
+					width: 1rem;
+				}
+			}
 		}
 	}
 	&__sub {
