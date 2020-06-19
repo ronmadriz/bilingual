@@ -1,4 +1,5 @@
 <?php
+@include (get_template_directory().'views/components/banner/subpage.php');
 $program_args = array(
 	'post_type'   => 'programs',
 	'post_status' => 'publish',
