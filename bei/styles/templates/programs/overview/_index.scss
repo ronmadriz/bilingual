@@ -17,9 +17,14 @@
 		color: $led;
 		display: block;
 		padding-bottom: 0.8125rem;
+		position:relative;
 		&:after {
 			content: url(../../sprites/chevron.svg);
+		    filter: hue-rotate(45deg);
 			height: 2rem;
+		    position: absolute;
+		    right: 0;
+		    top: 0;			
 			width: 2rem;
 		}
 	}
