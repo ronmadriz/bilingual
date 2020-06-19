@@ -4,9 +4,6 @@
 	}
 }
 .form-group {
-	label {
-		margin-left:1rem;
-	}
 	input {
 		&.form-control {
 			&[type=text], &[type=email], &[type=password], &[type=date], &[type=tel] {

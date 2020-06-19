@@ -487,9 +487,6 @@ section:not(.banner):not(.featured) .container-fluid {
 .sent .inside {
   display: none; }
 
-.form-group label {
-  margin-left: 1rem; }
-
 .form-group input.form-control[type=text], .form-group input.form-control[type=email], .form-group input.form-control[type=password], .form-group input.form-control[type=date], .form-group input.form-control[type=tel] {
   margin-top: .25rem;
   font-size: 1rem;
