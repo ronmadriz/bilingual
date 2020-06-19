@@ -1145,7 +1145,7 @@ form .row.buttons {
     display: block;
     padding-bottom: 0.8125rem; }
     .overview__link:after {
-      content: url(../../../../sprites/chevron.svg);
+      content: url(../../../sprites/chevron.svg);
       height: 2rem;
       width: 2rem; }
   .overview__sub {
