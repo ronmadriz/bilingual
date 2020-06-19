@@ -1,9 +1,21 @@
 <?
 // Program Walker
 class Programs_Walker extends Walker_Nav_Menu {
-	// top level <ul>
-	function start_lvl(&$output, $depth = 0, $args = null) {}
+	function start_el(&$output, $item, $depth = 0, $args = [], $id = 0) {
+		$output .= "<li class='".implode(" ", $item->classes)."'>";
 
-	// top level </ul>
-	function start_el(&$output, $item, $depth = 0, $args = null, $id = 0) {}
+		if ($item->url && $item->url != '#') {
+			$output .= '<a href="'.$item->url.'">';
+		} else {
+			$output .= '<span>';
+		}
+
+		$output .= $item->title;
+
+		if ($item->url && $item->url != '#') {
+			$output .= '</a>';
+		} else {
+			$output .= '</span>';
+		}
+	}
 }
