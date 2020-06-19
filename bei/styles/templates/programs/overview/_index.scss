@@ -18,6 +18,10 @@
 		display: block;
 		padding-bottom: 0.8125rem;
 		position:relative;
+		&:hover {
+			color:$accent_2;
+			text-decoration: none;
+		}
 		&:after {
 			content: url(../../sprites/arrow.svg);
 		    filter: hue-rotate(45deg);
