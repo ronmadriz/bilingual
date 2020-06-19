@@ -1160,11 +1160,11 @@ form .row.buttons {
           right: 0;
           top: 5%;
           width: 1rem; }
-      .overview__list li .children {
-        padding-left: 0;
-        list-style-type: none; }
-        .overview__list li .children li a {
-          background-color: #8d8d8d; }
+  .overview .children {
+    padding-left: 0;
+    list-style-type: none; }
+    .overview .children li a {
+      background-color: #8d8d8d; }
   .overview__sub {
     background-color: #192f59;
     color: #fefefe;
