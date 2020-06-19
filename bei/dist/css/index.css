@@ -624,6 +624,10 @@ form .row.buttons {
 .logos {
   padding: 3.4375rem 0 1.25rem 0; }
 
+.subbanner__content {
+  padding-bottom: 7.25rem;
+  padding-top: 7.875rem; }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
