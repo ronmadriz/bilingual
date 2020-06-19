@@ -12,7 +12,13 @@ echo '<li class="overview__item"><a href="'.get_the_permalink().'" class="overvi
 wp_reset_postdata();
 echo '</ul>'.PHP_EOL; */
 global $post;
-wp_list_pages(array('child_of' => $post->ID, 'depth' => 1, ));
+wp_list_pages(array(
+		// Only pages that are children of the current page's parent
+		'child_of' => $post->post_parent,
+		// Only show two level of hierarchy
+		'depth' => 2,
+	));
+
 echo '</div>'.PHP_EOL;
 echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
 echo '<h3 class="overview__sub--title">Department Contact Info</h3>'.PHP_EOL;
