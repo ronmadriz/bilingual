@@ -31,14 +31,14 @@
 					width: 1rem;
 				}
 			}
-			.children {
-				padding-left:0;
-				list-style-type:none;
-				li {
-					a {
-						background-color:$outline;
-					}
-				}
+		}
+	}
+	.children {
+		padding-left:0;
+		list-style-type:none;
+		li {
+			a {
+				background-color:$outline;
 			}
 		}
 	}
