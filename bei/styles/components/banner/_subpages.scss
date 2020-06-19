@@ -1,9 +1,16 @@
 .subbanner {
+	background-color: $accent_1;
 	&__wrapper {}
 	&__row {}
 	&__content {
 	    padding-bottom: 7.25rem;		
 	    padding-top: 7.875rem;
 	}
-	&__title {}
+	&__title {
+		color: $alternate;
+		font-size: 3rem;
+		font-weight: 700;
+		letter-spacing: .0625rem;
+		margin-bottom: 0;
+	}
 }

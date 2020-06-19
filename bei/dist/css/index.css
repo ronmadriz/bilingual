@@ -624,9 +624,17 @@ form .row.buttons {
 .logos {
   padding: 3.4375rem 0 1.25rem 0; }
 
-.subbanner__content {
-  padding-bottom: 7.25rem;
-  padding-top: 7.875rem; }
+.subbanner {
+  background-color: #192f59; }
+  .subbanner__content {
+    padding-bottom: 7.25rem;
+    padding-top: 7.875rem; }
+  .subbanner__title {
+    color: #fefefe;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .0625rem;
+    margin-bottom: 0; }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
