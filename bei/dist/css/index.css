@@ -1144,6 +1144,10 @@ form .row.buttons {
     color: #6b6b6b;
     display: block;
     padding-bottom: 0.8125rem; }
+    .overview__link:after {
+      content: url(../../../../sprites/chevron.svg);
+      height: 2rem;
+      width: 2rem; }
   .overview__sub {
     background-color: #192f59;
     color: #fefefe;
@@ -1154,3 +1158,6 @@ form .row.buttons {
     .overview__sub--desc {
       font-size: 0.9375rem;
       line-height: 1.7; }
+    .overview__sub--btn {
+      display: block;
+      margin-top: 2rem; }
