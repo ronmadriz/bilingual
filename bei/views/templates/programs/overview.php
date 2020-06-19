@@ -18,12 +18,6 @@ if (have_posts()) {
 				));
 
 		}
-
-		if ($children) {
-
-			echo '<ul>'.$children.'</ul>';
-
-		}
 	}
 	echo '</div>'.PHP_EOL;
 	echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
