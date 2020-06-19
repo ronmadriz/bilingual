@@ -1146,7 +1146,7 @@ form .row.buttons {
     padding-bottom: 0.8125rem;
     position: relative; }
     .overview__link:after {
-      content: url(../../sprites/chevron.svg);
+      content: url(../../sprites/arrow.svg);
       -webkit-filter: hue-rotate(45deg);
               filter: hue-rotate(45deg);
       height: 2rem;
