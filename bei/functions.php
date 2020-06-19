@@ -337,5 +337,3 @@ add_filter('acf_icon_url', 'acf_icon_url');
 function acf_icon_url($path_suffix) {
 	return plugin_dir_url(__FILE__);
 }
-
-// Program Walker
