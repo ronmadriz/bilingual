@@ -1,5 +1,5 @@
 <?php
-include (get_template_directory().'/views/components/banner/subpage.php');
+include (get_template_directory().'/views/components/banner/subpages.php');
 if (have_posts()) {
 	echo '<section id="overview" class="overview">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
