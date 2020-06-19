@@ -1136,15 +1136,15 @@ form .row.buttons {
     padding-left: 0;
     list-style-type: none; }
     .overview__list li {
-      border-bottom: 0.0625rem solid #e6e6e6;
-      margin-bottom: 0.8125rem;
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
       position: relative; }
       .overview__list li a {
+        border-bottom: 0.0625rem solid #e6e6e6;
         color: #6b6b6b;
         display: block;
+        margin-bottom: 0.8125rem;
         padding-bottom: 0.8125rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
         position: relative;
         -webkit-transition: .5s ease all;
         transition: .5s ease all; }
@@ -1165,8 +1165,6 @@ form .row.buttons {
     -webkit-padding-start: 0;
             padding-inline-start: 0;
     list-style-type: none; }
-    .overview .children li a {
-      background-color: #8d8d8d; }
   .overview__sub {
     background-color: #192f59;
     color: #fefefe;
