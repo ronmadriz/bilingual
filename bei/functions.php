@@ -348,23 +348,20 @@ class Program_List_Walker_Page extends Walker_Page {
 		$this->running_count = 0;
 	}
 	function start_el(&$output, $page, $depth, $args, $current_page) {
+		global $post;
 		extract($args, EXTR_SKIP);
 		$css_class = array();
-		if (!empty($current_page)) {
-			$_current_page = get_page($current_page);
-			_get_post_ancestors($_current_page);
-			if (isset($_current_page->ancestors) && in_array($page->ID, (array) $_current_page->ancestors)) {
-				$css_class[] = 'current_page_ancestor';
-			}
 
-			if ($page->ID == $current_page) {
-				$css_class[] = 'current_page_item';
-			} elseif ($_current_page && $page->ID == $_current_page->post_parent) {
-				$css_class[] = 'current_page_parent';
-			}
-		} elseif ($page->ID == get_option('page_for_posts')) {
-			$css_class[] = 'current_page_parent';
+		if ("partner" == get_post_type($post)) {
+			$current_page = get_ID_by_slug("about-us/our-partners");
 		}
+
+		if (!empty($current_page)) {
+			if ($page->ID == $current_page) {
+				$css_class[] = 'selected';
+			}
+		}
+
 		$css_class = implode(' ', apply_filters('page_css_class', $css_class, $page));
 		$output .= '<a class="'.$css_class.'" href="'.get_permalink($page->ID).'">'.apply_filters('the_title', $page->post_title, $page->ID).'</a>';
 	}
@@ -375,8 +372,13 @@ class Program_List_Walker_Page extends Walker_Page {
 		}
 	}
 
-	function walk($elements, $max_depth, $r) {
-		$this->count = count($elements);
-		return parent::walk($elements, $max_depth, $r);
+	function walk($elements, $max_depth, $a, $b) {
+		foreach ($elements as $element) {
+			if ($a['child_of'] == $element->post_parent) {
+				$this->count++;
+			}
+		}
+
+		return parent::walk($elements, $max_depth, $a, $b);
 	}
 }
