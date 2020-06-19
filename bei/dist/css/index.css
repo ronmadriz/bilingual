@@ -1135,31 +1135,31 @@ form .row.buttons {
     padding-bottom: 2.8125rem;
     padding-left: 0;
     list-style-type: none; }
-  .overview__item {
-    border-bottom: 0.0625rem solid #e6e6e6;
-    margin-bottom: 0.8125rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    position: relative; }
-  .overview__link {
-    color: #6b6b6b;
-    display: block;
-    padding-bottom: 0.8125rem;
-    position: relative;
-    -webkit-transition: .5s ease all;
-    transition: .5s ease all; }
-    .overview__link:hover {
-      color: #3db166;
-      text-decoration: none; }
-    .overview__link:after {
-      content: url(../../sprites/arrow.svg);
-      -webkit-filter: hue-rotate(45deg);
-              filter: hue-rotate(45deg);
-      height: 2rem;
-      position: absolute;
-      right: 0;
-      top: 5%;
-      width: 1rem; }
+    .overview__list li {
+      border-bottom: 0.0625rem solid #e6e6e6;
+      margin-bottom: 0.8125rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      position: relative; }
+      .overview__list li a {
+        color: #6b6b6b;
+        display: block;
+        padding-bottom: 0.8125rem;
+        position: relative;
+        -webkit-transition: .5s ease all;
+        transition: .5s ease all; }
+        .overview__list li a:hover {
+          color: #3db166;
+          text-decoration: none; }
+        .overview__list li a:after {
+          content: url(../../sprites/arrow.svg);
+          -webkit-filter: hue-rotate(45deg);
+                  filter: hue-rotate(45deg);
+          height: 2rem;
+          position: absolute;
+          right: 0;
+          top: 5%;
+          width: 1rem; }
   .overview__sub {
     background-color: #192f59;
     color: #fefefe;
