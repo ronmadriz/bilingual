@@ -7,7 +7,6 @@ if (have_posts()) {
 	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
-		echo '<div class="overview__list">'.PHP_EOL;
 		$children = wp_list_pages(
 			array(
 				'title_li'  => '',
@@ -18,9 +17,8 @@ if (have_posts()) {
 			)
 		);
 		if ($children) {
-			echo '<ul>'.$children.'</ul>';
+			echo '<ul class="overview__children">'.$children.'</ul>';
 		}
-		echo '</div>'.PHP_EOL;
 	}
 	echo '</div>'.PHP_EOL;
 	echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
