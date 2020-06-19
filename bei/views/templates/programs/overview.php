@@ -17,7 +17,7 @@ if (have_posts()) {
 			)
 		);
 		if ($children) {
-			echo '<ul class="overview__children">'.$children.'</ul>';
+			echo '<ul class="overview__list">'.$children.'</ul>';
 		}
 	}
 	echo '</div>'.PHP_EOL;
