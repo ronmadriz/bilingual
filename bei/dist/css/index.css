@@ -1162,6 +1162,8 @@ form .row.buttons {
           width: 1rem; }
   .overview .children {
     padding-left: 0;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
     list-style-type: none; }
     .overview .children li a {
       background-color: #8d8d8d; }
