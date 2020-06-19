@@ -7,18 +7,15 @@ if (have_posts()) {
 	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
-		global $post;
-		if ($post->post_parent) {
-			$children = wp_list_pages(
-				array(
-					'title_li'  => '',
-					'child_of'  => $post->post_parent, // child of only the parent page
-					'echo'      => 0, // do not echo
-					'exclude'   => $post->ID, // exclude the parent page from being added to array
-					'post_type' => 'programs'// only posts from the location post type
-				)
-			);
-		}
+		$children = wp_list_pages(
+			array(
+				'title_li'  => '',
+				'child_of'  => $post->post_parent, // child of only the parent page
+				'echo'      => 0, // do not echo
+				'exclude'   => $post->ID, // exclude the parent page from being added to array
+				'post_type' => 'programs'// only posts from the location post type
+			)
+		);
 		if ($children) {
 			echo '<ul>'.$children.'</ul>';
 		}
