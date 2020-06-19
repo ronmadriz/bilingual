@@ -337,3 +337,46 @@ add_filter('acf_icon_url', 'acf_icon_url');
 function acf_icon_url($path_suffix) {
 	return plugin_dir_url(__FILE__);
 }
+
+// Program Walker
+
+class Program_List_Walker_Page extends Walker_Page {
+	public $count;
+	public $running_count;
+	function __construct() {
+		$this->count         = 0;
+		$this->running_count = 0;
+	}
+	function start_el(&$output, $page, $depth, $args, $current_page) {
+		extract($args, EXTR_SKIP);
+		$css_class = array();
+		if (!empty($current_page)) {
+			$_current_page = get_page($current_page);
+			_get_post_ancestors($_current_page);
+			if (isset($_current_page->ancestors) && in_array($page->ID, (array) $_current_page->ancestors)) {
+				$css_class[] = 'current_page_ancestor';
+			}
+
+			if ($page->ID == $current_page) {
+				$css_class[] = 'current_page_item';
+			} elseif ($_current_page && $page->ID == $_current_page->post_parent) {
+				$css_class[] = 'current_page_parent';
+			}
+		} elseif ($page->ID == get_option('page_for_posts')) {
+			$css_class[] = 'current_page_parent';
+		}
+		$css_class = implode(' ', apply_filters('page_css_class', $css_class, $page));
+		$output .= '<a class="'.$css_class.'" href="'.get_permalink($page->ID).'">'.apply_filters('the_title', $page->post_title, $page->ID).'</a>';
+	}
+	function end_el(&$output, $item, $depth) {
+		$this->running_count++;
+		if ($this->count > $this->running_count) {
+			$output .= " | ";
+		}
+	}
+
+	function walk($elements, $max_depth, $r) {
+		$this->count = count($elements);
+		return parent::walk($elements, $max_depth, $r);
+	}
+}
