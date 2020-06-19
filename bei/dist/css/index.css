@@ -1145,7 +1145,12 @@ form .row.buttons {
     color: #6b6b6b;
     display: block;
     padding-bottom: 0.8125rem;
-    position: relative; }
+    position: relative;
+    -webkit-transition: 1s ease all;
+    transition: 1s ease all; }
+    .overview__link:hover {
+      color: #3db166;
+      text-decoration: none; }
     .overview__link:after {
       content: url(../../sprites/arrow.svg);
       -webkit-filter: hue-rotate(45deg);
