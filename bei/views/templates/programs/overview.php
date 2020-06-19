@@ -10,13 +10,15 @@ if ($program_query->have_posts()) {
 	echo '<div class="container-fluid">'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
 	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
-	echo '<ul class="overview__list">'.PHP_EOL;
+	/* echo '<ul class="overview__list">'.PHP_EOL;
 	while ($program_query->have_posts()) {
-		$program_query->the_post();
-		echo '<li class="overview__item"><a href="'.get_the_permalink().'" class="overview__link">'.get_the_title().'</a></li>'.PHP_EOL;
+	$program_query->the_post();
+	echo '<li class="overview__item"><a href="'.get_the_permalink().'" class="overview__link">'.get_the_title().'</a></li>'.PHP_EOL;
 	}
 	wp_reset_postdata();
-	echo '</ul>'.PHP_EOL;
+	echo '</ul>'.PHP_EOL; */
+	global $post;
+	wp_list_pages(array('child_of' => $post->ID, 'depth' => 1, ));
 	echo '</div>'.PHP_EOL;
 	echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
 	echo '<h3 class="overview__sub--title">Department Contact Info</h3>'.PHP_EOL;
