@@ -352,9 +352,9 @@ class Program_List_Walker_Page extends Walker_Page {
 		extract($args, EXTR_SKIP);
 		$css_class = array();
 
-		if ("partner" == get_post_type($post)) {
-			$current_page = get_ID_by_slug("about-us/our-partners");
-		}
+		//		if ("partner" == get_post_type($post)) {
+		//			$current_page = get_ID_by_slug("about-us/our-partners");
+		//		}
 
 		if (!empty($current_page)) {
 			if ($page->ID == $current_page) {
