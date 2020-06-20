@@ -8,7 +8,7 @@ if (have_posts()) {
 		echo '<div class="row">'.PHP_EOL;
 		echo '<div id="title"><h1>'.get_the_title().'</h1></div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
-		if (!empty($page_content) {
+		if (!empty($page_content)) {
 			echo '<div class="row">'.PHP_EOL;
 			echo '<div id="content" class="col">'.$page_content.'</div>'.PHP_EOL;
 			echo '</div>'.PHP_EOL;
