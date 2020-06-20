@@ -5,7 +5,7 @@ if (have_posts()) {
 	echo '<div class="container">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
-		echo '<div class="row"><div id="content" class="col">';
+		echo '<div class="row"><div id="content" class="col-12">';
 		the_content();
 		echo '</div></div>'.PHP_EOL;
 	}
