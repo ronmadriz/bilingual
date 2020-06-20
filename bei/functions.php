@@ -338,3 +338,8 @@ add_filter('acf_icon_url', 'acf_icon_url');
 function acf_icon_url($path_suffix) {
 	return plugin_dir_url(__FILE__);
 }
+add_filter('wpcf7_form_elements', function ($content) {
+		$content = preg_replace('/<label><input type="(checkbox|radio)" name="(.*?)" value="(.*?)" \/><span class="wpcf7-list-item-label">/i', '<label class="custom-control custom-\1"><input type="\1" name="\2" value="\3" class="custom-control-input"><span class="wpcf7-list-item-label custom-control-label">', $content);
+
+		return $content;
+	});
