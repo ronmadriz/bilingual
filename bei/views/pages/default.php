@@ -1,7 +1,7 @@
 <?php
 $page_content = get_the_content();
-include (get_template_directory().'/views/components/banner/subpages.php');
 if (have_posts()) {
+	include (get_template_directory().'/views/components/banner/subpages.php');
 	echo '<section id="main-content">'.PHP_EOL;
 	echo '<div class="container">'.PHP_EOL;
 	while (have_posts()) {
