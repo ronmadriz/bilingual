@@ -1,6 +1,6 @@
 <?php
 $page_content = get_the_content();
-include (get_bloginfo('template_directory_uri').'/views/banner/subpages.php');
+include (get_template_directory_uri().'/views/banner/subpages.php');
 if (have_posts()) {
 	echo '<section id="main-content">'.PHP_EOL;
 	echo '<div class="container">'.PHP_EOL;
