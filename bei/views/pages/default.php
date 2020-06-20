@@ -5,7 +5,9 @@ if (have_posts()) {
 	echo '<div class="container">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
-		echo '<div class="row"><div id="content" class="col">'.get_the_content($post->ID).'</div></div>'.PHP_EOL;
+		echo '<div class="row"><div id="content" class="col">';
+		the_content();
+		echo '</div></div>'.PHP_EOL;
 	}
 	echo '</div>'.PHP_EOL;
 	echo '</section>'.PHP_EOL;
