@@ -43,7 +43,7 @@ foreach (glob(THEME_LIBS.'/*.php') as $libs) {include $libs;}
 include (THEME_INCLUDE.'/class-wp-bootstrap-navwalker.php');
 include (THEME_INCLUDE.'/options/default.php');
 include (THEME_INCLUDE.'/breadcrumbs-functions.php');
-// include (THEME_INCLUDE.'/programs_list_walker.php');
+include (THEME_INCLUDE.'/programs_list_walker.php');
 // include (THEME_INCLUDE.'/options/info.php');
 remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wp_generator');
