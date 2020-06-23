@@ -525,6 +525,9 @@ section:not(.banner):not(.featured) .container-fluid {
             transform: rotate(-90deg); } }
 
 @media (min-width: 786px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.125rem;
+    padding-left: 1.125rem; }
   .dropdown-toggle::after {
     display: none; }
   .navbar-collapse ul li {

@@ -122,6 +122,10 @@
     }
 }
 @include for-tablet-up {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1.125rem;
+		padding-left: 1.125rem;		
+	}
 	.dropdown-toggle::after {display:none;}
 	.navbar-collapse ul li{position:relative;}
 	.navbar-collapse ul li:hover> ul{display:block}
