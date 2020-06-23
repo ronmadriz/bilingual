@@ -17,6 +17,7 @@ $info_4:#7083d8;
 		flex-flow: column;
 	    margin: .25rem;
 	    padding: 2.5rem;
+	    position: relative;
 	    width:100%;
 		&:nth-of-type(1), &:nth-of-type(5) {
 			background-color: $info_1;
