@@ -339,14 +339,21 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .infoblocks__icon {
   display: block;
+  margin-bottom: 30px;
+  margin-top: 5px;
   text-align: center; }
   .infoblocks__icon svg {
-    margin-bottom: 2rem;
     max-height: 7rem;
     width: auto; }
 
 .infoblocks__title {
-  font-size: 1.625rem; }
+  font-size: 1.1875rem;
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+.infoblocks__content {
+  font-size: 0.75rem;
+  line-height: 1.7; }
 
 .subsites {
   background-color: #192f59;

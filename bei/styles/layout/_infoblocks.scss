@@ -20,14 +20,21 @@
 	}
 	&__icon {
 		display: block;
+	    margin-bottom: 30px;
+	    margin-top: 5px;
 		text-align:center;
 		svg {
-			margin-bottom: 2rem;
 			max-height: 7rem;
 			width: auto;
 		}		
 	}
 	&__title {
-	    font-size: 1.625rem;
-	}	
+	    font-size: 1.1875rem;
+	    font-weight: 700;
+	    margin-bottom: 10px;
+	}
+	&__content {
+		font-size:0.75rem;
+		line-height: 1.7;
+	}
 }
