@@ -1,6 +1,5 @@
 <?php
 if (have_posts()) {
-	include (get_template_directory().'/views/components/banner/subpages.php');
 	echo '<section id="main-content" class="main-content">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
 	while (have_posts()) {
