@@ -310,73 +310,71 @@ section:not(.banner):not(.featured) .container-fluid {
   .main__thumbnail {
     margin-bottom: 1.5rem; }
 
-.infoblocks__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%; }
-
-.infoblocks__item {
-  color: #fefefe;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  margin: .25rem;
-  padding: 2.5rem;
-  position: relative;
-  width: 100%;
-  -webkit-font-smoothing: antialiased; }
-  .infoblocks__item:nth-of-type(1), .infoblocks__item:nth-of-type(5) {
-    background-color: #53a4d6; }
-  .infoblocks__item:nth-of-type(2), .infoblocks__item:nth-of-type(6) {
-    background-color: #4cc4ba; }
-  .infoblocks__item:nth-of-type(3), .infoblocks__item:nth-of-type(7) {
-    background-color: #ef6969; }
-  .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(8) {
-    background-color: #7083d8; }
-  @media (min-width: 786px) {
-    .infoblocks__item {
-      width: 32.5%; }
-      .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9), .infoblocks__item:nth-of-type(5), .infoblocks__item:nth-of-type(10) {
-        width: 49.125%; } }
-  .infoblocks__item:before {
-    border: 0.0625rem solid #fefefe;
-    content: '';
+.infoblocks {
+  padding-bottom: 2rem; }
+  .infoblocks__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%; }
+  .infoblocks__item {
+    color: #fefefe;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: .25rem;
+    padding: 2.5rem;
+    position: relative;
+    width: 100%;
+    -webkit-font-smoothing: antialiased; }
+    .infoblocks__item:nth-of-type(1), .infoblocks__item:nth-of-type(5) {
+      background-color: #53a4d6; }
+    .infoblocks__item:nth-of-type(2), .infoblocks__item:nth-of-type(6) {
+      background-color: #4cc4ba; }
+    .infoblocks__item:nth-of-type(3), .infoblocks__item:nth-of-type(7) {
+      background-color: #ef6969; }
+    .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(8) {
+      background-color: #7083d8; }
+    @media (min-width: 786px) {
+      .infoblocks__item {
+        width: 32.5%; }
+        .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9), .infoblocks__item:nth-of-type(5), .infoblocks__item:nth-of-type(10) {
+          width: 49.125%; } }
+    .infoblocks__item:before {
+      border: 0.0625rem solid #fefefe;
+      content: '';
+      display: block;
+      height: 97%;
+      left: 1.5%;
+      position: absolute;
+      top: 1.5%;
+      width: 97%; }
+  .infoblocks__icon {
     display: block;
-    height: 97%;
-    left: 1.5%;
-    position: absolute;
-    top: 1.5%;
-    width: 97%; }
-
-.infoblocks__icon {
-  display: block;
-  margin-bottom: 30px;
-  margin-top: 5px;
-  text-align: center; }
-  .infoblocks__icon svg {
-    fill: #fefefe;
-    height: auto;
-    width: 3rem; }
-
-.infoblocks__title {
-  font-size: 1.1875rem;
-  font-weight: 700;
-  margin-bottom: 10px; }
-
-.infoblocks__content {
-  font-size: 0.75rem;
-  line-height: 1.7; }
+    margin-bottom: 30px;
+    margin-top: 5px;
+    text-align: center; }
+    .infoblocks__icon svg {
+      fill: #fefefe;
+      height: auto;
+      width: 3rem; }
+  .infoblocks__title {
+    font-size: 1.1875rem;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .infoblocks__content {
+    font-size: 0.75rem;
+    line-height: 1.7; }
 
 .subsites {
   background-color: #192f59;

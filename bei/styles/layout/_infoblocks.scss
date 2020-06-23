@@ -4,13 +4,13 @@ $info_3:#ef6969;
 $info_4:#7083d8;
 
 .infoblocks {
+	padding-bottom: 2rem;
 	&__content {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 100%;
 	}
-
 	&__item {
 		color:$alternate;
 		display: flex;
