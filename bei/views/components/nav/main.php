@@ -15,7 +15,7 @@ echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
-echo '<div class="navbar-collapse collapse order-12" id="navigation">'.PHP_EOL;
+echo '<div class="navbar-collapse collapse order-12 mainNav__container" id="navigation">'.PHP_EOL;
 $main_menu_args = array(
 	'theme_location'  => '',
 	'menu'            => 'main-nav',

@@ -472,6 +472,16 @@ section:not(.banner):not(.featured) .container-fluid {
   .mainNav__toggler:focus {
     border: 0;
     outline: 0; }
+  @media (max-width: 786px) {
+    .mainNav__container {
+      background-color: #101010;
+      height: 85vh;
+      left: 0vw;
+      padding: 2rem;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 100; } }
   .mainNav .nav-link {
     color: #ababab;
     font-size: 1rem;
@@ -501,53 +511,6 @@ section:not(.banner):not(.featured) .container-fluid {
     @media (min-width: 786px) {
       .mainNav .active .nav-link {
         color: #3db166; } }
-
-@media (max-width: 786px) {
-  .navbar-collapse {
-    background-color: #101010;
-    height: 85vh;
-    left: 0vw;
-    padding: 2rem;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 100; } }
-
-.dropdown-menu {
-  background-color: #e6e6e6;
-  border: 0;
-  border-radius: 0;
-  margin-top: 0; }
-
-/* hover dropdown menus */
-@media (max-width: 991px) {
-  .navbar-hover .show > .dropdown-toggle::after {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg); } }
-
-@media (min-width: 786px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.125rem;
-    padding-left: 1.125rem; }
-  .dropdown-toggle::after {
-    display: none; }
-  .navbar-collapse ul li {
-    position: relative; }
-  .navbar-collapse ul li:hover > ul {
-    display: block; }
-  .navbar-collapse ul ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-width: 250px;
-    display: none; }
-  .navbar-collapse ul ul ul {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    min-width: 250px;
-    display: none; }
-  /*.navbar-hover .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}*/ }
 
 .footer-nav {
   display: inline; }
