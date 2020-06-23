@@ -377,6 +377,14 @@ section:not(.banner):not(.featured) .container-fluid {
     font-size: 0.75rem;
     line-height: 1.7; }
 
+.imagebar {
+  margin-top: 130px; }
+  .imagebar__wrapper {
+    background-color: #3db166; }
+  .imagebar__image {
+    margin-top: -130px;
+    max-width: 100%; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
