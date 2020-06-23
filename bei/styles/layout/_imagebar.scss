@@ -3,10 +3,22 @@
 	background-color: $accent_1;
 	&__wrapper {
 	}
-	&__content {}
+	&__content {
+	    display: flex;
+	    flex-direction: row;
+	}
 	&__image {
 		margin-top:-130px;
 		max-width:100%;
+		@include for-tablet-up {
+			width:47.5%;
+		}
 	}
-	&__details {}
+	&__details {
+		display: flex;
+		flex-direction: column;
+		@include for-tablet-up {
+			width:47.5%;
+		}
+	}
 }
