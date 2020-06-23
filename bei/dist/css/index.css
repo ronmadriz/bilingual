@@ -518,6 +518,9 @@ section:not(.banner):not(.featured) .container-fluid {
   border-radius: 0;
   margin-top: 0; }
 
+.dropdown-item:hover {
+  background-color: #fefefe; }
+
 /* hover dropdown menus */
 @media (max-width: 991px) {
   .navbar-hover .show > .dropdown-toggle::after {
