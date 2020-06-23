@@ -1,3 +1,8 @@
+$info_1:#53a4d6;
+$info_2:#4cc4ba;
+$info_3:#ef6969;
+$info_4:#7083d8;
+
 .infoblocks {
 	&__content {
 		display: flex;
@@ -12,7 +17,17 @@
 		flex-flow: column;
 		padding: .9375rem;
 		width: 33%;
+		&:nth-of-type(1) {
+			background-color: $info_1;
+		}
+		&:nth-of-type(2) {
+			background-color: $info_2;
+		}
+		&:nth-of-type(3) {
+			background-color: $info_3;
+		}
 		&:nth-of-type(4) {
+			background-color: $info_4;
 		    width: 50%;
 		}
 		&:nth-of-type(5) {
