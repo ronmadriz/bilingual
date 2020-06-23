@@ -402,10 +402,14 @@ section:not(.banner):not(.featured) .container-fluid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    padding: 3rem; }
     @media (min-width: 786px) {
       .imagebar__details {
         width: 47.5%; } }
+  .imagebar__button {
+    margin-top: 2rem;
+    margin-bottom: 1rem; }
 
 .subsites {
   background-color: #192f59;

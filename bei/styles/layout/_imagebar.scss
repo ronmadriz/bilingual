@@ -18,8 +18,13 @@
 		color:$alternate;
 		display: flex;
 		flex-direction: column;
+		padding: 3rem;
 		@include for-tablet-up {
 			width:47.5%;
 		}
+	}
+	&__button {
+	    margin-top: 2rem;
+	    margin-bottom: 1rem;
 	}
 }
