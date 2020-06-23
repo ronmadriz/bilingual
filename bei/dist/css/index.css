@@ -514,12 +514,12 @@ section:not(.banner):not(.featured) .container-fluid {
     z-index: 100; } }
 
 /* hover dropdown menus */
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
   .navbar-hover .show > .dropdown-toggle::after {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); } }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 786px) {
   .navbar-hover .collapse ul li {
     position: relative; }
   .navbar-hover .collapse ul li:hover > ul {
