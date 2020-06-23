@@ -11,12 +11,16 @@
 	&__logo {
 		margin-right: 0;
 		text-transform: uppercase;
+		width:65%;
 		@include for-phone-only {
 			font-size: .9rem;
 			margin-bottom: .75rem;
 			margin-right:1rem;
-			width:65%;
-		}	
+		}
+		@include for-tablet-up {
+			width: 180px;
+			height: 69px;
+		}
 	}
 	&__toggler {
 		&--item {
