@@ -332,9 +332,9 @@ section:not(.banner):not(.featured) .container-fluid {
           flex-flow: column;
   padding: .9375rem;
   width: 33%; }
-  .infoblocks__item:nth-of-type(4n) {
+  .infoblocks__item:nth-of-type(4) {
     width: 50%; }
-  .infoblocks__item:nth-of-type(5n) {
+  .infoblocks__item:nth-of-type(5) {
     width: 50%; }
 
 .infoblocks__icon {
