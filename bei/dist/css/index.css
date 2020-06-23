@@ -514,6 +514,7 @@ section:not(.banner):not(.featured) .container-fluid {
     z-index: 100; } }
 
 .dropdown-menu {
+  background-color: #e6e6e6;
   border: 0;
   border-radius: 0;
   margin-top: 0; }
