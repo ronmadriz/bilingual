@@ -30,11 +30,8 @@ $info_4:#7083d8;
 		&:nth-of-type(4), &:nth-of-type(8) {
 			background-color: $info_4;
 		}
-		&:nth-of-type(4), &:nth-of-type(9) {
-		    width: 50%;
-		}
-		&:nth-of-type(5), &:nth-of-type(10) {
-		    width: 50%;
+		&:nth-of-type(4), &:nth-of-type(9), &:nth-of-type(5), &:nth-of-type(10) {
+		    width: 49.125%;
 		}
 	}
 	&__icon {

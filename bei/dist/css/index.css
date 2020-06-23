@@ -344,10 +344,8 @@ section:not(.banner):not(.featured) .container-fluid {
     background-color: #ef6969; }
   .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(8) {
     background-color: #7083d8; }
-  .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9) {
-    width: 50%; }
-  .infoblocks__item:nth-of-type(5), .infoblocks__item:nth-of-type(10) {
-    width: 50%; }
+  .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9), .infoblocks__item:nth-of-type(5), .infoblocks__item:nth-of-type(10) {
+    width: 49.125%; }
 
 .infoblocks__icon {
   display: block;
