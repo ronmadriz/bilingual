@@ -7,7 +7,7 @@ if (have_posts()) {
 	while (have_posts()) {
 		the_post();
 		echo '<header>'.PHP_EOL;
-		echo '<h1 class="main__title">'.get_the_title().'</h1>'.PHP_EOL;
+		//		echo '<h1 class="main__title">'.get_the_title().'</h1>'.PHP_EOL;
 		echo '<div class="breadcrumbs__content">'.PHP_EOL;
 		the_breadcrumb();
 		echo '</header>'.PHP_EOL;
