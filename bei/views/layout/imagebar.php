@@ -11,8 +11,8 @@
 					<li>TOEFL Preparation</li>
 					<li>English Language Skills</li>
 					</ul>
+					<footer class="imagebar__button"><a href="#" class="button__green">Let's Do This</a></footer>
 				</figcaption>
-				<footer class="imagebar__button"><a href="#" class="button__green">Let's Do This</a></footer>
 			</figure>
 		</div>
 	</div>
