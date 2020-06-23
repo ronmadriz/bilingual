@@ -10,3 +10,34 @@ Tags:
 License:
 License URI:
 */
+.infoblocks__content {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.infoblocks__item {
+	display: flex;
+	flex-flow: column;
+	padding: .9375rem;
+	width: 33%;
+}
+.infoblocks__item:nth-of-type(4n) {
+    width: 50%;
+}
+.infoblocks__item:nth-of-type(5n) {
+    width: 50%;
+}
+.infoblocks__icon {
+	display: block;
+	text-align:center;
+}
+.infoblocks__icon svg {
+	margin-bottom: 2rem;
+	max-height: 7rem;
+	width: auto;
+}
+.infoblocks__title {
+    font-size: 1.625rem;
+}

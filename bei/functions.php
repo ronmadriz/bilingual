@@ -84,6 +84,9 @@ function register_my_menu() {
 	register_nav_menu('primary', __('main-nav', 'main-nav'));
 	register_nav_menu('subsites', __('subsites-nav', 'subsites-nav'));
 	register_nav_menu('footer', __('footer-nav', 'footer-nav'));
+	register_nav_menu('about', __('about', 'about'));
+	register_nav_menu('policies', __('policies', 'policies'));
+	register_nav_menu('refugees', __('refugees', 'refugees'));
 }
 function my_mce_buttons_2($buttons) {
 	$buttons[] = 'sup';
