@@ -334,7 +334,7 @@ section:not(.banner):not(.featured) .container-fluid {
       -ms-flex-flow: column;
           flex-flow: column;
   margin: .25rem;
-  padding: .9375rem;
+  padding: 2.5rem;
   width: 100%; }
   .infoblocks__item:nth-of-type(1), .infoblocks__item:nth-of-type(5) {
     background-color: #53a4d6; }
