@@ -98,20 +98,17 @@
 		}
 	}
 }
-.navbar {
-	
-	&-collapse {
-		@include for-phone-only {
-			background-color:$base;
-		    height: 85vh;
-		    left: 0vw;
-		    padding:2rem;
-		    position: absolute;
-		    top: 0;
-		    width: 100%;
-		    z-index:100;
-		}
-	}	
+.navbar-collapse {
+	@include for-phone-only {
+		background-color:$base;
+	    height: 85vh;
+	    left: 0vw;
+	    padding:2rem;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    z-index:100;
+	}
 }
 
 /* hover dropdown menus */
@@ -121,9 +118,9 @@
     }
 }
 @include for-tablet-up {
-    .navbar-hover .collapse ul li{position:relative;}
-    .navbar-hover .collapse ul li:hover> ul{display:block}
-    .navbar-hover .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
-    .navbar-hover .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+	.navbar-collapse ul li{position:relative;}
+	.navbar-collapse ul li:hover> ul{display:block}
+	.navbar-collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+	.navbar-collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
     /*.navbar-hover .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}*/
 }
