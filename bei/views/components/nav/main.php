@@ -2,18 +2,18 @@
 $site_logo_header = get_theme_mod('site_logo_header');
 $slogan           = get_bloginfo('description');
 $theme_location   = get_bloginfo('stylesheet_directory');
-echo '<nav class="navbar navbar-expand-lg main__nav">'.PHP_EOL;
+echo '<nav class="navbar navbar-expand-lg mainNav">'.PHP_EOL;
 echo '<div class="wrapper">'.PHP_EOL;
 if (!empty($site_logo_header)) {
 	echo '<a href="'.get_bloginfo('url').'" class="navbar-brand site__home"><img src="'.esc_url($site_logo_header).'" alt="'.get_bloginfo('name').'" class="img-fluid site__logo"></a>'.PHP_EOL;
 
 } else {
-	echo '<a href="'.get_bloginfo('url').'" class="navbar-brand">'.get_bloginfo('name').(!empty($slogan)?'<br><small>'.$slogan.'</small>':'').'</a>'.PHP_EOL;
+	echo '<a href="'.get_bloginfo('url').'" class="navbar-brand mainNav__logo">'.get_bloginfo('name').(!empty($slogan)?'<br><small>'.$slogan.'</small>':'').'</a>'.PHP_EOL;
 }
-echo '<button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Menu">'.PHP_EOL;
-echo '<span class="icon-bar"></span>'.PHP_EOL;
-echo '<span class="icon-bar"></span>'.PHP_EOL;
-echo '<span class="icon-bar"></span>'.PHP_EOL;
+echo '<button class="navbar-toggler collapsed ml-auto mainNav__toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Menu">'.PHP_EOL;
+echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
+echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
+echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
 echo '<div class="navbar-collapse collapse order-12" id="navigation">'.PHP_EOL;
 $main_menu_args = array(
@@ -36,6 +36,6 @@ $main_menu_args = array(
 );
 wp_nav_menu($main_menu_args);
 echo '</div>'.PHP_EOL;
-echo '<a href="#" class="main__nav--search order-md-12"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
+echo '<a href="#" class="mainNav__search order-md-12"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</nav>'.PHP_EOL;

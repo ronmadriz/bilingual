@@ -1,53 +1,14 @@
-.main__nav {
+.mainNav {
 	background-color:$alternate;
-	&--search {
+	padding-top:0;
+	padding-bottom:0;	
+	&__search {
 		display: inline-flex;
 		img {
 			width: 1rem;
 		}
 	}
-	.nav {
-		&-link {
-			color:$accent_7;
-			font-size:1rem;
-			font-weight: 500;
-			padding-left: .75rem;			
-			padding-right: .75rem;
-			text-transform:capitalize;
-			transition: all .3s ease-in-out;
-			@include for-phone-only {
-			    border-bottom: 1px solid $accent_7;
-			    padding:1.0675rem .75rem;
-			}
-			@include for-tablet-up {
-				color:$accent_3;
-				font-size:1rem;
-			    line-height: 5.25rem;
-				padding-left:1.5rem;
-				padding-right:1.5rem;
-			}
-			&:hover {
-				color:$accent_2;
-			}
-			&.active {
-				color:$accent_2;
-			}
-		}
-	}
-	.active {
-		.nav-link {
-			color:$alternate;
-			@include for-tablet-up {
-				color:$accent_2;
-			}
-		}
-	}
-}
-.navbar {
-	background-color:$accent_5;
-	padding-top:0;
-	padding-bottom:0;
-	&-brand {
+	&__logo {
 		margin-right: 0;
 		text-transform: uppercase;
 		@include for-phone-only {
@@ -55,10 +16,10 @@
 			margin-bottom: .75rem;
 			margin-right:1rem;
 			width:65%;
-		}
+		}	
 	}
-	&-toggler {
-		span {
+	&__toggler {
+		&--item {
 			background-color: $base;
 			display: block;
 			height: 2px;
@@ -99,7 +60,46 @@
 			border:0;
 			outline:0;
 		}
+	}	
+	.nav {
+		&-link {
+			color:$accent_7;
+			font-size:1rem;
+			font-weight: 500;
+			padding-left: .75rem;			
+			padding-right: .75rem;
+			text-transform:capitalize;
+			transition: all .3s ease-in-out;
+			@include for-phone-only {
+			    border-bottom: 1px solid $accent_7;
+			    padding:1.0675rem .75rem;
+			}
+			@include for-tablet-up {
+				color:$accent_3;
+				font-size:1rem;
+			    line-height: 5.25rem;
+				padding-left:1.5rem;
+				padding-right:1.5rem;
+			}
+			&:hover {
+				color:$accent_2;
+			}
+			&.active {
+				color:$accent_2;
+			}
+		}
 	}
+	.active {
+		.nav-link {
+			color:$alternate;
+			@include for-tablet-up {
+				color:$accent_2;
+			}
+		}
+	}
+}
+.navbar {
+	
 	&-collapse {
 		@include for-phone-only {
 			background-color:$base;
