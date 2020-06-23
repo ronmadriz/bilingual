@@ -342,9 +342,10 @@ section:not(.banner):not(.featured) .container-fluid {
   .infoblocks__item:nth-of-type(3), .infoblocks__item:nth-of-type(7) {
     background-color: #ef6969; }
   .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(8) {
-    background-color: #7083d8;
+    background-color: #7083d8; }
+  .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9) {
     width: 50%; }
-  .infoblocks__item:nth-of-type(5) {
+  .infoblocks__item:nth-of-type(5), .infoblocks__item:nth-of-type(10) {
     width: 50%; }
 
 .infoblocks__icon {
