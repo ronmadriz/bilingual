@@ -1,0 +1,12 @@
+.imagebar {
+	margin-top:130px;
+	&__wrapper {
+		background-color: $accent_2;
+	}
+	&__content {}
+	&__image {
+		margin-top:-130px;
+		max-width:100%;
+	}
+	&__details {}
+}

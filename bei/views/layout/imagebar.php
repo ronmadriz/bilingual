@@ -1,6 +1,6 @@
 <section id="imagebar" class="imagebar">
-	<div class="container-fluid">
-		<div class="row imagebar__wrapper">
+	<div class="container-fluid imagebar__wrapper">
+		<div class="row">
 			<figure class="imagebar__content">
 				<img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/graduation.jpg" alt="Graduation" class="imagebar__image">
 				<figcaption class="imagebar__details">
