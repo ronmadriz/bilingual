@@ -122,6 +122,7 @@
     }
 }
 @include for-tablet-up {
+	.dropdown-toggle::after {display:none;}
 	.navbar-collapse ul li{position:relative;}
 	.navbar-collapse ul li:hover> ul{display:block}
 	.navbar-collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
