@@ -37,14 +37,14 @@ $info_4:#7083d8;
 			}			
 		}
 		&:before {
+			border: .25rem solid rgba(0,0,0,0.0625);			
 			content: '';
 			display: block;
 			height: 97%;
-			width: 97%;
+			left: 1.5%;
 			position: absolute;
 			top: 1.5%;
-			left: 1.5%;
-			border: .25rem solid rgb(0,0,0,.0625);			
+			width: 97%;
 		}
 	}
 	&__icon {

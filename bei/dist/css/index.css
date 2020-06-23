@@ -347,6 +347,15 @@ section:not(.banner):not(.featured) .container-fluid {
       width: 32.5%; }
       .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9), .infoblocks__item:nth-of-type(5), .infoblocks__item:nth-of-type(10) {
         width: 49.125%; } }
+  .infoblocks__item:before {
+    border: 0.25rem solid rgba(0, 0, 0, 0.0625);
+    content: '';
+    display: block;
+    height: 97%;
+    left: 1.5%;
+    position: absolute;
+    top: 1.5%;
+    width: 97%; }
 
 .infoblocks__icon {
   display: block;
