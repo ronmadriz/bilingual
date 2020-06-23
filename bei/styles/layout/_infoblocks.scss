@@ -6,7 +6,8 @@ $info_4:#7083d8;
 .infoblocks {
 	&__content {
 		display: flex;
-		flex-flow: row;
+		align-items:stretch;
+		flex-direction: row;
 		flex-wrap: wrap;
 		width: 100%;
 	}
