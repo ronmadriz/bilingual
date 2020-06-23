@@ -395,6 +395,7 @@ section:not(.banner):not(.featured) .container-fluid {
       .imagebar__image {
         width: 47.5%; } }
   .imagebar__details {
+    color: #fefefe;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

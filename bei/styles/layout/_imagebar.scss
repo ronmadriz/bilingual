@@ -15,6 +15,7 @@
 		}
 	}
 	&__details {
+		color:$alternate;
 		display: flex;
 		flex-direction: column;
 		@include for-tablet-up {
