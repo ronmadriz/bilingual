@@ -314,9 +314,6 @@ section:not(.banner):not(.featured) .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -326,8 +323,6 @@ section:not(.banner):not(.featured) .container-fluid {
   width: 100%; }
 
 .infoblocks__item {
-  -ms-flex-item-align: center;
-      align-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
