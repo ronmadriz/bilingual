@@ -1,8 +1,9 @@
 .main__nav {
+	background-color:$alternate;
 	&--search {
 		display: inline-flex;
 		img {
-			min-width: 1rem;
+			width: 1rem;
 		}
 	}
 	.nav {

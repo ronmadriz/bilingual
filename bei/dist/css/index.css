@@ -418,43 +418,43 @@ section:not(.banner):not(.featured) .container-fluid {
       .subsites__nav li:last-of-type a:hover {
         background-color: #5bc681; }
 
-.main__nav--search {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex; }
-  .main__nav--search img {
-    min-width: 1rem; }
-
-.main__nav .nav-link {
-  color: #ababab;
-  font-size: 1rem;
-  font-weight: 500;
-  padding-left: .75rem;
-  padding-right: .75rem;
-  text-transform: capitalize;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; }
-  @media (max-width: 786px) {
-    .main__nav .nav-link {
-      border-bottom: 1px solid #ababab;
-      padding: 1.0675rem .75rem; } }
-  @media (min-width: 786px) {
-    .main__nav .nav-link {
-      color: #163269;
-      font-size: 1rem;
-      line-height: 5.25rem;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem; } }
-  .main__nav .nav-link:hover {
-    color: #3db166; }
-  .main__nav .nav-link.active {
-    color: #3db166; }
-
-.main__nav .active .nav-link {
-  color: #fefefe; }
-  @media (min-width: 786px) {
-    .main__nav .active .nav-link {
-      color: #3db166; } }
+.main__nav {
+  background-color: #fefefe; }
+  .main__nav--search {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
+    .main__nav--search img {
+      width: 1rem; }
+  .main__nav .nav-link {
+    color: #ababab;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    text-transform: capitalize;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+    @media (max-width: 786px) {
+      .main__nav .nav-link {
+        border-bottom: 1px solid #ababab;
+        padding: 1.0675rem .75rem; } }
+    @media (min-width: 786px) {
+      .main__nav .nav-link {
+        color: #163269;
+        font-size: 1rem;
+        line-height: 5.25rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem; } }
+    .main__nav .nav-link:hover {
+      color: #3db166; }
+    .main__nav .nav-link.active {
+      color: #3db166; }
+  .main__nav .active .nav-link {
+    color: #fefefe; }
+    @media (min-width: 786px) {
+      .main__nav .active .nav-link {
+        color: #3db166; } }
 
 .navbar {
   background-color: #e6e6e6;
