@@ -428,6 +428,11 @@ section:not(.banner):not(.featured) .container-fluid {
     display: inline-flex; }
     .mainNav__search img {
       width: 1rem; }
+  .mainNav__brand {
+    padding-top: .75rem; }
+    @media (min-width: 786px) {
+      .mainNav__brand {
+        padding-top: 1rem; } }
   .mainNav__logo {
     margin-right: 0;
     text-transform: uppercase;
