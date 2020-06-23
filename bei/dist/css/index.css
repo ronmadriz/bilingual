@@ -334,7 +334,8 @@ section:not(.banner):not(.featured) .container-fluid {
   margin: .25rem;
   padding: 2.5rem;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  -webkit-font-smoothing: antialiased; }
   .infoblocks__item:nth-of-type(1), .infoblocks__item:nth-of-type(5) {
     background-color: #53a4d6; }
   .infoblocks__item:nth-of-type(2), .infoblocks__item:nth-of-type(6) {
