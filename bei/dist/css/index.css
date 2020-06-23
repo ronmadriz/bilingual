@@ -1016,6 +1016,10 @@ section:not(.banner):not(.featured) .container-fluid {
       border-bottom: 0.0625rem solid #e6e6e6;
       padding: 1.25rem; }
 
+.main-content {
+  padding-bottom: 2rem;
+  padding-top: 2rem; }
+
 .single-programs .subjects__img {
   display: block;
   width: 2rem;
