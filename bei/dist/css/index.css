@@ -310,6 +310,44 @@ section:not(.banner):not(.featured) .container-fluid {
   .main__thumbnail {
     margin-bottom: 1.5rem; }
 
+.infoblocks__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%; }
+
+.infoblocks__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: .9375rem;
+  width: 33%; }
+  .infoblocks__item:nth-of-type(4n) {
+    width: 50%; }
+  .infoblocks__item:nth-of-type(5n) {
+    width: 50%; }
+
+.infoblocks__icon {
+  display: block;
+  text-align: center; }
+  .infoblocks__icon svg {
+    margin-bottom: 2rem;
+    max-height: 7rem;
+    width: auto; }
+
+.infoblocks__title {
+  font-size: 1.625rem; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }

@@ -1,0 +1,33 @@
+.infoblocks {
+	&__content {
+		display: flex;
+		flex-flow: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	&__item {
+		display: flex;
+		flex-flow: column;
+		padding: .9375rem;
+		width: 33%;
+		&:nth-of-type(4n) {
+		    width: 50%;
+		}
+		&:nth-of-type(5n) {
+		    width: 50%;
+		}
+	}
+	&__icon {
+		display: block;
+		text-align:center;
+		svg {
+			margin-bottom: 2rem;
+			max-height: 7rem;
+			width: auto;
+		}		
+	}
+	&__title {
+	    font-size: 1.625rem;
+	}	
+}
