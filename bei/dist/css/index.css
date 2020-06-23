@@ -364,7 +364,7 @@ section:not(.banner):not(.featured) .container-fluid {
   margin-top: 5px;
   text-align: center; }
   .infoblocks__icon svg {
-    color: #fefefe;
+    fill: #fefefe;
     height: auto;
     width: 3rem; }
 
