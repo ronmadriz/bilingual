@@ -390,7 +390,9 @@ section:not(.banner):not(.featured) .container-fluid {
             flex-direction: row; }
   .imagebar__image {
     margin-top: -130px;
-    max-width: 100%; }
+    max-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain; }
     @media (min-width: 786px) {
       .imagebar__image {
         width: 47.5%; } }
