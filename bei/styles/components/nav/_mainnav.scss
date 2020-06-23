@@ -66,6 +66,8 @@
 			color:$accent_7;
 			font-size:1rem;
 			font-weight: 500;
+			padding-left: .75rem;			
+			padding-right: .75rem;
 			text-transform:capitalize;
 			transition: all .3s ease-in-out;
 			@include for-phone-only {

@@ -476,6 +476,8 @@ section:not(.banner):not(.featured) .container-fluid {
     color: #ababab;
     font-size: 1rem;
     font-weight: 500;
+    padding-left: .75rem;
+    padding-right: .75rem;
     text-transform: capitalize;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
