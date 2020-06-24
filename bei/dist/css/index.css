@@ -590,7 +590,7 @@ section:not(.banner):not(.featured) .container-fluid {
   color: #282828;
   float: left;
   margin: 0;
-  padding: 0;
+  padding: 0 .5rem 0 0;
   width: 80%; }
   .testimonial__author--name {
     display: block;
