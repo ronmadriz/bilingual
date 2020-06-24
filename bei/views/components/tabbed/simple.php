@@ -1,11 +1,11 @@
 <?php
 if (have_rows('simple_tabs')) {
-	$simple_section_title = get_sub_field('section_title');
 	echo '<section id="simple_tabs" class="simple_tabs">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
 	while (have_rows('simple_tabs')) {
 		the_row();
-		$tab__item = get_sub_field('tab__item');
+		$tab__item            = get_sub_field('tab__item');
+		$simple_section_title = get_sub_field('section_title');
 		echo '<div class="row"><div class="section-title col-12">'.$simple_section_title.'</div></div>'.PHP_EOL;
 		echo '<div class="row justify-content-end">'.PHP_EOL;
 		echo '<div class="simple_tabs__wrapper col-12">'.PHP_EOL;
