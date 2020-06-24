@@ -603,8 +603,7 @@ section:not(.banner):not(.featured) .container-fluid {
     text-align: right; }
 
 .testimonial__image {
-  -ms-flex-item-align: end;
-      align-self: end; }
+  float: right; }
 
 .subsites {
   background-color: #192f59;
