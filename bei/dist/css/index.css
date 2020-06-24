@@ -595,9 +595,10 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: .125rem;
     text-align: right;
     width: 50%; }
-  .testimonial__author--img {
-    -ms-flex-item-align: end;
-        align-self: end; }
+
+.testimonial__image {
+  -ms-flex-item-align: end;
+      align-self: end; }
 
 .subsites {
   background-color: #192f59;
