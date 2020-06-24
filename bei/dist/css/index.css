@@ -581,7 +581,8 @@ section:not(.banner):not(.featured) .container-fluid {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-right: 2.25rem;
-  position: relative; }
+  position: relative;
+  padding-bottom: 3rem; }
   .testimonial__item:after {
     color: #282828;
     content: '”';
@@ -601,6 +602,7 @@ section:not(.banner):not(.featured) .container-fluid {
   text-align: right; }
 
 .testimonial__details {
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,7 +612,9 @@ section:not(.banner):not(.featured) .container-fluid {
           flex-direction: row;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end; }
+          justify-content: flex-end;
+  position: absolute;
+  width: 100%; }
 
 .testimonial__author {
   color: #282828;
