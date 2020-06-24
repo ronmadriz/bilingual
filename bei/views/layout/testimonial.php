@@ -15,7 +15,7 @@ if ($tml_query->have_posts()) {
 		the_content();
 		echo '</blockquote>'.PHP_EOL;
 		echo '<footer class="testimonial__author">'.PHP_EOL;
-		echo '<cite class="testimonial__author--name">'.get_the_title().'</cite>, <cite class="testimonial__author--country">('.$author_origin.')</cite>'.PHP_EOL;
+		echo '<cite class="testimonial__author--name">'.get_the_title().'</cite> <cite class="testimonial__author--country">('.$author_origin.')</cite>'.PHP_EOL;
 		the_post_thumbnail('thumbnail', array('class' => 'testimonial__image rounded-circle'));
 		echo '</footer>'.PHP_EOL;
 		echo '</figure>'.PHP_EOL;
