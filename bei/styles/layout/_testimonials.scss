@@ -4,8 +4,10 @@
 		position:relative;
 		@include title-line($gray_7);
 		&--text {
-		    display:inline-block;
 			background-color: $alternate;
+		    display:inline-block;
+			padding-left: 1rem;
+			padding-right: 1rem;			
 		}
 	}
 	&__item {

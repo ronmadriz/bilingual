@@ -561,12 +561,16 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     content: '';
     height: .0625rem;
+    left: 0;
+    position: absolute;
     top: 1.25rem;
     width: 100%;
     z-index: -1; }
   .testimonial__title--text {
+    background-color: #fefefe;
     display: inline-block;
-    background-color: #fefefe; }
+    padding-left: 1rem;
+    padding-right: 1rem; }
 
 .testimonial__item {
   display: -webkit-box;
