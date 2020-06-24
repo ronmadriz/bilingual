@@ -35,14 +35,14 @@
 		}
 		&__details {
 			border: none;
-			color:$accent_13;
+			color:$gray_6;
 			display:block;
 			font-size:.8125rem;
 			margin-bottom: 6px;
 			padding-top: 0px;
 			text-transform:uppercase;
 			a {
-				color:$accent_13;
+				color:$gray_6;
 			}
 		}
 		&__title {
@@ -115,7 +115,7 @@
 		&__link {
 			color:$accent_2;		
 			display:block;
-			border-bottom:.0625rem solid $accent_5;
+			border-bottom:.0625rem solid $white_2;
 			padding:1.25rem;
 		}
 	}

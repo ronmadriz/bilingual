@@ -85,7 +85,7 @@
 	}
 	.nav {
 		&-link {
-			color:$accent_7;
+			color:$gray_3;
 			font-size:1rem;
 			font-weight: 500;
 			padding-left: .75rem;			
@@ -93,7 +93,7 @@
 			text-transform:capitalize;
 			transition: all .3s ease-in-out;
 			@include for-phone-only {
-			    border-bottom: 1px solid $accent_7;
+			    border-bottom: 1px solid $gray_3;
 			    padding:1.0675rem .75rem;
 			}
 			@include for-tablet-up {

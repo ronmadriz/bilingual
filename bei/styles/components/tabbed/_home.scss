@@ -12,7 +12,7 @@
 		}
 	}
 	&__items {
-		box-shadow: 0 -6px 24px rgba($accent_11,0.09);
+		box-shadow: 0 -6px 24px rgba($black_3,0.09);
 		@include for-phone-only {
 		    flex-direction: column;
 		}
@@ -25,7 +25,7 @@
 	    text-transform: none;		
 	}
 	&__subtitle {
-		color:$accent_9;
+		color:$gray_5;
 		font-size:1rem;
 	}
 	&__button {

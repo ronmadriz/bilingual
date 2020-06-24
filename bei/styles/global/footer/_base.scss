@@ -1,5 +1,5 @@
 .base {
-	background-color: $accent_6;
+	background-color: $black_1;
     color: $alternate;
     padding-bottom: 2.125rem;
     padding-top: 2.125rem;
@@ -11,13 +11,13 @@
     li {
     	a {
     		display: inline-block;
-    		color:$accent_7;
+    		color:$gray_3;
 		    margin-bottom: .5rem;
     	}
     }
     &__info {
     	p, li, a {
-			color:$accent_7;
+			color:$gray_3;
 			font-size:90%;
     	}
     }
