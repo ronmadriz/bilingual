@@ -1015,9 +1015,11 @@ section:not(.banner):not(.featured) .container-fluid {
   .cta__title {
     display: block; }
   .cta__details {
-    display: block; }
+    display: block;
+    line-height: 2; }
   .cta__button {
-    display: block; }
+    display: block;
+    margin-top: 1.5rem; }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
