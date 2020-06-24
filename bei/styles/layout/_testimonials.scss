@@ -23,13 +23,24 @@
 	}
 	&__author {
 		color:$mine_shaft;
-		font-family:$secondary;
 		&--name {
+			display: block;
+			font-family:$secondary;
 			font-size: 0.9375rem;
+		    font-style: normal;
 			font-weight: 700;
+			letter-spacing: .0625rem;
 			margin-bottom: .125rem;
 			text-transform: uppercase;
-			letter-spacing: .0625rem;
+		    width: 50%;
+		}
+		&--country {
+			display: block;
+			font-family:$tertiary;
+			font-size: 0.9375rem;
+		    font-style: italic;
+			margin-bottom: .125rem;
+		    width: 50%;			
 		}
 	}
 }

@@ -575,14 +575,24 @@ section:not(.banner):not(.featured) .container-fluid {
   text-align: right; }
 
 .testimonial__author {
-  color: #282828;
-  font-family: "Raleway", sans-serif; }
+  color: #282828; }
   .testimonial__author--name {
+    display: block;
+    font-family: "Raleway", sans-serif;
     font-size: 0.9375rem;
+    font-style: normal;
     font-weight: 700;
+    letter-spacing: .0625rem;
     margin-bottom: .125rem;
     text-transform: uppercase;
-    letter-spacing: .0625rem; }
+    width: 50%; }
+  .testimonial__author--country {
+    display: block;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 0.9375rem;
+    font-style: italic;
+    margin-bottom: .125rem;
+    width: 50%; }
 
 .subsites {
   background-color: #192f59;
