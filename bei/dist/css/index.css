@@ -593,7 +593,7 @@ section:not(.banner):not(.featured) .container-fluid {
   float: left;
   margin: 0;
   padding: 0;
-  width: 60%; }
+  width: 80%; }
   .testimonial__author--name {
     display: block;
     font-family: "Raleway", sans-serif;
