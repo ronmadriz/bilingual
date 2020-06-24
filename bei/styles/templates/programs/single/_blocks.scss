@@ -1,17 +1,1 @@
-.block {
-    padding:0 0 2rem;
-	&__desc {
-	    align-items: center;
-	    border: .5rem solid $gray_3;
-	    color:$gray_3;
-	    display: flex;
-	    font-size: 2rem;
-	    height: 8rem;
-	    margin-bottom: 2rem;
-	    text-align: center;
-	    @include for-tablet-up {
-	    	margin-bottom:0;
-		    padding: 6.5rem 2rem;
-	    }
-	}
-}
+@import '../../../../compontents/blocks/index';
