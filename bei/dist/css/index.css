@@ -300,9 +300,7 @@ body {
 
 .withBg {
   background-position: center center;
-  background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem; }
+  background-size: cover; }
 
 .site__logo {
   padding: 1rem 0 0;
@@ -1006,8 +1004,8 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 0; }
 
 .cta {
-  padding-top: 15rem;
-  padding-bottom: 15rem; }
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
   .cta__content {
     background-color: #e6e6e6;
     color: #282828;
