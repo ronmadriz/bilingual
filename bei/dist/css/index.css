@@ -298,6 +298,10 @@ body {
     .wrapper {
       width: 1360px; } }
 
+.withBg {
+  background-position: center center;
+  background-size: cover; }
+
 .site__logo {
   padding: 1rem 0 0;
   width: 100px; }
@@ -1000,9 +1004,6 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 0; }
 
 .ctaBg {
-  background-image: attr(data-image-src);
-  background-position: center center;
-  background-size: cover;
   padding-top: 15rem;
   padding-bottom: 15rem; }
   .ctaBg__content {

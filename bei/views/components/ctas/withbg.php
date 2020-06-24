@@ -1,4 +1,9 @@
-<section id="ctaBg" class="ctaBg" data-image-src="https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg">
+<style>
+	.cta.withBg {
+		background-image:url(https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg);
+	}
+</style>
+<section id="ctaBg" class="cta withBg">
 	<div class="container-fluid">
 		<div class="row ctaBg__wrapper">
 			<div class="col-12 ctaBg__content">
