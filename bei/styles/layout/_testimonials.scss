@@ -23,6 +23,9 @@
 	}
 	&__details {
 		clear:both;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;		
 		overflow: hidden;
 	}
 	&__author {
@@ -53,6 +56,7 @@
 	}
 	&__image {
 		float:right;
+		margin-left: .125rem;
 		max-height: 3.4375rem;
 		max-width: 3.4375rem;
 	}
