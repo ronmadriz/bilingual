@@ -300,7 +300,9 @@ body {
 
 .withBg {
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
 
 .site__logo {
   padding: 1rem 0 0;
