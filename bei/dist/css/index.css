@@ -439,9 +439,10 @@ section:not(.banner):not(.featured) .container-fluid {
     top: 0; }
 
 .testimonial__quote {
-  color: #e6e6e6;
+  color: #707070;
   font-family: "Comfortaa", sans-serif;
   font-size: 0.9375rem;
+  font-style: italic;
   line-height: 1.7;
   text-align: right; }
 
