@@ -1,6 +1,6 @@
 <?php
 $tml_args = array(
-	'post_type' => 'testimonial',
+	'post_type' => 'testimonials',
 );
 $tml_query = new WP_Query($tml_args);
 if ($tml_query->have_posts()) {
