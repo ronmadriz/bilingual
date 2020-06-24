@@ -592,6 +592,9 @@ section:not(.banner):not(.featured) .container-fluid {
     position: absolute;
     right: 0;
     top: 0; }
+  @media (max-width: 786px) {
+    .testimonial__item {
+      margin-bottom: 2rem; } }
 
 .testimonial__quote {
   color: #707070;
@@ -613,6 +616,7 @@ section:not(.banner):not(.featured) .container-fluid {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-right: 2.25rem;
   position: absolute;
   width: 100%; }
 
