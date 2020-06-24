@@ -8,6 +8,7 @@
 		background-color:$white_1;
 		color: $black_4;
 		padding: 6rem 4rem;
+		text-align: center;
 	}
 	&__title {
 		display:block;
@@ -15,6 +16,7 @@
 	&__details {
 		display:block;
 	    line-height: 2;
+	    margin:1.25rem 0 2.25rem;
 	}
 	&__button {
 		display:block;
