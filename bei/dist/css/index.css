@@ -1428,16 +1428,6 @@ section:not(.banner):not(.featured) .container-fluid {
   .single-programs .simple_tabs__title {
     margin-bottom: 2rem;
     position: relative; }
-    .single-programs .simple_tabs__title:after {
-      background-color: #101010;
-      display: block;
-      content: '';
-      height: .0625rem;
-      left: 0;
-      position: absolute;
-      top: 1.25rem;
-      width: 100%;
-      z-index: -1; }
     .single-programs .simple_tabs__title--text {
       background-color: #e6e6e6;
       display: inline-block;

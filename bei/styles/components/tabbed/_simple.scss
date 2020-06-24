@@ -4,7 +4,6 @@
 	&__title {
 		margin-bottom: 2rem;
 		position:relative;
-		@include title-line($base);
 		&--text {
 			@include title-text($white_2);
 		}		
