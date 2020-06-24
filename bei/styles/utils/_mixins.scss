@@ -77,6 +77,7 @@
     &:after {
       background-color: $line_color;
       display: block;
+      content:'';
       height: .0625rem;
       top: 1.25rem;
       width: 100%;
