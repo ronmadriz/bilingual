@@ -1005,13 +1005,19 @@ section:not(.banner):not(.featured) .container-fluid {
     letter-spacing: .0625rem;
     margin-bottom: 0; }
 
-.ctaBg {
+.cta {
   padding-top: 15rem;
   padding-bottom: 15rem; }
-  .ctaBg__content {
+  .cta__content {
     background-color: #e6e6e6;
     color: #282828;
     padding: 6rem 4rem; }
+  .cta__title {
+    display: block; }
+  .cta__details {
+    display: block; }
+  .cta__button {
+    display: block; }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
