@@ -999,6 +999,13 @@ section:not(.banner):not(.featured) .container-fluid {
     letter-spacing: .0625rem;
     margin-bottom: 0; }
 
+.ctaBg {
+  background-image: url(https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 15rem;
+  padding-bottom: 15rem; }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
