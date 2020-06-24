@@ -7,6 +7,7 @@ $tml_query = new WP_Query($tml_args);
 if ($tml_query->have_posts()) {
 	echo '<section id="testimonial" class="testimonial">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
+	echo '<div class="row"><div class="col-12 section-title"><h2>Testimonials</h2></div></div>'.PHP_EOL;
 	echo '<div class="row testimonial__wrapper">'.PHP_EOL;
 	while ($tml_query->have_posts()) {
 		$tml_query->the_post();
