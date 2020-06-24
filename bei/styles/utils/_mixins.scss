@@ -87,6 +87,13 @@
     }
 }
 
+@mixin title-text ($title_txt_color) {
+      background-color: $title_txt_color;
+      display:inline-block;
+      padding-left: 1rem;
+      padding-right: 1rem;
+}
+
 @mixin nav-line ($navline_color) {
       &:before {
         content: "";

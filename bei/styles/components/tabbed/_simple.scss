@@ -1,6 +1,14 @@
 .simple_tabs {
 	background-color:$white_2;
 	padding:3.75rem 0;
+	&__title {
+		margin-bottom: 2rem;
+		position:relative;
+		@include title-line($gray_7);
+		&--text {
+			@include title-line($white_1);
+		}		
+	}
 	&__list {}
 	&__item {
 		@include for-tablet-up{

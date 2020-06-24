@@ -4,10 +4,7 @@
 		position:relative;
 		@include title-line($gray_7);
 		&--text {
-			background-color: $white_1;
-		    display:inline-block;
-			padding-left: 1rem;
-			padding-right: 1rem;			
+			@include title-line($white_1);
 		}
 	}
 	&__wrapper {

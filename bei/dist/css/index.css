@@ -571,11 +571,16 @@ section:not(.banner):not(.featured) .container-fluid {
     top: 1.25rem;
     width: 100%;
     z-index: -1; }
-  .testimonial__title--text {
+  .testimonial__title--text:after {
     background-color: #fefefe;
-    display: inline-block;
-    padding-left: 1rem;
-    padding-right: 1rem; }
+    display: block;
+    content: '';
+    height: .0625rem;
+    left: 0;
+    position: absolute;
+    top: 1.25rem;
+    width: 100%;
+    z-index: -1; }
 
 .testimonial__wrapper {
   padding-bottom: 2rem; }
@@ -1425,6 +1430,29 @@ section:not(.banner):not(.featured) .container-fluid {
 .single-programs .simple_tabs {
   background-color: #e6e6e6;
   padding: 3.75rem 0; }
+  .single-programs .simple_tabs__title {
+    margin-bottom: 2rem;
+    position: relative; }
+    .single-programs .simple_tabs__title:after {
+      background-color: #707070;
+      display: block;
+      content: '';
+      height: .0625rem;
+      left: 0;
+      position: absolute;
+      top: 1.25rem;
+      width: 100%;
+      z-index: -1; }
+    .single-programs .simple_tabs__title--text:after {
+      background-color: #fefefe;
+      display: block;
+      content: '';
+      height: .0625rem;
+      left: 0;
+      position: absolute;
+      top: 1.25rem;
+      width: 100%;
+      z-index: -1; }
   @media (min-width: 786px) {
     .single-programs .simple_tabs__item {
       padding: 0; } }
