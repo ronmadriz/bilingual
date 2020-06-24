@@ -4,9 +4,9 @@
 	&__title {
 		margin-bottom: 2rem;
 		position:relative;
-		@include title-line($gray_7);
+		@include title-line($outline);
 		&--text {
-			@include title-line($white_1);
+			@include title-text($white_2);
 		}		
 	}
 	&__list {}
