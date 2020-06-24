@@ -5,7 +5,10 @@
 	}
 	&__content {
 	    display: flex;
-	    flex-direction: row;
+	    flex-direction: column;
+	    @include for-tablet-up {
+		    flex-direction: row;
+	    }
 	}
 	&__image {
 		margin-top:-130px;
