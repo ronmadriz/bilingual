@@ -121,6 +121,7 @@
 			color:$white_1;
 			@include for-tablet-up {
 				color:$accent_2;
+				@include nav-line($accent_2);
 			}
 		}
 	}
