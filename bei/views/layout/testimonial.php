@@ -9,7 +9,7 @@ if ($tml_query->have_posts()) {
 	echo '<div class="row testimonial__wrapper">'.PHP_EOL;
 	while ($tml_query->have_posts()) {
 		$tml_query->the_post();
-		$author_origin = the_field('country_of_origin');
+		$author_origin = get_field('country_of_origin');
 		echo '<figure class="testimonial__item col-12 col-md-4">'.PHP_EOL;
 		echo '<blockquote class="testimonial__quote">'.PHP_EOL;
 		the_content();
