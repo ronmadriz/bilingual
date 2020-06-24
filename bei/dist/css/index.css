@@ -576,6 +576,9 @@ section:not(.banner):not(.featured) .container-fluid {
     padding-left: 1rem;
     padding-right: 1rem; }
 
+.testimonial__wrapper {
+  padding-bottom: 2rem; }
+
 .testimonial__item {
   display: -webkit-box;
   display: -ms-flexbox;
