@@ -603,7 +603,9 @@ section:not(.banner):not(.featured) .container-fluid {
     text-align: right; }
 
 .testimonial__image {
-  float: right; }
+  float: right;
+  max-height: 3.4375rem;
+  max-width: 3.4375rem; }
 
 .subsites {
   background-color: #192f59;
