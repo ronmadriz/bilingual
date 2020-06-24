@@ -141,8 +141,18 @@
     font-weight: 800;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../../fonts/Comfortaa-Regular.woff2') format('woff2'),
+        url('../../fonts/Comfortaa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 $primary: 'Poppins', sans-serif;
+$tertiary: 'Comfortaa', sans-serif;
 
 body {font-family: $primary;}
 @include for-phone-only {

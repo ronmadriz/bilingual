@@ -118,6 +118,13 @@ a:hover {
   font-weight: 800;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("../../fonts/Comfortaa-Regular.woff2") format("woff2"), url("../../fonts/Comfortaa-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
 body {
   font-family: "Poppins", sans-serif; }
 
@@ -430,6 +437,11 @@ section:not(.banner):not(.featured) .container-fluid {
     position: absolute;
     right: 0;
     top: 0; }
+
+.testimonial__quote {
+  font-family: "Comfortaa", sans-serif;
+  line-height: 1.7;
+  text-align: right; }
 
 .subsites {
   background-color: #192f59;
