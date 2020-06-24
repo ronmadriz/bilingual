@@ -434,6 +434,7 @@ section:not(.banner):not(.featured) .container-fluid {
     content: '”';
     font-family: Georgia, serif;
     font-size: 3.75rem;
+    line-height: 1;
     position: absolute;
     right: 0;
     top: 0; }
