@@ -554,7 +554,8 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 1rem; }
 
 .testimonial__title {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  position: relative; }
   .testimonial__title:after {
     background-color: #707070;
     display: block;

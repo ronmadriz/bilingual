@@ -1,6 +1,7 @@
 .testimonial {
 	&__title {
 		margin-bottom: 2rem;
+		position:relative;
 		@include title-line($gray_7);
 		&--text {
 		    display:inline-block;
