@@ -7,8 +7,11 @@
 	&__content {
 		background-color:$white_1;
 		color: $black_4;
-		padding: 6rem 4rem;
+		padding: 6rem 2rem;
 		text-align: center;
+		@include for-tablet-up {
+			padding: 6rem 4rem;
+		}
 	}
 	&__title {
 		display:block;

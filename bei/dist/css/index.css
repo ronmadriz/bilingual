@@ -1013,8 +1013,11 @@ section:not(.banner):not(.featured) .container-fluid {
   .cta__content {
     background-color: #fefefe;
     color: #282828;
-    padding: 6rem 4rem;
+    padding: 6rem 2rem;
     text-align: center; }
+    @media (min-width: 786px) {
+      .cta__content {
+        padding: 6rem 4rem; } }
   .cta__title {
     display: block; }
   .cta__details {
