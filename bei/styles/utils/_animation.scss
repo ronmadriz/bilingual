@@ -1,3 +1,4 @@
+$thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
 
 @mixin keyframe ($animation_name) {
     @-webkit-keyframes $animation_name {
