@@ -22,10 +22,15 @@
 		text-align: right;
 	}
 	&__details {
-		
+		clear:both;
+		overflow: hidden;
 	}
 	&__author {
 		color:$mine_shaft;
+		float: left;
+		margin: 0;		
+		padding: 0;
+		width: 60%;
 		&--name {
 			display: block;
 			font-family:$secondary;
@@ -36,7 +41,6 @@
 			margin-bottom: .125rem;
 			text-align: right;
 			text-transform: uppercase;
-		    width: 50%;
 		}
 		&--country {
 			display: block;
@@ -45,7 +49,6 @@
 		    font-style: italic;
 			margin-bottom: .125rem;
 			text-align: right;
-		    width: 50%;			
 		}
 	}
 	&__image {

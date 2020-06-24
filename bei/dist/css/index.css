@@ -574,8 +574,16 @@ section:not(.banner):not(.featured) .container-fluid {
   line-height: 1.7;
   text-align: right; }
 
+.testimonial__details {
+  clear: both;
+  overflow: hidden; }
+
 .testimonial__author {
-  color: #282828; }
+  color: #282828;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 60%; }
   .testimonial__author--name {
     display: block;
     font-family: "Raleway", sans-serif;
@@ -585,16 +593,14 @@ section:not(.banner):not(.featured) .container-fluid {
     letter-spacing: .0625rem;
     margin-bottom: .125rem;
     text-align: right;
-    text-transform: uppercase;
-    width: 50%; }
+    text-transform: uppercase; }
   .testimonial__author--country {
     display: block;
     font-family: "Comfortaa", sans-serif;
     font-size: 0.9375rem;
     font-style: italic;
     margin-bottom: .125rem;
-    text-align: right;
-    width: 50%; }
+    text-align: right; }
 
 .testimonial__image {
   -ms-flex-item-align: end;
