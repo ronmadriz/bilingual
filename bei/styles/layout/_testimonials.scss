@@ -1,6 +1,10 @@
 .testimonial {
 	&__title {
 		margin-bottom: 2rem;
+		@include title-line($gray_7);
+		&--text {
+			background-color: $alternate;
+		}
 	}
 	&__item {
 	display: flex;

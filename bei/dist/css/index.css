@@ -555,6 +555,15 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .testimonial__title {
   margin-bottom: 2rem; }
+  .testimonial__title:after {
+    border-bottom: 1px solid #707070;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1.25rem;
+    width: 100%; }
+  .testimonial__title--text {
+    background-color: #fefefe; }
 
 .testimonial__item {
   display: -webkit-box;
