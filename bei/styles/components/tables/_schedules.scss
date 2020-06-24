@@ -16,9 +16,9 @@
 	}
 	&__headers {
 		background-color: $accent_2;
-	    border-bottom: 0.0625rem solid $alternate;
-	    border-right: 0.0625rem solid $alternate;
-		color:$alternate;
+	    border-bottom: 0.0625rem solid $white_1;
+	    border-right: 0.0625rem solid $white_1;
+		color:$white_1;
 		font-size: 1rem;
 		font-weight: 400;
 	}
@@ -29,8 +29,8 @@
 		    margin-right: 0;
 		}
 		@include for-tablet-up {
-		    border-right: 0.0625rem solid $alternate;
-		    border-bottom: 0.0625rem solid $alternate;
+		    border-right: 0.0625rem solid $white_1;
+		    border-bottom: 0.0625rem solid $white_1;
 		}
 	}
 }

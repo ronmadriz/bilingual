@@ -12,7 +12,7 @@ $info_4:#7083d8;
 		width: 100%;
 	}
 	&__item {
-		color:$alternate;
+		color:$white_1;
 		display: flex;
 		flex-flow: column;
 	    margin: .25rem;
@@ -39,7 +39,7 @@ $info_4:#7083d8;
 			}			
 		}
 		&:before {
-			border: .0625rem solid $alternate;			
+			border: .0625rem solid $white_1;			
 			content: '';
 			display: block;
 			height: 97%;
@@ -55,7 +55,7 @@ $info_4:#7083d8;
 	    margin-top: 5px;
 		text-align:center;
 		svg {
-			fill:$alternate;
+			fill:$white_1;
 			height:auto;
 			width: 3rem;
 		}		

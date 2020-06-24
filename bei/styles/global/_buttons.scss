@@ -1,5 +1,5 @@
 .button {
-    background-color: $alternate;
+    background-color: $white_1;
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
@@ -27,6 +27,6 @@
 	    box-shadow: $gray 0px 0px 0px 0px;
 	}
 	&__green {
-	   @include button-big($accent_2, $alternate);
+	   @include button-big($accent_2, $white_1);
 	}   
 }

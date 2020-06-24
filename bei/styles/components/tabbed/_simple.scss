@@ -19,12 +19,12 @@
 			padding: 1.5rem 2.5rem;
 		}
 		&.active {
-			background-color: $alternate;
+			background-color: $white_1;
 			color:$base;
 		}
 	}
 	&__content {
-		background-color: $alternate;
+		background-color: $white_1;
 	}
 	&__pane {
 		background-color:$white_3;
@@ -36,7 +36,7 @@
 			padding:3.9375rem 3.6875rem 2.8125rem;
 		}
 		&.active {
-			background-color:$alternate;
+			background-color:$white_1;
 		}
 		h1, h2, h3 {
 			color: $accent_1;			

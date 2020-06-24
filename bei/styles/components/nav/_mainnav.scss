@@ -1,5 +1,5 @@
 .mainNav {
-	background-color:$alternate;
+	background-color:$white_1;
 	padding-top:0;
 	padding-bottom:0;	
 	&__search {
@@ -63,7 +63,7 @@
 			top: 1rem;
 		    z-index: 101;
 		    span {
-		    	background-color:$alternate;
+		    	background-color:$white_1;
 		    }
 		}
 		&:focus {
@@ -113,7 +113,7 @@
 	}
 	.active {
 		.nav-link {
-			color:$alternate;
+			color:$white_1;
 			@include for-tablet-up {
 				color:$accent_2;
 			}

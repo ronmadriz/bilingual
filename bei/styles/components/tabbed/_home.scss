@@ -3,7 +3,7 @@
 		padding-bottom:.9375rem;
 	}
 	&__wrapper {
-		background-color: $alternate;		
+		background-color: $white_1;		
 		padding-left: 0;
 		padding-right: 0;		
 		position: relative;
@@ -61,7 +61,7 @@
 	}
 	&__details {
 		background-color:$accent_1;
-		color:$alternate;
+		color:$white_1;
 		line-height: 1.7;
 		padding: 3rem;
 		position:relative;
@@ -74,7 +74,7 @@
 			letter-spacing: 0px;
 		    line-height: 2rem;
 			text-transform: none;
-			color: $alternate;
+			color: $white_1;
 		}
 		h3 {
 		    color: $accent_2;

@@ -4,4 +4,9 @@
     background-position: center center;
     padding-top: 15rem;
     padding-bottom: 15rem;
+    &__content {
+		background-color:$white_2;
+		padding: 6rem 4rem;
+		color: $black_4;    	
+    }
 }
