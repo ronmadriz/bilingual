@@ -1429,7 +1429,7 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 2rem;
     position: relative; }
     .single-programs .simple_tabs__title:after {
-      background-color: #8d8d8d;
+      background-color: #101010;
       display: block;
       content: '';
       height: .0625rem;
