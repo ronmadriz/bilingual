@@ -13,7 +13,7 @@ if (have_rows('simple_tabs')) {
 			while (have_rows('tab__item')) {
 				the_row();
 				$tab__title = get_sub_field('tab__title');
-				echo '<li class="nav-item simple_tabs__item"><a class="nav-link simple_tabs__button'.($tab__count == 0?' active':'').'" data-toggle="tab" href="#home__tab-'.$tab__count++ .'">'.PHP_EOL;
+				echo '<li class="nav-item simple_tabs__item"><a class="nav-link simple_tabs__button'.($tab__count == 0?' active':'').'" data-toggle="tab" href="#simple_tabs__tab-'.$tab__count++ .'">'.PHP_EOL;
 				echo '<span class="simple_tabs__title">'.$tab__title.'</span>'.PHP_EOL;
 				echo '</a></li>'.PHP_EOL;
 			}
@@ -24,7 +24,7 @@ if (have_rows('simple_tabs')) {
 			while (have_rows('tab__item')) {
 				the_row();
 				$tab__content = get_sub_field('tab__content');
-				echo '<div class="tab-pane row simple_tabs__pane fade show'.($tabpanel__count == 0?' active':'').'" id="home__tab-'.$tabpanel__count++ .'" role="tabpanel">'.PHP_EOL;
+				echo '<div class="tab-pane row simple_tabs__pane fade show'.($tabpanel__count == 0?' active':'').'" id="simple_tabs__tab-'.$tabpanel__count++ .'" role="tabpanel">'.PHP_EOL;
 				echo '<div class="simple_tabs__details order-12">'.PHP_EOL;
 				echo $tab__content.PHP_EOL;
 				echo '</div>'.PHP_EOL;
