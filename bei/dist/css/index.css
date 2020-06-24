@@ -1434,11 +1434,12 @@ section:not(.banner):not(.featured) .container-fluid {
     font-weight: 700;
     letter-spacing: 0;
     margin-left: 0;
+    padding: 1.15rem .875rem;
     text-transform: none; }
     @media (min-width: 786px) {
       .single-programs .simple_tabs__link {
         font-size: 1.0625rem;
-        padding: 1.5rem 2.5rem; } }
+        padding: 0; } }
     .single-programs .simple_tabs__link.active {
       background-color: #fefefe;
       color: #101010; }

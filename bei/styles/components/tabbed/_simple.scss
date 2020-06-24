@@ -12,10 +12,11 @@
 		font-weight: 700;
 		letter-spacing: 0;
 		margin-left: 0;
+		padding:1.15rem .875rem;
 		text-transform: none;
 		@include for-tablet-up{
 			font-size: 1.0625rem;
-			padding: 1.5rem 2.5rem;
+			padding: 0;
 		}
 		&.active {
 			background-color: $white_1;
