@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .nav-pills .nav-link.active {
   color: inherit;
   background-color: transparent; }
@@ -420,10 +421,10 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 1rem; }
 
 .testimonial__item {
-  padding-right: 1rem;
+  padding-right: 2.25rem;
   position: relative; }
   .testimonial__item:after {
-    content: '&#8221;';
+    content: '”';
     font-family: Georgia, serif;
     font-size: 3.75rem;
     position: absolute;

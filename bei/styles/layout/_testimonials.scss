@@ -1,9 +1,9 @@
 .testimonial {
 	&__item {
-	padding-right:1rem;
+    padding-right: 2.25rem;
 	position:relative;
 		&:after {
-			content:'&#8221;';
+			content:'”';
 			font-family: Georgia, serif;
 			font-size:3.75rem;
 			position:absolute;
