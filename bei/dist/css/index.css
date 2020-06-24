@@ -577,6 +577,12 @@ section:not(.banner):not(.featured) .container-fluid {
 .testimonial__author {
   color: #282828;
   font-family: "Raleway", sans-serif; }
+  .testimonial__author--name {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    margin-bottom: .15rem;
+    text-transform: uppercase;
+    letter-spacing: .0625rem; }
 
 .subsites {
   background-color: #192f59;

@@ -24,5 +24,12 @@
 	&__author {
 		color:$mine_shaft;
 		font-family:$secondary;
+		&--name {
+			font-size: 0.9375rem;
+			font-weight: 700;
+			margin-bottom: .15rem;
+			text-transform: uppercase;
+			letter-spacing: .0625rem;
+		}
 	}
 }
