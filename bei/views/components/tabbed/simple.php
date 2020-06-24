@@ -13,7 +13,7 @@ if (have_rows('simple_tabs')) {
 			while (have_rows('tab__item')) {
 				the_row();
 				$tab__title = get_sub_field('tab__title');
-				echo '<li class="nav-item simple_tabs__item"><a class="nav-link simple_tabs__button'.($tab__count == 0?' active':'').'" data-toggle="tab" href="#simple_tabs__tab-'.$tab__count++ .'">'.PHP_EOL;
+				echo '<li class="nav-item simple_tabs__item"><a class="nav-link simple_tabs__link'.($tab__count == 0?' active':'').'" data-toggle="tab" href="#simple_tabs__tab-'.$tab__count++ .'">'.PHP_EOL;
 				echo '<span class="simple_tabs__title">'.$tab__title.'</span>'.PHP_EOL;
 				echo '</a></li>'.PHP_EOL;
 			}
