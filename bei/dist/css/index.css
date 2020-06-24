@@ -556,13 +556,14 @@ section:not(.banner):not(.featured) .container-fluid {
 .testimonial__title {
   margin-bottom: 2rem; }
   .testimonial__title:after {
-    border-bottom: 1px solid #707070;
-    content: '';
+    background-color: #707070;
     display: block;
-    position: absolute;
+    height: .0625rem;
     top: 1.25rem;
-    width: 100%; }
+    width: 100%;
+    z-index: -1; }
   .testimonial__title--text {
+    display: inline-block;
     background-color: #fefefe; }
 
 .testimonial__item {

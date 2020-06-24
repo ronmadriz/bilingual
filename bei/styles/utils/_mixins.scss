@@ -75,11 +75,11 @@
 
 @mixin title-line ($line_color) {
     &:after {
-        border-bottom: 1px solid $line_color;
-        content: '';
-        display: block;
-        position: absolute;
-        top: 1.25rem;
-        width: 100%;
+      background-color: $line_color;
+      display: block;
+      height: .0625rem;
+      top: 1.25rem;
+      width: 100%;
+      z-index: -1;
     }
 }
