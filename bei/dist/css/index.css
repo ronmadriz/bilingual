@@ -575,7 +575,6 @@ section:not(.banner):not(.featured) .container-fluid {
   text-align: right; }
 
 .testimonial__details {
-  clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -585,8 +584,7 @@ section:not(.banner):not(.featured) .container-fluid {
           flex-direction: row;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
-  overflow: hidden; }
+          justify-content: flex-end; }
 
 .testimonial__author {
   color: #282828;

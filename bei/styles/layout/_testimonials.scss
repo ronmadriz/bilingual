@@ -22,11 +22,9 @@
 		text-align: right;
 	}
 	&__details {
-		clear:both;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;		
-		overflow: hidden;
 	}
 	&__author {
 		color:$mine_shaft;
