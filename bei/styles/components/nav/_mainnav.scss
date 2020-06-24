@@ -105,11 +105,9 @@
 			}
 			&:hover {
 				color:$accent_2;
-				@include nav-line($accent_2);
 			}
 			&.active {
 				color:$accent_2;
-				@include nav-line($accent_2);
 			}
 			@include nav-line($accent_2);
 			&:hover:before {
