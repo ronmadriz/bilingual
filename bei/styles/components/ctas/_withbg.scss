@@ -1,12 +1,24 @@
 .ctaBg {
-    background-image: url(https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg);
-    background-size: cover;
+    background-image: attr(data-image-src);
     background-position: center center;
+    background-size: cover;
     padding-top: 15rem;
     padding-bottom: 15rem;
-    &__content {
+	&__wrapper {
+
+	}
+	&__content {
 		background-color:$white_2;
+		color: $black_4;
 		padding: 6rem 4rem;
-		color: $black_4;    	
-    }
+	}
+	&__title {
+
+	}
+	&__content {
+
+	}
+	&__button {
+
+	}
 }

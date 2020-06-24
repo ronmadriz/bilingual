@@ -1000,11 +1000,15 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 0; }
 
 .ctaBg {
-  background-image: url(https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg);
-  background-size: cover;
+  background-image: attr(data-image-src);
   background-position: center center;
+  background-size: cover;
   padding-top: 15rem;
   padding-bottom: 15rem; }
+  .ctaBg__content {
+    background-color: #e6e6e6;
+    color: #282828;
+    padding: 6rem 4rem; }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;

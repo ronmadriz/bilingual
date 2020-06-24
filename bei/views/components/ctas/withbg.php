@@ -1,4 +1,4 @@
-<section id="ctaBg" class="ctaBg">
+<section id="ctaBg" class="ctaBg" data-image-src="https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg">
 	<div class="container-fluid">
 		<div class="row ctaBg__wrapper">
 			<div class="col-12 ctaBg__content">
