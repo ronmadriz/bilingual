@@ -1,7 +1,7 @@
 <?php
 $tml_args = array(
-	'post_type'     => 'testimonials',
-	'post_per_page' => 3,
+	'post_type'      => 'testimonials',
+	'posts_per_page' => 3,
 );
 $tml_query = new WP_Query($tml_args);
 if ($tml_query->have_posts()) {
