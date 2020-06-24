@@ -2,7 +2,11 @@
 	background-color:$white_2;
 	padding:5.625rem 0 3.75rem 0;
 	&__list {}
-	&__item {}
+	&__item {
+		@include for-tablet-up{
+			padding:0;
+		}		
+	}
 	&__link {
 		background-color:$white_3;
 		border: 0;
@@ -16,7 +20,7 @@
 		text-transform: none;
 		@include for-tablet-up{
 			font-size: 1.0625rem;
-			padding: 0;
+			padding: 1.5rem 2.5rem;
 		}
 		&.active {
 			background-color: $white_1;

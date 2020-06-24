@@ -1425,6 +1425,9 @@ section:not(.banner):not(.featured) .container-fluid {
 .single-programs .simple_tabs {
   background-color: #e6e6e6;
   padding: 5.625rem 0 3.75rem 0; }
+  @media (min-width: 786px) {
+    .single-programs .simple_tabs__item {
+      padding: 0; } }
   .single-programs .simple_tabs__link {
     background-color: #f7f7f7;
     border: 0;
@@ -1439,7 +1442,7 @@ section:not(.banner):not(.featured) .container-fluid {
     @media (min-width: 786px) {
       .single-programs .simple_tabs__link {
         font-size: 1.0625rem;
-        padding: 0; } }
+        padding: 1.5rem 2.5rem; } }
     .single-programs .simple_tabs__link.active {
       background-color: #fefefe;
       color: #101010; }
