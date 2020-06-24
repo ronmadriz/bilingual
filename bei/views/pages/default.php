@@ -8,6 +8,7 @@ if (have_posts()) {
 		the_content();
 		echo '</div></div>'.PHP_EOL;
 	}
+	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
 	echo '</section>'.PHP_EOL;
 }
