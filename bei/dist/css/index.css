@@ -553,6 +553,9 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-top: 2rem;
     margin-bottom: 1rem; }
 
+.testimonial__title {
+  margin-bottom: 2rem; }
+
 .testimonial__item {
   display: -webkit-box;
   display: -ms-flexbox;
