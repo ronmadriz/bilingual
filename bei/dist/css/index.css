@@ -419,12 +419,16 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-top: 2rem;
     margin-bottom: 1rem; }
 
-.testimonial:after {
-  float: right;
-  font-family: Georgia, serif;
-  font-size: 60px;
-  line-height: 1;
-  margin-left: 30px; }
+.testimonial__item {
+  padding-right: 1rem;
+  position: relative; }
+  .testimonial__item:after {
+    content: '&#8221;';
+    font-family: Georgia, serif;
+    font-size: 3.75rem;
+    position: absolute;
+    right: 0;
+    top: 0; }
 
 .subsites {
   background-color: #192f59;
