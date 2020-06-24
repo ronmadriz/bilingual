@@ -31,6 +31,7 @@
 			font-weight: 700;
 			letter-spacing: .0625rem;
 			margin-bottom: .125rem;
+			text-align: right;
 			text-transform: uppercase;
 		    width: 50%;
 		}
@@ -40,7 +41,11 @@
 			font-size: 0.9375rem;
 		    font-style: italic;
 			margin-bottom: .125rem;
+			text-align: right;
 		    width: 50%;			
+		}
+		&--img {
+			align-self: end;
 		}
 	}
 }
