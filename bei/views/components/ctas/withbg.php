@@ -3,7 +3,7 @@
 		background-image:url(https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg);
 	}
 </style>
-<section id="ctaBg" class="cta withBg">
+<section id="cta" class="cta withBg">
 	<div class="container-fluid">
 		<div class="row ctaBg__wrapper">
 			<div class="col-12 ctaBg__content">
