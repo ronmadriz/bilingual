@@ -1412,7 +1412,7 @@ section:not(.banner):not(.featured) .container-fluid {
   padding: 0 0 2rem; }
   .single-programs .block__desc {
     background-color: #3db166;
-    color: #ababab;
+    color: #fff;
     display: block;
     font-size: 1rem;
     margin-bottom: 2rem;
@@ -1420,7 +1420,7 @@ section:not(.banner):not(.featured) .container-fluid {
     @media (min-width: 786px) {
       .single-programs .block__desc {
         margin-bottom: 0;
-        padding: 6.5rem 2rem; } }
+        padding: 1.875rem 1.25rem; } }
 
 @media (min-width: 786px) {
   .single-programs .calendar {
