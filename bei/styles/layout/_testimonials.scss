@@ -3,6 +3,7 @@
     padding-right: 2.25rem;
 	position:relative;
 		&:after {
+			color:$black_4;
 			content:'”';
 			font-family: Georgia, serif;
 			font-size:3.75rem;

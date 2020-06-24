@@ -431,6 +431,7 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-right: 2.25rem;
   position: relative; }
   .testimonial__item:after {
+    color: #282828;
     content: '”';
     font-family: Georgia, serif;
     font-size: 3.75rem;
