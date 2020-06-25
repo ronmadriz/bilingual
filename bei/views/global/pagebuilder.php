@@ -8,6 +8,8 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/layout/imagebar.php');
 		} elseif (get_row_layout() == 'quotes') {
 			include (get_template_directory().'/views/layout/quotes.php');
+		} elseif (get_row_layout() == 'fl_logos') {
+			include (get_template_directory().'/views/layout/flexible-logos.php');
 		}
 	}
 }
