@@ -1,4 +1,4 @@
-<section id="majors" class="majors">
+<section id="quotes" class="quotes">
 	<div class="container-fluid">
 		<div class="row majors__wrapper">
 			<div class="col-12 majors__content">

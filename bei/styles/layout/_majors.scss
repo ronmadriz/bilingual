@@ -1,4 +1,4 @@
-.majors {
+.quotes {
 	&__wrapper {
 		
 	}
@@ -8,7 +8,7 @@
 		position:relative;
 		@include title-line($gray_7);
 		&--text {
-			@include title-text($accent_1);
+			@include title-text(transparent);
 		}		
 	}
 	&__content {

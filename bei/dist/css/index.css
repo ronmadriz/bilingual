@@ -658,11 +658,11 @@ section:not(.banner):not(.featured) .container-fluid {
   max-height: 3.4375rem;
   max-width: 3.4375rem; }
 
-.majors__title {
+.quotes__title {
   display: block;
   margin-bottom: 2.5rem;
   position: relative; }
-  .majors__title:after {
+  .quotes__title:after {
     background-color: #707070;
     display: block;
     content: '';
@@ -672,13 +672,13 @@ section:not(.banner):not(.featured) .container-fluid {
     top: 1.25rem;
     width: 100%;
     z-index: -1; }
-  .majors__title--text {
-    background-color: #192f59;
+  .quotes__title--text {
+    background-color: transparent;
     display: inline-block;
     padding-left: 1rem;
     padding-right: 1rem; }
 
-.majors__content {
+.quotes__content {
   color: #3db166;
   font-size: 21px;
   margin-bottom: 2.5rem;
