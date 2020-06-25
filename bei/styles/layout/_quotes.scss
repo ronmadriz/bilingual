@@ -8,7 +8,7 @@
 		position:relative;
 		@include title-line($gray_7);
 		&--text {
-			@include title-text(transparent);
+			@include title-text($white_0);
 		}		
 	}
 	&__content {

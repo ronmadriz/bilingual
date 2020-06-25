@@ -673,7 +673,7 @@ section:not(.banner):not(.featured) .container-fluid {
     width: 100%;
     z-index: -1; }
   .quotes__title--text {
-    background-color: transparent;
+    background-color: #fff;
     display: inline-block;
     padding-left: 1rem;
     padding-right: 1rem; }
