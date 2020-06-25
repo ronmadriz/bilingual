@@ -696,11 +696,13 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-bottom: 2.1875rem;
   text-transform: none; }
 
-.quotes__boxes--item {
-  background-color: #3db166;
-  color: #fff;
-  margin: 0 1.25rem 1.875rem;
-  padding: 3.125rem 2.5rem 2.5rem; }
+.quotes__boxes {
+  text-align: center; }
+  .quotes__boxes--item {
+    background-color: #3db166;
+    color: #fff;
+    margin: 0 1.25rem 1.875rem;
+    padding: 3.125rem 2.5rem 2.5rem; }
 
 .subsites {
   background-color: #192f59;
