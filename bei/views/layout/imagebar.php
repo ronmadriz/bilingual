@@ -12,7 +12,7 @@ if( have_rows( 'flexible_content_field_name' ) ){
 		echo '<img src="'.$ib_image['url'].'" alt="'.$ib_image['alt'].'" class="imagebar__image">'.PHP_EOL;
 		echo '<figcaption class="imagebar__details">'.PHP_EOL;
 		echo $ib_content;
-		echo '<footer class="imagebar__button"><a href="'.$ib_link['url'].'" class="button__green">'.$ib_link['title'].'</a></footer>'.PHP_EOL;
+		echo (!empty($ib_link)?'<footer class="imagebar__button"><a href="'.$ib_link['url'].'" class="button__green">'.$ib_link['title'].'</a></footer>'.PHP_EOL:'');
 		echo '</figcaption>'.PHP_EOL;
 		echo '</figure>'.PHP_EOL;
 	 } 
