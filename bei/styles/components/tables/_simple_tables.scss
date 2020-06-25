@@ -1,0 +1,36 @@
+.simple_table {
+	@include for-tablet-up {
+		padding-bottom: 4rem;
+		padding-top: 4rem;
+	}
+	&__title {
+		margin-bottom: 1.875rem;
+	}
+	&__label {
+		color:$gray_6;
+		font-size: 1.125rem;
+		margin-bottom: 0;		
+	}
+	&__table {
+		margin-top: 1rem;
+	}
+	&__headers {
+		background-color: $accent_2;
+	    border-bottom: 0.0625rem solid $white_1;
+	    border-right: 0.0625rem solid $white_1;
+		color:$white_1;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+	&__data {
+		background-color:$white_2;
+		color:$gray_6;
+		&:first-of-type:before {
+		    margin-right: 0;
+		}
+		@include for-tablet-up {
+		    border-right: 0.0625rem solid $white_1;
+		    border-bottom: 0.0625rem solid $white_1;
+		}
+	}
+}
