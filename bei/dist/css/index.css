@@ -689,7 +689,8 @@ section:not(.banner):not(.featured) .container-fluid {
   color: #3db166;
   font-size: 21px;
   margin-bottom: 2.5rem;
-  text-transform: none; }
+  text-transform: none;
+  border: 0.1875rem solid #3db166; }
 
 .subsites {
   background-color: #192f59;
