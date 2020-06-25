@@ -6,7 +6,10 @@ if (have_rows('page_builder', $bei_fl_id)) {
 		the_row();
 		if (get_row_layout() == 'imagebar') {
 			include (get_template_directory().'/views/layout/imagebar.php');
-			// get_template_part('views/layout/imagebar.php', 'imagebar');
+		} elseif (get_row_layout() == 'quotes') {
+			include (get_template_directory().'views/layout/quotes.php');
 		}
 	}
 }
+// include ('views/components/logos/logos.php');
+// include ('views/components/tables/simple_tables.php');

@@ -1,10 +1,10 @@
 <?php
-	echo '<section id="imagebar" class="imagebar">'.PHP_EOL;
-	echo '<div class="container-fluid imagebar__wrapper">'.PHP_EOL;
-	echo '<div class="row">'.PHP_EOL;
  	$ib_image = get_sub_field('image', $bei_fl_id);
  	$ib_content = get_sub_field('content', $bei_fl_id);
  	$ib_link = get_sub_field('link', $bei_fl_id);
+	echo '<section id="imagebar" class="imagebar">'.PHP_EOL;
+	echo '<div class="container-fluid imagebar__wrapper">'.PHP_EOL;
+	echo '<div class="row">'.PHP_EOL;
 	echo '<figure class="imagebar__content">'.PHP_EOL;
 	echo '<img src="'.$ib_image['url'].'" alt="'.$ib_image['alt'].'" class="imagebar__image">'.PHP_EOL;
 	echo '<figcaption class="imagebar__details">'.PHP_EOL;
