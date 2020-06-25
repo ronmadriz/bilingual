@@ -1,3 +1,23 @@
 .majors {
-	
+	&__wrapper {
+		
+	}
+	&__title {
+		display: block;
+		margin-bottom: 2.5rem;
+		position:relative;
+		@include title-line($gray_7);
+		&--text {
+			@include title-text($accent_1);
+		}		
+	}
+	&__content {
+		color: $accent_2;
+		font-size: 21px;
+		margin-bottom: 2.5rem;
+		text-transform: none;
+	}
+	&__desc	 {
+		
+	}
 }

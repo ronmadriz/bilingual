@@ -658,6 +658,32 @@ section:not(.banner):not(.featured) .container-fluid {
   max-height: 3.4375rem;
   max-width: 3.4375rem; }
 
+.majors__title {
+  display: block;
+  margin-bottom: 2.5rem;
+  position: relative; }
+  .majors__title:after {
+    background-color: #707070;
+    display: block;
+    content: '';
+    height: .0625rem;
+    left: 0;
+    position: absolute;
+    top: 1.25rem;
+    width: 100%;
+    z-index: -1; }
+  .majors__title--text {
+    background-color: #192f59;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+.majors__content {
+  color: #3db166;
+  font-size: 21px;
+  margin-bottom: 2.5rem;
+  text-transform: none; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
