@@ -1,9 +1,9 @@
 <?php
-if( have_rows( 'flexible_content_field_name' ) ){
+if( have_rows( 'imagebar' ) ){
 	echo '<section id="imagebar" class="imagebar">'.PHP_EOL;
 	echo '<div class="container-fluid imagebar__wrapper">'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
-	 while ( have_rows( 'flexible_content_field_name' ) ) {
+	 while ( have_rows( 'imagebar' ) ) {
 	 	the_row();
 	 	$ib_image = get_sub_field('image');
 	 	$ib_content = get_sub_field('content');
