@@ -1,7 +1,7 @@
 <?php
- 	$qt_title = get_sub_field('title', $bei_fl_id);
- 	$qt_boxes = get_sub_field('boxes', $bei_fl_id);
- 	$qt_content = get_sub_field('content', $bei_fl_id);
+ 	$qt_title = get_sub_field('qt_title', $bei_fl_id);
+ 	$qt_boxes = get_sub_field('qt_boxes', $bei_fl_id);
+ 	$qt_content = get_sub_field('qt_content', $bei_fl_id);
 	echo '<section id="quotes" class="quotes">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
 	echo '<div class="row quotes__wrapper">'.PHP_EOL;
