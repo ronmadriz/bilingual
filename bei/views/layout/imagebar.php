@@ -1,10 +1,10 @@
 <?php
-$bei_fl_id = get_the_ID();
-if( have_rows( 'imagebar', $bei_fl_id ) ){
+get_sub_field('imagebar');
+if($imagebar){
 	echo '<section id="imagebar" class="imagebar">'.PHP_EOL;
 	echo '<div class="container-fluid imagebar__wrapper">'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
-	 while ( have_rows( 'imagebar', $bei_fl_id ) ) {
+	 while ($imagebar ) {
 	 	the_row();
 	 	$ib_image = get_sub_field('image');
 	 	$ib_content = get_sub_field('content');
