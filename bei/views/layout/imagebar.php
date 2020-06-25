@@ -1,19 +1,22 @@
-<section id="imagebar" class="imagebar">
-	<div class="container-fluid imagebar__wrapper">
-		<div class="row">
-			<figure class="imagebar__content">
-				<img src="https://bei.ronmadriz.com/wp-content/uploads/2020/06/graduation.jpg" alt="Graduation" class="imagebar__image">
-				<figcaption class="imagebar__details">
-					<p>Is one of your goals to attend university after you complete your English courses?</p>
-					<p>Successful completion of BEI’s Intensive English Level 7 or 8 is equivalent to the English proficiency standards dictated by TOEFL, so you can skip the test and use your certificate as proof of your English mastery with our university partners.</p>
-					<p>At BEI, we offer two solutions for your collegiate language requirements:</p>
-					<ul>
-					<li>TOEFL Preparation</li>
-					<li>English Language Skills</li>
-					</ul>
-					<footer class="imagebar__button"><a href="#" class="button__green">Let's Do This</a></footer>
-				</figcaption>
-			</figure>
-		</div>
-	</div>
-</section>
+<?php
+if( have_rows( 'flexible_content_field_name' ) ){
+	echo '<section id="imagebar" class="imagebar">'.PHP_EOL;
+	echo '<div class="container-fluid imagebar__wrapper">'.PHP_EOL;
+	echo '<div class="row">'.PHP_EOL;
+	 while ( have_rows( 'flexible_content_field_name' ) ) {
+	 	the_row();
+	 	$ib_image = get_sub_field('image');
+	 	$ib_content = get_sub_field('content');
+	 	$ib_link = get_sub_field('link');
+		echo '<figure class="imagebar__content">'.PHP_EOL;
+		echo '<img src="'.$ib_image['url'].'" alt="'.$ib_image['alt'].'" class="imagebar__image">'.PHP_EOL;
+		echo '<figcaption class="imagebar__details">'.PHP_EOL;
+		echo $ib_content;
+		echo '<footer class="imagebar__button"><a href="'.$ib_link['url'].'" class="button__green">'.$ib_link['title'].'</a></footer>'.PHP_EOL;
+		echo '</figcaption>'.PHP_EOL;
+		echo '</figure>'.PHP_EOL;
+	 } 
+	echo '</div>'.PHP_EOL;
+	echo '</div>'.PHP_EOL;
+	echo '</section>'.PHP_EOL;	
+}
