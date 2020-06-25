@@ -21,13 +21,13 @@
 
 	}
 	&__content {
-		color: $accent_2;
-		font-size: 21px;
-		margin-bottom: 2.1875rem;
-		text-transform: none;
-		border-bottom: .1875rem solid $accent_2;
+	    padding-bottom: 3rem;
 	}
 	&__desc	 {
-		
+		border-bottom: .1875rem solid $accent_2;
+		color: $accent_2;
+		font-size: 1.3125rem;
+	    padding-bottom: 2.1875rem;
+		text-transform: none;		
 	}
 }

@@ -686,11 +686,14 @@ section:not(.banner):not(.featured) .container-fluid {
     top: 1rem; }
 
 .quotes__content {
+  padding-bottom: 3rem; }
+
+.quotes__desc {
+  border-bottom: 0.1875rem solid #3db166;
   color: #3db166;
-  font-size: 21px;
-  margin-bottom: 2.1875rem;
-  text-transform: none;
-  border-bottom: 0.1875rem solid #3db166; }
+  font-size: 1.3125rem;
+  padding-bottom: 2.1875rem;
+  text-transform: none; }
 
 .subsites {
   background-color: #192f59;
