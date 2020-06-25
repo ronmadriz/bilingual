@@ -5,9 +5,9 @@
 	echo (!empty($simple_table_section_title)?'<div class="row justify-content-end"><div class="col-12 simple_table__title"><h2>'.$simple_table_section_title.'</h2></div></div>'.PHP_EOL:'');
 	if (have_rows('st_tables')) {
 		echo '<div class="row">'.PHP_EOL;
-		while (have_rows('simple_tables')) {
+		while (have_rows('st_tables')) {
 			the_row();
-			$simple_table_table = get_sub_field('st_tables');
+			$simple_table_table = get_sub_field('simple_table');
 			if (!empty($simple_table_table)) {
 				echo '<div class="simple_table__wrapper col-12 col-md-6">'.PHP_EOL;
 				if (!empty($simple_table_table['caption'])) {
