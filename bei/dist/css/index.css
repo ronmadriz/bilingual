@@ -691,6 +691,7 @@ section:not(.banner):not(.featured) .container-fluid {
 .quotes__desc {
   border-bottom: 0.1875rem solid #3db166;
   color: #3db166;
+  display: block;
   font-size: 1.3125rem;
   padding-bottom: 2.1875rem;
   text-transform: none; }
