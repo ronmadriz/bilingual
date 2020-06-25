@@ -8,7 +8,7 @@
 			$fl_logo = get_sub_field('logo_image');
 			$fl_logo_link = get_sub_field('logo_link');
 			echo '<div class="col-6 col-md-3 logos_item">';
-			echo (!empty($fl_logo_link)?'<a href="'.$logo_link['url'].'" rel="nofollow">':'');
+			echo (!empty($fl_logo_link)?'<a href="'.$fl_logo_link['url'].'" rel="nofollow">':'');
 			echo '<img src="'.$fl_logo['url'].'" alt="'.$fl_logo['alt'].'" class="logos_image img-fluid"></div>'.PHP_EOL;		
 			echo (!empty($fl_logo_link)?'</a>':'');
 		}
