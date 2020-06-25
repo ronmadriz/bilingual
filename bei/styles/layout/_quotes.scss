@@ -31,4 +31,13 @@
 	    padding-bottom: 2.1875rem;
 		text-transform: none;		
 	}
+	&__boxes {
+
+		&--item {
+		    background-color: $accent_2;
+		    color: $white_0;
+			margin:0 1.25rem 1.875rem;
+			padding: 3.125rem 2.5rem 2.5rem;
+		}
+	}
 }
