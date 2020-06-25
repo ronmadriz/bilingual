@@ -7,9 +7,9 @@
 	echo '<div class="row quotes__wrapper">'.PHP_EOL;
 	echo '<div class="col-12 quotes__content">'.PHP_EOL;
 	echo '<span class="quotes__title"><h2 class="quotes__title--text">'.$qt_title.'</h2></span>'.PHP_EOL;
-	if(have_rows('boxes')){
+	if(have_rows('qt_boxes')){
 		echo '<ul class="quotes__boxes list-unstyled list-inline">'.PHP_EOL;
-		while(have_rows('boxes')){
+		while(have_rows('qt_boxes')){
 			the_row();
 			$qt_box_text = get_sub_field('qt_box_text');
 			echo '<li class="quotes__boxes--item list-inline-item">'.$qt_box_text.'</li>'.PHP_EOL;
