@@ -10,8 +10,8 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/layout/quotes.php');
 		} elseif (get_row_layout() == 'fl_logos') {
 			include (get_template_directory().'/views/components/logos/flexible-logos.php');
+		} elseif (get_row_layout() == 'simple_tables') {
+			include (get_template_directory().'/views/components/tables/simple_tables.php');
 		}
 	}
 }
-// include (get_template_directory().'/views/components/logos/logos.php');
-// include (get_template_directory().'/views/components/tables/simple_tables.php');
