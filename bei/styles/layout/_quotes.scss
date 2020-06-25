@@ -1,4 +1,6 @@
 .quotes {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 	&__wrapper {
 		
 	}
@@ -21,7 +23,6 @@
 
 	}
 	&__content {
-	    padding-bottom: 3rem;
 	}
 	&__desc	 {
 		border-bottom: .1875rem solid $accent_2;
