@@ -10,6 +10,10 @@
 		&--text {
 			color:$accent_1;
 			@include title-text($white_0);
+			font-size: 1.375rem;
+			font-weight: 600;
+			letter-spacing: 0px;
+			text-transform: none;			
 		}		
 	}
 	&__content {
