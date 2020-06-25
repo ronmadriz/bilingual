@@ -662,16 +662,6 @@ section:not(.banner):not(.featured) .container-fluid {
   display: block;
   margin-bottom: 2.5rem;
   position: relative; }
-  .quotes__title:after {
-    background-color: #707070;
-    display: block;
-    content: '';
-    height: .0625rem;
-    left: 0;
-    position: absolute;
-    top: 1.25rem;
-    width: 100%;
-    z-index: -1; }
   .quotes__title--text {
     color: #192f59;
     background-color: #fff;
@@ -682,6 +672,18 @@ section:not(.banner):not(.featured) .container-fluid {
     font-weight: 600;
     letter-spacing: 0px;
     text-transform: none; }
+  .quotes__title:after {
+    background-color: #707070;
+    display: block;
+    content: '';
+    height: .0625rem;
+    left: 0;
+    position: absolute;
+    top: 1.25rem;
+    width: 100%;
+    z-index: -1; }
+  .quotes__title:after {
+    top: 1rem; }
 
 .quotes__content {
   color: #3db166;
