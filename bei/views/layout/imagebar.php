@@ -1,5 +1,5 @@
 <?php
-get_sub_field('imagebar');
+$imagebar = get_sub_field('imagebar');
 if($imagebar){
 	echo '<section id="imagebar" class="imagebar">'.PHP_EOL;
 	echo '<div class="container-fluid imagebar__wrapper">'.PHP_EOL;
