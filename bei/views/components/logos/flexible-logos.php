@@ -2,7 +2,7 @@
 	$fl_logos_title = get_sub_field('fl_logos_title');
 	echo '<section id="logos" class="logos">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
-	echo '<span class="section-title"><h2 class="section-title--text">'.$fl_logos_title.'</h2></span>'.PHP_EOL;	
+	echo (!empty($fl_logos_title)?'<span class="section-title"><h2 class="section-title--text">'.$fl_logos_title.'</h2></span>'.PHP_EOL:'');	
 	echo '<div class="row align-content-center text-center">'.PHP_EOL;
 	if(have_rows('logos')) {
 		while(have_rows('logos')) {
