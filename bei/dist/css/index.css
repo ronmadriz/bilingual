@@ -688,9 +688,9 @@ section:not(.banner):not(.featured) .container-fluid {
 .quotes__content {
   color: #3db166;
   font-size: 21px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.1875rem;
   text-transform: none;
-  border: 0.1875rem solid #3db166; }
+  border-bottom: 0.1875rem solid #3db166; }
 
 .subsites {
   background-color: #192f59;
