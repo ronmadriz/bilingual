@@ -4,8 +4,8 @@
  *
  */
 get_header();
-include (get_template_directory().'/views/components/banner/subpages.php');
-include (get_template_directory().'/views/components/layout/content-with-thumbnail.php');
+include ('views/components/banner/subpages.php');
+include ('views/layout/content-with-thumbnail.php');
 
 // include ('views/pages/default.php');
 // include ('views/layout/imagebar.php');
