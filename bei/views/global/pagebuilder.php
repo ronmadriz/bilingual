@@ -5,12 +5,10 @@ if (have_rows('page_builder', $bei_fl_id)) {
 	while (have_rows('page_builder', $bei_fl_id)){
 		the_row();
 		if (get_row_layout() == 'imagebar') {
-			$imagebar = get_sub_field('imagebar');
-			if($imagebar){
 				echo '<section id="imagebar" class="imagebar">'.PHP_EOL;
 				echo '<div class="container-fluid imagebar__wrapper">'.PHP_EOL;
 				echo '<div class="row">'.PHP_EOL;
-				 while ($imagebar ) {
+				 while (get_row_layout() == 'imagebar' ) {
 				 	the_row();
 				 	$ib_image = get_sub_field('image');
 				 	$ib_content = get_sub_field('content');
@@ -26,7 +24,6 @@ if (have_rows('page_builder', $bei_fl_id)) {
 				echo '</div>'.PHP_EOL;
 				echo '</div>'.PHP_EOL;
 				echo '</section>'.PHP_EOL;	
-			}			
 			// include (get_template_directory().'/views/layout/imagebar.php');
 			// get_template_part('views/layout/imagebar.php', 'imagebar');
 		}
