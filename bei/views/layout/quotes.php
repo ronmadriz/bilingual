@@ -1,6 +1,6 @@
 <?php
 $qt_title   = get_sub_field('qt_title', $bei_fl_id);
-$qt_id_raw  = preg_replace("/[^a-zA-Z]/", "", $qt_title);
+$qt_id_raw  = preg_replace("/[^a-zA-Z]/", "_", $qt_title);
 $qt_id      = strtolower($qt_id_raw);
 $qt_boxes   = get_sub_field('qt_boxes', $bei_fl_id);
 $qt_content = get_sub_field('qt_content', $bei_fl_id);
