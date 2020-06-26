@@ -1,10 +1,6 @@
 <?php
 get_header();
 include ('views/components/banner/subpages.php');
-include ('views/pages/default.php');
-include ('views/layout/quotes.php');
-include ('views/components/logos/logos.php');
-include ('views/layout/testimonial.php');
-include ('views/layout/imagebar.php');
-include ('views/components/ctas/withbg.php');
+include ('views/layout/content-with-thumbnail.php');
+include ('views/global/pagebuilder.php');
 get_footer();
