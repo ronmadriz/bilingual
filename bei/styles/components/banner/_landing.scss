@@ -22,7 +22,11 @@
 		width:100%;
 	    @include for-tablet-up {
 			width:33.333%;
-	    }		
+	    }
+	    &--text {
+	    	display:inline-block;
+    	    border-bottom: 5px solid $accent_2;
+	    }
 	}
 	&__desc {
 		display:block;

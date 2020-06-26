@@ -1145,6 +1145,9 @@ section:not(.banner):not(.featured) .container-fluid {
     @media (min-width: 786px) {
       .landing__title {
         width: 33.333%; } }
+    .landing__title--text {
+      display: inline-block;
+      border-bottom: 5px solid #3db166; }
   .landing__desc {
     display: block;
     width: 100%; }
