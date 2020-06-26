@@ -14,7 +14,7 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/components/tables/simple_table.php');
 		} elseif (get_row_layout() == 'info_blocks') {
 			include (get_template_directory().'/views/layout/infoblocks.php');
-		} elseif (get_row_layout() == 'tiled') {
+		} elseif (get_row_layout() == 'tiled_images') {
 			include (get_template_directory().'/views/layout/tiled.php');
 		}
 	}
