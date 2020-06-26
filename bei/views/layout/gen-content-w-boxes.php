@@ -16,8 +16,7 @@
 				<p>YES!</p>
 			</div>
 			<div class="gencontent__boxes--item col-12 col-md-4">
-				<h4>What English skills does the TOEFL assess?</h4>
-				<p>Reading Writing<br>Listening Speaking</p>
+
 			</div>
 		</div>
 	</div>
