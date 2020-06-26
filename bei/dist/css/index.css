@@ -1144,6 +1144,7 @@ section:not(.banner):not(.featured) .container-fluid {
     width: 100%; }
     @media (min-width: 786px) {
       .landing_banner__title {
+        padding-right: 2rem;
         width: 33.333%; } }
     .landing_banner__title--text {
       display: inline-block;

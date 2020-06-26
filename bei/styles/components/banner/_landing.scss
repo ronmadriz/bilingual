@@ -21,6 +21,7 @@
 		display:block;
 		width:100%;
 	    @include for-tablet-up {
+	    	padding-right: 2rem;
 			width:33.333%;
 	    }
 	    &--text {
