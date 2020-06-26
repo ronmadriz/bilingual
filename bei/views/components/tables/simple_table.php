@@ -2,7 +2,7 @@
 echo '<section id="simple_table" class="simple_table">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 $simple_table_section_title = get_sub_field('st_section_title');
-echo (!empty($simple_table_section_title)?'<div class="row justify-content-end"><div class="col-12 section__title"><h2 class="section__title--text">'.$simple_table_section_title.'</h2></div></div>'.PHP_EOL:'');
+echo (!empty($simple_table_section_title)?'<div class="row"><span class="col-12 section__title"><h2 class="section__title--text">'.$simple_table_section_title.'</h2></span></div>'.PHP_EOL:'');
 if (have_rows('st_tables')) {
 	echo '<div class="row">'.PHP_EOL;
 	while (have_rows('st_tables')) {
