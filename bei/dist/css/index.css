@@ -779,6 +779,13 @@ section:not(.banner):not(.featured) .container-fluid {
   .gencontent__boxes--desc {
     display: block; }
 
+.tiled {
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+  .tiled__item {
+    border: 0;
+    margin-bottom: 2rem; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
