@@ -16,6 +16,10 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/layout/infoblocks.php');
 		} elseif (get_row_layout() == 'tiled_images') {
 			include (get_template_directory().'/views/layout/tiled.php');
+		} elseif (get_row_layout() == 'gen_content') {
+			include (get_template_directory().'/views/layout/gen-content.php');
+		} elseif (get_row_layout() == 'gen_content_w_boxes') {
+			include (get_template_directory().'/views/layout/gen-content-w-boxes.php');
 		}
 	}
 }

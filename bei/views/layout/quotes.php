@@ -1,10 +1,10 @@
 <?php
-$qt_id_raw = preg_replace("/[^a-zA-Z]/", "_", $qt_title);
-$qt_id     = strtolower($qt_id_raw);
-
 $qt_title   = get_sub_field('qt_title', $bei_fl_id);
 $qt_boxes   = get_sub_field('qt_boxes', $bei_fl_id);
 $qt_content = get_sub_field('qt_content', $bei_fl_id);
+
+$qt_id_raw = preg_replace("/[^a-zA-Z]/", "_", $qt_title, $bei_fl_id);
+$qt_id     = strtolower($qt_id_raw);
 echo '<section id="'.$qt_id.'" class="quotes">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row quotes__wrapper">'.PHP_EOL;
