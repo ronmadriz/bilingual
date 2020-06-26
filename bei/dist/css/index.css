@@ -751,6 +751,19 @@ section:not(.banner):not(.featured) .container-fluid {
       .quotes__boxes--item * {
         font-size: 95%; }
 
+.gencontent__desc {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.gencontent__boxes--icon {
+  display: block; }
+
+.gencontent__boxes--title {
+  display: block; }
+
+.gencontent__boxes--desc {
+  display: block; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
