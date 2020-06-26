@@ -813,6 +813,9 @@ section:not(.banner):not(.featured) .container-fluid {
         fill: #3db166;
         height: auto;
         width: 1rem; }
+      .tiled__link--icon:hover {
+        color: #3db166;
+        text-decoration: none; }
 
 .subsites {
   background-color: #192f59;

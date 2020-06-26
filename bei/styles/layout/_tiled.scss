@@ -44,6 +44,10 @@
 				height:auto;
 				width:1rem;
 			}
+			&:hover {
+				color:$accent_2;
+				text-decoration: none;
+			}
 		}
 	}
 }
