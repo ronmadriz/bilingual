@@ -807,7 +807,8 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     color: #3db166; }
     .tiled__link--icon {
-      display: inline-block; }
+      display: inline-block;
+      margin-left: .875rem; }
       .tiled__link--icon svg {
         fill: #3db166;
         height: auto;
