@@ -11,10 +11,12 @@ if (have_posts()) {
 		echo '<div class="breadcrumbs__content">'.PHP_EOL;
 		the_breadcrumb();
 		echo '</header>'.PHP_EOL;
-		echo '<div class="row">'.PHP_EOL;
-		echo '<div class="main__thumbnail col-12 col-md-4">'.get_the_post_thumbnail($pageID, 'large', array('class' => 'img-fluid')).'</div>'.PHP_EOL;
-		echo '<div class="main__content col-12 col-md-8">'.get_the_content().'</div>'.PHP_EOL;
-		echo '</div>'.PHP_EOL;
+		if ('' !== get_post()->post_content) {
+			echo '<div class="row">'.PHP_EOL;
+			echo '<div class="main__thumbnail col-12 col-md-4">'.get_the_post_thumbnail($pageID, 'large', array('class' => 'img-fluid')).'</div>'.PHP_EOL;
+			echo '<div class="main__content col-12 col-md-8">'.get_the_content().'</div>'.PHP_EOL;
+			echo '</div>'.PHP_EOL;
+		}
 	}
 	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
