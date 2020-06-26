@@ -1,15 +1,18 @@
-<style type="text/css">
-	#banner {background-image:url(/wp-content/uploads/2020/06/student-life-banner.jpg);}
-</style>
-<section id="banner" class="landing">
-	<div class="container-fluid">
-		<div class="row landing__wrapper">
-			<div class="landing__content col-12">
-				<span class="landing__title"><h1 class="landing__title--text">Student Life</h1></span>
-				<span class="landing__desc">
-					At BEI, it’s far from all work and no play.  With the vibrant city of Houston as our backdrop, our students are treated to a cultural playground right here in our backyard. There is no shortage of things to see and do, and here you will experience things you never dreamed possible. As you enjoy the best that Houston has to offer, you will benefit from a top-tier education at one of the country’s most respected schools.  At BEI, we open the door to a world of opportunity.  Join us and begin living the life you have always wanted.
-				</span>
-			</div>
-		</div>
-	</div>
-</section>
+<?php
+if (has_post_thumbnail()) {
+	echo '<style type="text/css">'.PHP_EOL;
+	echo '#banner {background-image:url('.get_the_post_thumbnail_url().');}'.PHP_EOL;
+	echo '</style>'.PHP_EOL;
+}
+echo '<section id="banner" class="landing">'.PHP_EOL;
+echo '<div class="container-fluid">'.PHP_EOL;
+echo '<div class="row landing__wrapper">'.PHP_EOL;
+echo '<div class="landing__content col-12">'.PHP_EOL;
+echo '<span class="landing__title"><h1 class="landing__title--text">'.get_the_title().'</h1></span>'.PHP_EOL;
+echo '<span class="landing__desc">';
+the_content();
+echo '</span>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
