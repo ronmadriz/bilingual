@@ -1,4 +1,4 @@
-<?
+<?php
 $ti_section_title = get_sub_field('ti_section_title');
 echo '<section id="tiled" class="tiled">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
