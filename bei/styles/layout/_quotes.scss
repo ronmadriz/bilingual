@@ -48,6 +48,9 @@
 			@include for-tablet-up {
 				max-width: 33.333%;
 			}
+			* {
+				font-size:95%;
+			}
 		}
 	}
 }
