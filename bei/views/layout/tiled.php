@@ -14,7 +14,7 @@ if (have_rows('tiles')) {
 		$ti_content = get_sub_field('ti_content');
 		$ti_link    = get_sub_field('ti_link');
 		echo '<figure class="tiled__item card col-12 col-md-3">'.PHP_EOL;
-		echo '<img src="'.esc_url($ti_thumb).'" alt="'.$ti_image['alt'].'" class="tiled__image card-img-top img-fluid">'.PHP_EOL;
+		echo '<a href="'.$ti_image['url'].'" class="tiled__image--link" data-toggle="lightbox"><img src="'.esc_url($ti_thumb).'" alt="'.$ti_image['alt'].'" class="tiled__image card-img-top img-fluid"></a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo (!empty($ti_title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$ti_title.'</h3></span>'.PHP_EOL:'');
 		echo (!empty($ti_content)?'<span class="tiled__desc card-text">'.$ti_content.'</span>'.PHP_EOL:'');
