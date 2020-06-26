@@ -9,7 +9,7 @@ if (have_rows('tiles')) {
 		the_row();
 		$ti_title   = get_sub_field('ti_title');
 		$ti_image   = get_sub_field('ti_image');
-		$ti_size    = 'large';
+		$ti_size    = 'medium';
 		$ti_thumb   = $ti_image['sizes'][$ti_size];
 		$ti_content = get_sub_field('ti_content');
 		$ti_link    = get_sub_field('ti_link');
