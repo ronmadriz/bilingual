@@ -721,6 +721,7 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     font-size: 1.3125rem;
     padding-bottom: 2.1875rem;
+    padding-left: 1rem;
     text-transform: none; }
   .quotes__boxes {
     text-align: center; }
