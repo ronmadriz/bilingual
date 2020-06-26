@@ -1147,7 +1147,8 @@ section:not(.banner):not(.featured) .container-fluid {
         width: 33.333%; } }
     .landing__title--text {
       display: inline-block;
-      border-bottom: 5px solid #3db166; }
+      border-bottom: 5px solid #3db166;
+      padding-bottom: 1.25rem; }
   .landing__desc {
     display: block;
     width: 100%; }
