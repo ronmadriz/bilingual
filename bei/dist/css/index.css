@@ -756,8 +756,7 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-right: 1rem; }
 
 .gencontent__boxes--icon {
-  display: block;
-  text-align: center; }
+  display: block; }
   .gencontent__boxes--icon svg {
     width: 3rem;
     height: auto; }
