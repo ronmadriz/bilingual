@@ -1,19 +1,26 @@
-<section id="tiled" class="tiled">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="section__title col-12"><h2 class="section__title--text">Section Title</h2></div>
-		</div>
-		<div class="tiled__wrapper row">
-			<figure class="tiled__item card">
-				<img src="https://via.placeholder.com/2200x1932" alt="" class="tiled__image card-img-top img-fluid">
-				<figcaption class="">
-					<span class="tiled__title"><h3 class="tiled__title--text card-title">Title</h3></span>
-					<span class="tiled__title card-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lectus massa. Phasellus eleifend, enim sollicitudin euismod aliquam, nisl leo mollis felis, at varius libero metus in nunc.
-					</span>
-					<span class="button"><a href="#" class="button__green">Link</a></span>
-				</figcaption>
-			</figure>
-		</div>
-	</div>
-</section>
+<?
+$ti_section_title = get_sub_field('ti_section_title');
+echo '<section id="tiled" class="tiled">'.PHP_EOL;
+echo '<div class="container-fluid">'.PHP_EOL;
+echo '<div class="row"><span class="section__title col-12"><h2 class="section__title--text">'.$ti_.'</h2></span></div>'.PHP_EOL;
+if (have_rows('tiles')) {
+	echo '<div class="tiled__wrapper row">'.PHP_EOL;
+	while (have_rows('tiles')) {
+		the_row();
+		$ti_title   = get_sub_field('ti_title');
+		$ti_image   = get_sub_field('ti_image');
+		$ti_content = get_sub_field('ti_content');
+		$ti_link    = get_sub_field('ti_link');
+		echo '<figure class="tiled__item card">'.PHP_EOL;
+		echo '<img src="'.$ti_image['url'].'" alt="'.$ti_image['alt'].'" class="tiled__image card-img-top img-fluid">'.PHP_EOL;
+		echo '<figcaption class="tiled__content">'.PHP_EOL;
+		echo (!empty($ti_title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$ti_title.'</h3></span>'.PHP_EOL:'');
+		echo (!empty($ti_content)?'<span class="tiled__desc card-text">'.$ti_content.'</span>'.PHP_EOL:'');
+		echo (!empty($ti_link)?'<span class="button"><a href="'.$ti_link['url'].'" class="button__green">'.$ti_link['title'].'</a></span>'.PHP_EOL:'');
+		echo '</figcaption>'.PHP_EOL;
+		echo '</figure>'.PHP_EOL;
+	}
+	echo '</div>'.PHP_EOL;
+}
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
