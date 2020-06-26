@@ -10,9 +10,6 @@ echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row quotes__wrapper">'.PHP_EOL;
 echo '<div class="col-12 quotes__content">'.PHP_EOL;
 echo '<span class="section__title"><h2 class="section__title--text">'.$qt_title.'</h2></span>'.PHP_EOL;
-echo '<span class="quotes__desc">'.PHP_EOL;
-echo $qt_content;
-echo '</span>'.PHP_EOL;
 if (have_rows('qt_boxes')) {
 	echo '<ul class="quotes__boxes list-unstyled list-inline">'.PHP_EOL;
 	while (have_rows('qt_boxes')) {
@@ -22,6 +19,9 @@ if (have_rows('qt_boxes')) {
 	}
 	echo '</ul>'.PHP_EOL;
 }
+echo '<span class="quotes__desc">'.PHP_EOL;
+echo $qt_content;
+echo '</span>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
