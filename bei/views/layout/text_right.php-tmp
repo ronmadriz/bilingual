@@ -1,6 +1,6 @@
 <?
-$tr_title = get_sub_field('tr_title', $bei_fl_id);
-$tr_desc  = get_sub_field('tr_desc', $bei_fl_id);
+$tr_title = get_sub_field('tr_title');
+$tr_desc  = get_sub_field('tr_desc');
 
 $tr_id_raw = preg_replace("/[^a-zA-Z]/", "_", $tr_title);
 $tr_id     = strtolower($tr_id_raw);
