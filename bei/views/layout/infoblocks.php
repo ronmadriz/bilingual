@@ -1,8 +1,5 @@
 <?php
-$ib_id_raw = preg_replace("/[^a-zA-Z]/", "_", $ib_title);
-$ib_id     = strtolower($ib_id_raw);
-
-echo '<section id="'.$ib_id.'" class="infoblocks">'.PHP_EOL;
+echo '<section id="infoblocks" class="infoblocks">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 if (have_rows('ib_blocks')) {
