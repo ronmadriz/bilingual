@@ -751,7 +751,11 @@ section:not(.banner):not(.featured) .container-fluid {
       .quotes__boxes--item * {
         font-size: 95%; }
 
+.gencontent__title {
+  display: block; }
+
 .gencontent__desc {
+  display: block;
   padding-left: 1rem;
   padding-right: 1rem; }
 
