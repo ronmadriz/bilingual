@@ -795,6 +795,7 @@ section:not(.banner):not(.featured) .container-fluid {
       font-weight: 600;
       letter-spacing: 0;
       line-height: 2;
+      margin-bottom: 0;
       text-transform: none; }
   .tiled__desc {
     color: #8d8d8d;
