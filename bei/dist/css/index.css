@@ -763,7 +763,12 @@ section:not(.banner):not(.featured) .container-fluid {
     height: auto; }
 
 .gencontent__boxes--title {
-  display: block; }
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 2;
+  text-transform: none; }
 
 .gencontent__boxes--desc {
   display: block; }
