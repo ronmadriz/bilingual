@@ -806,6 +806,12 @@ section:not(.banner):not(.featured) .container-fluid {
   .tiled__link {
     display: block;
     color: #3db166; }
+    .tiled__link--icon {
+      display: inline-block; }
+      .tiled__link--icon svg {
+        fill: #3db166;
+        height: auto;
+        width: 1rem; }
 
 .subsites {
   background-color: #192f59;

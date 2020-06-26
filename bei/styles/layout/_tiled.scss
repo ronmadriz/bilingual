@@ -36,5 +36,13 @@
 	&__link {
 		display:block;
 		color:$accent_2;
+		&--icon {
+			display: inline-block;
+			svg {
+				fill:$accent_2;
+				height:auto;
+				width:1rem;
+			}
+		}
 	}
 }
