@@ -443,7 +443,8 @@ body {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem; }
   .breadcrumbs__content {
-    margin-bottom: 1.6275rem; }
+    margin-bottom: 1.6275rem;
+    padding-left: 1rem; }
   .breadcrumbs__item {
     font-size: .875rem;
     color: #3db166;
