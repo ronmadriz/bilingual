@@ -1101,6 +1101,10 @@ section:not(.banner):not(.featured) .container-fluid {
     -ms-flex-item-align: center;
         align-self: center; }
 
+.landing {
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+
 .subbanner {
   background-color: #192f59; }
   .subbanner__content {
