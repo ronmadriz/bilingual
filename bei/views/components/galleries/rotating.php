@@ -1,7 +1,7 @@
 <section id="rotating" class="rotating">
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12">
+		<div class="rotating__wrapper row">
+			<div class="rotating__content col-12">
 				<!--Carousel Wrapper-->
 				<div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
 				  <!--Slides-->
