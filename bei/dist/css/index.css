@@ -833,6 +833,10 @@ section:not(.banner):not(.featured) .container-fluid {
     line-height: 1.7;
     margin-bottom: 1.25rem; }
 
+.wsb {
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
