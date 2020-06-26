@@ -109,7 +109,8 @@
   }  
 }
 
-@mixin banner-cover ($shade) {
-  background-color: #3a3a3a;
-  background: linear-gradient(rgba(58, 58, 58, 0.4), rgba(51, 51, 51, 0.3));  
+@mixin banner-cover {
+  &:before {
+    background: linear-gradient(rgba(58, 58, 58, 0.4), rgba(51, 51, 51, 0.3));
+  }
 }

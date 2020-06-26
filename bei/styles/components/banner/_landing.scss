@@ -1,7 +1,10 @@
 .landing {
 	padding-bottom:3rem;
 	padding-top:3rem;
-	@include has-bg;
+	position:relative;
+	@include has-bg(center, center);
+	@include bg-before ($gray_2);
+	@include banner-cover;
 	@include for-tablet-up {
 		padding-bottom:4.6875rem;
 		padding-top:33.125rem;
