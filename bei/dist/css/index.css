@@ -1104,6 +1104,10 @@ section:not(.banner):not(.featured) .container-fluid {
 .landing {
   padding-bottom: 3rem;
   padding-top: 3rem; }
+  @media (min-width: 786px) {
+    .landing {
+      padding-bottom: 4.6875rem;
+      padding-top: 33.125rem; } }
 
 .subbanner {
   background-color: #192f59; }

@@ -1,4 +1,8 @@
 .landing {
 	padding-bottom:3rem;
 	padding-top:3rem;
+	@include for-tablet-up {
+		padding-bottom:4.6875rem;
+		padding-top:33.125rem;
+	}
 }

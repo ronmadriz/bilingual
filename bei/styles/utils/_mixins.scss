@@ -74,37 +74,42 @@
 }
 
 @mixin title-line ($line_color) {
-    &:after {
-      background-color: $line_color;
-      display: block;
-      content:'';
-      height: .0625rem;
-      left: 0;
-      position: absolute;
-      top: 1.25rem;
-      width: 100%;
-      z-index: -1;
-    }
+  &:after {
+    background-color: $line_color;
+    display: block;
+    content:'';
+    height: .0625rem;
+    left: 0;
+    position: absolute;
+    top: 1.25rem;
+    width: 100%;
+    z-index: -1;
+  }
 }
 
 @mixin title-text ($title_txt_color) {
-      background-color: $title_txt_color;
-      display:inline-block;
-      padding-left: 1rem;
-      padding-right: 1rem;
+  background-color: $title_txt_color;
+  display:inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @mixin nav-line ($navline_color) {
-      &:before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: .3275rem;
-        bottom: 0;
-        left: 0;
-        background-color: $navline_color;
-        visibility: hidden;
-        transform: scaleX(0);
-        transition: $thetransition;
-      }  
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .3275rem;
+    bottom: 0;
+    left: 0;
+    background-color: $navline_color;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: $thetransition;
+  }  
+}
+
+@mixin banner-cover ($shade) {
+  background-color: #3a3a3a;
+  background: linear-gradient(rgba(58, 58, 58, 0.4), rgba(51, 51, 51, 0.3));  
 }
