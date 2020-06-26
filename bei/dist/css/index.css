@@ -833,6 +833,18 @@ section:not(.banner):not(.featured) .container-fluid {
     line-height: 1.7;
     margin-bottom: 1.25rem; }
 
+.wsb {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  height: 50vh; }
+  .wsb__article {
+    display: block;
+    height: 25%; }
+  .wsb__aside {
+    display: block;
+    height: 100%; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
