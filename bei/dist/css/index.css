@@ -1102,6 +1102,7 @@ section:not(.banner):not(.featured) .container-fluid {
         align-self: center; }
 
 .landing {
+  color: #fefefe;
   padding-bottom: 3rem;
   padding-top: 3rem;
   position: relative;
