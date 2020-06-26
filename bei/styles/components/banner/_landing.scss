@@ -10,10 +10,21 @@
 		padding-bottom:4.6875rem;
 		padding-top:33.125rem;
 	}
+	&__content {
+	    display: flex;
+	    flex-direction: column;
+	    @include for-tablet-up {
+	    	flex-direction: row;
+	    }
+	}
 	&__title {
-		width:33.333%;
+	    @include for-tablet-up {
+			width:33.333%;
+	    }		
 	}
 	&__desc {
-		width:66.666%;
+	    @include for-tablet-up {
+			width:66.666%;
+	    }
 	}
 }
