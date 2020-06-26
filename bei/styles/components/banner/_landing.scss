@@ -18,11 +18,15 @@
 	    }
 	}
 	&__title {
+		display:block;
+		width:100%;
 	    @include for-tablet-up {
 			width:33.333%;
 	    }		
 	}
 	&__desc {
+		display:block;
+		width:100%;
 	    @include for-tablet-up {
 			width:66.666%;
 	    }

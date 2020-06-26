@@ -1139,12 +1139,18 @@ section:not(.banner):not(.featured) .container-fluid {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; } }
-  @media (min-width: 786px) {
-    .landing__title {
-      width: 33.333%; } }
-  @media (min-width: 786px) {
-    .landing__desc {
-      width: 66.666%; } }
+  .landing__title {
+    display: block;
+    width: 100%; }
+    @media (min-width: 786px) {
+      .landing__title {
+        width: 33.333%; } }
+  .landing__desc {
+    display: block;
+    width: 100%; }
+    @media (min-width: 786px) {
+      .landing__desc {
+        width: 66.666%; } }
 
 .subbanner {
   background-color: #192f59; }
