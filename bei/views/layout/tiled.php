@@ -2,7 +2,7 @@
 $ti_section_title = get_sub_field('ti_section_title');
 echo '<section id="tiled" class="tiled">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
-echo '<div class="row"><span class="section__title col-12"><h2 class="section__title--text">'.$ti_section_title.'</h2></span></div>'.PHP_EOL;
+echo (!empty($ti_section_title)?'<div class="row"><span class="section__title col-12"><h2 class="section__title--text">'.$ti_section_title.'</h2></span></div>'.PHP_EOL:'');
 if (have_rows('tiles')) {
 	echo '<div class="tiled__wrapper row">'.PHP_EOL;
 	while (have_rows('tiles')) {
