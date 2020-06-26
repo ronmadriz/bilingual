@@ -8,15 +8,13 @@
 	    margin-right: auto;		
 		width:85rem;
 	}
-	&__article {
-		display:block;
-		height:25%;
-		&:nth-of-type(1){background-color: red;}
-		&:nth-of-type(2){background-color: green;}
+	&__first {
+		background-color:red;
 	}
-	&__aside {
-		display:block;
-		height:100%;
+	&__second {
+		background-color:green;
+	}
+	&__third {
 		background-color:blue;
 	}
 }

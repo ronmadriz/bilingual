@@ -842,17 +842,13 @@ section:not(.banner):not(.featured) .container-fluid {
   margin-right: auto;
   width: 85rem; }
 
-.wsb__article {
-  display: block;
-  height: 25%; }
-  .wsb__article:nth-of-type(1) {
-    background-color: red; }
-  .wsb__article:nth-of-type(2) {
-    background-color: green; }
+.wsb__first {
+  background-color: red; }
 
-.wsb__aside {
-  display: block;
-  height: 100%;
+.wsb__second {
+  background-color: green; }
+
+.wsb__third {
   background-color: blue; }
 
 .subsites {
