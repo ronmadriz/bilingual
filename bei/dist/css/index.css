@@ -1101,7 +1101,7 @@ section:not(.banner):not(.featured) .container-fluid {
     -ms-flex-item-align: center;
         align-self: center; }
 
-.landing {
+.landing_banner {
   color: #fefefe;
   padding-bottom: 3rem;
   padding-top: 3rem;
@@ -1109,7 +1109,7 @@ section:not(.banner):not(.featured) .container-fluid {
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover; }
-  .landing:before {
+  .landing_banner:before {
     background-color: rgba(84, 84, 84, 0.3);
     content: '';
     display: block;
@@ -1118,14 +1118,14 @@ section:not(.banner):not(.featured) .container-fluid {
     position: absolute;
     top: 0;
     width: 100%; }
-  .landing:before {
+  .landing_banner:before {
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(55%), to(rgba(0, 0, 0, 0.35)));
     background: linear-gradient(transparent, 55%, rgba(0, 0, 0, 0.35)); }
   @media (min-width: 786px) {
-    .landing {
+    .landing_banner {
       padding-bottom: 4.6875rem;
       padding-top: 33.125rem; } }
-  .landing__content {
+  .landing_banner__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1134,26 +1134,26 @@ section:not(.banner):not(.featured) .container-fluid {
         -ms-flex-direction: column;
             flex-direction: column; }
     @media (min-width: 786px) {
-      .landing__content {
+      .landing_banner__content {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; } }
-  .landing__title {
+  .landing_banner__title {
     display: block;
     width: 100%; }
     @media (min-width: 786px) {
-      .landing__title {
+      .landing_banner__title {
         width: 33.333%; } }
-    .landing__title--text {
+    .landing_banner__title--text {
       display: inline-block;
       border-bottom: 5px solid #3db166;
       padding-bottom: 1.25rem; }
-  .landing__desc {
+  .landing_banner__desc {
     display: block;
     width: 100%; }
     @media (min-width: 786px) {
-      .landing__desc {
+      .landing_banner__desc {
         width: 66.666%; } }
 
 .subbanner {
