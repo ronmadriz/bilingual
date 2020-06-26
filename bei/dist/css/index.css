@@ -822,6 +822,12 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-bottom: 3rem;
   padding-top: 3rem;
   text-align: right; }
+  .text_right__title {
+    font-size: 2.5625rem;
+    font-weight: 800;
+    letter-spacing: .125rem;
+    margin-bottom: 0.9375rem;
+    text-transform: uppercase; }
   .text_right__desc {
     font-size: 1.1875rem;
     line-height: 1.7;
