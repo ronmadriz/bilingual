@@ -12,6 +12,10 @@
 		}
 		&--icon {
 			display:block;
+			svg {
+				width:3rem;
+				height:auto;
+			}
 		}
 		&--title {
 			display:block;

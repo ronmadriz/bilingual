@@ -757,6 +757,9 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .gencontent__boxes--icon {
   display: block; }
+  .gencontent__boxes--icon svg {
+    width: 3rem;
+    height: auto; }
 
 .gencontent__boxes--title {
   display: block; }
