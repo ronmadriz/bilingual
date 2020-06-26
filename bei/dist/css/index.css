@@ -759,23 +759,24 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-.gencontent__boxes--icon {
-  display: block;
-  margin-bottom: 1rem; }
-  .gencontent__boxes--icon svg {
-    width: 3rem;
-    height: auto; }
-
-.gencontent__boxes--title {
-  display: block;
-  font-size: 1.125rem;
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 2;
-  text-transform: none; }
-
-.gencontent__boxes--desc {
-  display: block; }
+.gencontent__boxes {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  .gencontent__boxes--icon {
+    display: block;
+    margin-bottom: 1rem; }
+    .gencontent__boxes--icon svg {
+      width: 3rem;
+      height: auto; }
+  .gencontent__boxes--title {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 2;
+    text-transform: none; }
+  .gencontent__boxes--desc {
+    display: block; }
 
 .subsites {
   background-color: #192f59;
