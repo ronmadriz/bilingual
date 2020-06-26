@@ -1166,6 +1166,12 @@ section:not(.banner):not(.featured) .container-fluid {
 .rotating {
   padding-bottom: 3rem;
   padding-top: 3rem; }
+  .rotating__wrapper {
+    padding-left: 0;
+    padding-right: 0; }
+  .rotating__content {
+    padding-left: 0;
+    padding-right: 0; }
 
 .icons {
   padding: 4.6875rem 0 2.5rem 0; }
