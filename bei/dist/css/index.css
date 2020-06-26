@@ -726,7 +726,20 @@ section:not(.banner):not(.featured) .container-fluid {
     padding-left: 1rem;
     text-transform: none; }
   .quotes__boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center; }
+    @media (min-width: 786px) {
+      .quotes__boxes {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
     .quotes__boxes--item {
       background-color: #3db166;
       color: #fff;

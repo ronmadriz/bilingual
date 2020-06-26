@@ -34,7 +34,12 @@
 		text-transform: none;		
 	}
 	&__boxes {
+	    display: flex;
+	    flex-direction: column;		
 		text-align: center;
+		@include for-tablet-up {
+			flex-direction: row;
+		}
 		&--item {
 		    background-color: $accent_2;
 		    color: $white_0;
