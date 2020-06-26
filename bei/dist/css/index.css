@@ -841,9 +841,14 @@ section:not(.banner):not(.featured) .container-fluid {
   .wsb__article {
     display: block;
     height: 25%; }
+    .wsb__article:nth-of-type(1) {
+      background-color: red; }
+    .wsb__article:nth-of-type(2) {
+      background-color: blue; }
   .wsb__aside {
     display: block;
-    height: 100%; }
+    height: 100%;
+    background-color: blue; }
 
 .subsites {
   background-color: #192f59;
