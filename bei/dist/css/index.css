@@ -444,6 +444,7 @@ body {
   padding-bottom: 1.75rem; }
   .breadcrumbs__content {
     margin-bottom: 1.6275rem;
+    margin-top: 1.6275rem;
     padding-left: 1rem; }
   .breadcrumbs__item {
     font-size: .875rem;
@@ -544,7 +545,7 @@ section:not(.banner):not(.featured) .container-fluid {
     line-height: 1.7; }
 
 .imagebar {
-  margin-top: 130px;
+  margin-top: 3rem;
   background-color: #192f59; }
   .imagebar__content {
     display: -webkit-box;
@@ -561,12 +562,13 @@ section:not(.banner):not(.featured) .container-fluid {
             -ms-flex-direction: row;
                 flex-direction: row; } }
   .imagebar__image {
-    margin-top: -130px;
+    margin-top: -6.125rem;
     max-width: 100%;
     -o-object-fit: contain;
        object-fit: contain; }
     @media (min-width: 786px) {
       .imagebar__image {
+        margin-top: -8.125rem;
         width: 47.5%; } }
   .imagebar__details {
     color: #fefefe;
