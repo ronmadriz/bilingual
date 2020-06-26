@@ -1163,6 +1163,10 @@ section:not(.banner):not(.featured) .container-fluid {
       table tbody tr + tr {
         margin-top: 1.5em; } }
 
+.rotating {
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+
 .icons {
   padding: 4.6875rem 0 2.5rem 0; }
   .icons__item {
