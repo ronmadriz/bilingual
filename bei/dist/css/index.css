@@ -732,6 +732,9 @@ section:not(.banner):not(.featured) .container-fluid {
       color: #fff;
       margin: 0 1.25rem 1.875rem;
       padding: 3.125rem 2.5rem 2.5rem; }
+      @media (min-width: 786px) {
+        .quotes__boxes--item {
+          max-width: 33.333%; } }
 
 .subsites {
   background-color: #192f59;
