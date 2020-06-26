@@ -1125,6 +1125,10 @@ section:not(.banner):not(.featured) .container-fluid {
     .landing {
       padding-bottom: 4.6875rem;
       padding-top: 33.125rem; } }
+  .landing__title {
+    width: 33.333%; }
+  .landing__desc {
+    width: 66.666%; }
 
 .subbanner {
   background-color: #192f59; }
