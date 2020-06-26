@@ -785,12 +785,15 @@ section:not(.banner):not(.featured) .container-fluid {
   .tiled__item {
     border: 0;
     margin-bottom: 2rem; }
+  .tiled__image {
+    padding-bottom: 2.0625rem; }
   .tiled__title {
     display: block;
     font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0;
     line-height: 2;
+    padding-bottom: 1.25rem;
     text-transform: none; }
 
 .subsites {
