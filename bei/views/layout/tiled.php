@@ -1,8 +1,8 @@
 <?php
 $ti_section_title = get_sub_field('ti_section_title');
-
-$ti_id_raw = preg_replace("/[^a-zA-Z]/", "_", $ti_section_title);
-$ti_id     = strtolower($ti_id_raw);
+$ti_section_id    = (!empty($ti_section_title)?'tiled':$ti_section_title);
+$ti_id_raw        = preg_replace("/[^a-zA-Z]/", "_", $ti_section_id);
+$ti_id            = strtolower($ti_id_raw);
 
 echo '<section id="'.$ti_id.'" class="tiled">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
@@ -22,7 +22,7 @@ if (have_rows('tiles')) {
 		$ti_link_img  = $ti_image['sizes'][$ti_link_size];
 
 		echo '<figure class="tiled__item card col-12 col-md-3">'.PHP_EOL;
-		echo '<a href="'.$ti_link_img.'" class="tiled__image--link" data-toggle="lightbox" data-gallery="example-gallery"><img src="'.esc_url($ti_thumb).'" alt="'.$ti_image['alt'].'" class="tiled__image card-img-top img-fluid"></a>'.PHP_EOL;
+		echo '<a href="'.$ti_link_img.'" class="tiled__image--link" data-toggle="lightbox" data-gallery="'.$ti_id.'-gallery"><img src="'.esc_url($ti_thumb).'" alt="'.$ti_image['alt'].'" class="tiled__image card-img-top img-fluid"></a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo (!empty($ti_title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$ti_title.'</h3></span>'.PHP_EOL:'');
 		echo (!empty($ti_content)?'<span class="tiled__desc card-text">'.$ti_content.'</span>'.PHP_EOL:'');
