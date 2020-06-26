@@ -1,6 +1,9 @@
 <?php
-$gcwb_title   = get_sub_field('gcwb_title');
-$gcwb_content = get_sub_field('gcwb_content');
+$gcwb_title   = get_sub_field('gcwb_title', $bei_fl_id);
+$gcwb_content = get_sub_field('gcwb_content', $bei_fl_id);
+
+$gcwb_id_raw = preg_replace("/[^a-zA-Z]/", "_", $gcwb_title);
+$gcwb_id     = strtolower($gcwb_id_raw);
 echo '<section id="content" class="gencontent">'.PHP_EOL;
 echo '<div class="content-fluid">'.PHP_EOL;
 echo '<div class="row align-content-center gencontent__wrapper">'.PHP_EOL;
