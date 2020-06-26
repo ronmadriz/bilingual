@@ -1469,8 +1469,6 @@ section:not(.banner):not(.featured) .container-fluid {
 .simple_table__data {
   background-color: #e6e6e6;
   color: #959595; }
-  .simple_table__data:first-of-type:before {
-    margin-right: 0; }
   @media (min-width: 786px) {
     .simple_table__data {
       border-right: 0.0625rem solid #fefefe;

@@ -25,9 +25,6 @@
 	&__data {
 		background-color:$white_2;
 		color:$gray_6;
-		&:first-of-type:before {
-		    margin-right: 0;
-		}
 		@include for-tablet-up {
 		    border-right: 0.0625rem solid $white_1;
 		    border-bottom: 0.0625rem solid $white_1;
