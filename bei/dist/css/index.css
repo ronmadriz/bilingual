@@ -579,7 +579,7 @@ section:not(.banner):not(.featured) .container-fluid {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 3rem .125rem; }
+    padding: 3rem .75rem; }
     @media (min-width: 786px) {
       .imagebar__details {
         padding: 3rem;
