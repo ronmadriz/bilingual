@@ -760,8 +760,7 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-right: 1rem; }
 
 .gencontent__boxes {
-  padding-left: 1rem;
-  padding-right: 1rem; }
+  padding: 2rem 1rem; }
   .gencontent__boxes--icon {
     display: block;
     margin-bottom: 1rem; }
