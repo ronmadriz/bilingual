@@ -1095,7 +1095,7 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .logos {
   padding: 3.4375rem 0 1.25rem 0; }
-  .logos__items {
+  .logos__item {
     -ms-flex-item-align: center;
         align-self: center; }
 
