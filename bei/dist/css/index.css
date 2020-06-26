@@ -761,6 +761,8 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .gencontent__boxes {
   padding: 2rem 1rem; }
+  .gencontent__boxes--item {
+    margin-bottom: 2rem; }
   .gencontent__boxes--icon {
     display: block;
     margin-bottom: 1rem; }
