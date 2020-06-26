@@ -3,4 +3,16 @@
     padding-bottom: 3rem;
     padding-top: 3rem;
     text-align: right;	
+	&__title {
+		font-size: 2.5625rem;
+		font-weight: 800;
+		letter-spacing: 0.125rem;
+		margin-bottom: 0.9375rem;
+		text-transform: uppercase;
+	}
+	&__desc {
+	    font-size: 1.1875rem;
+	    line-height: 1.7;
+	    margin-bottom: 1.25rem;
+	}
 }
