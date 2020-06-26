@@ -1,0 +1,23 @@
+.gencontent {
+	&__title{
+
+	}
+	&__desc{
+		padding-left:1rem;
+		padding-right:1rem;
+	}
+	&__boxes{
+		&--item {
+
+		}
+		&--icon {
+			display:block;
+		}
+		&--title {
+			display:block;
+		}
+		&--desc {
+			display:block;
+		}
+	}
+}
