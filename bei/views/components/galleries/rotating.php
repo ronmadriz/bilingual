@@ -21,6 +21,7 @@ if ($ri_images) {
 		$ri_ind_counter++;
 	}
 	echo '</ol>'.PHP_EOL;
+	wp_reset_postdata();
 }
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
