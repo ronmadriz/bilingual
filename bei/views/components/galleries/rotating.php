@@ -8,7 +8,7 @@ if ($ri_images) {
 	echo '<div class="rotating__inner carousel-inner" role="listbox">'.PHP_EOL;
 	$ri_counter = 0;
 	foreach ($ri_images as $ri_image) {
-		echo '<div class="rotating__item carousel-item"><img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="" class="rotating__item--image'.(($ri_image_counter == 0)?' active':'').'"></div>'
+		echo '<div class="rotating__item carousel-item"><img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="" class="rotating__item--image'.(($ri_image_counter == 0)?' active':'').'"></div>'.PHP_EOL;
 	}
 	echo '</div>'.PHP_EOL;
 	echo '<a class="rotating__nav rotating__nav--prev carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>'.PHP_EOL;
