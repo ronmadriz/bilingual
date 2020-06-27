@@ -12,12 +12,12 @@ if ($ri_images) {
 		$ri_counter++;
 	}
 	echo '</div>'.PHP_EOL;
-	echo '<a class="rotating__nav rotating__nav--prev carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>'.PHP_EOL;
-	echo '<a class="rotating__nav rotating__nav--next carousel-control-next" href="#carousel-thumb" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>'.PHP_EOL;
+	echo '<a class="rotating__nav rotating__nav--prev carousel-control-prev" href="#rotating__content" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>'.PHP_EOL;
+	echo '<a class="rotating__nav rotating__nav--next carousel-control-next" href="#rotating__content" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>'.PHP_EOL;
 	echo '<ol class="carousel-indicators rotating__indicators">'.PHP_EOL;
 	$ri_ind_counter = 0;
 	foreach ($ri_images as $ri_image_indicator) {
-		echo '<li data-target="#carousel-thumb" data-slide-to="'.$ri_ind_counter.'" class="rotating__indicators--item'.(($ri_ind_counter == 0)?' active':'').'"></li>'.PHP_EOL;
+		echo '<li data-target="#rotating__content" data-slide-to="'.$ri_ind_counter.'" class="rotating__indicators--item'.(($ri_ind_counter == 0)?' active':'').'"></li>'.PHP_EOL;
 		$ri_ind_counter++;
 	}
 	echo '</ol>'.PHP_EOL;
