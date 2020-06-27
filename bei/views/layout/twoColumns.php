@@ -3,7 +3,7 @@ $column_alignment     = get_sub_field('column_alignment');// True / False
 $main_column_content  = get_sub_field('main_column_content');// Wysiwyg Editor
 $main_column_flip     = get_sub_field('main_column_flip');// Repeater
 $side_column_image    = get_sub_field('side_column_image');// Image
-$side_column_img = $side_column_image['size']['large'];
+$side_column_img      = $side_column_image['size']['large'];
 $side_column_articles = get_sub_field('side_column_articles');// Repeater
 
 echo '<section id="twoColumns" class="twoColumns">'.PHP_EOL;
@@ -21,7 +21,7 @@ if (have_rows('main_column_flip')) {
 echo '</div>'.PHP_EOL;
 
 echo '<aside class="twoColumns__sidebar col-12 col-md-5">'.PHP_EOL;
-echo (!empty($side_column_image)?'<span class="two_columns__image"><img src="'.$side_column_img.'" alt="" class="img-fluid two_columns__image--img"></span>');
+echo (!empty($side_column_image)?'<span class="two_columns__image"><img src="'.$side_column_img.'" alt="" class="img-fluid two_columns__image--img"></span>':'');
 if (have_rows('side_column_articles')) {
 	while (have_rows('side_column_articles')) {
 		the_row();
