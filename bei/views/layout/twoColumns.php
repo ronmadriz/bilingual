@@ -3,7 +3,7 @@ $column_alignment     = get_sub_field('column_alignment');// True / False
 $main_column_content  = get_sub_field('main_column_content');// Wysiwyg Editor
 $main_column_flip     = get_sub_field('main_column_flip');// Repeater
 $side_column_image    = get_sub_field('side_column_image');// Image
-$side_column_img      = $side_column_image['size']['large'];
+$side_column_img      = $side_column_image['sizes']['large'];
 $side_column_articles = get_sub_field('side_column_articles');// Repeater
 
 echo '<section id="twoColumns" class="twoColumns">'.PHP_EOL;
