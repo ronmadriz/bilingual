@@ -24,6 +24,8 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/layout/text_right.php');
 		} elseif (get_row_layout() == 'rotating') {
 			include (get_template_directory().'/views/components/galleries/rotating.php');
+		} elseif (get_row_layout() == 'two_columns') {
+			include (get_template_directory().'/views/layout/twoColumns.php');
 		}
 	}
 }
