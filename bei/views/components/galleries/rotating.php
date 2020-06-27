@@ -1,7 +1,5 @@
 <?php
-$ri_id         = get_the_ID();
-$ri_images     = get_sub_field('ri_images', $ri_id);
-$ri_images_ids = array();
+$ri_images = get_sub_field('ri_images');
 echo '<section id="rotating" class="rotating">'.PHP_EOL;
 echo '<div class="rotating__container container-fluid">'.PHP_EOL;
 echo '<div class="rotating__wrapper row">'.PHP_EOL;
