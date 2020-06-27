@@ -1,8 +1,9 @@
 <?php
+$ri_id = get_the_ID();
 echo '<section id="rotating" class="rotating">'.PHP_EOL;
 echo '<div class="rotating__container container-fluid">'.PHP_EOL;
 echo '<div class="rotating__wrapper row">'.PHP_EOL;
-$ri_images     = get_sub_field('ri_images');
+$ri_images     = get_sub_field('ri_images', $ri_id);
 $ri_images_ids = array();
 if ($ri_images) {
 	echo '<div id="rotating__content" class="rotating__content col-12 carousel slide carousel-fade" data-ride="carousel">'.PHP_EOL;
