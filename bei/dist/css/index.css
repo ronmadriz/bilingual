@@ -908,9 +908,11 @@ section:not(.banner):not(.featured) .container-fluid {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 10px; }
-  .twoColumns__flip--icon svg {
-    height: auto;
-    width: 3rem; }
+  .twoColumns__flip--icon {
+    margin-bottom: 1.875rem; }
+    .twoColumns__flip--icon svg {
+      height: auto;
+      width: 3rem; }
   .twoColumns__article--icon svg {
     height: auto;
     width: 3rem; }
