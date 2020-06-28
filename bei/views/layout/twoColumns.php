@@ -9,6 +9,7 @@ $side_column_articles = get_sub_field('side_column_articles');// Repeater
 echo '<section id="twoColumns" class="twoColumns">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row twoColumns__wrapper">'.PHP_EOL;
+
 echo '<div class="twoColumns__main col-12 col-md-7">'.PHP_EOL;
 echo '<article class="twoColumns__main--content">'.PHP_EOL;
 echo $main_column_content;
@@ -32,7 +33,7 @@ if (have_rows('main_column_flip')) {
 	}
 	wp_reset_postdata();
 	echo '</span>'.PHP_EOL;
-	echo '</div>'.PHP_EOL;
+	// echo '</div>'.PHP_EOL;
 }
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
