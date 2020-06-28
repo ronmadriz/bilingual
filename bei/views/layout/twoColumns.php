@@ -16,8 +16,8 @@ echo '</article>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="twoColumns__flip cards col-12 col-md-7">'.PHP_EOL;
 if (have_rows('main_column_flip')) {
-	echo '<a class="cards__wrapper">'.PHP_EOL;
-	echo '<div class="twoColumns__flip--wrapper cards__body">'.PHP_EOL;
+	echo '<div class="cards__wrapper">'.PHP_EOL;
+	echo '<span class="twoColumns__flip--wrapper cards__body">'.PHP_EOL;
 	$flipcount = 0;
 	while (have_rows('main_column_flip')) {
 		the_row();
@@ -32,8 +32,8 @@ if (have_rows('main_column_flip')) {
 		$flipcount++;
 	}
 	wp_reset_postdata();
+	echo '</span>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
-	echo '</a>'.PHP_EOL;
 }
 echo '</div>'.PHP_EOL;
 
