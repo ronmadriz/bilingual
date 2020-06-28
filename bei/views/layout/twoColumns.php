@@ -13,8 +13,7 @@ echo '<div class="twoColumns__main col-12 col-md-7">'.PHP_EOL;
 echo '<article class="twoColumns__main--content">'.PHP_EOL;
 echo $main_column_content;
 echo '</article>'.PHP_EOL;
-echo '</div>'.PHP_EOL;
-echo '<div class="twoColumns__flip cards col-12 col-md-7">'.PHP_EOL;
+echo '<div class="twoColumns__flip cards">'.PHP_EOL;
 if (have_rows('main_column_flip')) {
 	echo '<div class="cards__wrapper">'.PHP_EOL;
 	echo '<span class="twoColumns__flip--wrapper cards__body">'.PHP_EOL;
@@ -35,6 +34,7 @@ if (have_rows('main_column_flip')) {
 	echo '</span>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 }
+echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 
 echo '<aside class="twoColumns__sidebar col-12 col-md-5'.(($column_alignment == true)?' order-1':' order-12').'">'.PHP_EOL;
