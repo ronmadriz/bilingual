@@ -916,7 +916,8 @@ section:not(.banner):not(.featured) .container-fluid {
       height: auto;
       width: 3rem; }
   .twoColumns__flip--content {
-    display: block; }
+    display: block;
+    margin-top: 1.3125rem; }
   .twoColumns__article--title {
     display: block; }
   .twoColumns__article--icon {
