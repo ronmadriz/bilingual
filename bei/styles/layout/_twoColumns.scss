@@ -25,7 +25,8 @@
 	    }
 	}
 	&__flip {
-	    perspective: 40rem;
+	    perspective: 1000px;
+	    transform: rotateY(180deg);
 		&--inner {
 			background-color: $accent_2;
 		    border-radius: 3px;
@@ -36,26 +37,21 @@
 			height: 100%;
 		    margin-bottom:1.25rem;
 		    padding: 3.125rem 2.5rem 1.875rem 3.125rem;
-			transition: var(--time) transform;
+			transition: transform 0.8s;
 			transform-style: preserve-3d;
 			width: 100%;
+			&:hover {
+				transform: rotateY(180deg);				
+			}
 			&:nth-of-type(1) {
 				backface-visibility: hidden;
 				position: absolute;
+				transform: rotateY(0deg);
 			}
 			&:nth-of-type(2) {
 				backface-visibility: hidden;
-				bottom: 0;
-				left: 0;
 				position: absolute;
-				right: 0;
-				top: 0;
 				transform: rotateY(180deg);
-			}
-			&:hover {
-				& {
-					transform: rotateY(180deg);
-				}
 			}
 		}
 		&--title {			

@@ -861,8 +861,10 @@ section:not(.banner):not(.featured) .container-fluid {
       margin-bottom: 20px;
       text-transform: none; }
   .twoColumns__flip {
-    -webkit-perspective: 40rem;
-            perspective: 40rem; }
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg); }
     .twoColumns__flip--inner {
       background-color: #3db166;
       border-radius: 3px;
@@ -873,26 +875,26 @@ section:not(.banner):not(.featured) .container-fluid {
       height: 100%;
       margin-bottom: 1.25rem;
       padding: 3.125rem 2.5rem 1.875rem 3.125rem;
-      -webkit-transition: var(--time) transform;
-      transition: var(--time) transform;
+      -webkit-transition: -webkit-transform 0.8s;
+      transition: -webkit-transform 0.8s;
+      transition: transform 0.8s;
+      transition: transform 0.8s, -webkit-transform 0.8s;
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d;
       width: 100%; }
+      .twoColumns__flip--inner:hover {
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg); }
       .twoColumns__flip--inner:nth-of-type(1) {
         -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-        position: absolute; }
+        position: absolute;
+        -webkit-transform: rotateY(0deg);
+                transform: rotateY(0deg); }
       .twoColumns__flip--inner:nth-of-type(2) {
         -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-        bottom: 0;
-        left: 0;
         position: absolute;
-        right: 0;
-        top: 0;
-        -webkit-transform: rotateY(180deg);
-                transform: rotateY(180deg); }
-      .twoColumns__flip--inner:hover {
         -webkit-transform: rotateY(180deg);
                 transform: rotateY(180deg); }
     .twoColumns__flip--icon svg {
