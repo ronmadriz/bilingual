@@ -858,6 +858,7 @@ section:not(.banner):not(.featured) .container-fluid {
       margin-bottom: 20px;
       text-transform: none; }
   .twoColumns__flip {
+    background-color: #3db166;
     border-radius: 3px;
     border-width: 0;
     padding: 3.125rem 2.5rem 1.875rem 3.125rem; }
