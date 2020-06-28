@@ -25,7 +25,9 @@
 	    }
 	}
 	&__flip {
-		&--wrapper {}
+		&--wrapper {
+			display:block;
+		}
 		&--inner {
 			background-color: $accent_2;
 		    border-radius: 3px;

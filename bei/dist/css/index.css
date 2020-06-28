@@ -887,6 +887,8 @@ section:not(.banner):not(.featured) .container-fluid {
       letter-spacing: 0;
       margin-bottom: 20px;
       text-transform: none; }
+  .twoColumns__flip--wrapper {
+    display: block; }
   .twoColumns__flip--inner {
     background-color: #3db166;
     border-radius: 3px;
