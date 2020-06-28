@@ -865,6 +865,7 @@ section:not(.banner):not(.featured) .container-fluid {
     color: #fff;
     display: block;
     fill: #fff;
+    margin-bottom: 1.25rem;
     padding: 3.125rem 2.5rem 1.875rem 3.125rem; }
     .twoColumns__flip--icon svg {
       height: auto;
