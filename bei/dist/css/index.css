@@ -845,6 +845,7 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-top: 3rem; }
   .twoColumns__main--content {
     color: #8d8d8d;
+    border-bottom: 0.1875rem solid #3db166;
     display: block;
     font-size: 1rem;
     line-height: 1.7;
