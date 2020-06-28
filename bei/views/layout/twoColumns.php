@@ -10,7 +10,7 @@ echo '<section id="twoColumns" class="twoColumns">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row twoColumns__wrapper">'.PHP_EOL;
 
-echo '<div class="twoColumns__main col-12 col-md-7">'.PHP_EOL;
+echo '<div class="twoColumns__main col-12 col-md-6">'.PHP_EOL;
 echo '<article class="twoColumns__main--content">'.PHP_EOL;
 echo $main_column_content;
 echo '</article>'.PHP_EOL;
@@ -38,7 +38,7 @@ if (have_rows('main_column_flip')) {
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 
-echo '<aside class="twoColumns__sidebar col-12 col-md-5'.(($column_alignment == true)?' order-1':' order-12').'">'.PHP_EOL;
+echo '<aside class="twoColumns__sidebar col-12 col-md-6'.(($column_alignment == true)?' order-1':' order-12').'">'.PHP_EOL;
 echo (!empty($side_column_image)?'<span class="twoColumns__image"><img src="'.$side_column_img.'" alt="" class="img-fluid two_columns__image--img"></span>':'');
 if (have_rows('side_column_articles')) {
 	while (have_rows('side_column_articles')) {
