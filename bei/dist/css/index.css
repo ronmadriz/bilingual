@@ -857,9 +857,13 @@ section:not(.banner):not(.featured) .container-fluid {
       letter-spacing: 0;
       margin-bottom: 20px;
       text-transform: none; }
-  .twoColumns__flip--icon svg {
-    height: auto;
-    width: 4rem; }
+  .twoColumns__flip {
+    border-radius: 3px;
+    border-width: 0;
+    padding: 3.125rem 2.5rem 1.875rem 3.125rem; }
+    .twoColumns__flip--icon svg {
+      height: auto;
+      width: 4rem; }
   .twoColumns__article--icon svg {
     height: auto;
     width: 4rem; }
