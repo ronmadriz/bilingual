@@ -42,11 +42,14 @@
 			&:nth-of-type(1) {
 				backface-visibility: hidden;
 				position: absolute;
-				transform: rotateY(0deg);
 			}
 			&:nth-of-type(2) {
 				backface-visibility: hidden;
+				bottom: 0;
+				left: 0;
 				position: absolute;
+				right: 0;
+				top: 0;
 				transform: rotateY(180deg);
 			}
 			&:hover {
