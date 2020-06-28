@@ -44,6 +44,7 @@ if (have_rows('side_column_articles')) {
 		echo '<span class="twoColumns__article--content">'.$sca_content.'</span>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
+	wp_reset_postdata();
 }
 echo '</aside>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
