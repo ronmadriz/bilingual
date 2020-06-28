@@ -910,10 +910,10 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 10px; }
   .twoColumns__flip--icon svg {
     height: auto;
-    width: 4rem; }
+    width: 3rem; }
   .twoColumns__article--icon svg {
     height: auto;
-    width: 4rem; }
+    width: 3rem; }
 
 .subsites {
   background-color: #192f59;
