@@ -843,17 +843,17 @@ section:not(.banner):not(.featured) .container-fluid {
 .twoColumns {
   padding-bottom: 3rem;
   padding-top: 3rem; }
-  .twoColumns__main {
+  .twoColumns__main--content {
+    color: #8d8d8d;
     font-size: 1rem;
-    text-transform: none;
-    color: #8d8d8d; }
-    .twoColumns__main h3 {
+    line-height: 1.7;
+    text-transform: none; }
+    .twoColumns__main--content h3 {
       color: #181818;
       padding-bottom: 2.0625rem;
       font-size: 1.375rem;
       font-weight: 600;
       letter-spacing: 0;
-      line-height: 1.7;
       text-transform: none; }
   .twoColumns__flip--icon svg {
     height: auto;
