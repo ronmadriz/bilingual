@@ -29,8 +29,8 @@ if (have_rows('main_column_flip')) {
 		echo '<h2 class="twoColumns__flip--title">'.$mcf_title.'</h2>'.PHP_EOL;
 		echo '<span class="twoColumns__flip--content">'.$mcf_content.'</span>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
+		$flipcount++;
 	}
-	$flipcount++;
 	wp_reset_postdata();
 	echo '</span>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
