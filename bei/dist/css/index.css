@@ -844,12 +844,13 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-bottom: 3rem;
   padding-top: 3rem; }
   .twoColumns__main--content {
-    color: #8d8d8d;
     border-bottom: 0.1875rem solid #3db166;
+    color: #8d8d8d;
     display: block;
     font-size: 1rem;
     line-height: 1.7;
-    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
     text-transform: none; }
     .twoColumns__main--content h3 {
       color: #181818;
