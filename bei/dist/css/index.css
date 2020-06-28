@@ -849,7 +849,7 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     font-size: 1rem;
     line-height: 1.7;
-    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
     padding-bottom: 1.25rem;
     text-transform: none; }
     .twoColumns__main--content h3 {
