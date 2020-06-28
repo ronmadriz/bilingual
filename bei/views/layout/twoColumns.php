@@ -10,7 +10,9 @@ echo '<section id="twoColumns" class="twoColumns">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row twoColumns__wrapper">'.PHP_EOL;
 echo '<div class="twoColumns__main col-12 col-md-7'.(($column_alignment == true)?' order-12':'').'">'.PHP_EOL;
-echo '<article class="twoColumns__main--content">'.$main_column_content.'</article>'.PHP_EOL;
+echo '<article class="twoColumns__main--content">';
+echo $main_column_content;
+echo '</article>'.PHP_EOL;
 if (have_rows('main_column_flip')) {
 	while (have_rows('main_column_flip')) {
 		the_row();
