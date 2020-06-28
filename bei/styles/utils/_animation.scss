@@ -37,3 +37,28 @@ $thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
     animation-fill-mode: $fillmode;
     animation-direction: $direction;
 }
+
+// Card Flip 
+
+:root { --time: 0.707s; }
+.cards {
+    display: grid;
+    &__wrapper {
+        perspective: 40rem;
+        &:hover &, &:focus & {
+        transform: rotateX(-180deg);
+        }
+    }
+    &__body {
+        display: flex;
+        transform-style: preserve-3d;
+        transition: var(--time) transform;
+    }
+    &__front, &__back {
+        backface-visibility: hidden;
+        min-width: 100%;
+    }
+    &__back {
+        transform: rotateX(-180deg) translate(-100%, 0);
+    }
+}
