@@ -845,6 +845,7 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-top: 3rem; }
   .twoColumns__main--content {
     color: #8d8d8d;
+    display: block;
     font-size: 1rem;
     line-height: 1.7;
     margin-bottom: 1.25rem;
@@ -862,6 +863,7 @@ section:not(.banner):not(.featured) .container-fluid {
     border-radius: 3px;
     border-width: 0;
     color: #fff;
+    display: block;
     fill: #fff;
     padding: 3.125rem 2.5rem 1.875rem 3.125rem; }
     .twoColumns__flip--icon svg {

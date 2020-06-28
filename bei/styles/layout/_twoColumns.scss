@@ -6,6 +6,7 @@
 	&__main {
 	    &--content {
 		    color: $outline;
+		    display: block;
 			font-size: 1rem;
 		    line-height: 1.7;
 	        margin-bottom: 1.25rem;
@@ -22,12 +23,13 @@
 	    }
 	}
 	&__flip {
-	background-color: #3db166;
-    border-radius: 3px;
-    border-width: 0;
-    color: $white_0;
-    fill: $white_0;
-    padding: 3.125rem 2.5rem 1.875rem 3.125rem;
+		background-color: #3db166;
+	    border-radius: 3px;
+	    border-width: 0;
+	    color: $white_0;
+	    display: block;
+	    fill: $white_0;
+	    padding: 3.125rem 2.5rem 1.875rem 3.125rem;
 		&--title {			
 		}
 		&--icon {
