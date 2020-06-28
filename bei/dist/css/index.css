@@ -845,10 +845,10 @@ section:not(.banner):not(.featured) .container-fluid {
   padding-top: 3rem; }
   .twoColumns__flip--icon svg {
     height: auto;
-    width: 1rem; }
+    width: 4rem; }
   .twoColumns__article--icon svg {
     height: auto;
-    width: 1rem; }
+    width: 4rem; }
 
 .subsites {
   background-color: #192f59;
