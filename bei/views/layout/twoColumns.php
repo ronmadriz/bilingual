@@ -20,7 +20,7 @@ if (have_rows('main_column_flip')) {
 		$mcf_title   = get_sub_field('mcf_title');
 		$mcf_content = get_sub_field('mcf_content');
 		echo '<article class="twoColumns__flip">';
-		echo '<span class="twoColumns__flip--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$mcf_icon.'.svg').'</span>'.PHP_EOL;
+		echo (!empty($mcf_icon)?'<span class="twoColumns__flip--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$mcf_icon.'.svg').'</span>'.PHP_EOL:'');
 		echo '<h2 class="twoColumns__flip--title">'.$mcf_title.'</h2>'.PHP_EOL;
 		echo '<span class="twoColumns__flip--content">'.$mcf_content.'</span>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
