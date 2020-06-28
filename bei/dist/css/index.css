@@ -252,7 +252,8 @@ a:hover {
   font-display: normal; }
 
 body {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 @media (max-width: 786px) {
   ul {
@@ -903,6 +904,10 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 1.25rem;
     padding: 3.125rem 2.5rem 1.875rem 3.125rem;
     width: 100%; }
+  .twoColumns__flip--title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px; }
   .twoColumns__flip--icon svg {
     height: auto;
     width: 4rem; }

@@ -315,7 +315,7 @@ $primary: 'Poppins', sans-serif;
 $secondary: 'Raleway', sans-serif;
 $tertiary: 'Comfortaa', sans-serif;
 
-body {font-family: $primary;}
+body {font-family: $primary;-webkit-font-smoothing: antialiased;}
 @include for-phone-only {
     ul {
         padding-inline-start: 2rem;

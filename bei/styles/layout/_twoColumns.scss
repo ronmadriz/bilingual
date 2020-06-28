@@ -40,7 +40,10 @@
 		    padding: 3.125rem 2.5rem 1.875rem 3.125rem;
 			width: 100%;
 		}
-		&--title {			
+		&--title {
+			font-size: 22px;
+			font-weight: 700;
+			margin-bottom: 10px;
 		}
 		&--icon {
 			svg {
