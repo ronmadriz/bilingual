@@ -33,6 +33,7 @@ if (have_rows('main_column_flip')) {
 	$flipcount++;
 	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
+	echo '</a>'.PHP_EOL;
 }
 echo '</div>'.PHP_EOL;
 
