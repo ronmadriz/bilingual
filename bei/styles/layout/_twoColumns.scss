@@ -3,4 +3,30 @@
 	padding-top: 3rem;
 	&__wrapper {
 	}
+	&__main {
+	}
+	&__flip {
+		&--title {
+		}
+		&--icon {
+		}
+		&--content {
+		}
+	}
+	&__sidebar {
+	}
+	&__image {
+		&--img {
+		}		
+	}
+	&__article {
+		&--title {
+		}
+		&--icon {
+			height:auto;
+			width:1rem;
+		}
+		&--content {
+		}
+	}
 }

@@ -29,7 +29,7 @@ if (have_rows('main_column_flip')) {
 echo '</div>'.PHP_EOL;
 
 echo '<aside class="twoColumns__sidebar col-12 col-md-5">'.PHP_EOL;
-echo (!empty($side_column_image)?'<span class="two_columns__image"><img src="'.$side_column_img.'" alt="" class="img-fluid two_columns__image--img"></span>':'');
+echo (!empty($side_column_image)?'<span class="twoColumns__image"><img src="'.$side_column_img.'" alt="" class="img-fluid two_columns__image--img"></span>':'');
 if (have_rows('side_column_articles')) {
 	while (have_rows('side_column_articles')) {
 		the_row();
@@ -37,8 +37,8 @@ if (have_rows('side_column_articles')) {
 		$sca_title   = get_sub_field('sca_title');
 		$sca_content = get_sub_field('sca_content');
 		echo '<article class="twoColumns__article">';
-		echo '<h2 class="twoColumns__title">'.(!empty($sca_icon)?'<span class="twoColumns__icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$sca_icon.'.svg').'</span> ':'').$sca_title.'</h2>'.PHP_EOL;
-		echo '<span class="twoColumns__content">'.$sca_content.'</span>'.PHP_EOL;
+		echo '<h2 class="twoColumns__article--title">'.(!empty($sca_icon)?'<span class="twoColumns__article--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$sca_icon.'.svg').'</span> ':'').$sca_title.'</h2>'.PHP_EOL;
+		echo '<span class="twoColumns__article--content">'.$sca_content.'</span>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
 }

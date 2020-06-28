@@ -329,6 +329,13 @@ body {
   .section__title:after {
     top: 1rem; }
 
+blockquote {
+  color: #3db166;
+  font-size: 19px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  text-transform: none; }
+
 .site__logo {
   padding: 1rem 0 0;
   width: 100px; }
@@ -833,9 +840,12 @@ section:not(.banner):not(.featured) .container-fluid {
     line-height: 1.7;
     margin-bottom: 1.25rem; }
 
-.wsb {
+.twoColumns {
   padding-bottom: 3rem;
   padding-top: 3rem; }
+  .twoColumns__article--icon {
+    height: auto;
+    width: 1rem; }
 
 .subsites {
   background-color: #192f59;
