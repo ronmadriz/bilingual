@@ -41,11 +41,13 @@
 			width: 100%;
 		}
 		&--title {
-			font-size: 22px;
+			display:block;
+			font-size: 1.375rem;
 			font-weight: 700;
 			margin-bottom: 10px;
 		}
 		&--icon {
+			display:block;
 			margin-bottom: 1.875rem;
 			svg {
 				height:auto;
@@ -53,6 +55,7 @@
 			}
 		}
 		&--content {
+			display:block;
 		}
 	}
 	&__sidebar {
@@ -63,14 +66,17 @@
 	}
 	&__article {
 		&--title {
+			display:block;
 		}
 		&--icon {
+			display:block;
 			svg {
 				height:auto;
 				width:3rem;
 			}
 		}
 		&--content {
+			display:block;
 		}
 	}
 }
