@@ -843,7 +843,7 @@ section:not(.banner):not(.featured) .container-fluid {
 .twoColumns {
   padding-bottom: 3rem;
   padding-top: 3rem; }
-  .twoColumns__article--icon {
+  .twoColumns__article--icon svg {
     height: auto;
     width: 1rem; }
 

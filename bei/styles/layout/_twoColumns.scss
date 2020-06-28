@@ -23,8 +23,10 @@
 		&--title {
 		}
 		&--icon {
-			height:auto;
-			width:1rem;
+			svg {
+				height:auto;
+				width:1rem;
+			}
 		}
 		&--content {
 		}
