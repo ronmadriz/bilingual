@@ -872,6 +872,7 @@ section:not(.banner):not(.featured) .container-fluid {
       color: #fff;
       display: block;
       fill: #fff;
+      height: 100%;
       margin-bottom: 1.25rem;
       padding: 3.125rem 2.5rem 1.875rem 3.125rem;
       -webkit-transition: -webkit-transform 0.8s;
@@ -879,26 +880,23 @@ section:not(.banner):not(.featured) .container-fluid {
       transition: transform 0.8s;
       transition: transform 0.8s, -webkit-transform 0.8s;
       -webkit-transform-style: preserve-3d;
-              transform-style: preserve-3d; }
+              transform-style: preserve-3d;
+      width: 100%; }
       .twoColumns__flip--inner:hover {
         -webkit-transform: rotateY(180deg);
                 transform: rotateY(180deg); }
       .twoColumns__flip--inner:nth-of-type(1) {
         -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-        height: 100%;
         position: absolute;
         -webkit-transform: rotateY(0deg);
-                transform: rotateY(0deg);
-        width: 100%; }
+                transform: rotateY(0deg); }
       .twoColumns__flip--inner:nth-of-type(2) {
         -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-        height: 100%;
         position: absolute;
         -webkit-transform: rotateY(180deg);
-                transform: rotateY(180deg);
-        width: 100%; }
+                transform: rotateY(180deg); }
     .twoColumns__flip--icon svg {
       height: auto;
       width: 4rem; }
