@@ -10,11 +10,17 @@ echo '<section id="twoColumns" class="twoColumns">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row twoColumns__wrapper">'.PHP_EOL;
 echo '<div class="twoColumns__main col-12 col-md-7'.(($column_alignment == true)?' order-12':'').'">'.PHP_EOL;
-echo '<div class="twoColumns__main--content">'.$main_column_content.'</div>'.PHP_EOL;
+echo '<article class="twoColumns__main--content">'.$main_column_content.'</article>'.PHP_EOL;
 if (have_rows('main_column_flip')) {
 	while (have_rows('main_column_flip')) {
 		the_row();
+		$mcf_icon    = get_sub_field('mcf_icon');
+		$mcf_title   = get_sub_field('mcf_title');
+		$mcf_content = get_sub_field('mcf_content');
 		echo '<article class="twoColumns__flip">';
+		echo '<span class="twoColumns__flip--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$info__icon.'.svg').'</span>'.PHP_EOL;
+		echo '<h2 class="twoColumns__flip--title">'.$info__title.'</h2>'.PHP_EOL;
+		echo '<span class="twoColumns__flip--content">'.$info__content.'</span>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
 }
