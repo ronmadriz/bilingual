@@ -4,9 +4,15 @@
 	&__wrapper {
 	}
 	&__main {
+		h3 {
+		    font-size: 22px;
+		    font-weight: 600;
+		    letter-spacing: 0px;
+		    text-transform: none;			
+		}
 	}
 	&__flip {
-		&--title {
+		&--title {			
 		}
 		&--icon {
 			svg {
