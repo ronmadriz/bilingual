@@ -278,6 +278,9 @@ body {
             transform-style: preserve-3d;
     -webkit-transition: var(--time) transform;
     transition: var(--time) transform; }
+    .card__wrapper:hover .cards__body, .card__wrapper:focus .cards__body {
+      -webkit-transform: rotateX(-180deg);
+              transform: rotateX(-180deg); }
   .cards__front, .cards__back {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;

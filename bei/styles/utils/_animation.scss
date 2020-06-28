@@ -53,6 +53,9 @@ $thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
         display: flex;
         transform-style: preserve-3d;
         transition: var(--time) transform;
+        .card__wrapper:hover &, .card__wrapper:focus & {
+            transform: rotateX(-180deg);
+        }        
     }
     &__front, &__back {
         backface-visibility: hidden;
