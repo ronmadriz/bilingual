@@ -1525,7 +1525,7 @@ section:not(.banner):not(.featured) .container-fluid {
     text-decoration: none;
     text-transform: uppercase; }
     .accordion__header--btn:before {
-      background: #f7f7f7 url("../../../sprites/add.svg");
+      background: #f7f7f7 url("../../sprites/add.svg");
       content: '';
       display: inline-block;
       background-size: 1rem;
