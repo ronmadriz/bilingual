@@ -2,7 +2,9 @@
 	background-color: $white_3;
     padding-bottom: 3rem;
     padding-top: 3rem;
-    text-align: right;	
+    @include for-tablet-up {
+		text-align: right;
+    }
 	&__title {
 		font-size: 2.5625rem;
 	    font-weight: 800;
