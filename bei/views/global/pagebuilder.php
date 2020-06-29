@@ -28,6 +28,8 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/layout/twoColumns.php');
 		} elseif (get_row_layout() == 'two_item_feature') {
 			include (get_template_directory().'/views/layout/two-item-feature.php');
+		} elseif (get_row_layout() == 'accordion') {
+			include (get_template_directory().'/views/components/accordion/index.php');
 		}
 	}
 }
