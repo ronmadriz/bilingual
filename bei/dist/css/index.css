@@ -929,7 +929,8 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     margin-top: 1.3125rem; }
   .twoColumns__sidebar {
-    background-color: #f7f7f7; }
+    background-color: #f7f7f7;
+    padding: 5rem 0px 1.5625rem 3.125rem; }
   .twoColumns__article--title {
     display: block; }
   .twoColumns__article--icon {
