@@ -25,12 +25,11 @@
 			text-decoration: none;
 			text-transform: uppercase;
 			&:before {
-			    background-image:url('../../../sprites/add.svg');
+			    background:$white_3 url('../../../sprites/add.svg');
 			    content:'';
 			    display: inline-block;
 			    background-size: 1rem;
 			    padding: 1rem;
-			    background: $white_3;
 			    border: .0625rem solid $gray_3;
 			    margin-right: 0.8125rem;
 			}
