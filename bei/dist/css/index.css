@@ -941,6 +941,9 @@ section:not(.banner):not(.featured) .container-fluid {
   .twoColumns__sidebar {
     background-color: #f7f7f7;
     padding: 5rem 0 1.5625rem 3.125rem; }
+  .twoColumns__image {
+    display: block;
+    margin-bottom: 2.8725rem; }
   .twoColumns__article {
     marging-bottom: 1.25rem; }
     .twoColumns__article--title {
