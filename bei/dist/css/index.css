@@ -1499,8 +1499,7 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-top: 1.5rem; }
 
 .accordion__item {
-  border: 0;
-  margin-bottom: 1.25rem; }
+  border: 0; }
 
 .accordion__header {
   background-color: transparent;
