@@ -1540,6 +1540,9 @@ section:not(.banner):not(.featured) .container-fluid {
 .accordion__content {
   padding-left: 3rem; }
 
+.accordion .section__title {
+  margin-bottom: 0; }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
