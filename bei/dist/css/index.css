@@ -949,10 +949,10 @@ section:not(.banner):not(.featured) .container-fluid {
     .twoColumns__article--title {
       color: #181818;
       display: block;
-      font-size: 19px;
+      font-size: 1.1875rem;
       font-weight: 600;
       letter-spacing: 0px;
-      padding-bottom: 1.875rem;
+      padding-bottom: .5rem;
       text-transform: none; }
     .twoColumns__article--icon {
       display: block; }
