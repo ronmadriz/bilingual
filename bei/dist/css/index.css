@@ -938,6 +938,7 @@ section:not(.banner):not(.featured) .container-fluid {
     font-size: 19px;
     font-weight: 600;
     letter-spacing: 0px;
+    padding-bottom: 1.875rem;
     text-transform: none; }
   .twoColumns__article--icon {
     display: block; }
