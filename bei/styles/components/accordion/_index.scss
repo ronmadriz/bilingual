@@ -4,6 +4,9 @@
 	}
 	&__item {
 		border:0;
+		&:last-of-type {
+			margin-bottom:1.25rem;
+		}
 	}
 	&__header{
 		background-color: transparent;
