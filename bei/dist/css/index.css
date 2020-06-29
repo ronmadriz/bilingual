@@ -886,10 +886,12 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 1.25rem; }
 
 .twoColumns {
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #f7f7f7), color-stop(0%, white));
-  background: linear-gradient(to left, #f7f7f7 50%, white 0%);
   padding-bottom: 3rem;
   padding-top: 3rem; }
+  @media (min-width: 786px) {
+    .twoColumns {
+      background: -webkit-gradient(linear, right top, left top, color-stop(50%, #f7f7f7), color-stop(0%, white));
+      background: linear-gradient(to left, #f7f7f7 50%, white 0%); } }
   .twoColumns__main {
     padding: 5.3125rem 2.5rem 2.1875rem 0; }
     .twoColumns__main--content {
