@@ -832,11 +832,11 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block; }
 
 .tiled {
-  padding-bottom: 3rem;
+  padding-bottom: .9325rem;
   padding-top: 3rem; }
   @media (min-width: 786px) {
     .tiled {
-      padding-bottom: .9325rem; } }
+      padding-bottom: 3rem; } }
   .tiled__item {
     border: 0;
     margin-bottom: 1rem; }
