@@ -976,6 +976,11 @@ section:not(.banner):not(.featured) .container-fluid {
     font-size: 1rem;
     line-height: 1.7;
     text-transform: none; }
+    .twoColumns__article--content h3 {
+      display: block;
+      font-size: 1.375rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
 
 .subsites {
   background-color: #192f59;
