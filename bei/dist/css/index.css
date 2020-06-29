@@ -1505,19 +1505,19 @@ section:not(.banner):not(.featured) .container-fluid {
 .accordion__header {
   background-color: transparent;
   border: 0;
-  cursor: pointer;
   font-size: .875rem;
-  font-weight: 600;
-  letter-spacing: .0625rem;
-  margin-bottom: 1.6875rem;
-  margin-top: 1.0625rem;
-  text-transform: uppercase; }
+  font-weight: 600; }
   .accordion__header--btn {
+    border-bottom: 0;
     color: #181818;
+    cursor: pointer;
     display: block;
-    text-decoration: none;
+    letter-spacing: .0625rem;
+    margin-bottom: 1.6875rem;
+    margin-top: 1.0625rem;
     text-transform: uppercase;
-    border-bottom: 0; }
+    text-decoration: none;
+    text-transform: uppercase; }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;

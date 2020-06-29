@@ -9,19 +9,19 @@
 	&__header{
 		background-color: transparent;
 		border:0;
-	    cursor: pointer;
 		font-size: .875rem;
 	    font-weight: 600;
-	    letter-spacing: .0625rem;
-	    margin-bottom: 1.6875rem;
-	    margin-top: 1.0625rem;
-	    text-transform: uppercase;
 		&--btn {
+			border-bottom: 0;			
 			color:$black_1;
+		    cursor: pointer;
 			display: block;
+		    letter-spacing: .0625rem;
+		    margin-bottom: 1.6875rem;
+		    margin-top: 1.0625rem;
+		    text-transform: uppercase;
 			text-decoration: none;
 			text-transform: uppercase;
-			border-bottom: 0;			
 		}
 	}
 	&__icon{
