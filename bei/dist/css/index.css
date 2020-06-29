@@ -1379,13 +1379,13 @@ section:not(.banner):not(.featured) .container-fluid {
     position: absolute;
     top: 0;
     width: 100%; }
-  .landing_banner:before {
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(55%), to(rgba(0, 0, 0, 0.35)));
-    background: linear-gradient(transparent, 55%, rgba(0, 0, 0, 0.35)); }
   @media (min-width: 786px) {
     .landing_banner {
       padding-bottom: 4.6875rem;
-      padding-top: 33.125rem; } }
+      padding-top: 33.125rem; }
+      .landing_banner:before {
+        background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(55%), to(rgba(0, 0, 0, 0.35)));
+        background: linear-gradient(transparent, 55%, rgba(0, 0, 0, 0.35)); } }
   .landing_banner__content {
     display: -webkit-box;
     display: -ms-flexbox;

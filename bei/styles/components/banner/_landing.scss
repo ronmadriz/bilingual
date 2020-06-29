@@ -5,8 +5,8 @@
 	position:relative;
 	@include has-bg(center, center);
 	@include bg-before ($black_0);
-	@include banner-cover($black_0);
 	@include for-tablet-up {
+		@include banner-cover($black_0);
 		padding-bottom:4.6875rem;
 		padding-top:33.125rem;
 	}
