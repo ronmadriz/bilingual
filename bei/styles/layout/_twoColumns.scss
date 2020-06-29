@@ -5,7 +5,10 @@
 	&__wrapper {
 	}
 	&__main {
-		padding:5.3125rem 2.5rem 2.1875rem 0;
+		padding:5.3125rem 0 2.1875rem;
+		@include for-tablet-up {
+			padding-right:2.5rem;
+		}
 	    &--content {
 		    border-bottom:0.1875rem solid $accent_2;
 		    color: $outline;
