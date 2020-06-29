@@ -1530,11 +1530,14 @@ section:not(.banner):not(.featured) .container-fluid {
       background-position: center center;
       background-repeat: no-repeat;
       content: '';
+      cursor: pointer;
       display: inline-block;
       background-size: 1rem;
       padding: 1rem;
       border: 0.0625rem solid #ababab;
       margin-right: 0.8125rem; }
+    .accordion__header--btn[aria-expanded=true]:before {
+      background-image: url("../../sprites/minus.svg"); }
 
 .accordion__content {
   padding-left: 3rem; }
