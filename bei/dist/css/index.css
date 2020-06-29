@@ -928,6 +928,8 @@ section:not(.banner):not(.featured) .container-fluid {
   .twoColumns__flip--content {
     display: block;
     margin-top: 1.3125rem; }
+  .twoColumns__sidebar {
+    background-color: #f7f7f7; }
   .twoColumns__article--title {
     display: block; }
   .twoColumns__article--icon {
