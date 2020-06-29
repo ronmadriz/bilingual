@@ -933,7 +933,7 @@ section:not(.banner):not(.featured) .container-fluid {
       width: 3rem; }
   .twoColumns__flip--content {
     display: block;
-    margin-top: 1.3125rem; }
+    margin-top: 2.5rem; }
   .twoColumns__flip a {
     border-bottom: 0.0625rem dashed #fefefe;
     color: #fefefe;
