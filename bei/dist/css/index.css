@@ -934,6 +934,7 @@ section:not(.banner):not(.featured) .container-fluid {
     background-color: #f7f7f7;
     padding: 5rem 0 1.5625rem 3.125rem; }
   .twoColumns__article--title {
+    color: #181818;
     display: block;
     font-size: 19px;
     font-weight: 600;
