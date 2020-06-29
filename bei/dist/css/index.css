@@ -834,6 +834,10 @@ section:not(.banner):not(.featured) .container-fluid {
 .tiled {
   padding-bottom: 3rem;
   padding-top: 3rem; }
+  @media (min-width: 786px) {
+    .tiled {
+      padding-bottom: .9325rem;
+      padding-top: 2rem; } }
   .tiled__item {
     border: 0;
     margin-bottom: 1rem; }

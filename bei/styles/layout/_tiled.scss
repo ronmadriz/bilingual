@@ -1,6 +1,10 @@
 .tiled {
     padding-bottom: 3rem;
     padding-top: 3rem;
+    @include for-tablet-up {
+	    padding-bottom: .9325rem;
+	    padding-top: 2rem;
+    }
 	&__wrapper {
 
 	}
