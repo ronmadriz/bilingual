@@ -367,13 +367,16 @@ blockquote {
   margin-bottom: 20px;
   text-transform: none; }
 
-a[href*="//"]:not([href*="ronmadriz.com"]):after {
-  color: inherit;
-  content: '>';
-  display: inline-block;
-  margin-left: .5rem;
-  text-decoration: none; }
-
+/*
+a[href*="//"]:not([href*="ronmadriz.com"]) {
+    &:after {
+        color:inherit;
+        content: '>';
+        display:inline-block;
+        margin-left:.5rem;
+        text-decoration: none;
+    }
+}*/
 .site__logo {
   padding: 1rem 0 0;
   width: 100px; }
