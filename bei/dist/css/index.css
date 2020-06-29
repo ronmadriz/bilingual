@@ -934,7 +934,11 @@ section:not(.banner):not(.featured) .container-fluid {
     background-color: #f7f7f7;
     padding: 5rem 0 1.5625rem 3.125rem; }
   .twoColumns__article--title {
-    display: block; }
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none; }
   .twoColumns__article--icon {
     display: block; }
     .twoColumns__article--icon svg {
