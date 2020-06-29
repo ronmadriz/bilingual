@@ -1,9 +1,9 @@
 .text_right {
 	background-color: $white_3;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
     padding-top: 3rem;
     @include for-tablet-up {
-	    padding-bottom: 0rem;
+	    padding-bottom: 3rem;
 		text-align: right;
     }
 	&__title {
