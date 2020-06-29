@@ -1505,6 +1505,12 @@ section:not(.banner):not(.featured) .container-fluid {
 .accordion__header {
   background-color: transparent;
   border: 0; }
+  .accordion__header--btn {
+    color: #181818;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 0; }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;

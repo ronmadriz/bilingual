@@ -9,6 +9,16 @@
 	&__header{
 		background-color: transparent;
 		border:0;
+		&--text {
+			
+		}
+		&--btn {
+			color:$black_1;
+			display: block;
+			text-decoration: none;
+			text-transform: uppercase;
+			border-bottom: 0;			
+		}
 	}
 	&__icon{
 
