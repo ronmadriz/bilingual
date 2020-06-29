@@ -1002,6 +1002,33 @@ section:not(.banner):not(.featured) .container-fluid {
       font-weight: 700;
       margin-bottom: 10px; }
 
+.twoItemFeature__item {
+  color: #fefefe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin: .25rem;
+  padding: 2.5rem;
+  position: relative;
+  width: 100%;
+  -webkit-font-smoothing: antialiased; }
+  @media (min-width: 786px) {
+    .twoItemFeature__item {
+      width: 49.125%; } }
+  .twoItemFeature__item:before {
+    border: 0.0625rem solid #fefefe;
+    content: '';
+    display: block;
+    height: 97%;
+    left: 1.5%;
+    position: absolute;
+    top: 1.5%;
+    width: 97%; }
+
 .subsites {
   background-color: #192f59;
   color: #fefefe; }

@@ -1,0 +1,25 @@
+.twoItemFeature {
+	&__item	{
+		color:$white_1;
+		display: flex;
+		flex-flow: column;
+	    margin: .25rem;
+	    padding: 2.5rem;
+	    position: relative;
+	    width:100%;
+		-webkit-font-smoothing: antialiased;
+		@include for-tablet-up {
+		    width: 49.125%;
+		}
+		&:before {
+			border: .0625rem solid $white_1;			
+			content: '';
+			display: block;
+			height: 97%;
+			left: 1.5%;
+			position: absolute;
+			top: 1.5%;
+			width: 97%;
+		}
+	}
+}
