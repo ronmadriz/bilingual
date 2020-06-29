@@ -9,9 +9,13 @@
 	&__header{
 		background-color: transparent;
 		border:0;
-		&--text {
-			
-		}
+	    cursor: pointer;
+		font-size: .875rem;
+	    font-weight: 600;
+	    letter-spacing: .0625rem;
+	    margin-bottom: 1.6875rem;
+	    margin-top: 1.0625rem;
+	    text-transform: uppercase;
 		&--btn {
 			color:$black_1;
 			display: block;

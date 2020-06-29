@@ -1504,7 +1504,14 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .accordion__header {
   background-color: transparent;
-  border: 0; }
+  border: 0;
+  cursor: pointer;
+  font-size: .875rem;
+  font-weight: 600;
+  letter-spacing: .0625rem;
+  margin-bottom: 1.6875rem;
+  margin-top: 1.0625rem;
+  text-transform: uppercase; }
   .accordion__header--btn {
     color: #181818;
     display: block;
