@@ -255,6 +255,10 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased; }
 
+main li {
+  line-height: 1.7rem;
+  margin-bottom: .5rem; }
+
 @media (max-width: 786px) {
   ul {
     -webkit-padding-start: 2rem;
