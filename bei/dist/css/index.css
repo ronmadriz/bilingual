@@ -945,7 +945,7 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     margin-bottom: 2.8725rem; }
   .twoColumns__article {
-    marging-bottom: 1.25rem; }
+    marging-bottom: 3rem; }
     .twoColumns__article--title {
       color: #181818;
       display: block;
