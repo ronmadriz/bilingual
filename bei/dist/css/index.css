@@ -1518,12 +1518,15 @@ section:not(.banner):not(.featured) .container-fluid {
     text-transform: uppercase;
     text-decoration: none;
     text-transform: uppercase; }
-    .accordion__header--btn[aria-expanded="true"]:before {
+    .accordion__header--btn:before {
+      background-image: url("../../../sprites/add.svg");
       content: '';
-      display: block;
-      left: -1rem;
-      position: absolute;
-      top: 0; }
+      display: inline-block;
+      background-size: 1rem;
+      padding: 1rem;
+      background: #f7f7f7;
+      border: 0.0625rem solid #ababab;
+      margin-right: 1.6875rem; }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
