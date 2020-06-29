@@ -59,6 +59,11 @@
 			display:block;
 			margin-top: 1.3125rem;
 		}
+		a {
+			border-bottom:.0625rem dashed $white_1;
+			color:$white_1;
+			text-decoration:none;
+		}
 	}
 	&__sidebar {
 		background-color:$white_3;
