@@ -47,7 +47,7 @@ if (have_rows('side_column_articles')) {
 		$sca_title   = get_sub_field('sca_title');
 		$sca_content = get_sub_field('sca_content');
 		echo '<article class="twoColumns__article">';
-		echo '<h2 class="twoColumns__article--title">'.(!empty($sca_icon)?'<span class="twoColumns__article--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$sca_icon.'.svg').'</span> ':'').$sca_title.'</h2>'.PHP_EOL;
+		echo '<h3 class="twoColumns__article--title">'.(!empty($sca_icon)?'<span class="twoColumns__article--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$sca_icon.'.svg').'</span> ':'').$sca_title.'</h3>'.PHP_EOL;
 		echo '<span class="twoColumns__article--content">'.$sca_content.'</span>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
