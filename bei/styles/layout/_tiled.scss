@@ -6,7 +6,10 @@
 	}
 	&__item {
 		border: 0;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
+		@include for-tablet-up {
+			margin-bottom: 2rem;
+		}
 	}
 	&__image {
 		padding-bottom: 1rem;
