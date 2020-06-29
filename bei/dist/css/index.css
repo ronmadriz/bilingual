@@ -1498,6 +1498,14 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     margin-top: 1.5rem; }
 
+.accordion__item {
+  border: 0;
+  margin-bottom: 1.25rem; }
+
+.accordion__header {
+  background-color: transparent;
+  border: 0; }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
