@@ -1509,10 +1509,14 @@ section:not(.banner):not(.featured) .container-fluid {
   font-weight: 600;
   padding-left: 0; }
   .accordion__header--btn {
+    -ms-flex-item-align: center;
+        align-self: center;
     border-bottom: 0;
     color: #181818;
     cursor: pointer;
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     letter-spacing: .0625rem;
     margin-bottom: 1.6875rem;
     margin-top: 1.0625rem;

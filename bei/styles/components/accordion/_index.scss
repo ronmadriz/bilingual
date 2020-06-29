@@ -13,10 +13,11 @@
 	    font-weight: 600;
 	    padding-left: 0;
 		&--btn {
+			align-self: center;
 			border-bottom: 0;			
 			color:$black_1;
 		    cursor: pointer;
-			display: block;
+			display: flex;
 		    letter-spacing: .0625rem;
 		    margin-bottom: 1.6875rem;
 		    margin-top: 1.0625rem;
