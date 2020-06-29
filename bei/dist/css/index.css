@@ -838,7 +838,10 @@ section:not(.banner):not(.featured) .container-fluid {
     border: 0;
     margin-bottom: 2rem; }
   .tiled__image {
-    padding-bottom: 2.0625rem; }
+    padding-bottom: 1rem; }
+    @media (min-width: 786px) {
+      .tiled__image {
+        padding-bottom: 2.0625rem; } }
   .tiled__title {
     display: block;
     padding-bottom: 1.25rem; }

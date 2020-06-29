@@ -9,7 +9,10 @@
 		margin-bottom: 2rem;
 	}
 	&__image {
-		padding-bottom: 2.0625rem;
+		padding-bottom: 1rem;
+		@include for-tablet-up {
+			padding-bottom: 2.0625rem;
+		}
 	}
 	&__content {
 
