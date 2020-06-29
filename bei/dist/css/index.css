@@ -933,25 +933,27 @@ section:not(.banner):not(.featured) .container-fluid {
   .twoColumns__sidebar {
     background-color: #f7f7f7;
     padding: 5rem 0 1.5625rem 3.125rem; }
-  .twoColumns__article--title {
-    color: #181818;
-    display: block;
-    font-size: 19px;
-    font-weight: 600;
-    letter-spacing: 0px;
-    padding-bottom: 1.875rem;
-    text-transform: none; }
-  .twoColumns__article--icon {
-    display: block; }
-    .twoColumns__article--icon svg {
-      height: auto;
-      width: 3rem; }
-  .twoColumns__article--content {
-    color: #545454;
-    display: block;
-    font-size: 1rem;
-    line-height: 1.7;
-    text-transform: none; }
+  .twoColumns__article {
+    marging-bottom: 1.25rem; }
+    .twoColumns__article--title {
+      color: #181818;
+      display: block;
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: 0px;
+      padding-bottom: 1.875rem;
+      text-transform: none; }
+    .twoColumns__article--icon {
+      display: block; }
+      .twoColumns__article--icon svg {
+        height: auto;
+        width: 3rem; }
+    .twoColumns__article--content {
+      color: #545454;
+      display: block;
+      font-size: 1rem;
+      line-height: 1.7;
+      text-transform: none; }
 
 .subsites {
   background-color: #192f59;
