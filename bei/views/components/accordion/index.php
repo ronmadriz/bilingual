@@ -17,7 +17,7 @@ if (have_rows('acc_accordion_item')) {
 		$acc_item_content = get_sub_field('acc_item_content');
 		echo '<div class="card accordion__item">'.PHP_EOL;
 		echo '<div class="card-header accordion__header" id="'.$acc_id.'-'.$acc_counter.'">'.PHP_EOL;
-		echo '<button class="btn btn-link" data-toggle="collapse" data-target="#'.$acc_id.$acc_counter.'-content" aria-expanded="'.(($acc_counter == 0?'true':'false')).'" aria-controls="'.$acc_id.$acc_counter.'-content">'.$acc_item_title.'</button>'.PHP_EOL;
+		echo '<button class="btn btn-link" data-toggle="collapse" data-target="#'.$acc_id.$acc_counter.'-content" aria-expanded="'.(($acc_counter == 0?'true':'false')).'" aria-controls="'.$acc_id.$acc_counter.'-content"><i class="accordion_icon'.(($acc_counter == 0?' active':'')).'"></i> '.$acc_item_title.'</button>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '<div id="'.$acc_id.$acc_counter.'-content" class="collapse '.(($acc_counter == 0?'show':'')).'  accordion__content" aria-labelledby="'.$acc_id.'-'.$acc_counter.'" data-parent="#'.$acc_id.'-accordion">'.PHP_EOL;
 		echo '<div class="card-body accordion__desc">'.PHP_EOL;
