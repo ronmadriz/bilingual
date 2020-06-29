@@ -109,8 +109,8 @@
   }  
 }
 
-@mixin banner-cover {
+@mixin banner-cover($stain) {
   &:before {
-    background: linear-gradient(transparent, 55%, rgba(0,0,0,.35));
+    background: linear-gradient(transparent, 55%, rgba($stain,.35));
   }
 }

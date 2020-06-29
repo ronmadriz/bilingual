@@ -1371,7 +1371,7 @@ section:not(.banner):not(.featured) .container-fluid {
   background-repeat: no-repeat;
   background-size: cover; }
   .landing_banner:before {
-    background-color: rgba(84, 84, 84, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     content: '';
     display: block;
     height: 100%;
