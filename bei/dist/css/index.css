@@ -1536,6 +1536,9 @@ section:not(.banner):not(.featured) .container-fluid {
       border: 0.0625rem solid #ababab;
       margin-right: 0.8125rem; }
 
+.accordion__content {
+  padding-left: 3rem; }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
