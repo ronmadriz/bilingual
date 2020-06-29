@@ -85,7 +85,11 @@
 			}
 		}
 		&--content {
+		    color: $gray_2;
 			display:block;
+			font-size: 1rem;
+			line-height:1.7;
+		    text-transform: none;
 		}
 	}
 }

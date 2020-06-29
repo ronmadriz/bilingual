@@ -946,7 +946,11 @@ section:not(.banner):not(.featured) .container-fluid {
       height: auto;
       width: 3rem; }
   .twoColumns__article--content {
-    display: block; }
+    color: #545454;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.7;
+    text-transform: none; }
 
 .subsites {
   background-color: #192f59;
