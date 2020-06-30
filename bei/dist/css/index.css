@@ -2248,6 +2248,11 @@ section:not(.banner):not(.featured) .container-fluid {
   background-color: #3db166; }
   .section-f1 .subsites__nav li a {
     color: #fefefe; }
+  .section-f1 .subsites__nav:last-of-type a {
+    background-color: #192f59;
+    color: #fefefe; }
+    .section-f1 .subsites__nav:last-of-type a:hover {
+      background-color: rgba(25, 47, 89, 0.3); }
 
 .section-f1 .subbanner {
   background-color: #3db166; }
