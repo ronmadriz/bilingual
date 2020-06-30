@@ -1538,6 +1538,7 @@ section:not(.banner):not(.featured) .container-fluid {
     .accordion__header--btn[aria-expanded=true]:before {
       background-image: url("../../sprites/minus.svg"); }
     .accordion__header--btn:hover {
+      color: #3db166;
       text-transform: uppercase; }
 
 .accordion__content {
