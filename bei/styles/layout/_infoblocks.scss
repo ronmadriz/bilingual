@@ -9,6 +9,8 @@ $info_4:#7083d8;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		font-size:0.75rem;
+		line-height: 1.7;		
 		width: 100%;
 	}
 	&__item {
@@ -64,9 +66,5 @@ $info_4:#7083d8;
 	    font-size: 1.1875rem;
 	    font-weight: 700;
 	    margin-bottom: 10px;
-	}
-	&__content {
-		font-size:0.75rem;
-		line-height: 1.7;
 	}
 }

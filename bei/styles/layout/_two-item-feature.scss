@@ -1,4 +1,13 @@
 .twoItemFeature {
+	padding-bottom: 2rem;
+	&__content {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		font-size:0.75rem;
+		line-height: 1.7;		
+		width: 100%;
+	}
 	&__item	{
 		color:$white_1;
 		display: flex;
@@ -21,5 +30,27 @@
 			top: 1.5%;
 			width: 97%;
 		}
+		&:nth-of-type(1) {
+			background-color: $info_1;
+		}
+		&:nth-of-type(2) {
+			background-color: $info_2;
+		}		
+	}
+	&__icon {
+		display: block;
+	    margin-bottom: 30px;
+	    margin-top: 5px;
+		text-align:center;
+		svg {
+			fill:$white_1;
+			height:auto;
+			width: 3rem;
+		}		
+	}
+	&__title {
+	    font-size: 1.1875rem;
+	    font-weight: 700;
+	    margin-bottom: 10px;
 	}
 }
