@@ -3,7 +3,6 @@
 	&__item	{
 		color:$white_1;
 		display: flex;
-	    flex: 0 0 47.5%;
 		flex-flow: column;
 	    justify-content: center;
 	    margin: .25rem;
@@ -11,6 +10,7 @@
 	    position: relative;
 		-webkit-font-smoothing: antialiased;
 		@include for-tablet-up {
+		    flex: 0 0 47.5%;
 			&:before {
 				border: .0625rem solid $white_1;			
 				content: '';
