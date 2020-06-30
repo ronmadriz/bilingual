@@ -6,13 +6,10 @@ $theme_location   = get_bloginfo('stylesheet_directory');
 $pageID = get_the_id();
 $pageCF = get_post_custom($pageID);
 
-if ($post->post_parent) {
-	$ancestors = get_post_ancestors($post->ID);
-	$root      = count($ancestors)-1;
-	$parent    = $ancestors[$root];
-} else {
-	$parent = $post->ID;
-}
+global $post;
+$parents = get_post_ancestors($post->ID);
+/* Get the ID of the 'top most' Page if not return current page ID */
+$parent_id = ($parents)?$parents[count($parents)-1]:$post->ID;
 
 echo '<nav class="navbar navbar-expand-lg mainNav">'.PHP_EOL;
 echo '<div class="wrapper">'.PHP_EOL;
@@ -28,7 +25,7 @@ echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
 echo '<div class="navbar-collapse collapse order-12 mainNav__container" id="navigation">'.PHP_EOL;
-if ($post->post_parent = 313) {
+if ($parent_id = 313) {
 	$main_menu_args = array(
 		'theme_location'  => '',
 		'menu'            => 'refugee',

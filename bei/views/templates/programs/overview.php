@@ -10,7 +10,7 @@ if (have_posts()) {
 		$children = wp_list_pages(
 			array(
 				'title_li'  => '',
-				'child_of'  => wp_get_post_parent_id(), // child of only the parent page
+				'child_of'  => $post->post_parent, // child of only the parent page
 				'echo'      => 0, // do not echo
 				'exclude'   => $post->ID, // exclude the parent page from being added to array
 				'post_type' => 'programs', // only posts from the location post type
