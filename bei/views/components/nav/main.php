@@ -2,6 +2,11 @@
 $site_logo_header = get_theme_mod('site_logo_header');
 $slogan           = get_bloginfo('description');
 $theme_location   = get_bloginfo('stylesheet_directory');
+
+$parent      = array_reverse(get_post_ancestors($post->ID));
+$page_parent = get_page($parent[0]);
+echo $page_parent->post_name;
+
 echo '<nav class="navbar navbar-expand-lg mainNav">'.PHP_EOL;
 echo '<div class="wrapper">'.PHP_EOL;
 if (!empty($site_logo_header)) {
