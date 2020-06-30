@@ -2251,15 +2251,15 @@ body .subsites__nav li:first-of-type a {
 .section-english-for-refugees .subbanner {
   background-color: #e44d74; }
 
-.section-f1 .subsites {
+.section-f1-student-services .subsites {
   background-color: #3db166; }
-  .section-f1 .subsites__nav li a {
+  .section-f1-student-services .subsites__nav li a {
     color: #fefefe; }
-  .section-f1 .subsites__nav li:last-of-type a {
+  .section-f1-student-services .subsites__nav li:last-of-type a {
     background-color: #192f59;
     color: #fefefe; }
-    .section-f1 .subsites__nav li:last-of-type a:hover {
+    .section-f1-student-services .subsites__nav li:last-of-type a:hover {
       background-color: rgba(25, 47, 89, 0.3); }
 
-.section-f1 .subbanner {
+.section-f1-student-services .subbanner {
   background-color: #3db166; }
