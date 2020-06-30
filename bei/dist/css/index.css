@@ -1030,9 +1030,6 @@ section:not(.banner):not(.featured) .container-fluid {
     position: relative;
     width: 100%;
     -webkit-font-smoothing: antialiased; }
-    @media (min-width: 786px) {
-      .twoItemFeature__item {
-        width: 49.125%; } }
     .twoItemFeature__item:before {
       border: 0.0625rem solid #fefefe;
       content: '';

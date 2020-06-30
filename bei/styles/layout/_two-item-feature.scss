@@ -17,9 +17,6 @@
 	    position: relative;
 	    width:100%;
 		-webkit-font-smoothing: antialiased;
-		@include for-tablet-up {
-		    width: 49.125%;
-		}
 		&:before {
 			border: .0625rem solid $white_1;			
 			content: '';
