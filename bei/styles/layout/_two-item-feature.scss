@@ -11,6 +11,7 @@
 	&__item	{
 		color:$white_1;
 		display: flex;
+	    flex: 0 0 47.5%;
 		flex-flow: column;
 	    margin: .25rem;
 	    padding: 2.5rem;
