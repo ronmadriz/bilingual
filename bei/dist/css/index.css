@@ -2235,3 +2235,9 @@ section:not(.banner):not(.featured) .container-fluid {
     .overview__sub--btn {
       display: block;
       margin-top: 2rem; }
+
+.section-english-for-refugees .subsites {
+  background-color: #e44d74; }
+
+.section-english-for-refugees .subbanner {
+  background-color: #e44d74; }
