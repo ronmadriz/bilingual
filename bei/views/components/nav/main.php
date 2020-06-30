@@ -7,8 +7,7 @@ $pageID = get_the_id();
 $pageCF = get_post_custom($pageID);
 
 global $post;
-$parents = get_post_ancestors($post->ID);
-/* Get the ID of the 'top most' Page if not return current page ID */
+$parents   = get_post_ancestors($post->ID);
 $parent_id = ($parents)?$parents[count($parents)-1]:$post->ID;
 
 echo '<nav class="navbar navbar-expand-lg mainNav">'.PHP_EOL;
