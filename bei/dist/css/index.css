@@ -2243,3 +2243,11 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .section-english-for-refugees .subbanner {
   background-color: #e44d74; }
+
+.section-f1 .subsites {
+  background-color: #3db166; }
+  .section-f1 .subsites__nav li a {
+    color: #fefefe; }
+
+.section-f1 .subbanner {
+  background-color: #3db166; }
