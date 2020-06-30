@@ -24,7 +24,7 @@ echo '</title>'.PHP_EOL;
 wp_head();
 echo $site_settings['header_extra'];
 echo '</head>'.PHP_EOL;
-echo '<body id="page-'.$slug.'"';
+echo '<body id="page-'.$slug.'" ';
 body_class();
 echo '>'.PHP_EOL;
 include ('views/global/header/index.php');
