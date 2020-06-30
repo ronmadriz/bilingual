@@ -46,3 +46,22 @@
 		}
 	}
 }
+body {
+	&:not('.section-f1', '.section-english-for-refugees') {
+		.subsites {
+			&__nav {
+				li {
+				    &:first-of-type{
+						a {
+							background-color:$white_1;
+						    color: $black_1;
+							&:hover {
+							    background-color: rgba($black_1, .15);
+							}
+						}
+					}			
+				}
+			}
+		}			
+	}
+}
