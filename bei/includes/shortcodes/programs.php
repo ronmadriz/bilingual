@@ -6,8 +6,8 @@ function function_childprograms() {
 		$childpages = wp_list_pages('post_type=uve_courses&sort_column=menu_order&title_li=&child_of='.$post->ID.'&echo=0');
 	}
 	if ($childpages) {
-		$string = '<ul>'.$childpages.'</ul>';
+		$program_string = '<ul>'.$childpages.'</ul>';
 	}
-	return $string;
+	return $program_string;
 }
 add_shortcode('childprograms', 'function_childprograms');
