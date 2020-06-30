@@ -9,17 +9,18 @@
 	    margin: .25rem;
 	    padding: 2.5rem;
 	    position: relative;
-	    width:100%;
 		-webkit-font-smoothing: antialiased;
-		&:before {
-			border: .0625rem solid $white_1;			
-			content: '';
-			display: block;
-			height: 97%;
-			left: 1.5%;
-			position: absolute;
-			top: 1.5%;
-			width: 97%;
+		@include for-tablet-up {
+			&:before {
+				border: .0625rem solid $white_1;			
+				content: '';
+				display: block;
+			    height: 87.5%;
+			    left: 2.25%;
+				position: absolute;
+			    top: 6%;
+			    width: 95%;			
+			}		
 		}
 		&:nth-of-type(1) {
 			background-color: $info_1;

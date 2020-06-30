@@ -1021,17 +1021,17 @@ section:not(.banner):not(.featured) .container-fluid {
     margin: .25rem;
     padding: 2.5rem;
     position: relative;
-    width: 100%;
     -webkit-font-smoothing: antialiased; }
-    .twoItemFeature__item:before {
-      border: 0.0625rem solid #fefefe;
-      content: '';
-      display: block;
-      height: 97%;
-      left: 1.5%;
-      position: absolute;
-      top: 1.5%;
-      width: 97%; }
+    @media (min-width: 786px) {
+      .twoItemFeature__item:before {
+        border: 0.0625rem solid #fefefe;
+        content: '';
+        display: block;
+        height: 87.5%;
+        left: 2.25%;
+        position: absolute;
+        top: 6%;
+        width: 95%; } }
     .twoItemFeature__item:nth-of-type(1) {
       background-color: #53a4d6; }
     .twoItemFeature__item:nth-of-type(2) {
