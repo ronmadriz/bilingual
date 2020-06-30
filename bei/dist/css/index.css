@@ -1537,6 +1537,8 @@ section:not(.banner):not(.featured) .container-fluid {
       margin-right: 0.8125rem; }
     .accordion__header--btn[aria-expanded=true]:before {
       background-image: url("../../sprites/minus.svg"); }
+    .accordion__header--btn:hover {
+      text-transform: uppercase; }
 
 .accordion__content {
   padding-left: 3rem; }
