@@ -14,9 +14,9 @@ function childprograms_shortcode_callback($atts) {
 		$parent_id = get_the_ID();
 	}
 
-	$postresult = '';
+	$programpostresult = '';
 	if (!$parent_id) {// don't waste time getting pages, if we couldn't get parent page
-		return $postresult;
+		return $programpostresult;
 	}
 
 	$childprograms = wp_list_pages(array(
@@ -28,9 +28,9 @@ function childprograms_shortcode_callback($atts) {
 		));
 
 	if ($childprograms) {
-		$postresult = '<ul>'.$childprograms.'</ul>';
+		$programpostresult = '<ul>'.$childprograms.'</ul>';
 	}
 
-	return $postresult;
+	return $programpostresult;
 }
 add_shortcode('childprograms', 'childprograms_shortcode_callback');
