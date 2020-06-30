@@ -346,3 +346,14 @@ add_filter('wpcf7_form_elements', function ($content) {
 
 		return $content;
 	});
+
+// Check parent function
+
+function is_child($pageID) {
+	global $post;
+	if (is_page() && ($post->post_parent == $pageID)) {
+		return true;
+	} else {
+		return false;
+	}
+}
