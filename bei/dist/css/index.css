@@ -1348,6 +1348,9 @@ body .subsites__nav li:first-of-type a {
   .form-group input.form-control[type=date]::-webkit-calendar-picker-indicator:active {
     color: #101010; }
 
+.form-group .form-check-input {
+  position: relative; }
+
 @media (min-width: 786px) {
   table {
     width: 100%;
