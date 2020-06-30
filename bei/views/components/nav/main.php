@@ -6,6 +6,14 @@ $theme_location   = get_bloginfo('stylesheet_directory');
 $pageID = get_the_id();
 $pageCF = get_post_custom($pageID);
 
+if ($post->post_parent) {
+	$ancestors = get_post_ancestors($post->ID);
+	$root      = count($ancestors)-1;
+	$parent    = $ancestors[$root];
+} else {
+	$parent = $post->ID;
+}
+
 echo '<nav class="navbar navbar-expand-lg mainNav">'.PHP_EOL;
 echo '<div class="wrapper">'.PHP_EOL;
 if (!empty($site_logo_header)) {
@@ -20,24 +28,45 @@ echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '<span class="mainNav__toggler--item"></span>'.PHP_EOL;
 echo '</button>'.PHP_EOL;
 echo '<div class="navbar-collapse collapse order-12 mainNav__container" id="navigation">'.PHP_EOL;
-$main_menu_args = array(
-	'theme_location'  => '',
-	'menu'            => 'main-nav',
-	'container'       => '',
-	'container_class' => '',
-	'container_id'    => '',
-	'menu_class'      => 'navbar-nav ml-md-auto',
-	'menu_id'         => 'navigation',
-	'echo'            => true,
-	'fallback_cb'     => 'wp_page_menu',
-	'before'          => '',
-	'after'           => '',
-	'link_before'     => '',
-	'link_after'      => '',
-	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-	'walker'          => new WP_Bootstrap_Navwalker(),
-	'depth'           => 3,
-);
+if ($post->post_parent = 313) {
+	$main_menu_args = array(
+		'theme_location'  => '',
+		'menu'            => 'refugee',
+		'container'       => '',
+		'container_class' => '',
+		'container_id'    => '',
+		'menu_class'      => 'navbar-nav ml-md-auto',
+		'menu_id'         => 'navigation',
+		'echo'            => true,
+		'fallback_cb'     => 'wp_page_menu',
+		'before'          => '',
+		'after'           => '',
+		'link_before'     => '',
+		'link_after'      => '',
+		'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		'walker'          => new WP_Bootstrap_Navwalker(),
+		'depth'           => 3,
+	);
+} else {
+	$main_menu_args = array(
+		'theme_location'  => '',
+		'menu'            => 'main-nav',
+		'container'       => '',
+		'container_class' => '',
+		'container_id'    => '',
+		'menu_class'      => 'navbar-nav ml-md-auto',
+		'menu_id'         => 'navigation',
+		'echo'            => true,
+		'fallback_cb'     => 'wp_page_menu',
+		'before'          => '',
+		'after'           => '',
+		'link_before'     => '',
+		'link_after'      => '',
+		'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		'walker'          => new WP_Bootstrap_Navwalker(),
+		'depth'           => 3,
+	);
+}
 wp_nav_menu($main_menu_args);
 echo '</div>'.PHP_EOL;
 echo '<a href="#" class="mainNav__search order-md-12"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
