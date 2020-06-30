@@ -1003,19 +1003,6 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .twoItemFeature {
   padding-bottom: 2rem; }
-  .twoItemFeature__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    font-size: 0.75rem;
-    line-height: 1.7;
-    width: 100%; }
   .twoItemFeature__item {
     color: #fefefe;
     display: -webkit-box;
@@ -1028,6 +1015,9 @@ section:not(.banner):not(.featured) .container-fluid {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: .25rem;
     padding: 2.5rem;
     position: relative;
@@ -1059,6 +1049,19 @@ section:not(.banner):not(.featured) .container-fluid {
     font-size: 1.1875rem;
     font-weight: 700;
     margin-bottom: 10px; }
+  .twoItemFeature__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    width: 100%; }
 
 .subsites {
   background-color: #192f59;
