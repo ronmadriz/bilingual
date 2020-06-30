@@ -44,7 +44,7 @@ include (THEME_INCLUDE.'/class-wp-bootstrap-navwalker.php');
 include (THEME_INCLUDE.'/options/default.php');
 include (THEME_INCLUDE.'/breadcrumbs-functions.php');
 include (THEME_INCLUDE.'/programs_list_walker.php');
-// include (THEME_INCLUDE.'/options/info.php');
+include (THEME_INCLUDE.'/toplevel.php');
 remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wp_generator');
 remove_action('wp_head', 'feed_links', 2);
