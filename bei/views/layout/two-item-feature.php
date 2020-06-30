@@ -1,6 +1,6 @@
 <?php
 echo '<section id="twoItemFeature" class="twoItemFeature">'.PHP_EOL;
-echo '<div class="container-fluid temFeature__wrapper">'.PHP_EOL;
+echo '<div class="container-fluid twoItemFeature__wrapper">'.PHP_EOL;
 echo '<div class="row twoItemFeature__content">'.PHP_EOL;
 if (have_rows('first_item')) {
 	while (have_rows('first_item')) {
