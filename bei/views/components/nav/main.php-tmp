@@ -59,7 +59,8 @@ if (in_array('section-english-for-refugees', $classes)) {
 		'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 		'walker'          => new WP_Bootstrap_Navwalker(),
 		'depth'           => 3,
-	);
+	) {;
+	}
 } else {
 	$main_menu_args = array(
 		'theme_location'  => '',
