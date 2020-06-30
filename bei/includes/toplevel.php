@@ -1,7 +1,7 @@
 <?php
 /* Add body-class for top-level parent Page or Category */
 function topcatpg_body_class($class) {
-	$prefix     = 'topic-';// Editable class name prefix.
+	$prefix     = 'childof-';// Editable class name prefix.
 	$top_cat_pg = 'home';// Default.
 	global $top_cat_pg;
 
