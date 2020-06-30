@@ -1531,8 +1531,8 @@ section:not(.banner):not(.featured) .container-fluid {
       content: '';
       cursor: pointer;
       display: inline-block;
-      background-size: 1rem;
-      padding: 1rem;
+      background-size: .5rem;
+      padding: .6275rem;
       border: 0.0625rem solid #ababab;
       margin-right: 0.8125rem; }
     .accordion__header--btn[aria-expanded=true]:before {
