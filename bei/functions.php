@@ -87,6 +87,7 @@ function register_my_menu() {
 	register_nav_menu('about', __('about', 'about'));
 	register_nav_menu('policies', __('policies', 'policies'));
 	register_nav_menu('refugees', __('refugees', 'refugees'));
+	register_nav_menu('f1', __('f1', 'f1'));
 }
 function my_mce_buttons_2($buttons) {
 	$buttons[] = 'sup';
