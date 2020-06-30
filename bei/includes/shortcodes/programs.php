@@ -20,7 +20,7 @@ function childprograms_shortcode_callback($atts) {
 	}
 
 	$childprograms = wp_list_pages(array(
-			'post_type'   => 'post',
+			'post_type'   => 'programs',
 			'sort_column' => 'menu_order',
 			'title_li'    => '',
 			'child_of'    => $parent_id,
