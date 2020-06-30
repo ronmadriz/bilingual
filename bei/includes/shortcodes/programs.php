@@ -1,36 +1,16 @@
 <?php
-function childprograms_shortcode_callback($atts) {
-	$atts = shortcode_atts(array(
-			'parent' => false,
-		), $atts, 'childprograms');
-
-	$parent_id = false;
-	if ($atts['parent']) {
-		$parent = get_page_by_path($atts['parent']);
-		if ($parent) {
-			$parent_id = $parent->ID;
-		}
-	} else {// if no parent passed, then show children of current page
-		$parent_id = get_the_ID();
+function v_childprograms() {
+	global $post;
+	// for Pages with a parent
+	if (is_page() && $post->post_parent) {
+		$childpages = wp_list_pages('sort_column=menu_order&title_li=&child_of='.$post->post_parent.'&echo=0');
+		// for individual CPTs with a parent
+	} elseif (is_singular('programs') && $post->post_parent) {
+		$childpages = wp_list_pages('post_type=uve_courses&sort_column=menu_order&title_li=&child_of='.$post->ID.'&echo=0');
 	}
-
-	$programpostresult = '';
-	if (!$parent_id) {// don't waste time getting pages, if we couldn't get parent page
-		return $programpostresult;
+	if ($childpages) {
+		$string = '<ul>'.$childpages.'</ul>';
 	}
-
-	$childprograms = wp_list_pages(array(
-			'post_type'   => 'programs',
-			'sort_column' => 'menu_order',
-			'title_li'    => '',
-			'child_of'    => $parent_id,
-			'echo'        => 0,
-		));
-
-	if ($childprograms) {
-		$programpostresult = '<ul>'.$childprograms.'</ul>';
-	}
-
-	return $programpostresult;
+	return $string;
 }
-add_shortcode('childprograms', 'childprograms_shortcode_callback');
+add_shortcode('childprograms', 'v_childprograms');
