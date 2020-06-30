@@ -56,7 +56,8 @@ body {
 							background-color:$white_1;
 						    color: $black_1;
 							&:hover {
-							    background-color: rgba($black_1, .15);
+							    background-color:$white_1;
+							    color: $black_1;
 							}
 						}
 					}			

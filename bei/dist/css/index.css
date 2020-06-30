@@ -1110,7 +1110,8 @@ body .subsites__nav li:first-of-type a {
   background-color: #fefefe;
   color: #181818; }
   body .subsites__nav li:first-of-type a:hover {
-    background-color: rgba(24, 24, 24, 0.15); }
+    background-color: #fefefe;
+    color: #181818; }
 
 .mainNav {
   background-color: #fefefe;
