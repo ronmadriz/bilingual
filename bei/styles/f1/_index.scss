@@ -1,0 +1,15 @@
+.section-f1 {
+	.subsites {
+		background-color:$accent_2;
+		&__nav {
+			li {
+				a {
+					color:$white_1;
+				}
+			}
+		}
+	}	
+	.subbanner {
+		background-color:$accent_2;
+	}
+}
