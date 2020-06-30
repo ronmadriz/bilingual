@@ -25,7 +25,7 @@ $classes = get_body_class();
 if (in_array('section-english-for-refugees', $classes)) {
 	$main_menu_args = array(
 		'theme_location'  => '',
-		'menu'            => 'refugee',
+		'menu'            => 'refugees',
 		'container'       => '',
 		'container_class' => '',
 		'container_id'    => '',
