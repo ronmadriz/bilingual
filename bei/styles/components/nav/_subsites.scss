@@ -47,7 +47,7 @@
 	}
 }
 body {
-	&:not('.section-f1', '.section-english-for-refugees') {
+	&:not(.section-f1, .section-english-for-refugees) {
 		.subsites {
 			&__nav {
 				li {
