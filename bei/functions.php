@@ -351,9 +351,11 @@ add_filter('wpcf7_form_elements', function ($content) {
 
 function is_child($pageID) {
 	global $post;
-	if (is_page() && ($post->post_parent == $pageID)) {
-		return true;
+	if ($post->post_parent) {
+		$ancestors = get_post_ancestors($post->ID);
+		$root      = count($ancestors)-1;
+		$parent    = $ancestors[$root];
 	} else {
-		return false;
+		$parent = $post->ID;
 	}
 }
