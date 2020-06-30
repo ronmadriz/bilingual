@@ -1351,6 +1351,9 @@ body .subsites__nav li:first-of-type a {
 .form-group .form-check-input {
   position: relative; }
 
+.form-group .wpcf7-list-item {
+  display: block; }
+
 @media (min-width: 786px) {
   table {
     width: 100%;
