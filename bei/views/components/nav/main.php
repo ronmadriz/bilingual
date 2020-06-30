@@ -41,7 +41,7 @@ if (in_array('section-english-for-refugees', $classes)) {
 		'walker'          => new WP_Bootstrap_Navwalker(),
 		'depth'           => 3,
 	);
-} elseif {
+} elseif (in_array('section-f1', $classes)) {
 	$main_menu_args = array(
 		'theme_location'  => '',
 		'menu'            => 'f1',
