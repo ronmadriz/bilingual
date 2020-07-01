@@ -1564,7 +1564,7 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 0; }
     @media (min-width: 786px) {
       .subbanner__title {
-        font-size: 3rem; } }
+        font-size: 2.725rem; } }
 
 .cta {
   padding-top: 6rem;
