@@ -1,6 +1,6 @@
 .subsites {
-	background-color: $accent_1;
-	color:$white_1;
+	background-color: $bei_1;
+	color:$gray_1;
 	&__wrapper {
 	    flex-direction: row-reverse;
 		@include for-phone-only {
@@ -35,16 +35,16 @@
 			    letter-spacing: .125rem;
 			    text-decoration: none;
 				&:hover {
-				    color: $white_1;
+				    color: $gray_1;
 				}			    
 		    }
 		    &:first-of-type{
 				a {
 					background-color:$white_1;
-				    color: $black_1;
+				    color: $gray_1;
 					&:hover {
 					    background-color:$white_1;
-					    color: $black_1;
+					    color: $gray_1;
 					}
 				}
 			}				
