@@ -19,9 +19,16 @@
 		&--img {
 			max-height: 2.5rem;
 		}
-		&--next {}
+		&--next {
+			@include for-tablet-up {
+				left:-7rem;
+			}
+		}
 		&--prev {
 			transform: rotate(-180deg);
+			@include for-tablet-up {
+				right:-7rem;
+			}
 		}
 	}
 }
