@@ -623,7 +623,8 @@ section:not(.banner):not(.featured) .container-fluid {
        object-fit: contain; }
     @media (min-width: 786px) {
       .imagebar__image {
-        margin-top: -8.125rem;
+        -webkit-transform: translate(0, -6.25rem);
+                transform: translate(0, -6.25rem);
         width: 47.5%; } }
   .imagebar__details {
     color: #fefefe;
