@@ -14,7 +14,7 @@
 						    color: $gray_8;
 						}
 					}
-				}					
+				}
 			    &:nth-of-type(2){
 					a {
 						background-color:$white_1;
@@ -24,7 +24,15 @@
 						    color: $gray_8;
 						}
 					}
-				}		
+				}
+				&:last-of-type{
+					a {
+						color:$white_1;
+						&:hover {
+						    color: $white_1;
+						}
+					}
+				}
 			}
 		}
 	}
