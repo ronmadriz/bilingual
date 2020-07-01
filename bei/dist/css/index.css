@@ -2029,6 +2029,9 @@ section:not(.banner):not(.featured) .container-fluid {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 0; }
   .single-programs .block__item {
     -webkit-box-align: center;
