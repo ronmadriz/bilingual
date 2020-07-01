@@ -1,6 +1,14 @@
 <?php
 $progam_ID = get_the_ID();
 
+$program_overview_args = array(
+	'post_type'      => 'programs',
+	'posts_per_page' => -1,
+	'order'          => 'ASC',
+	'orderby'        => 'menu_order',
+);
+$parent_overview = new WP_Query($program_overview_args);
+
 $program_args = array(
 	'post_type'      => 'programs',
 	'posts_per_page' => -1,
@@ -14,6 +22,20 @@ include (get_template_directory().'/views/components/banner/subpages.php');
 echo '<section id="overview" class="overview">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
+if ($parent_overview->have_posts()) {
+	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
+	the_content();
+	echo '<ul class="overview__list">'.PHP_EOL;
+	while ($parent_overview->have_posts()) {
+		$parent_overview->the_post();
+		echo '<li class="overview__item"><a href="'.get_the_permalink().'" class="overview__link">'.get_the_title().'</a></li>'.PHP_EOL;
+	}
+
+	echo '</ul>'.PHP_EOL;
+	echo '</div>'.PHP_EOL;
+}
+wp_reset_postdata();
+
 if ($parent->have_posts()) {
 	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
 	the_content();
