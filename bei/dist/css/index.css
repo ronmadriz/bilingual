@@ -1991,7 +1991,7 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .single-programs .subjects {
   background-color: #f3f3f3;
-  color: #fefefe;
+  color: #444444;
   fill: #3db166;
   padding-bottom: 2rem;
   padding-top: 4rem; }
