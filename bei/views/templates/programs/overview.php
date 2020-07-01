@@ -19,7 +19,7 @@ if ($childprograms->have_posts()) {
 	while ($childprograms->have_posts()) {
 		$childprograms->the_post();
 		$childprogram__image   = get_the_post_thumbnail_url($size = 'medium');
-		$childprogram__img     = (!empty($childprogram__image)?$childprogram__image:'');
+		$childprogram__img     = (!empty($childprogram__image)?$childprogram__image:'/wp-content/uploads/2020/06/student-life-11-768x594.png');
 		$childprogram__link    = get_the_permalink();
 		$childprogram__title   = get_the_title();
 		$childprogram__excerpt = get_the_excerpt();
