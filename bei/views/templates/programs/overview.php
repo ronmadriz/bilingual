@@ -28,7 +28,7 @@ if ($childprograms->have_posts()) {
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo (!empty($childprogram__title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$childprogram__title.'</h3></span>'.PHP_EOL:'');
 		echo (!empty($childprogram__excerpt)?'<span class="tiled__desc card-text">'.$childprogram__excerpt.'</span>'.PHP_EOL:'');
-		echo (!empty($childprogram__link)?'<a href="'.$childprogram__link.'" class="tiled__link">'.$childprogram__title.' <span class="tiled__link--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
+		echo (!empty($childprogram__link)?'<a href="'.$childprogram__link.'" class="tiled__link">Learn about '.$childprogram__title.' <span class="tiled__link--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
 		echo '</figcaption>'.PHP_EOL;
 		echo '</figure>'.PHP_EOL;
 	}
