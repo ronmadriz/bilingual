@@ -12,8 +12,8 @@ if ($ri_images) {
 		$ri_counter++;
 	}
 	echo '</div>'.PHP_EOL;
-	echo '<a class="rotating__nav rotating__nav--prev carousel-control-prev" href="#rotating__content" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>'.PHP_EOL;
-	echo '<a class="rotating__nav rotating__nav--next carousel-control-next" href="#rotating__content" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>'.PHP_EOL;
+	echo '<a class="carousel-control-prev banner__nav banner__nav--prev" href="#banner__slides" role="button" data-slide="prev"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Previous</span></a>'.PHP_EOL;
+	echo '<a class="carousel-control-next banner__nav banner__nav--next" href="#banner__slides" role="button" data-slide="next"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Next</span></a>'.PHP_EOL;
 	echo '<ol class="carousel-indicators rotating__indicators">'.PHP_EOL;
 	$ri_ind_counter = 0;
 	foreach ($ri_images as $ri_image_indicator) {
