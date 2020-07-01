@@ -15,7 +15,7 @@
 		max-width:100%;
 		object-fit: contain;
 		@include for-tablet-up {
-			transform: translate(0, -8.125rem;);
+			transform: translate(0, -8.125rem);
 			width:47.5%;
 		}
 	}
