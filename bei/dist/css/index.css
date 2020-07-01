@@ -1116,10 +1116,12 @@ section:not(.banner):not(.featured) .container-fluid {
         color: #181818; }
     .subsites__nav li:last-of-type a {
       background-color: #3db166;
-      color: #fefefe;
-      margin-top: .35rem; }
+      color: #fefefe; }
       .subsites__nav li:last-of-type a:hover {
         background-color: #5bc681; }
+      @media (max-width: 786px) {
+        .subsites__nav li:last-of-type a {
+          margin-top: .35rem; } }
 
 .mainNav {
   background-color: #fefefe;
