@@ -1104,7 +1104,7 @@ section:not(.banner):not(.featured) .container-fluid {
         .subsites__nav a {
           font-size: .5rem; } }
     .subsites__nav li a {
-      color: #ababab;
+      color: #fefefe;
       font-weight: 500;
       letter-spacing: .125rem;
       text-decoration: none; }
