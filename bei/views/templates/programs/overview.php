@@ -26,7 +26,7 @@ if ($childprograms->have_posts()) {
 		echo '<a href="'.$childprogram__link.'" class="tiled__image--link"><img src="'.esc_url($childprogram__img).'" alt="'.$childprogram__title.'" class="tiled__image card-img-top img-fluid"></a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo (!empty($childprogram__title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$childprogram__title.'</h3></span>'.PHP_EOL:'');
-		echo (!empty($childprogram__link)?'<a href="'.$childprogram__link.'" class="tiled__link">Learn about '.$childprogram__title.' <span class="tiled__link--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
+		echo (!empty($childprogram__link)?'<a href="'.$childprogram__link.'" class="tiled__link">Learn More<span class="tiled__link--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
 		echo '</figcaption>'.PHP_EOL;
 		echo '</figure>'.PHP_EOL;
 	}
