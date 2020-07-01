@@ -6,13 +6,14 @@
     &__content {
     	align-items: center;
 		display: flex;
+		flex-wrap:wrap;
     }
     &__item {
 		background-color: $accent_2;
 		display: flex;
 		margin-right: .25rem;
 		height: 5rem;
-		width: 50%;
+	    width: 47.5%;
 		align-items: center;
 		@include for-tablet-up {
 			width: 19.25%;
@@ -20,7 +21,7 @@
     }
 	&__desc {
 	    color: $white_0;
-	    display: block;
+	    display: inline-block;
 	    font-size: 1.3725rem;
 	    font-weight: 600;
 	    text-align: center;

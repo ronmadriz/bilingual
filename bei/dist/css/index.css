@@ -2024,7 +2024,9 @@ section:not(.banner):not(.featured) .container-fluid {
             align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .single-programs .block__item {
     background-color: #3db166;
     display: -webkit-box;
@@ -2032,7 +2034,7 @@ section:not(.banner):not(.featured) .container-fluid {
     display: flex;
     margin-right: .25rem;
     height: 5rem;
-    width: 50%;
+    width: 47.5%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
@@ -2041,7 +2043,7 @@ section:not(.banner):not(.featured) .container-fluid {
         width: 19.25%; } }
   .single-programs .block__desc {
     color: #fff;
-    display: block;
+    display: inline-block;
     font-size: 1.3725rem;
     font-weight: 600;
     text-align: center; }
