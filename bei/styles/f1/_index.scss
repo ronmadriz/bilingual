@@ -4,7 +4,7 @@
 		&__nav {
 			li {				
 				a {
-					color:$white_1;
+					color:$bei_3;
 				}
 				&:first-of-type{
 					a {
@@ -12,17 +12,17 @@
 					    color: $white_1;
 						&:hover {
 						    background-color: rgba($bei_3, .3);
-						    color: $black_1;
+						    color: $bei_3;
 						}
 					}
 				}					
 			    &:nth-of-type(2){
 					a {
 						background-color:$white_1;
-					    color: $black_1;
+					    color: $bei_3;
 						&:hover {
 						    background-color:$white_1;
-						    color: $black_1;
+						    color: $bei_3;
 						}
 					}
 				}				
@@ -40,5 +40,6 @@
 	}	
 	.subbanner {
 		background-color:$bei_3;
+		color:$bei_3;
 	}
 }
