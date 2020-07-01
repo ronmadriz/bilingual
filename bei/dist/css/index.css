@@ -1554,8 +1554,8 @@ section:not(.banner):not(.featured) .container-fluid {
     padding-top: 3.25rem; }
     @media (min-width: 786px) {
       .subbanner__content {
-        padding-bottom: 7.25rem;
-        padding-top: 7.875rem; } }
+        padding-bottom: 4.25rem;
+        padding-top: 4.875rem; } }
   .subbanner__title {
     color: #fefefe;
     font-size: 2rem;
