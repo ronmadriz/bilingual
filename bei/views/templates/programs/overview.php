@@ -2,7 +2,7 @@
 $progam_ID = get_the_ID();
 
 $program_args = array(
-	'post_type'      => 'page',
+	'post_type'      => 'programs',
 	'posts_per_page' => -1,
 	'post_parent'    => $progam_ID,
 	'order'          => 'ASC',
