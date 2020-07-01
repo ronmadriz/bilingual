@@ -16,10 +16,10 @@ echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 if ($parent->have_posts()) {
 	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
-	echo '<ul>'.PHP_EOL;
+	echo '<ul class="overview__list">'.PHP_EOL;
 	while ($parent->have_posts()) {
 		$parent->the_post();
-		echo '<li><a href="'.get_the_permalink().'">'.get_the_title().'</a></li>'.PHP_EOL;
+		echo '<li class="overview__item"><a href="'.get_the_permalink().'" class="overview__link">'.get_the_title().'</a></li>'.PHP_EOL;
 	}
 
 	echo '</ul>'.PHP_EOL;
