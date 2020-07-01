@@ -13,9 +13,10 @@
 		align-items: center;
 		background-color: $accent_2;
 		display: flex;
-		justify-content: center;
-		margin-right: .25rem;
 		height: 12rem;
+		justify-content: center;
+		margin-bottom: .25rem;
+		margin-right: .25rem;
 	    width: 47.5%;
 		@include for-tablet-up {
 			width: 19.25%;
