@@ -1067,6 +1067,10 @@ section:not(.banner):not(.featured) .container-fluid {
 .subsites {
   background-color: #192f59;
   color: #fefefe; }
+  @media (max-width: 786px) {
+    .subsites {
+      padding-left: 0;
+      padding-right: 0; } }
   .subsites__wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;

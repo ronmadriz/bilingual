@@ -1,6 +1,10 @@
 .subsites {
 	background-color: $accent_1;
 	color:$white_1;
+	@include for-phone-only {
+	    padding-left: 0;
+	    padding-right: 0;		
+	}
 	&__wrapper {
 	    flex-direction: row-reverse;
 	}
