@@ -2,7 +2,7 @@
 $progam_ID = get_the_ID();
 
 $program_overview_args = array(
-	'post_parent' 	 => 0,
+	'post_parent'    => 0,
 	'post_type'      => 'programs',
 	'posts_per_page' => -1,
 	'order'          => 'ASC',
@@ -37,7 +37,7 @@ if (is_page('10')) {
 		echo '</div>'.PHP_EOL;
 	}
 	wp_reset_postdata();
-} elseif {
+} else {
 	if ($parent->have_posts()) {
 		echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
 		the_content();
