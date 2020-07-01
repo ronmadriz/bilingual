@@ -8,7 +8,7 @@ $program_args = array(
 	'order'          => 'ASC',
 	'orderby'        => 'menu_order',
 );
-$parent = new WP_Query($args);
+$parent = new WP_Query($program_args);
 
 include (get_template_directory().'/views/components/banner/subpages.php');
 echo '<section id="overview" class="overview">'.PHP_EOL;
