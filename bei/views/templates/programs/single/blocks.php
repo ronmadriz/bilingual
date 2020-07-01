@@ -1,8 +1,8 @@
 <?php
 if (have_rows('blocks')) {
 	echo '<section id="block" class="block">'.PHP_EOL;
-	echo '<div class="container-fluid">'.PHP_EOL;
-	echo '<div class="row block__wrapper">'.PHP_EOL;
+	echo '<div class="container-fluid block__wrapper">'.PHP_EOL;
+	echo '<div class="row">'.PHP_EOL;
 	echo '<div class="col-12 block__content">'.PHP_EOL;
 	while (have_rows('blocks')) {
 		the_row();

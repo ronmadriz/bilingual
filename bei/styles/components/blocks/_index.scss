@@ -1,12 +1,13 @@
 .block {
     padding:0 0 2rem;
     &__wrapper {
-
+		padding: 0;
     }
     &__content {
     	align-items: center;
 		display: flex;
 		flex-wrap:wrap;
+		padding: 0;
     }
     &__item {
 		background-color: $accent_2;

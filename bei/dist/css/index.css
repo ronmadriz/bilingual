@@ -2018,6 +2018,8 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .single-programs .block {
   padding: 0 0 2rem; }
+  .single-programs .block__wrapper {
+    padding: 0; }
   .single-programs .block__content {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -2026,7 +2028,8 @@ section:not(.banner):not(.featured) .container-fluid {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    padding: 0; }
   .single-programs .block__item {
     background-color: #3db166;
     display: -webkit-box;
