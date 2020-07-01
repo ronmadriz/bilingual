@@ -21,10 +21,11 @@ if ($parent->have_posts()) {
 		$parent->the_post();
 		echo '<li>'.get_the_title().'</li>'.PHP_EOL;
 	}
-	wp_reset_postdata();
+
 	echo '</ul>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 }
+wp_reset_postdata();
 echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
 echo '<h3 class="overview__sub--title">Department Contact Info</h3>'.PHP_EOL;
 echo '<span class="overview__sub--desc">'.PHP_EOL;
