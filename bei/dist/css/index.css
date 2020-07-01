@@ -2040,7 +2040,7 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     margin-right: .25rem;
     min-height: 2rem;
-    width: 19.25%; }
+    width: 75%; }
     @media (min-width: 786px) {
       .single-programs .block__item {
         width: 19.25%; } }
