@@ -2320,8 +2320,3 @@ section:not(.banner):not(.featured) .container-fluid {
     .section-f1-student-resources .subsites__nav li:nth-of-type(2) a:hover {
       background-color: #fefefe;
       color: #444444; }
-  .section-f1-student-resources .subsites__nav li:last-of-type a {
-    background-color: #192f59;
-    color: #fefefe; }
-    .section-f1-student-resources .subsites__nav li:last-of-type a:hover {
-      background-color: rgba(25, 47, 89, 0.3); }

@@ -24,16 +24,7 @@
 						    color: $gray_8;
 						}
 					}
-				}				
-			    &:last-of-type{
-					a {
-						background-color:$accent_1;
-					    color: $white_1;
-						&:hover {
-						    background-color: rgba($accent_1, .3);
-						}
-					}
-				}			
+				}		
 			}
 		}
 	}
