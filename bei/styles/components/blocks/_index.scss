@@ -1,5 +1,17 @@
 .block {
     padding:0 0 2rem;
+    &__wrapper {
+
+    }
+    &__content {
+		display: flex;
+		flex-direction: row;
+    }
+    &__item {
+		display: block;
+		margin-right: .25rem;    	
+		width: 19.25%;
+    }
 	&__desc {
 		background-color: $accent_2;
 	    color: $white_0;
@@ -8,9 +20,5 @@
 	    font-weight: 600;
 	    margin-bottom: 2rem;
 	    text-align: center;
-	    @include for-tablet-up {
-	    	margin-bottom: 0;
-		    padding: 5.875rem 1.25rem;
-	    }
 	}
 }

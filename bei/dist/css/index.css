@@ -2018,6 +2018,18 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .single-programs .block {
   padding: 0 0 2rem; }
+  .single-programs .block__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .single-programs .block__item {
+    display: block;
+    margin-right: .25rem;
+    width: 19.25%; }
   .single-programs .block__desc {
     background-color: #3db166;
     color: #fff;
@@ -2026,10 +2038,6 @@ section:not(.banner):not(.featured) .container-fluid {
     font-weight: 600;
     margin-bottom: 2rem;
     text-align: center; }
-    @media (min-width: 786px) {
-      .single-programs .block__desc {
-        margin-bottom: 0;
-        padding: 5.875rem 1.25rem; } }
 
 .single-programs .simple_tabs {
   background-color: #e6e6e6;
