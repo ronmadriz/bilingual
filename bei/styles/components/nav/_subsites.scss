@@ -35,23 +35,20 @@
 			    letter-spacing: .125rem;
 			    text-decoration: none;
 				&:hover {
-				    color: $gray_1;
+				    color: $white_1;
 				}			    
 		    }
 		    &:first-of-type{
 				a {
 					background-color:$white_1;
-				    color: $gray_1;
 					&:hover {
 					    background-color:$white_1;
-					    color: $gray_1;
 					}
 				}
 			}				
 		    &:last-of-type{
 				a {
 					background-color:$accent_2;
-				    color: $white_1;
 					&:hover {
 					    background-color: $accent_2-lt;
 					}

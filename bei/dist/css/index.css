@@ -1109,16 +1109,13 @@ section:not(.banner):not(.featured) .container-fluid {
       letter-spacing: .125rem;
       text-decoration: none; }
       .subsites__nav li a:hover {
-        color: #838383; }
+        color: #fefefe; }
     .subsites__nav li:first-of-type a {
-      background-color: #fefefe;
-      color: #838383; }
+      background-color: #fefefe; }
       .subsites__nav li:first-of-type a:hover {
-        background-color: #fefefe;
-        color: #838383; }
+        background-color: #fefefe; }
     .subsites__nav li:last-of-type a {
-      background-color: #3db166;
-      color: #fefefe; }
+      background-color: #3db166; }
       .subsites__nav li:last-of-type a:hover {
         background-color: #5bc681; }
       @media (max-width: 786px) {
