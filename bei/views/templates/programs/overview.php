@@ -19,7 +19,7 @@ if ($parent->have_posts()) {
 	echo '<ul>'.PHP_EOL;
 	while ($parent->have_posts()) {
 		$parent->the_post();
-
+		echo '<li>'.get_the_title().'</li>'.PHP_EOL;
 	}
 	wp_reset_postdata();
 	echo '</ul>'.PHP_EOL;
