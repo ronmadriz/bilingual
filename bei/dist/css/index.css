@@ -2045,6 +2045,8 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: .25rem;
     margin-right: .25rem;
     width: 47.5%; }
+    .single-programs .block__item:nth-of-type(even) {
+      margin-right: 0; }
     @media (min-width: 786px) {
       .single-programs .block__item {
         width: 19.25%; } }
