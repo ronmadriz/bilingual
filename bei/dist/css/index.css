@@ -2042,7 +2042,7 @@ section:not(.banner):not(.featured) .container-fluid {
         -ms-flex-pack: center;
             justify-content: center;
     margin-right: .25rem;
-    height: 5rem;
+    height: 12rem;
     width: 47.5%; }
     @media (min-width: 786px) {
       .single-programs .block__item {
