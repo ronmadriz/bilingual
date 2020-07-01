@@ -6,17 +6,14 @@
     &__content {
     	align-items: center;
 		display: flex;
-		flex-direction: column;
-		@include for-tablet-up {
-			flex-direction: row;
-		}
     }
     &__item {
 		background-color: $accent_2;
-		display: block;
+		display: flex;
 		margin-right: .25rem;
-		min-height: 2rem;
-		width: 75%;
+		height: 5rem;
+		width: 50%;
+		align-items: center;
 		@include for-tablet-up {
 			width: 19.25%;
 		}
