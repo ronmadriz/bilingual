@@ -2044,6 +2044,7 @@ section:not(.banner):not(.featured) .container-fluid {
             justify-content: center;
     margin-bottom: .25rem;
     margin-right: .25rem;
+    padding: 0 1rem;
     width: 47.5%; }
     .single-programs .block__item:nth-of-type(even) {
       margin-right: 0; }
