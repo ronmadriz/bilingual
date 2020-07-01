@@ -1,6 +1,6 @@
 .imagebar {
 	margin-top:3rem;
-	background-color: $accent_1;
+	background-color: $white_4;
 	&__wrapper {
 	}
 	&__content {
@@ -20,7 +20,7 @@
 		}
 	}
 	&__details {
-		color:$white_1;
+		color:$gray_8;
 		display: flex;
 		flex-direction: column;
 		padding: 3rem .75rem;

@@ -601,7 +601,7 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .imagebar {
   margin-top: 3rem;
-  background-color: #192f59; }
+  background-color: #f3f3f3; }
   .imagebar__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -628,7 +628,7 @@ section:not(.banner):not(.featured) .container-fluid {
                 transform: translate(0, -8.125rem);
         width: 47.5%; } }
   .imagebar__details {
-    color: #fefefe;
+    color: #444444;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
