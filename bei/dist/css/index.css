@@ -2030,7 +2030,7 @@ section:not(.banner):not(.featured) .container-fluid {
     @media (min-width: 786px) {
       .single-programs .block__desc {
         margin-bottom: 0;
-        padding: 1.875rem 1.25rem; } }
+        padding: 5.875rem 1.25rem; } }
 
 .single-programs .simple_tabs {
   background-color: #e6e6e6;
