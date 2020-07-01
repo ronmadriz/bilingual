@@ -1990,7 +1990,7 @@ section:not(.banner):not(.featured) .container-fluid {
     height: auto; }
 
 .single-programs .subjects {
-  background-color: #192f59;
+  background-color: #f3f3f3;
   color: #fefefe;
   fill: #3db166;
   padding-bottom: 2rem;
@@ -2302,7 +2302,7 @@ section:not(.banner):not(.featured) .container-fluid {
       color: #181818; }
   .section-english-for-refugees .subsites__nav li:nth-of-type(3) a {
     background-color: #fefefe;
-    color: #181818; }
+    color: #444444; }
     .section-english-for-refugees .subsites__nav li:nth-of-type(3) a:hover {
       background-color: #fefefe;
       color: #181818; }

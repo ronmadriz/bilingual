@@ -4,7 +4,7 @@
 		&__nav {
 			li {
 				a {
-					color:$black_5;
+					color:$gray_8;
 				}
 				&:first-of-type{
 					a {
@@ -19,7 +19,7 @@
 			    &:nth-of-type(3){
 					a {
 						background-color:$white_1;
-					    color: $black_1;
+					    color: $gray_8;
 						&:hover {
 						    background-color:$white_1;
 						    color: $black_1;

@@ -31,11 +31,6 @@ $bright_sun: #ffde42;
 $mandy: #e44d74;
 $malachite: #16e141;
 
-$bei_1:$azure_radiance;
-$bei_2:$mandy;
-$bei_3:$bright_sun;
-$bei_4:$malachite;
-
 // template colors
 $midnight:#1b2434;
 $navy: #163269;
@@ -59,6 +54,11 @@ $outline:$alto;
 $placeholder:$smoke;
 
 
+$bei_1:$azure_radiance;
+$bei_2:$mandy;
+$bei_3:$bright_sun;
+$bei_4:$malachite;
+
 $accent_1:$deep;
 $accent_2:$grass;
 $accent_2-lt:$leaf;
@@ -69,13 +69,13 @@ $white_0:$bright_white;
 $white_1:$white;
 $white_2:$offwhite;
 $white_3:$cloud;
+$white_4:$eggshell;
 
 $black_0:$true_black;
 $black_1:$charcoal;
 $black_2:$chalkboard;
 $black_3:$darkness;
 $black_4:$mine_shaft;
-$black_5:$slate;
 
 $gray_1:$gray;
 $gray_2:$sludge;
@@ -83,3 +83,4 @@ $gray_3:$smoke;
 $gray_5:$rainy_cloud;
 $gray_6:$dusty;
 $gray_7:$dove_gray;
+$gray_8:$slate;
