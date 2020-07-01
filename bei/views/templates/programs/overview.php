@@ -4,7 +4,7 @@ $progam_ID = get_the_ID();
 $program_args = array(
 	'post_type'      => 'page',
 	'posts_per_page' => -1,
-	'post_parent'    => $post->ID,
+	'post_parent'    => $progam_ID,
 	'order'          => 'ASC',
 	'orderby'        => 'menu_order',
 );
