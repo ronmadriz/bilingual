@@ -18,16 +18,14 @@ if ($childprograms->have_posts()) {
 	echo '<div class="row tiled__wrapper">'.PHP_EOL;
 	while ($childprograms->have_posts()) {
 		$childprograms->the_post();
-		$childprogram__image   = get_the_post_thumbnail_url($size = 'medium');
-		$childprogram__img     = (!empty($childprogram__image)?$childprogram__image:'/wp-content/uploads/2020/06/student-life-11-768x594.png');
-		$childprogram__link    = get_the_permalink();
-		$childprogram__title   = get_the_title();
-		$childprogram__excerpt = get_the_excerpt();
+		$childprogram__image = get_the_post_thumbnail_url($size = 'medium');
+		$childprogram__img   = (!empty($childprogram__image)?$childprogram__image:'/wp-content/uploads/2020/06/student-life-11-768x594.png');
+		$childprogram__link  = get_the_permalink();
+		$childprogram__title = get_the_title();
 		echo '<figure class="tiled__item card col-12 col-md-3">'.PHP_EOL;
 		echo '<a href="'.$childprogram__link.'" class="tiled__image--link"><img src="'.esc_url($childprogram__img).'" alt="'.$childprogram__title.'" class="tiled__image card-img-top img-fluid"></a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo (!empty($childprogram__title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$childprogram__title.'</h3></span>'.PHP_EOL:'');
-		echo (!empty($childprogram__excerpt)?'<span class="tiled__desc card-text">'.$childprogram__excerpt.'</span>'.PHP_EOL:'');
 		echo (!empty($childprogram__link)?'<a href="'.$childprogram__link.'" class="tiled__link">Learn about '.$childprogram__title.' <span class="tiled__link--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
 		echo '</figcaption>'.PHP_EOL;
 		echo '</figure>'.PHP_EOL;
