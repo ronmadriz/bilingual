@@ -126,3 +126,15 @@
 		}
 	}
 }
+
+@include for-phone-only {
+	.dropdown-item {
+	    border-bottom: 1px solid #ababab;
+	    padding: .6275rem .75rem .5rem;
+	    font-size: .85rem;
+	}
+	.menu-item .dropdown-item {
+		border-bottom:0;
+	}
+
+}

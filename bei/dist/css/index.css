@@ -1251,6 +1251,14 @@ body .subsites__nav li:first-of-type a {
           -webkit-transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
           transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s; } }
 
+@media (max-width: 786px) {
+  .dropdown-item {
+    border-bottom: 1px solid #ababab;
+    padding: .6275rem .75rem .5rem;
+    font-size: .85rem; }
+  .menu-item .dropdown-item {
+    border-bottom: 0; } }
+
 .dropdown-menu {
   background-color: #e6e6e6;
   border: 0;
