@@ -16,6 +16,7 @@ echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 if ($parent->have_posts()) {
 	echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
+	the_content();
 	echo '<ul class="overview__list">'.PHP_EOL;
 	while ($parent->have_posts()) {
 		$parent->the_post();
