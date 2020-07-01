@@ -12,8 +12,8 @@ if ($ri_images) {
 		$ri_counter++;
 	}
 	echo '</div>'.PHP_EOL;
-	echo '<a class="carousel-control-prev rotating__nav rotating__nav--prev" href="#rotating__slides" role="button" data-slide="prev"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Previous</span></a>'.PHP_EOL;
-	echo '<a class="carousel-control-next rotating__nav rotating__nav--next" href="#rotating__slides" role="button" data-slide="next"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid"><span class="sr-only">Next</span></a>'.PHP_EOL;
+	echo '<a class="carousel-control-prev rotating__nav rotating__nav--prev" href="#rotating__slides" role="button" data-slide="prev"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid rotating__nav--img"><span class="sr-only">Previous</span></a>'.PHP_EOL;
+	echo '<a class="carousel-control-next rotating__nav rotating__nav--next" href="#rotating__slides" role="button" data-slide="next"><img src="'.get_stylesheet_directory_uri().'/sprites/chevron.svg'.'" alt="" class="img-fluid rotating__nav--img"><span class="sr-only">Next</span></a>'.PHP_EOL;
 	echo '<ol class="carousel-indicators rotating__indicators">'.PHP_EOL;
 	$ri_ind_counter = 0;
 	foreach ($ri_images as $ri_image_indicator) {

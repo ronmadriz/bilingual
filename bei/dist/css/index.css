@@ -1413,6 +1413,9 @@ body .subsites__nav li:first-of-type a {
   .rotating__content {
     padding-left: 0;
     padding-right: 0; }
+  .rotating__nav--prev {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg); }
 
 .icons {
   padding: 4.6875rem 0 2.5rem 0; }
