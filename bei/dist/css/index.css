@@ -2304,11 +2304,6 @@ section:not(.banner):not(.featured) .container-fluid {
     .section-english-for-refugees .subsites__nav li:nth-of-type(3) a:hover {
       background-color: #fefefe;
       color: #181818; }
-  .section-english-for-refugees .subsites__nav li:last-of-type a {
-    background-color: #192f59;
-    color: #fefefe; }
-    .section-english-for-refugees .subsites__nav li:last-of-type a:hover {
-      background-color: rgba(25, 47, 89, 0.3); }
 
 .section-f1-student-resources .subsites {
   background-color: #ffde42; }
