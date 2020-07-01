@@ -19,8 +19,10 @@
 		margin-right: .25rem;
 		padding:0 1rem;
 	    width: 47.5%;
-	    &:nth-of-type(even){
-	    	margin-right:0;
+	    @include for-phone-only {
+		    &:nth-of-type(even){
+		    	margin-right:0;
+		    }	    	
 	    }
 		@include for-tablet-up {
 			width: 19.25%;
