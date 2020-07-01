@@ -1,4 +1,13 @@
 <?php
+
+if ($post->post_parent) {
+	$ancestors = get_post_ancestors($post->ID);
+	$root      = count($ancestors)-1;
+	$parent    = $ancestors[$root];
+} else {
+	$parent = $post->ID;
+}
+
 $progam_ID = get_the_ID();
 
 include (get_template_directory().'/views/components/banner/subpages.php');
@@ -12,7 +21,7 @@ if (have_posts()) {
 		$children = wp_list_pages(
 			array(
 				'title_li'     => '',
-				'post_parent'  => $progam_ID,
+				'post_parent'  => $parent,
 				'post__not_in' => array($progam_ID),
 				'post_type'    => 'programs', // only posts from the location post type
 			)
