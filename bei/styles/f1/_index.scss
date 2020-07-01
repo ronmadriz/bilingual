@@ -1,6 +1,6 @@
 .section-f1-student-resources {
 	.subsites {
-		background-color:$accent_2;
+		background-color:$bei_1;
 		&__nav {
 			li {				
 				a {
@@ -8,10 +8,10 @@
 				}
 				&:first-of-type{
 					a {
-						background-color:$accent_2;
+						background-color:$bei_1;
 					    color: $white_1;
 						&:hover {
-						    background-color: rgba($accent_2, .3);
+						    background-color: rgba($bei_1, .3);
 						    color: $black_1;
 						}
 					}
@@ -39,6 +39,6 @@
 		}
 	}	
 	.subbanner {
-		background-color:$accent_2;
+		background-color:$bei_1;
 	}
 }

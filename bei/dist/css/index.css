@@ -2316,14 +2316,14 @@ section:not(.banner):not(.featured) .container-fluid {
   background-color: #e44d74; }
 
 .section-f1-student-resources .subsites {
-  background-color: #3db166; }
+  background-color: #09f; }
   .section-f1-student-resources .subsites__nav li a {
     color: #fefefe; }
   .section-f1-student-resources .subsites__nav li:first-of-type a {
-    background-color: #3db166;
+    background-color: #09f;
     color: #fefefe; }
     .section-f1-student-resources .subsites__nav li:first-of-type a:hover {
-      background-color: rgba(61, 177, 102, 0.3);
+      background-color: rgba(0, 153, 255, 0.3);
       color: #181818; }
   .section-f1-student-resources .subsites__nav li:nth-of-type(2) a {
     background-color: #fefefe;
@@ -2338,4 +2338,4 @@ section:not(.banner):not(.featured) .container-fluid {
       background-color: rgba(25, 47, 89, 0.3); }
 
 .section-f1-student-resources .subbanner {
-  background-color: #3db166; }
+  background-color: #09f; }
