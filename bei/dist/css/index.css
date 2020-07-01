@@ -1108,19 +1108,18 @@ section:not(.banner):not(.featured) .container-fluid {
       text-decoration: none; }
       .subsites__nav li a:hover {
         color: #fefefe; }
+    .subsites__nav li:first-of-type a {
+      background-color: #fefefe;
+      color: #181818; }
+      .subsites__nav li:first-of-type a:hover {
+        background-color: #fefefe;
+        color: #181818; }
     .subsites__nav li:last-of-type a {
       background-color: #3db166;
       color: #fefefe;
       margin-top: .35rem; }
       .subsites__nav li:last-of-type a:hover {
         background-color: #5bc681; }
-
-body .subsites__nav li:first-of-type a {
-  background-color: #fefefe;
-  color: #181818; }
-  body .subsites__nav li:first-of-type a:hover {
-    background-color: #fefefe;
-    color: #181818; }
 
 .mainNav {
   background-color: #fefefe;

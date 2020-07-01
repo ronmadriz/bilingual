@@ -38,6 +38,16 @@
 				    color: $white_1;
 				}			    
 		    }
+		    &:first-of-type{
+				a {
+					background-color:$white_1;
+				    color: $black_1;
+					&:hover {
+					    background-color:$white_1;
+					    color: $black_1;
+					}
+				}
+			}				
 		    &:last-of-type{
 				a {
 					background-color:$accent_2;
@@ -49,25 +59,5 @@
 				}
 			}
 		}
-	}
-}
-body {
-	&:not(.section-f1-student-services, .section-english-for-refugees) {
-		.subsites {
-			&__nav {
-				li {
-				    &:first-of-type{
-						a {
-							background-color:$white_1;
-						    color: $black_1;
-							&:hover {
-							    background-color:$white_1;
-							    color: $black_1;
-							}
-						}
-					}			
-				}
-			}
-		}			
 	}
 }
