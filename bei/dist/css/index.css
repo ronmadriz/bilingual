@@ -2049,7 +2049,6 @@ section:not(.banner):not(.featured) .container-fluid {
     display: block;
     font-size: 1.3725rem;
     font-weight: 600;
-    margin-bottom: 2rem;
     text-align: center; }
 
 .single-programs .simple_tabs {
