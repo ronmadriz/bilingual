@@ -1413,6 +1413,8 @@ body .subsites__nav li:first-of-type a {
   .rotating__content {
     padding-left: 0;
     padding-right: 0; }
+  .rotating__nav--img {
+    max-height: 2.5rem; }
   .rotating__nav--prev {
     -webkit-transform: rotate(-180deg);
             transform: rotate(-180deg); }

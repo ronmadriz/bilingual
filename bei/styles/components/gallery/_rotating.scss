@@ -16,6 +16,9 @@
 
 	}
 	&__nav {
+		&--img {
+			max-height: 2.5rem;
+		}
 		&--next {}
 		&--prev {
 			transform: rotate(-180deg);
