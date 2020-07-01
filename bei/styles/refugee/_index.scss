@@ -6,6 +6,25 @@
 				a {
 					color:$white_1;
 				}
+				&:first-of-type{
+					a {
+						background-color:$bei_2;
+					    color: $white_1;
+						&:hover {
+						    background-color: rgba($bei_2, .3);
+						    color: $black_1;
+						}
+					}
+				}					
+			    &:last-of-type{
+					a {
+						background-color:$accent_1;
+					    color: $white_1;
+						&:hover {
+						    background-color: rgba($accent_1, .3);
+						}
+					}
+				}				
 			}
 		}
 	}	

@@ -2,10 +2,20 @@
 	.subsites {
 		background-color:$accent_2;
 		&__nav {
-			li {
+			li {				
 				a {
 					color:$white_1;
 				}
+				&:first-of-type{
+					a {
+						background-color:$accent_2;
+					    color: $white_1;
+						&:hover {
+						    background-color: rgba($accent_2, .3);
+						    color: $black_1;
+						}
+					}
+				}					
 			    &:last-of-type{
 					a {
 						background-color:$accent_1;
