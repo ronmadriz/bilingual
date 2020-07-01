@@ -2318,13 +2318,12 @@ section:not(.banner):not(.featured) .container-fluid {
 .section-f1-student-resources .subsites {
   background-color: #ffde42; }
   .section-f1-student-resources .subsites__nav li a {
-    color: #ffde42; }
+    color: #444444; }
   .section-f1-student-resources .subsites__nav li:first-of-type a {
-    background-color: #ffde42;
-    color: #fefefe; }
+    background-color: #ffde42; }
     .section-f1-student-resources .subsites__nav li:first-of-type a:hover {
       background-color: rgba(255, 222, 66, 0.3);
-      color: #ffde42; }
+      color: #444444; }
   .section-f1-student-resources .subsites__nav li:nth-of-type(2) a {
     background-color: #fefefe;
     color: #ffde42; }
@@ -2338,5 +2337,6 @@ section:not(.banner):not(.featured) .container-fluid {
       background-color: rgba(25, 47, 89, 0.3); }
 
 .section-f1-student-resources .subbanner {
-  background-color: #ffde42;
-  color: #ffde42; }
+  background-color: #ffde42; }
+  .section-f1-student-resources .subbanner__title {
+    color: #444444; }

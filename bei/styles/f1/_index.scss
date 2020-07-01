@@ -4,15 +4,14 @@
 		&__nav {
 			li {				
 				a {
-					color:$bei_3;
+					color:$gray_8;
 				}
 				&:first-of-type{
 					a {
 						background-color:$bei_3;
-					    color: $white_1;
 						&:hover {
 						    background-color: rgba($bei_3, .3);
-						    color: $bei_3;
+						    color: $gray_8;
 						}
 					}
 				}					
@@ -40,6 +39,8 @@
 	}	
 	.subbanner {
 		background-color:$bei_3;
-		color:$bei_3;
+		&__title {
+			color:$gray_8;
+		}
 	}
 }
