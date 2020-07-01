@@ -2296,6 +2296,12 @@ section:not(.banner):not(.featured) .container-fluid {
     .section-english-for-refugees .subsites__nav li:first-of-type a:hover {
       background-color: rgba(228, 77, 116, 0.3);
       color: #181818; }
+  .section-english-for-refugees .subsites__nav li:nth-of-type(3) a {
+    background-color: #fefefe;
+    color: #181818; }
+    .section-english-for-refugees .subsites__nav li:nth-of-type(3) a:hover {
+      background-color: #fefefe;
+      color: #181818; }
   .section-english-for-refugees .subsites__nav li:last-of-type a {
     background-color: #192f59;
     color: #fefefe; }
@@ -2314,6 +2320,12 @@ section:not(.banner):not(.featured) .container-fluid {
     color: #fefefe; }
     .section-f1-student-services .subsites__nav li:first-of-type a:hover {
       background-color: rgba(61, 177, 102, 0.3);
+      color: #181818; }
+  .section-f1-student-services .subsites__nav li:nth-of-type(2) a {
+    background-color: #fefefe;
+    color: #181818; }
+    .section-f1-student-services .subsites__nav li:nth-of-type(2) a:hover {
+      background-color: #fefefe;
       color: #181818; }
   .section-f1-student-services .subsites__nav li:last-of-type a {
     background-color: #192f59;

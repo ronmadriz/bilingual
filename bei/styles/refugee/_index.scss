@@ -15,7 +15,17 @@
 						    color: $black_1;
 						}
 					}
-				}					
+				}
+			    &:nth-of-type(3){
+					a {
+						background-color:$white_1;
+					    color: $black_1;
+						&:hover {
+						    background-color:$white_1;
+						    color: $black_1;
+						}
+					}
+				}				
 			    &:last-of-type{
 					a {
 						background-color:$accent_1;
