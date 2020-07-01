@@ -10,7 +10,28 @@
 		position: relative;
 	}
 	&__link {
-
+		border-bottom:.0625rem solid $white_2;
+		color: $led;
+		display: block;
+		margin-bottom: 0.8125rem;
+		padding-bottom: 0.8125rem;
+	    padding-left: 1.25rem;
+	    padding-right: 1.25rem;
+		position:relative;
+		transition: .5s ease all;
+		&:hover {
+			color:$accent_2;
+			text-decoration: none;
+		}
+		&:after {
+			content: url(../../sprites/arrow.svg);
+		    filter: hue-rotate(45deg);
+			height: 2rem;
+		    position: absolute;
+		    right: 0;
+		    top: 5%;		
+			width: 1rem;
+		}
 	}
 	.children {
 		padding-left:0;

@@ -2212,6 +2212,29 @@ body .subsites__nav li:first-of-type a {
     list-style-type: none; }
   .overview__item {
     position: relative; }
+  .overview__link {
+    border-bottom: 0.0625rem solid #e6e6e6;
+    color: #6b6b6b;
+    display: block;
+    margin-bottom: 0.8125rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: relative;
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all; }
+    .overview__link:hover {
+      color: #3db166;
+      text-decoration: none; }
+    .overview__link:after {
+      content: url(../../sprites/arrow.svg);
+      -webkit-filter: hue-rotate(45deg);
+              filter: hue-rotate(45deg);
+      height: 2rem;
+      position: absolute;
+      right: 0;
+      top: 5%;
+      width: 1rem; }
   .overview .children {
     padding-left: 0;
     -webkit-padding-start: 0;
