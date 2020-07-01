@@ -8,7 +8,7 @@
 	@include for-tablet-up {
 		@include banner-cover($black_0);
 		padding-bottom:4.6875rem;
-		padding-top:33.125rem;
+		padding-top:25rem;
 	}
 	&__content {
 	    display: flex;
