@@ -1111,9 +1111,10 @@ section:not(.banner):not(.featured) .container-fluid {
       .subsites__nav li a:hover {
         color: #fefefe; }
     .subsites__nav li:first-of-type a {
-      background-color: #fefefe; }
+      background-color: #fefefe;
+      color: #444444; }
       .subsites__nav li:first-of-type a:hover {
-        background-color: #444444; }
+        background-color: #fefefe; }
     .subsites__nav li:last-of-type a {
       background-color: #3db166; }
       .subsites__nav li:last-of-type a:hover {

@@ -41,8 +41,9 @@
 		    &:first-of-type{
 				a {
 					background-color:$white_1;
+					color:$gray_8;
 					&:hover {
-					    background-color:$gray_8;
+					    background-color:$white_1;
 					}
 				}
 			}				
