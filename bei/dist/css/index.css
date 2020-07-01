@@ -1417,13 +1417,13 @@ body .subsites__nav li:first-of-type a {
     max-height: 2.5rem; }
   @media (min-width: 786px) {
     .rotating__nav--next {
-      left: -7rem; } }
+      right: -7rem; } }
   .rotating__nav--prev {
     -webkit-transform: rotate(-180deg);
             transform: rotate(-180deg); }
     @media (min-width: 786px) {
       .rotating__nav--prev {
-        right: -7rem; } }
+        left: -7rem; } }
 
 .icons {
   padding: 4.6875rem 0 2.5rem 0; }
