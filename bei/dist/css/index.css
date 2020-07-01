@@ -1404,6 +1404,7 @@ body .subsites__nav li:first-of-type a {
         margin-top: 1.5em; } }
 
 .rotating {
+  background-color: #545454;
   padding-bottom: 3rem;
   padding-top: 3rem; }
   .rotating__wrapper {
