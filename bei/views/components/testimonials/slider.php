@@ -8,7 +8,7 @@ $testimonial_Slider_args = array(
 );
 
 $testimonial_Slider_posts   = get_posts($testimonial_Slider_args);
-$testimonials_section_title = get_sub_field('carousel-multi-item');
+$testimonials_section_title = get_sub_field('carousel-multi-item', $post->ID);
 echo '<section id="testimonial" class="testimonial">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row"><div class="col-12 testimonial__title"><h2 class="testimonial__title--text">'.$testimonials_section_title.'</h2></div></div>'.PHP_EOL;
