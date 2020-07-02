@@ -18,17 +18,17 @@ $testimonial_Slider_args = array(
 $testimonial_Slider_posts = get_posts($testimonial_Slider_args);
 
 if ($testimonial_Slider_posts) {
-	$chunks = array_chunk($testimonial_Slider_posts, $testimonial_Slider_i);
-	$html   = "";
+	$testimonial_Slider_chunks = array_chunk($testimonial_Slider_posts, $testimonial_Slider_i);
+	$testimonial_Slider_html   = "";
 	foreach ($testimonial_Slider_chunks as $testimonial_Slider_chunk) {
 		($chunk === reset($chunks))?$active = "active":$active = "";
-		$html .= '<div class="item '.$active.'">';
+		$testimonial_Slider_html .= '<div class="item '.$active.'">';
 		foreach ($testimonial_Slider_chunk as $post) {
-			$html .= '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">';
-			$html .= get_the_title($post->ID);
-			$html .= '</div>';
+			$testimonial_Slider_html .= '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">';
+			$testimonial_Slider_html .= get_the_title($post->ID);
+			$testimonial_Slider_html .= '</div>';
 		}
-		$html .= '</div></div></div>';
+		$testimonial_Slider_html .= '</div></div></div>';
 	}
-	echo $html;
+	echo $testimonial_Slider_html;
 }
