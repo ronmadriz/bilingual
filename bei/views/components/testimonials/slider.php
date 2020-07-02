@@ -24,11 +24,19 @@ if ($testimonial_Slider_posts) {
 		($testimonial_Slider_chunk === reset($testimonial_Slider_chunk))?$active = "active":$active = "";
 		$testimonial_Slider_html .= '<div class="item '.$active.'">';
 		foreach ($testimonial_Slider_chunk as $post) {
-			$testimonial_Slider_html .= '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">';
-			$testimonial_Slider_html .= get_the_title($post->ID);
-			$testimonial_Slider_html .= '</div>';
+			$testimonial__slider__image = get_the_post_thumbnail('thumbnail', array('class' => 'testimonial__image rounded-circle'));
+
+			$testimonial_Slider_html .= '<figure class="testimonial__item col-12 col-md-4">'.PHP_EOL;
+			$testimonial_Slider_html .= '<blockquote class="testimonial__quote">'.PHP_EOL;
+			$testimonial_Slider_html .= get_the_content();
+			$testimonial_Slider_html .= '</blockquote>'.PHP_EOL;
+			$testimonial_Slider_html .= '<footer class="testimonial__details">'.PHP_EOL;
+			$testimonial_Slider_html .= '<p class="testimonial__author"><cite class="testimonial__author--name">'.get_the_title().'</cite> <cite class="testimonial__author--country">('.$author_origin.')</cite></p>'.PHP_EOL;
+			$testimonial_Slider_html .= $testimonial__slider__image;
+			$testimonial_Slider_html .= '</footer>'.PHP_EOL;
+			$testimonial_Slider_html .= '</figure>'.PHP_EOL;
 		}
-		$testimonial_Slider_html .= '</div></div></div>';
+		$testimonial_Slider_html .= '</div>';
 	}
 	echo $testimonial_Slider_html;
 }
