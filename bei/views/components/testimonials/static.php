@@ -2,6 +2,7 @@
 $tml_args = array(
 	'post_type'      => 'testimonials',
 	'posts_per_page' => 3,
+	'orderby'        => 'rand',
 );
 $tml_query          = new WP_Query($tml_args);
 $test_section_title = get_sub_field('testimonials_title', $post->ID);
