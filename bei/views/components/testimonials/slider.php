@@ -1,5 +1,5 @@
 <?php
-$testimonial_Slider_i = 4;
+$testimonial_Slider_i = 3;
 global $post;
 $testimonial_Slider_args = array(
 	'numberposts' => -1, // -1 is for all
