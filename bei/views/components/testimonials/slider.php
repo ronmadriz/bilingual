@@ -1,13 +1,5 @@
 <?php
-$args = array(
-	'post_type'      => 'any-post-type',
-	'posts_per_page' => 4,
-);
-$query = query_posts($args);
-
-// Carousel
 $testimonial_Slider_i = 4;
-// Set the arguments for the query
 global $post;
 $testimonial_Slider_args = array(
 	'numberposts' => -1, // -1 is for all
@@ -24,7 +16,9 @@ if ($testimonial_Slider_posts) {
 		($testimonial_Slider_chunk === reset($testimonial_Slider_chunk))?$active = "active":$active = "";
 		$testimonial_Slider_html .= '<div class="item '.$active.'">';
 		foreach ($testimonial_Slider_chunk as $post) {
+
 			$testimonial__slider__image = get_the_post_thumbnail('thumbnail', array('class' => 'testimonial__image rounded-circle'));
+			$author_origin              = get_field('country_of_origin');
 
 			$testimonial_Slider_html .= '<figure class="testimonial__item col-12 col-md-4">'.PHP_EOL;
 			$testimonial_Slider_html .= '<blockquote class="testimonial__quote">'.PHP_EOL;
