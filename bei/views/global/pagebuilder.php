@@ -38,6 +38,8 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/components/testimonials/static.php');
 		} elseif (get_row_layout() == 'testimonials_slider') {
 			include (get_template_directory().'/views/components/testimonials/slider.php');
+		} elseif (get_row_layout() == 'html') {
+			include (get_template_directory().'/views/layout/html.php');
 		}
 	}
 }
