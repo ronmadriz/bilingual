@@ -17,13 +17,13 @@ echo '<div class="controls-top">'.PHP_EOL;
 echo '<a class="btn-floating" href="#testimonial__slider" data-slide="prev"><i class="fas fa-chevron-left"></i></a>'.PHP_EOL;
 echo '<a class="btn-floating" href="#testimonial__slider" data-slide="next"><i class="fas fa-chevron-right"></i></a>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
-echo '<div class="carousel-inner testimonial__slider" role="listbox">'.PHP_EOL;
+echo '<div class="col-12 carousel-inner testimonial__slider" role="listbox">'.PHP_EOL;
 if ($testimonial_Slider_posts) {
 	$testimonial_Slider_chunks = array_chunk($testimonial_Slider_posts, $testimonial_Slider_i);
 	$testimonial_Slider_html   = "";
 	foreach ($testimonial_Slider_chunks as $testimonial_Slider_chunk) {
 		($testimonial_Slider_chunk === reset($testimonial_Slider_chunks))?$testimonial_active = ' active':$testimonial_active = '';
-		$testimonial_Slider_html .= '<div class="carousel-item'.$testimonial_active.'">'.PHP_EOL;
+		$testimonial_Slider_html .= '<div class="row carousel-item'.$testimonial_active.'">'.PHP_EOL;
 		foreach ($testimonial_Slider_chunk as $post) {
 
 			$testimonial__slider__image = get_the_post_thumbnail($post->ID, 'thumbnail', array('class' => 'testimonial__image rounded-circle'));
