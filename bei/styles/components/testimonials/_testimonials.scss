@@ -1,0 +1,82 @@
+.testimonial {
+	&__title {
+		margin-bottom: 2rem;
+		position:relative;
+		@include title-line($gray_7);
+		&--text {
+			@include title-text($white_1);
+		}
+	}
+	&__wrapper {
+		padding-bottom: 2rem;
+	}
+	&__item {
+		display: flex;
+	    flex-direction: column;		
+	    padding-right: 2.25rem;
+		position:relative;
+	    padding-bottom: 3rem;
+		&:after {
+			color:$black_4;
+			content:'”';
+			font-family: Georgia, serif;
+			font-size:3.75rem;
+			line-height: 1;
+			position:absolute;
+			right:0;
+			top:0;
+		}
+		@include for-phone-only {
+			margin-bottom: 2rem;			
+		}
+	}
+	&__quote {
+		color:$gray_7;
+		font-family:$tertiary;
+		font-size:0.9375rem;
+		font-style: italic;
+		line-height: 1.7;
+		text-align: right;
+	}
+	&__details {
+		bottom: 0;		
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		padding-right:2.25rem;
+		position: absolute;
+		width: 100%;
+	}
+	&__author {
+		color:$mine_shaft;
+		float: left;
+		margin: 0;		
+		padding: 0 .5rem 0 0;
+		width: 80%;
+		&--name {
+			display: block;
+			font-family:$secondary;
+			font-size: 0.9375rem;
+		    font-style: normal;
+			font-weight: 700;
+			letter-spacing: .0625rem;
+			margin-bottom: .125rem;
+			text-align: right;
+			text-transform: uppercase;
+		}
+		&--country {
+			display: block;
+			font-family:$tertiary;
+			font-size: 0.9375rem;
+		    font-style: italic;
+			margin-bottom: .125rem;
+			text-align: right;
+		}
+	}
+	&__image {
+		float:right;
+		margin-left: .125rem;
+		max-height: 3.4375rem;
+		max-width: 3.4375rem;
+	}
+}
