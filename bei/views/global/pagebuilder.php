@@ -34,7 +34,7 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/layout/testiomnial.php');
 		} elseif (get_row_layout() == 'cta') {
 			include (get_template_directory().'/views/components/ctas/withbg.php');
-		} elseif (get_row_layout() == 'testimonials') {
+		} elseif (get_row_layout() == 'latest_testimonials') {
 			include (get_template_directory().'/views/components/testimonials/static.php');
 		} elseif (get_row_layout() == 'testimonials_slider') {
 			include (get_template_directory().'/views/components/testimonials/slider.php');
