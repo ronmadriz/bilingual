@@ -18,7 +18,7 @@ $testimonial_Slider_args = array(
 $testimonial_Slider_posts = get_posts($testimonial_Slider_args);
 
 if ($testimonial_Slider_posts) {
-	$chunks = array_chunk($testimonial_Slider_posts, $i);
+	$chunks = array_chunk($testimonial_Slider_posts, $testimonial_Slider_i);
 	$html   = "";
 	foreach ($testimonial_Slider_chunks as $testimonial_Slider_chunk) {
 		($chunk === reset($chunks))?$active = "active":$active = "";
