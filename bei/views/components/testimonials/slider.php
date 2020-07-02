@@ -24,7 +24,7 @@ if ($testimonial_Slider_posts) {
 	$testimonial_Slider_html   = "";
 	foreach ($testimonial_Slider_chunks as $testimonial_Slider_chunk) {
 		($testimonial_Slider_chunk === reset($testimonial_Slider_chunk))?$testimonial_active = "active":$testimonial_active = "";
-		$testimonial_Slider_html .= '<div class="item '.$active.'">';
+		$testimonial_Slider_html .= '<div class="item '.$testimonial_active.'">';
 		foreach ($testimonial_Slider_chunk as $post) {
 
 			$testimonial__slider__image = get_the_post_thumbnail('thumbnail', array('class' => 'testimonial__image rounded-circle'));
