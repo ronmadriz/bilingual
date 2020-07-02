@@ -8,7 +8,17 @@ $testimonial_Slider_args = array(
 );
 
 $testimonial_Slider_posts = get_posts($testimonial_Slider_args);
-
+echo '<section id="testimonial" class="testimonial">'.PHP_EOL;
+echo '<div class="container-fluid">'.PHP_EOL;
+echo '<div class="row"><div class="col-12 testimonial__title"><h2 class="testimonial__title--text">';
+_e('Testimonials', 'bei-core');
+echo '</h2></div></div>'.PHP_EOL;
+echo '<div class="row testimonial__wrapper carousel slide carousel-multi-item" data-ride="carousel">'.PHP_EOL;
+echo '<div class="controls-top">'.PHP_EOL;
+echo '<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>'.PHP_EOL;
+echo '<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '<div class="carousel-inner testimonial__slider" role="listbox">'.PHP_EOL;
 if ($testimonial_Slider_posts) {
 	$testimonial_Slider_chunks = array_chunk($testimonial_Slider_posts, $testimonial_Slider_i);
 	$testimonial_Slider_html   = "";
@@ -34,3 +44,7 @@ if ($testimonial_Slider_posts) {
 	}
 	echo $testimonial_Slider_html;
 }
+echo '</div>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
