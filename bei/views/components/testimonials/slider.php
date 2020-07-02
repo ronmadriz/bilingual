@@ -23,7 +23,7 @@ if ($testimonial_Slider_posts) {
 	$testimonial_Slider_chunks = array_chunk($testimonial_Slider_posts, $testimonial_Slider_i);
 	$testimonial_Slider_html   = "";
 	foreach ($testimonial_Slider_chunks as $testimonial_Slider_chunk) {
-		($testimonial_Slider_chunk === reset($testimonial_Slider_chunk))?$active = "active":$active = "";
+		($testimonial_Slider_chunk === reset($testimonial_Slider_chunk))?$testimonial_active = "active":$testimonial_active = "";
 		$testimonial_Slider_html .= '<div class="item '.$active.'">';
 		foreach ($testimonial_Slider_chunk as $post) {
 
