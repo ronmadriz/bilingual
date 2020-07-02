@@ -12,7 +12,7 @@ $testimonials_section_title = get_sub_field('tsl_section_title', $post->ID);
 echo '<section id="testimonial" class="testimonial">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row"><div class="col-12 testimonial__title"><h2 class="testimonial__title--text">'.$testimonials_section_title.'</h2></div></div>'.PHP_EOL;
-echo '<div id="testimonial__slider" class="testimonial__wrapper carousel slide carousel-multi-item" data-ride="carousel">'.PHP_EOL;
+echo '<div id="testimonial__slider" class="row testimonial__wrapper carousel slide carousel-multi-item" data-ride="carousel">'.PHP_EOL;
 echo '<div class="controls-top">'.PHP_EOL;
 echo '<a class="btn-floating" href="#testimonial__slider" data-slide="prev"><i class="fas fa-chevron-left"></i></a>'.PHP_EOL;
 echo '<a class="btn-floating" href="#testimonial__slider" data-slide="next"><i class="fas fa-chevron-right"></i></a>'.PHP_EOL;
