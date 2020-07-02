@@ -23,13 +23,13 @@ if ($testimonial_Slider_posts) {
 	$testimonial_Slider_html   = "";
 	foreach ($testimonial_Slider_chunks as $testimonial_Slider_chunk) {
 		($testimonial_Slider_chunk === reset($testimonial_Slider_chunks))?$testimonial_active = ' active':$testimonial_active = '';
-		$testimonial_Slider_html .= '<div class="item'.$testimonial_active.'"><div class="container"><div class="row">'.PHP_EOL;
+		$testimonial_Slider_html .= '<div class="carousel-item'.$testimonial_active.'">'.PHP_EOL;
 		foreach ($testimonial_Slider_chunk as $post) {
 
 			$testimonial__slider__image = get_the_post_thumbnail($post->ID, 'thumbnail', array('class' => 'testimonial__image rounded-circle'));
 			$author_origin              = get_field('country_of_origin');
 
-			$testimonial_Slider_html .= '<figure class="testimonial__item col-12 col-md-4">'.PHP_EOL;
+			$testimonial_Slider_html .= '<figure class="testimonial__item">'.PHP_EOL;
 			$testimonial_Slider_html .= $testimonial__slider__image;
 			$testimonial_Slider_html .= '<blockquote class="testimonial__quote">'.PHP_EOL;
 			$testimonial_Slider_html .= get_the_content($post->ID);
@@ -40,7 +40,7 @@ if ($testimonial_Slider_posts) {
 			$testimonial_Slider_html .= '</footer>'.PHP_EOL;
 			$testimonial_Slider_html .= '</figure>'.PHP_EOL;
 		}
-		$testimonial_Slider_html .= '</div></div></div>'.PHP_EOL;
+		$testimonial_Slider_html .= '</div>'.PHP_EOL;
 	}
 	echo $testimonial_Slider_html;
 }
