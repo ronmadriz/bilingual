@@ -30,7 +30,7 @@ if ($testimonial_Slider_posts) {
 			$testimonial_Slider_html .= '</footer>'.PHP_EOL;
 			$testimonial_Slider_html .= '</figure>'.PHP_EOL;
 		}
-		$testimonial_Slider_html .= '</div>';
+		$testimonial_Slider_html .= '</div>'.PHP_EOL;
 	}
 	echo $testimonial_Slider_html;
 }
