@@ -29,7 +29,7 @@ if ($testimonial_Slider_posts) {
 			$testimonial__slider__image = get_the_post_thumbnail($post->ID, 'thumbnail', array('class' => 'testimonial__image rounded-circle'));
 			$author_origin              = get_field('country_of_origin');
 
-			$testimonial_Slider_html .= '<figure class="col-12 col-md-4">'.PHP_EOL;
+			$testimonial_Slider_html .= '<figure class="testimonial__slideitem col-12 col-md-4">'.PHP_EOL;
 			$testimonial_Slider_html .= $testimonial__slider__image;
 			$testimonial_Slider_html .= '<blockquote class="testimonial__quote">'.PHP_EOL;
 			$testimonial_Slider_html .= get_the_content($post->ID);

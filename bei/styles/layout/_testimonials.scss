@@ -30,6 +30,24 @@
 			margin-bottom: 2rem;			
 		}
 	}
+	&__slideitem {
+	    padding-right: 2.25rem;
+		position:relative;
+	    padding-bottom: 3rem;
+		&:after {
+			color:$black_4;
+			content:'”';
+			font-family: Georgia, serif;
+			font-size:3.75rem;
+			line-height: 1;
+			position:absolute;
+			right:0;
+			top:0;
+		}
+		@include for-phone-only {
+			margin-bottom: 2rem;			
+		}
+	}	
 	&__quote {
 		color:$gray_7;
 		font-family:$tertiary;
