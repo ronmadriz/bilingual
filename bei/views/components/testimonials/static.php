@@ -3,13 +3,12 @@ $tml_args = array(
 	'post_type'      => 'testimonials',
 	'posts_per_page' => 3,
 );
-$tml_query = new WP_Query($tml_args);
+$tml_query          = new WP_Query($tml_args);
+$test_section_title = get_sub_field('testimonials_title', $post->ID);
 if ($tml_query->have_posts()) {
 	echo '<section id="testimonial" class="testimonial">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
-	echo '<div class="row"><div class="col-12 testimonial__title"><h2 class="testimonial__title--text">';
-	_e('Testimonials', 'bei-core');
-	echo '</h2></div></div>'.PHP_EOL;
+	echo '<div class="row"><div class="col-12 testimonial__title"><h2 class="testimonial__title--text">'.$test_section_title.'</h2></div></div>'.PHP_EOL;
 	echo '<div class="row testimonial__wrapper">'.PHP_EOL;
 	while ($tml_query->have_posts()) {
 		$tml_query->the_post();
