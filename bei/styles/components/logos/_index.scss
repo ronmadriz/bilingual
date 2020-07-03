@@ -1,7 +1,11 @@
 .logos {
 	padding:3.4375rem 0 1.25rem 0;
 	&__strip {}
-	&__image {}
+	&__image {
+		img {
+			max-height: 6rem;
+		}
+	}
 	&__item {
 	    align-self: center;
 	}
