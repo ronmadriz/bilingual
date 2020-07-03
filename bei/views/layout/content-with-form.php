@@ -17,7 +17,7 @@ echo '</span>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="cwf__form col-12 col-md-6">'.PHP_EOL;
 echo '<span class="cwf__form__title"><h3 class="class="cwf__form__title--text">'.$cwf_form_title.'</h3></span>'.PHP_EOL;
-echo print_r($cwf_form);
+echo $cwf_form;
 echo '</div>'.PHP_EOL;
 
 echo '</div>'.PHP_EOL;
