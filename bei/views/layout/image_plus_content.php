@@ -1,5 +1,5 @@
-<?
-echo '<section id="featured" class="featured">'.PHP_EOL;
+<?php
+echo '<section id="ipc" class="ipc">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 while (have_rows('featured')) {
 	the_row();
