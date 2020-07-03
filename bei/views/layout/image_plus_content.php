@@ -14,7 +14,7 @@ echo '}'.PHP_EOL;
 echo '</style>'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<div class="ipc__content col-12 col-md-6">'.PHP_EOL;
-echo '<span class="ipc__title">'.$ipc_title.'</span>'.PHP_EOL;
+echo '<span class="ipc__title section__title"><h2 class="section__title--text">'.$ipc_title.'</h2></span>'.PHP_EOL;
 echo '<span class="ipc__desc">'.$ipc_content.'</span>'.PHP_EOL;
 echo (!empty($ipc_button)?'<span class="ipc__button">'.$ipc_button.'</span>'.PHP_EOL:'');
 echo '</div>'.PHP_EOL;
