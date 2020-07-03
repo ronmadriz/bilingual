@@ -7,7 +7,7 @@ include ('single/tabs.php');
 include ('single/calendars.php');
 include ('single/schedules.php');
 if (have_rows('image_plus_content')) {
-	while (have_rows('featured')) {
+	while (have_rows('image_plus_content')) {
 		the_row();
 		include (get_template_directory().'/views/layout/image_plus_content.php');
 	}
