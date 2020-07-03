@@ -8,10 +8,10 @@ echo '<div class="container-fluid twoColumns__wrapper">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 echo '<span class="cwf__title"><h2 class="cwf__title--text">'.$cwf_title.'</h2></span>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
-echo '<div class="row twoColumns__main">'.PHP_EOL;
+echo '<div class="row">'.PHP_EOL;
 
-echo '<div class="cwf__content twoColumns__main--content col-12 col-md-6">'.PHP_EOL;
-echo $cwf_content.PHP_EOL;
+echo '<div class="cwf__content twoColumns__main col-12 col-md-6">'.PHP_EOL;
+echo '<span class="twoColumns__main--content">'.$cwf_content.'</span>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="cwf__form col-12 col-md-6 twoColumns__sidebar">'.PHP_EOL;
 echo '<span class="cwf__form__title"><h3 class="class="cwf__form__title--text">'.$cwf_form_title.'</h3></span>'.PHP_EOL;
