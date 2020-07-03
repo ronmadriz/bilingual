@@ -1108,6 +1108,19 @@ section:not(.banner):not(.featured) .container-fluid {
         -webkit-box-direction: reverse;
             -ms-flex-direction: row-reverse;
                 flex-direction: row-reverse; } }
+  .ipc__title {
+    color: #192f59;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    position: relative; }
+    .ipc__title:after {
+      content: '';
+      height: 0.125rem;
+      width: 7rem;
+      background-color: #3db166;
+      position: absolute;
+      display: block;
+      bottom: 0; }
   .ipc__desc {
     color: #959595;
     display: block;
@@ -1116,19 +1129,6 @@ section:not(.banner):not(.featured) .container-fluid {
     @media (min-width: 786px) {
       .ipc__desc {
         padding: 5rem; } }
-    .ipc__desc h2 {
-      color: #192f59;
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
-      position: relative; }
-      .ipc__desc h2:after {
-        content: '';
-        height: 0.125rem;
-        width: 7rem;
-        background-color: #3db166;
-        position: absolute;
-        display: block;
-        bottom: 0; }
   .ipc__image {
     background-position: center, center;
     background-repeat: no-repeat;

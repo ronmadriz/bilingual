@@ -10,6 +10,13 @@
 	    	flex-direction: row-reverse;
 	    }
 	}
+	&__title {
+		color:$accent_1;
+	    margin-bottom: 2rem;
+	    padding-bottom: 1rem;
+	    position: relative;
+		@include title-bottom($accent_2);		
+	}
 	&__desc {
 		color:$gray_6;
 		display: block;
@@ -17,13 +24,6 @@
 		padding:2rem 5rem;
 		@include for-tablet-up {
 			padding: 5rem;
-		}
-		h2 {
-			color:$accent_1;
-		    margin-bottom: 2rem;
-		    padding-bottom: 1rem;			
-		    position: relative;
-			@include title-bottom($accent_2);
 		}
 	}
 	&__image {
