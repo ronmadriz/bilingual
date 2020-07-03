@@ -44,6 +44,8 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/layout/image_plus_content.php');
 		} elseif (get_row_layout() == 'four_icons') {
 			include (get_template_directory().'/views/layout/four_icons.php');
+		} elseif (get_row_layout() == 'content_with_form') {
+			include (get_template_directory().'/views/layout/content-with-form.php');
 		}
 	}
 }
