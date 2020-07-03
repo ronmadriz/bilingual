@@ -8,10 +8,11 @@ if (have_rows('logos')) {
 	while (have_rows('logos')) {
 		the_row();
 		$fl_logo      = get_sub_field('logo_image');
+		$fl_logo_th   = $fl_logo['sizes']['medium'];
 		$fl_logo_link = get_sub_field('logo_link');
 		echo '<div class="col logos__item">';
 		echo (!empty($fl_logo_link)?'<a href="'.$fl_logo_link['url'].'" rel="nofollow">':'');
-		echo '<img src="'.$fl_logo['url'].'" alt="'.$fl_logo['alt'].'" class="logos__image img-fluid"></div>'.PHP_EOL;
+		echo '<img src="'.$fl_logo_th.'" alt="'.$fl_logo['alt'].'" class="logos__image img-fluid"></div>'.PHP_EOL;
 		echo (!empty($fl_logo_link)?'</a>':'');
 	}
 }
