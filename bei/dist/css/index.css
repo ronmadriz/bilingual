@@ -1113,7 +1113,13 @@ section:not(.banner):not(.featured) .container-fluid {
     padding-bottom: 1rem;
     position: relative; }
     .ipc__title--text {
-      color: #192f59; }
+      color: #192f59;
+      display: block;
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: .5rem;
+      padding-bottom: .5rem;
+      position: relative; }
       .ipc__title--text:after {
         content: '';
         height: 0.125rem;

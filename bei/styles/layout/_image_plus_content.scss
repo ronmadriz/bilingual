@@ -16,6 +16,12 @@
 	    position: relative;
 	    &--text {
 			color:$accent_1;
+		    display: block;	    
+		    font-weight: 500;
+		    line-height: 1.2;
+		    margin-bottom: .5rem;
+		    padding-bottom: .5rem;
+		    position: relative;
 			@include title-bottom($accent_2);
 	    }
 	}
