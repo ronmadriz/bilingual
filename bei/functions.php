@@ -349,3 +349,6 @@ add_filter('wpcf7_form_elements', function ($content) {
 
 		return $content;
 	});
+
+// for acf contact form 7 plugin
+add_filter('acf_cf7_object', '__return_true');
