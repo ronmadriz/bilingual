@@ -1505,6 +1505,41 @@ section:not(.banner):not(.featured) .container-fluid {
   height: 0.95rem;
   width: 0.95rem; }
 
+.four_icons {
+  background-color: #f3f3f3;
+  color: #444444;
+  fill: #3db166;
+  padding-bottom: 2rem;
+  padding-top: 4rem; }
+  @media (min-width: 786px) {
+    .four_icons {
+      padding-bottom: 7rem; } }
+  .four_icons__section {
+    margin-bottom: 2.8725rem; }
+    .four_icons__section:after {
+      content: '';
+      height: 0.125rem;
+      width: 7rem;
+      background-color: #3db166;
+      position: absolute;
+      display: block;
+      bottom: 0; }
+  .four_icons__item {
+    margin-bottom: 1rem; }
+  .four_icons__img {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1.8125rem; }
+    .four_icons__img svg {
+      max-width: 100%;
+      height: auto; }
+  .four_icons__title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem; }
+  .four_icons__desc {
+    font-size: .85rem; }
+
 .logos {
   padding: 3.4375rem 0 1.25rem 0; }
   .logos__item {
@@ -2000,43 +2035,6 @@ section:not(.banner):not(.featured) .container-fluid {
 .main-content {
   padding-bottom: 2rem;
   padding-top: 2rem; }
-
-.single-programs .subjects__img {
-  display: block;
-  width: 2rem;
-  height: 2rem; }
-  .single-programs .subjects__img svg {
-    max-width: 100%;
-    height: auto; }
-
-.single-programs .subjects {
-  background-color: #f3f3f3;
-  color: #444444;
-  fill: #3db166;
-  padding-bottom: 2rem;
-  padding-top: 4rem; }
-  @media (min-width: 786px) {
-    .single-programs .subjects {
-      padding-bottom: 7rem; } }
-  .single-programs .subjects__section {
-    margin-bottom: 2.8725rem; }
-    .single-programs .subjects__section:after {
-      content: '';
-      height: 0.125rem;
-      width: 7rem;
-      background-color: #3db166;
-      position: absolute;
-      display: block;
-      bottom: 0; }
-  .single-programs .subjects__item {
-    margin-bottom: 1rem; }
-  .single-programs .subjects__img {
-    margin-bottom: 1.8125rem; }
-  .single-programs .subjects__title {
-    font-size: 1.25rem;
-    margin-bottom: 1rem; }
-  .single-programs .subjects__desc {
-    font-size: .85rem; }
 
 .single-programs .block {
   padding: 0 0 2rem; }

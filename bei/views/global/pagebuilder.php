@@ -40,6 +40,10 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/components/testimonials/slider.php');
 		} elseif (get_row_layout() == 'html') {
 			include (get_template_directory().'/views/layout/html.php');
+		} elseif (get_row_layout() == 'image_plus_content') {
+			include (get_template_directory().'/views/layout/image_plus_content.php');
+		} elseif (get_row_layout() == 'four_icons') {
+			include (get_template_directory().'/views/layout/html.php');
 		}
 	}
 }

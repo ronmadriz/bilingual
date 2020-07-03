@@ -1,6 +1,4 @@
-@import '../../../components/subjects/subjects';
-
-.subjects {
+.four_icons {
     background-color: $white_4;
     color: $gray_8;
     fill: $accent_2;
@@ -17,7 +15,14 @@
 		margin-bottom: 1rem;
 	}
     &__img {
-    	margin-bottom:1.8125rem;
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        margin-bottom:1.8125rem;
+        svg {
+            max-width:100%;
+            height:auto;
+        }
     }
     &__title {
     	font-size: 1.25rem;

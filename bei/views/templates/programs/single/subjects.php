@@ -6,7 +6,7 @@ if (have_rows('subjects')) {
 	_e('Core Subjects', 'bei_core');
 	echo '</h2></div></div>'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
-	include (get_template_directory().'/views/components/icons/subjects.php');
+	include (get_template_directory().'/views/components/icons/four_icons.php');
 	echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 	echo '</section>'.PHP_EOL;
