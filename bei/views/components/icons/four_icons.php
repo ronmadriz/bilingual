@@ -1,5 +1,5 @@
 <?php
-if (have_rows('four_icons')) {
+if (have_rows('fi_icon_group')) {
 	echo '<section id="four_icons" class="four_icons">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
 	echo '<div class="row"><div class="col-12 four_icons__section"><h2>';
