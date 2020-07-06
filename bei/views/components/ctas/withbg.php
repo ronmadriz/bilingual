@@ -17,7 +17,7 @@ echo '<section id="cta" class="cta withBg">'.PHP_EOL;
 			echo '<div class="col-12 cta__content">'.PHP_EOL;
 				echo (!empty($cta_title)?'<span class="cta__title"><h2 class="cta__title--text">'.$cta_title.'</h2></span>'.PHP_EOL:'');
 				echo (!empty($cta_content)?'<span class="cta__details">'.$cta_content.'</span>'.PHP_EOL:'');
-				echo (!empty($cta_button)?'<span class="cta__button"><a href="'.$cta_button['url'].'" class="cta__button--btn button__green">'.$cta_button['title'].'</a></span>'.PHP_EOL:'');
+				echo (!empty($cta_button)?'<span class="cta__button"><a href="'.esc_url($cta_button['url']).'" class="cta__button--btn button__green">'.esc_html($cta_button['title']).'</a></span>'.PHP_EOL:'');
 			echo '</div>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
