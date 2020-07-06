@@ -18,13 +18,17 @@ $featured_brief_query = new WP_query($featured_brief_args);
 if ($featured_brief_query->have_posts()) {
 	while ($featured_brief_query->have_posts()) {
 		$featured_brief_query->the_post();
-		$news_th = get_the_post_thumbnail($size = 'medium', $attr = 'class="img-fluid"')
+
+		$news_title = get_the_title();
+		$news_th    = get_the_post_thumbnail_url(get_the_ID(), 'medium');
+		$news_link  = get_the_permalink();
+
 		echo '<div class="brief__featured col-12 col-md-6">'.PHP_EOL;
-		echo '<span class="brief__image"><a href="'.get_the_permalink().'"><img src="''" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
+		// echo '<span class="brief__image"><a href="'.$news_link.'"><img src="'.$news_th.'" alt="''" class="img-fluid"></a></span>'.PHP_EOL;
 		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
 		echo ', <a href="#" class="brief__author">'.get_the_author().'</a></span>'.PHP_EOL;
-		echo '<h3 class="brief__title"><a href="'.get_the_permalink().'" class="brief__link">'.get_the_title().'</a></h3>'.PHP_EOL;
+		echo '<h3 class="brief__title"><a href="'.$news_link.'" class="brief__link">'.$news_title.'</a></h3>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	}
 	wp_reset_postdata();
