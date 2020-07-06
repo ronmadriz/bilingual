@@ -48,10 +48,10 @@ if ($brief_query->have_posts()) {
 		echo '<span class="brief__image brief__item--image"><a href="'.get_the_permalink().'">';
 		the_post_thumbnail('thumbnail', array('class' => 'img-fluid'));
 		echo '</a></span>'.PHP_EOL;
+		echo '<h3 class="brief__title brief__item--title"><a href="'.get_the_permalink().'" class="brief__link">'.get_the_title().'</a></h3>'.PHP_EOL;
 		echo '<span class="brief__details brief__item--details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
-		echo ', <a href="#" class="brief__author">'.get_the_author().'</a></span>'.PHP_EOL;
-		echo '<h3 class="brief__title brief__item--title"><a href="'.get_the_permalink().'" class="brief__link">'.get_the_title().'</a></h3>'.PHP_EOL;
+		echo '</span>'.PHP_EOL;// <a href="#" class="brief__author">'.get_the_author().'</a>
 		echo '</article>'.PHP_EOL;
 	}
 	wp_reset_postdata();
