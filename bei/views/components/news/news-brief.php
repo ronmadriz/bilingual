@@ -26,10 +26,10 @@ if ($featured_brief_query->have_posts()) {
 		echo '<span class="brief__image"><a href="'.$news_link.'">';
 		the_post_thumbnail('large', array('class' => 'img-fluid'));
 		echo '</a></span>'.PHP_EOL;
+		echo '<h3 class="brief__title"><a href="'.$news_link.'" class="brief__link">'.$news_title.'</a></h3>'.PHP_EOL;
 		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
 		echo '</span>'.PHP_EOL;// <a href="#" class="brief__author">'.get_the_author().'</a>
-		echo '<h3 class="brief__title"><a href="'.$news_link.'" class="brief__link">'.$news_title.'</a></h3>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	}
 	wp_reset_postdata();
