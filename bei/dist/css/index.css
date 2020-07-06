@@ -1956,7 +1956,7 @@ section:not(.banner):not(.featured) .container-fluid {
   margin-top: 4rem; }
 
 #page-home .tabbed__details {
-  background-color: #192f59;
+  background-color: #027dc3;
   color: #fefefe;
   line-height: 1.7;
   padding: 3rem;
@@ -1972,7 +1972,7 @@ section:not(.banner):not(.featured) .container-fluid {
     text-transform: none;
     color: #fefefe; }
   #page-home .tabbed__details h3 {
-    color: #3db166;
+    color: #00bec9;
     font-size: 1.375rem;
     font-style: normal;
     font-weight: 500;
