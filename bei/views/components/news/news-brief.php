@@ -20,12 +20,11 @@ if ($featured_brief_query->have_posts()) {
 		$featured_brief_query->the_post();
 
 		$news_title = get_the_title();
-		$news_th    = get_the_post_thumbnail_url('medium');
 		$news_link  = get_the_permalink();
 
 		echo '<div class="brief__featured col-12 col-md-6">'.PHP_EOL;
 		echo '<span class="brief__image"><a href="'.$news_link.'">';
-		the_post_thumbnail('medium', array('class' => 'img-fluid'));
+		the_post_thumbnail('large', array('class' => 'img-fluid'));
 		echo '</a></span>'.PHP_EOL;
 		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
