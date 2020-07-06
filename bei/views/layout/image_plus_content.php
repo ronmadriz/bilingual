@@ -3,7 +3,7 @@ $ipc_title   = get_sub_field('ipc_title');
 $ipc_content = get_sub_field('ipc_content');
 $ipc_image   = get_sub_field('ipc_image');
 $ipc_button  = get_sub_field('ipc_button');
-$ipc_size    = 'full';
+$ipc_size    = 'medium';
 $ipc_thumb   = $ipc_image['sizes'][$ipc_size];
 echo '<section id="ipc" class="ipc">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
