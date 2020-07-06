@@ -1980,10 +1980,14 @@ section:not(.banner):not(.featured) .container-fluid {
 
 #page-home .icons {
   background-color: #027dc3; }
+  #page-home .icons__img svg {
+    fill: #97ed85; }
   #page-home .icons__title {
     color: #fefefe; }
   #page-home .icons__desc {
     color: #e6e6e6; }
+  #page-home .icons__button {
+    color: #97ed85; }
 
 #page-home .vidTab {
   background-color: #e6e6e6;

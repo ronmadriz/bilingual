@@ -1,9 +1,17 @@
 .icons {
 	background-color: $bei_1;
+	&__img {
+		svg {
+			fill:$bei_4;
+		}
+	}
 	&__title {
 		 color:$white_1;
 	}
 	&__desc {
 		color:$white_2;
+	}
+	&__button {
+		color:$bei_4;
 	}
 }
