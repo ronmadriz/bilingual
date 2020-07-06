@@ -528,7 +528,7 @@ a[href*="//"]:not([href*="ronmadriz.com"]) {
       content: '>';
       display: inline-block;
       margin: 0 0.9375rem; }
-  .breadcrumbs__link {
+  .breadcrumbs__link, .breadcrumbs a[rel="external"] {
     color: #ababab; }
 
 section:not(.banner):not(.featured) .container-fluid {

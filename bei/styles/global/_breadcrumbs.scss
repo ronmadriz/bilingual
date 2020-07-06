@@ -19,7 +19,8 @@
 			}
 		}
 	}
-	&__link {
+	&__link, a[rel="external"] {
 		color:$placeholder;
 	}
+
 }
