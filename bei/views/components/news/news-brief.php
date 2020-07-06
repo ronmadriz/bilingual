@@ -28,7 +28,7 @@ if ($featured_brief_query->have_posts()) {
 		echo '</a></span>'.PHP_EOL;
 		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
-		echo ', <a href="#" class="brief__author">'.get_the_author().'</a></span>'.PHP_EOL;
+		echo '</span>'.PHP_EOL;// <a href="#" class="brief__author">'.get_the_author().'</a>
 		echo '<h3 class="brief__title"><a href="'.$news_link.'" class="brief__link">'.$news_title.'</a></h3>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 	}
