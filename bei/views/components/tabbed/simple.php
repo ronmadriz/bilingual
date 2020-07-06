@@ -1,6 +1,6 @@
 <?php
 $tab__item            = get_sub_field('tab__item');
-$simple_section_title = get_sub_field('section_title');
+$simple_section_title = get_sub_field('tab__section_title');
 echo '<section id="simple_tabs" class="simple_tabs">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row"><div class="simple_tabs__title col-12"><h2 class="simple_tabs__title--text">'.$simple_section_title.'</h2></div></div>'.PHP_EOL;
