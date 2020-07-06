@@ -47,7 +47,7 @@ if (have_rows('page_builder', $bei_fl_id)) {
 		} elseif (get_row_layout() == 'content_with_form') {
 			include (get_template_directory().'/views/layout/content-with-form.php');
 		} elseif (get_row_layout() == 'cta_w_background_image') {
-			include (get_template_directory().'/views/ctas/withbg.php');
+			include (get_template_directory().'/views/components/ctas/withbg.php');
 		}
 	}
 }
