@@ -11,6 +11,7 @@
 	    }
 	}
 	&__title {
+		display: block;
 	    margin-bottom: 2rem;
 	    padding-bottom: 1rem;
 	    position: relative;
@@ -37,6 +38,7 @@
 		display: block;
 	}
 	&__image {
+		display: inline-block;
 		@include has-bg (center, center);
 		@include for-phone-only {
 			padding-bottom:1rem;
