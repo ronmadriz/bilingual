@@ -1,16 +1,24 @@
-<style>
-	.cta.withBg {
-		background-image:url(https://demo.goodlayers.com/features/wp-content/uploads/2016/05/column-bg-3.jpg);
-	}
-</style>
-<section id="cta" class="cta withBg">
-	<div class="container-fluid">
-		<div class="row cta__wrapper">
-			<div class="col-12 cta__content">
-				<span class="cta__title"><h2 class="cta__title--text">Get Started Today on Your Future!</h2></span>
-				<span class="cta__details">Whether you&apos;re looking to learn a new language or begin your journey towards becoming a U.S. citizen <abbr title="Bilingual Education Institute">BEI</abbr> has you covered!</span>
-				<span class="cta__button"><a href="#" class="cta__button--btn button__green">Register</a></span>
-			</div>
-		</div>
-	</div>
-</section>
+<?php 
+$cta_title = get_sub_field('cta_title');
+$cta_content = get_sub_field('cta_content');
+$cta_button = get_sub_field('cta_button');
+$cta_bgimg = get_sub_field('cta_bgimg');
+
+if($cta_bgimg) {
+	echo '<style>'.PHP_EOL;
+	echo '.cta.withBg {'.PHP_EOL;
+	echo 'background-image:url('.$cta_bgimg['url'].')';.PHP_EOL;
+	echo '}'.PHP_EOL;
+	echo '</style>'.PHP_EOL;
+}
+echo '<section id="cta" class="cta withBg">'.PHP_EOL;
+	echo '<div class="container-fluid">'.PHP_EOL;
+		echo '<div class="row cta__wrapper">'.PHP_EOL;
+			echo '<div class="col-12 cta__content">'.PHP_EOL;
+				echo (!empty($cta_title)?'<span class="cta__title"><h2 class="cta__title--text">'.$cta_title.'</h2></span>'.PHP_EOL:'');
+				echo (!empty($cta_content)?'<span class="cta__details">'.$cta_content.'</span>'.PHP_EOL:'');
+				echo (!empty($cta_button)?'<span class="cta__button"><a href="'.$cta_button['url'].'" class="cta__button--btn button__green">'.$cta_button['title'].'</a></span>'.PHP_EOL:'');
+			echo '</div>'.PHP_EOL;
+		echo '</div>'.PHP_EOL;
+	echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
