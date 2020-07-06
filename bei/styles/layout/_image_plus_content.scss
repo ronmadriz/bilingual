@@ -25,14 +25,16 @@
 			@include title-bottom($accent_2);
 	    }
 	}
-	&__desc {
-		color:$gray_6;
-		display: block;
+	&__content {
 		max-width: 39.8125rem;
 		padding:2rem 5rem;
 		@include for-tablet-up {
 			padding: 5rem;
-		}
+		}		
+	}
+	&__desc {
+		color:$gray_6;
+		display: block;
 	}
 	&__image {
 		@include has-bg (center, center);

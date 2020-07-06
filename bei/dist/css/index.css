@@ -1128,14 +1128,15 @@ section:not(.banner):not(.featured) .container-fluid {
         position: absolute;
         display: block;
         bottom: 0; }
-  .ipc__desc {
-    color: #959595;
-    display: block;
+  .ipc__content {
     max-width: 39.8125rem;
     padding: 2rem 5rem; }
     @media (min-width: 786px) {
-      .ipc__desc {
+      .ipc__content {
         padding: 5rem; } }
+  .ipc__desc {
+    color: #959595;
+    display: block; }
   .ipc__image {
     background-position: center, center;
     background-repeat: no-repeat;
