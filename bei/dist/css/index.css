@@ -1148,6 +1148,8 @@ section:not(.banner):not(.featured) .container-fluid {
       .ipc__image {
         padding-bottom: 1rem;
         padding-top: 3rem; } }
+  .ipc__button {
+    color: #3db166; }
 
 .subsites {
   background-color: #09f;
