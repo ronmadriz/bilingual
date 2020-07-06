@@ -519,10 +519,11 @@ a[href*="//"]:not([href*="ronmadriz.com"]) {
     margin-bottom: 1.6275rem;
     margin-top: 1.6275rem;
     padding-left: 1rem; }
-    .breadcrumbs__content a[rel="category"] {
+    .breadcrumbs__content a {
       color: #ababab;
+      display: inline-block;
       font-size: .875rem; }
-      .breadcrumbs__content a[rel="category"]:after {
+      .breadcrumbs__content a:after {
         color: #ababab;
         content: '>';
         display: inline-block;

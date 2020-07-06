@@ -5,8 +5,9 @@
 		margin-bottom: 1.6275rem;
 	    margin-top: 1.6275rem;
 		padding-left: 1rem;
-		a[rel="category"] {
+		a {
 			color:$placeholder;
+			display:inline-block;
 			font-size: .875rem;
 			&:after {
 				color:$placeholder;
