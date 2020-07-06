@@ -21,14 +21,6 @@
 		font-size: .875rem;
 		color:$accent_2;
 		margin:0;
-		&:not(:last-of-type){
-			&:after {
-				color:$placeholder;
-				content:'>';
-				display: inline-block;
-				margin:0 0.9375rem;
-			}
-		}
 	}
 	&__link {
 		color:$placeholder;
