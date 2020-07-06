@@ -519,6 +519,14 @@ a[href*="//"]:not([href*="ronmadriz.com"]) {
     margin-bottom: 1.6275rem;
     margin-top: 1.6275rem;
     padding-left: 1rem; }
+    .breadcrumbs__content a[rel="category"] {
+      color: #ababab;
+      font-size: .875rem; }
+      .breadcrumbs__content a[rel="category"]:after {
+        color: #ababab;
+        content: '>';
+        display: inline-block;
+        margin: 0 0.9375rem; }
   .breadcrumbs__item {
     font-size: .875rem;
     color: #3db166;
@@ -528,7 +536,7 @@ a[href*="//"]:not([href*="ronmadriz.com"]) {
       content: '>';
       display: inline-block;
       margin: 0 0.9375rem; }
-  .breadcrumbs__link, .breadcrumbs a[rel="category"] {
+  .breadcrumbs__link {
     color: #ababab; }
 
 section:not(.banner):not(.featured) .container-fluid {

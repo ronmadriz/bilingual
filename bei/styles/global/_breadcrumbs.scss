@@ -5,6 +5,16 @@
 		margin-bottom: 1.6275rem;
 	    margin-top: 1.6275rem;
 		padding-left: 1rem;
+		a[rel="category"] {
+			color:$placeholder;
+			font-size: .875rem;
+			&:after {
+				color:$placeholder;
+				content:'>';
+				display: inline-block;
+				margin:0 0.9375rem;
+			}			
+		}
 	}
 	&__item {
 		font-size: .875rem;
@@ -19,7 +29,7 @@
 			}
 		}
 	}
-	&__link, a[rel="category"] {
+	&__link {
 		color:$placeholder;
 	}
 
