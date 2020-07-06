@@ -1163,7 +1163,7 @@ section:not(.banner):not(.featured) .container-fluid {
     color: #3db166; }
 
 .subsites {
-  background-color: #09f;
+  background-color: #027dc3;
   color: #838383; }
   .subsites__wrapper {
     -webkit-box-orient: horizontal;
@@ -2366,14 +2366,14 @@ section:not(.banner):not(.featured) .container-fluid {
       margin-top: 2rem; }
 
 .section-english-for-refugees .subsites {
-  background-color: #e44d74; }
+  background-color: #00bec9; }
   .section-english-for-refugees .subsites__nav li a {
     color: #fefefe; }
   .section-english-for-refugees .subsites__nav li:first-of-type a {
-    background-color: #e44d74;
+    background-color: #00bec9;
     color: #fefefe; }
     .section-english-for-refugees .subsites__nav li:first-of-type a:hover {
-      background-color: rgba(228, 77, 116, 0.3);
+      background-color: rgba(0, 190, 201, 0.3);
       color: #181818; }
   .section-english-for-refugees .subsites__nav li:nth-of-type(3) a {
     background-color: #fefefe;
@@ -2383,13 +2383,13 @@ section:not(.banner):not(.featured) .container-fluid {
       color: #181818; }
 
 .section-f1-student-resources .subsites {
-  background-color: #ffde42; }
+  background-color: #00d9aa; }
   .section-f1-student-resources .subsites__nav li a {
     color: #444444; }
   .section-f1-student-resources .subsites__nav li:first-of-type a {
-    background-color: #ffde42; }
+    background-color: #00d9aa; }
     .section-f1-student-resources .subsites__nav li:first-of-type a:hover {
-      background-color: rgba(255, 222, 66, 0.3);
+      background-color: rgba(0, 217, 170, 0.3);
       color: #444444; }
   .section-f1-student-resources .subsites__nav li:nth-of-type(2) a {
     background-color: #fefefe;
