@@ -18,7 +18,7 @@ echo '<span class="ipc__desc">'.PHP_EOL;
 echo '<span class="ipc__title"><h2 class="ipc__title--text">'.$ipc_title.'</h2></span>'.PHP_EOL;
 echo $ipc_content.PHP_EOL;
 echo '</span>'.PHP_EOL;
-echo (!empty($ipc_button)?'<a href="'.$ipc_button.'" class="ipc__button button button__border">'.$ipc_button['title'].'</a>'.PHP_EOL:'');
+echo (!empty($ipc_button)?'<a href="'.esc_url($ipc_button['url']).'" class="ipc__button button button__border">'.$ipc_button['title'].'</a>'.PHP_EOL:'');
 echo '</div>'.PHP_EOL;
 echo '<div class="ipc__image col-12 col-md-6 text-sm-center"><img src="'.esc_url($ipc_thumb).'" alt="" class="img-fluid d-md-none"></div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
