@@ -1137,7 +1137,8 @@ section:not(.banner):not(.featured) .container-fluid {
         padding: 5rem; } }
   .ipc__desc {
     color: #959595;
-    display: block; }
+    display: block;
+    margin-bottom: 2rem; }
   .ipc__image {
     display: inline-block;
     background-position: center, center;
