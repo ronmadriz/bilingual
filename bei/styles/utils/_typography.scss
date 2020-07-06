@@ -321,6 +321,14 @@ main {
         line-height: 1.7rem;
         margin-bottom: .5rem;
     }
+    ol {
+        li {
+            line-height: 1.85;
+            margin-bottom: .85rem;
+            margin-top: .75rem;
+            padding-left: 1rem;            
+        }
+    }    
 }
 dt {
     font-size: 1.0625rem;
