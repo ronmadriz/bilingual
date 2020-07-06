@@ -28,5 +28,9 @@
 	}
 	&__green {
 	   @include button-big($accent_2, $white_1);
+       &:hover {
+            color:$white_1;
+            text-decoration:none;
+       }
 	}   
 }

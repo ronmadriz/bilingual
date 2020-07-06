@@ -494,6 +494,9 @@ a[href*="//"]:not([href*="ronmadriz.com"]) {
       transition: all 0.3s ease; }
     .button__green:active {
       background: #1c522f; }
+    .button__green:hover {
+      color: #fefefe;
+      text-decoration: none; }
 
 .breadcrumbs {
   padding-top: 1.75rem;
