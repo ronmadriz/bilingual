@@ -24,7 +24,7 @@ if ($featured_brief_query->have_posts()) {
 		$news_link  = get_the_permalink();
 
 		echo '<div class="brief__featured col-12 col-md-6">'.PHP_EOL;
-		echo '<span class="brief__image"><a href="'.$news_link.'"><img src="'.$news_th.'" alt="'.$news_title.'" class="img-fluid"></a></span>'.PHP_EOL;
+		echo '<span class="brief__image"><a href="'.$news_link.'"><img src="'.esc_url($news_th).'" alt="'.$news_title.'" class="img-fluid"></a></span>'.PHP_EOL;
 		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
 		echo ', <a href="#" class="brief__author">'.get_the_author().'</a></span>'.PHP_EOL;
