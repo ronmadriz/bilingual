@@ -45,7 +45,9 @@ if ($brief_query->have_posts()) {
 	while ($brief_query->have_posts()) {
 		$brief_query->the_post();
 		echo '<article class="brief__item">'.PHP_EOL;
-		echo '<span class="brief__image brief__item--image"><a href="'.get_the_permalink().'"><img src="https://via.placeholder.com/90" alt="featured story image" class="img-fluid"></a></span>'.PHP_EOL;
+		echo '<span class="brief__image brief__item--image"><a href="'.get_the_permalink().'">';
+		the_post_thumbnail('thumbnail', array('class' => 'img-fluid'));
+		echo '</a></span>'.PHP_EOL;
 		echo '<span class="brief__details brief__item--details"><date class="brief__date">'.get_the_date().'</date> ';
 		the_category(' ');
 		echo ', <a href="#" class="brief__author">'.get_the_author().'</a></span>'.PHP_EOL;
