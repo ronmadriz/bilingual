@@ -22,7 +22,7 @@ function the_breadcrumb() {
 		// Check if the current page is a category, an archive or a single page. If so show the category or archive name.
 		if (is_category() || is_single()) {
 			the_category(
-				'parent=' =>'<span></span>';
+				'parent=' =>'<span></span>',
 			);
 		} elseif (is_archive() || is_single()) {
 			if (is_day()) {
