@@ -259,6 +259,11 @@ main li {
   line-height: 1.7rem;
   margin-bottom: .5rem; }
 
+dt {
+  font-size: 1.0625rem;
+  margin-bottom: .5rem;
+  margin-top: 1.45rem; }
+
 @media (max-width: 786px) {
   ul {
     -webkit-padding-start: 2rem;
