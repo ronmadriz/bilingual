@@ -666,122 +666,118 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-top: 2rem;
     margin-bottom: 1rem; }
 
-.testimonial__title {
-  margin-bottom: 2rem;
-  position: relative; }
-  .testimonial__title:after {
-    background-color: #707070;
-    display: block;
-    content: '';
-    height: .0625rem;
-    left: 0;
-    position: absolute;
-    top: 1.25rem;
-    width: 100%;
-    z-index: -1; }
-  .testimonial__title--text {
-    background-color: #fefefe;
-    display: inline-block;
-    padding-left: 1rem;
-    padding-right: 1rem; }
-
-.testimonial__wrapper {
-  padding-bottom: 2rem; }
-
-.testimonial__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-right: 2.25rem;
-  position: relative;
-  padding-bottom: 3rem; }
-  .testimonial__item:after {
-    color: #282828;
-    content: '”';
-    font-family: Georgia, serif;
-    font-size: 3.75rem;
-    line-height: 1;
-    position: absolute;
-    right: 0;
-    top: 0; }
-  @media (max-width: 786px) {
-    .testimonial__item {
-      margin-bottom: 2rem; } }
-
-.testimonial__slideitem {
-  padding-right: 2.25rem;
-  position: relative;
-  padding-bottom: 3rem; }
-  .testimonial__slideitem:after {
-    color: #282828;
-    content: '”';
-    font-family: Georgia, serif;
-    font-size: 3.75rem;
-    line-height: 1;
-    position: absolute;
-    right: 0;
-    top: 0; }
-  @media (max-width: 786px) {
-    .testimonial__slideitem {
-      margin-bottom: 2rem; } }
-
-.testimonial__quote {
-  color: #707070;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 0.9375rem;
-  font-style: italic;
-  line-height: 1.7;
-  text-align: right; }
-
-.testimonial__details {
-  bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-right: 2.25rem;
-  position: absolute;
-  width: 100%; }
-
-.testimonial__author {
-  color: #282828;
-  float: left;
-  margin: 0;
-  padding: 0 .5rem 0 0;
-  width: 80%; }
-  .testimonial__author--name {
-    display: block;
-    font-family: "Raleway", sans-serif;
-    font-size: 0.9375rem;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: .0625rem;
-    margin-bottom: .125rem;
-    text-align: right;
-    text-transform: uppercase; }
-  .testimonial__author--country {
-    display: block;
+.testimonial {
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+  .testimonial__title {
+    margin-bottom: 2rem;
+    position: relative; }
+    .testimonial__title:after {
+      background-color: #707070;
+      display: block;
+      content: '';
+      height: .0625rem;
+      left: 0;
+      position: absolute;
+      top: 1.25rem;
+      width: 100%;
+      z-index: -1; }
+    .testimonial__title--text {
+      background-color: #fefefe;
+      display: inline-block;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+  .testimonial__wrapper {
+    padding-bottom: 2rem; }
+  .testimonial__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-right: 2.25rem;
+    position: relative;
+    padding-bottom: 3rem; }
+    .testimonial__item:after {
+      color: #282828;
+      content: '”';
+      font-family: Georgia, serif;
+      font-size: 3.75rem;
+      line-height: 1;
+      position: absolute;
+      right: 0;
+      top: 0; }
+    @media (max-width: 786px) {
+      .testimonial__item {
+        margin-bottom: 2rem; } }
+  .testimonial__slideitem {
+    padding-right: 2.25rem;
+    position: relative;
+    padding-bottom: 3rem; }
+    .testimonial__slideitem:after {
+      color: #282828;
+      content: '”';
+      font-family: Georgia, serif;
+      font-size: 3.75rem;
+      line-height: 1;
+      position: absolute;
+      right: 0;
+      top: 0; }
+    @media (max-width: 786px) {
+      .testimonial__slideitem {
+        margin-bottom: 2rem; } }
+  .testimonial__quote {
+    color: #707070;
     font-family: "Comfortaa", sans-serif;
     font-size: 0.9375rem;
     font-style: italic;
-    margin-bottom: .125rem;
+    line-height: 1.7;
     text-align: right; }
-
-.testimonial__image {
-  float: right;
-  margin-left: .125rem;
-  max-height: 3.4375rem;
-  max-width: 3.4375rem; }
+  .testimonial__details {
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 2.25rem;
+    position: absolute;
+    width: 100%; }
+  .testimonial__author {
+    color: #282828;
+    float: left;
+    margin: 0;
+    padding: 0 .5rem 0 0;
+    width: 80%; }
+    .testimonial__author--name {
+      display: block;
+      font-family: "Raleway", sans-serif;
+      font-size: 0.9375rem;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: .0625rem;
+      margin-bottom: .125rem;
+      text-align: right;
+      text-transform: uppercase; }
+    .testimonial__author--country {
+      display: block;
+      font-family: "Comfortaa", sans-serif;
+      font-size: 0.9375rem;
+      font-style: italic;
+      margin-bottom: .125rem;
+      text-align: right; }
+  .testimonial__image {
+    float: right;
+    margin-left: .125rem;
+    max-height: 3.4375rem;
+    max-width: 3.4375rem; }
 
 .quotes {
   padding-bottom: 3rem;
