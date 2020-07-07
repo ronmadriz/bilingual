@@ -1,6 +1,7 @@
 .news-brief {
 	position:relative;
 	@include for-phone-only {
+		padding-top: 2rem;
 		@include color-block($white_4, 100%);
 	}
 	@include for-tablet-up {

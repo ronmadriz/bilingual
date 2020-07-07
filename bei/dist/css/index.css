@@ -2292,15 +2292,17 @@ section:not(.banner):not(.featured) .container-fluid {
 #page-home .news-brief {
   position: relative; }
   @media (max-width: 786px) {
-    #page-home .news-brief:after {
-      background-color: #f3f3f3;
-      content: '';
-      display: block;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: -1; } }
+    #page-home .news-brief {
+      padding-top: 2rem; }
+      #page-home .news-brief:after {
+        background-color: #f3f3f3;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1; } }
   @media (min-width: 786px) {
     #page-home .news-brief:after {
       background-color: #f3f3f3;
