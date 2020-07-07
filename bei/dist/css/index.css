@@ -495,13 +495,12 @@ a[href*="//"]:not([href*="ronmadriz.com"]) {
             box-shadow: #838383 0px 0px 0px 0px; }
   .button__green {
     background: #3db166;
-    font-size: 15px;
-    color: #fefefe;
-    padding: 12px 29px 17px 31px;
-    text-transform: none;
+    border: 0.125rem solid #3c945b;
     border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px; }
+    color: #fefefe;
+    font-size: 15px;
+    padding: 12px 29px 17px 31px;
+    text-transform: none; }
     .button__green:hover {
       background: #339355;
       -webkit-transition: all 0.3s ease;

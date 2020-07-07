@@ -15,13 +15,12 @@
 }
 @mixin button-big($bg,$bgtext) {
   background: $bg;
-  font-size: 15px;
+  border: .125rem solid $forrest;
+  border-radius: 2px;
   color: $bgtext;
+  font-size: 15px;
   padding: 12px 29px 17px 31px;
   text-transform: none;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;  
   &:hover {
     background:darken($bg,8%);
     transition: all 0.3s ease;
