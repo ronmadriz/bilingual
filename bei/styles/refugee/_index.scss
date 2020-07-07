@@ -25,7 +25,16 @@
 						    color: $black_1;
 						}
 					}
-				}			
+				}
+				&:last-of-type{
+					a {
+					    background-color: $bei_5;
+					    color: $gray_4;
+						&:hover {
+						    color: $gray_4;
+						}
+					}
+				}
 			}
 		}
 	}
