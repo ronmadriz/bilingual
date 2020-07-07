@@ -1,5 +1,17 @@
 #page {
 	&-f1-student-resources {
+		.subsites {
+			&__nav {
+				li {
+					&:last-of-type {
+						a {
+						    background-color: $bei_5;
+						    color: $gray_8;
+						}
+					}
+				}
+			}
+		}
 		.imagebar {
 			background-color: transparent;
 			margin-top:0;

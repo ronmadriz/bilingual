@@ -2066,6 +2066,10 @@ section:not(.banner):not(.featured) .container-fluid {
     .section-f1-student-resources .subsites__nav li:last-of-type a:hover {
       color: #fefefe; }
 
+#page-f1-student-resources .subsites__nav li:last-of-type a {
+  background-color: #f9f871;
+  color: #444444; }
+
 #page-f1-student-resources .imagebar {
   background-color: transparent;
   margin-top: 0; }
