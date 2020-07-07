@@ -2374,6 +2374,9 @@ section:not(.banner):not(.featured) .container-fluid {
     @media (min-width: 786px) {
       #page-home .news-brief .quick {
         padding: 6rem 0 0 0; } }
+    @media (min-width: 1360px) {
+      #page-home .news-brief .quick {
+        padding: 6rem 0px 0px 4.0625rem; } }
     #page-home .news-brief .quick__title {
       font-size: 1.5625rem;
       font-weight: 700;
