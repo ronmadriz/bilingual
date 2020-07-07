@@ -82,9 +82,6 @@
 				float:left;
 			}
 			&--title {
-				@include for-phone-only {
-					width:66%;
-				}
 			}
 		}
 	}

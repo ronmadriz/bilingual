@@ -2367,9 +2367,6 @@ section:not(.banner):not(.featured) .container-fluid {
         margin-right: 1rem; }
       #page-home .news-brief .brief__item--details {
         float: left; }
-      @media (max-width: 786px) {
-        #page-home .news-brief .brief__item--title {
-          width: 66%; } }
   #page-home .news-brief .quick {
     color: #444444;
     padding: 2rem 0; }
