@@ -1839,6 +1839,242 @@ section:not(.banner):not(.featured) .container-fluid {
     padding-left: 0;
     padding-right: 0; }
 
+.single-programs .block {
+  padding: 0 0 2rem; }
+  .single-programs .block__wrapper {
+    padding: 0; }
+  .single-programs .block__content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0; }
+  .single-programs .block__item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #3db166;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 12rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: .25rem;
+    margin-right: .25rem;
+    padding: 0 1rem;
+    width: 47.5%; }
+    @media (max-width: 786px) {
+      .single-programs .block__item:nth-of-type(even) {
+        margin-right: 0; } }
+    @media (min-width: 786px) {
+      .single-programs .block__item {
+        width: 19.25%; } }
+  .single-programs .block__desc {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3725rem;
+    font-weight: 600;
+    text-align: center; }
+
+@media (min-width: 786px) {
+  .single-programs .calendar {
+    padding-bottom: 4rem;
+    padding-top: 4rem; } }
+
+.single-programs .calendar__title {
+  margin-bottom: 1.875rem; }
+
+.single-programs .calendar__label {
+  color: #959595;
+  font-size: 1.125rem;
+  margin-bottom: 0; }
+
+.single-programs .calendar__table {
+  margin-top: 1rem; }
+
+.single-programs .calendar__headers {
+  background-color: #3db166;
+  border-bottom: 0.0625rem solid #fefefe;
+  border-right: 0.0625rem solid #fefefe;
+  color: #fefefe;
+  font-size: 1rem;
+  font-weight: 400; }
+
+.single-programs .calendar__data {
+  background-color: #e6e6e6;
+  color: #959595; }
+  .single-programs .calendar__data:first-of-type:before {
+    margin-right: 0; }
+  @media (min-width: 786px) {
+    .single-programs .calendar__data {
+      border-right: 0.0625rem solid #fefefe;
+      border-bottom: 0.0625rem solid #fefefe; } }
+
+.single-programs .calendar__title {
+  color: #192f59;
+  margin-bottom: 2.8725rem; }
+  .single-programs .calendar__title:after {
+    content: '';
+    height: 0.125rem;
+    width: 7rem;
+    background-color: #3db166;
+    position: absolute;
+    display: block;
+    bottom: 0; }
+
+@media (min-width: 786px) {
+  .single-programs .schedule {
+    padding-bottom: 4rem;
+    padding-top: 4rem; } }
+
+.single-programs .schedule__title {
+  margin-bottom: 1.875rem; }
+
+.single-programs .schedule__label {
+  color: #959595;
+  font-size: 1.125rem;
+  margin-bottom: 0; }
+
+.single-programs .schedule__table {
+  margin-top: 1rem; }
+
+.single-programs .schedule__headers {
+  background-color: #3db166;
+  border-bottom: 0.0625rem solid #fefefe;
+  border-right: 0.0625rem solid #fefefe;
+  color: #fefefe;
+  font-size: 1rem;
+  font-weight: 400; }
+
+.single-programs .schedule__data {
+  background-color: #e6e6e6;
+  color: #959595; }
+  .single-programs .schedule__data:first-of-type:before {
+    margin-right: 0; }
+  @media (min-width: 786px) {
+    .single-programs .schedule__data {
+      border-right: 0.0625rem solid #fefefe;
+      border-bottom: 0.0625rem solid #fefefe; } }
+
+.single-programs .schedule__title {
+  color: #192f59;
+  margin-bottom: 2.8725rem; }
+  .single-programs .schedule__title:after {
+    content: '';
+    height: 0.125rem;
+    width: 7rem;
+    background-color: #3db166;
+    position: absolute;
+    display: block;
+    bottom: 0; }
+
+.overview {
+  padding-bottom: 2rem;
+  padding-top: 2rem; }
+  .overview__list {
+    padding-bottom: 2.8125rem;
+    padding-left: 0;
+    list-style-type: none; }
+  .overview__item {
+    position: relative; }
+  .overview__link {
+    border-bottom: 0.0625rem solid #e6e6e6;
+    color: #6b6b6b;
+    display: block;
+    margin-bottom: 0.8125rem;
+    padding-bottom: 0.8125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: relative;
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all; }
+    .overview__link:hover {
+      color: #3db166;
+      text-decoration: none; }
+    .overview__link:after {
+      content: url(../../sprites/arrow.svg);
+      -webkit-filter: hue-rotate(45deg);
+              filter: hue-rotate(45deg);
+      height: 2rem;
+      position: absolute;
+      right: 0;
+      top: 5%;
+      width: 1rem; }
+  .overview .children {
+    padding-left: 0;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    list-style-type: none; }
+    .overview .children li a {
+      padding-left: 2.5rem; }
+  .overview__sub {
+    background-color: #192f59;
+    color: #fefefe;
+    padding: 3rem; }
+    .overview__sub--title {
+      font-size: 1.25rem;
+      margin-bottom: 1.5625rem; }
+    .overview__sub--desc {
+      font-size: 0.9375rem;
+      line-height: 1.7; }
+    .overview__sub--btn {
+      display: block;
+      margin-top: 2rem; }
+
+.section-english-for-refugees .subsites {
+  background-color: #00bec9; }
+  .section-english-for-refugees .subsites__nav li a {
+    color: #fefefe; }
+  .section-english-for-refugees .subsites__nav li:first-of-type a {
+    background-color: #00bec9;
+    color: #fefefe; }
+    .section-english-for-refugees .subsites__nav li:first-of-type a:hover {
+      background-color: rgba(0, 190, 201, 0.3);
+      color: #181818; }
+  .section-english-for-refugees .subsites__nav li:nth-of-type(3) a {
+    background-color: #fefefe;
+    color: #444444; }
+    .section-english-for-refugees .subsites__nav li:nth-of-type(3) a:hover {
+      background-color: #fefefe;
+      color: #181818; }
+
+.section-f1-student-resources .subsites {
+  background-color: #00d9aa; }
+  .section-f1-student-resources .subsites__nav li a {
+    color: #444444; }
+  .section-f1-student-resources .subsites__nav li:first-of-type a {
+    background-color: #00d9aa; }
+    .section-f1-student-resources .subsites__nav li:first-of-type a:hover {
+      background-color: rgba(0, 217, 170, 0.3);
+      color: #444444; }
+  .section-f1-student-resources .subsites__nav li:nth-of-type(2) a {
+    background-color: #fefefe;
+    color: #444444; }
+    .section-f1-student-resources .subsites__nav li:nth-of-type(2) a:hover {
+      background-color: #fefefe;
+      color: #444444; }
+  .section-f1-student-resources .subsites__nav li:last-of-type a {
+    color: #fefefe; }
+    .section-f1-student-resources .subsites__nav li:last-of-type a:hover {
+      color: #fefefe; }
+
+#page-f1-student-resources .imagebar__image {
+  -webkit-filter: grayscale(40%);
+          filter: grayscale(40%); }
+
+@media (max-width: 786px) {
+  #page-f1-student-resources .imagebar {
+    margin-top: 0; } }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
@@ -2187,231 +2423,3 @@ section:not(.banner):not(.featured) .container-fluid {
 .main-content {
   padding-bottom: 2rem;
   padding-top: 2rem; }
-
-.single-programs .block {
-  padding: 0 0 2rem; }
-  .single-programs .block__wrapper {
-    padding: 0; }
-  .single-programs .block__content {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0; }
-  .single-programs .block__item {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #3db166;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 12rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: .25rem;
-    margin-right: .25rem;
-    padding: 0 1rem;
-    width: 47.5%; }
-    @media (max-width: 786px) {
-      .single-programs .block__item:nth-of-type(even) {
-        margin-right: 0; } }
-    @media (min-width: 786px) {
-      .single-programs .block__item {
-        width: 19.25%; } }
-  .single-programs .block__desc {
-    color: #fff;
-    display: inline-block;
-    font-size: 1.3725rem;
-    font-weight: 600;
-    text-align: center; }
-
-@media (min-width: 786px) {
-  .single-programs .calendar {
-    padding-bottom: 4rem;
-    padding-top: 4rem; } }
-
-.single-programs .calendar__title {
-  margin-bottom: 1.875rem; }
-
-.single-programs .calendar__label {
-  color: #959595;
-  font-size: 1.125rem;
-  margin-bottom: 0; }
-
-.single-programs .calendar__table {
-  margin-top: 1rem; }
-
-.single-programs .calendar__headers {
-  background-color: #3db166;
-  border-bottom: 0.0625rem solid #fefefe;
-  border-right: 0.0625rem solid #fefefe;
-  color: #fefefe;
-  font-size: 1rem;
-  font-weight: 400; }
-
-.single-programs .calendar__data {
-  background-color: #e6e6e6;
-  color: #959595; }
-  .single-programs .calendar__data:first-of-type:before {
-    margin-right: 0; }
-  @media (min-width: 786px) {
-    .single-programs .calendar__data {
-      border-right: 0.0625rem solid #fefefe;
-      border-bottom: 0.0625rem solid #fefefe; } }
-
-.single-programs .calendar__title {
-  color: #192f59;
-  margin-bottom: 2.8725rem; }
-  .single-programs .calendar__title:after {
-    content: '';
-    height: 0.125rem;
-    width: 7rem;
-    background-color: #3db166;
-    position: absolute;
-    display: block;
-    bottom: 0; }
-
-@media (min-width: 786px) {
-  .single-programs .schedule {
-    padding-bottom: 4rem;
-    padding-top: 4rem; } }
-
-.single-programs .schedule__title {
-  margin-bottom: 1.875rem; }
-
-.single-programs .schedule__label {
-  color: #959595;
-  font-size: 1.125rem;
-  margin-bottom: 0; }
-
-.single-programs .schedule__table {
-  margin-top: 1rem; }
-
-.single-programs .schedule__headers {
-  background-color: #3db166;
-  border-bottom: 0.0625rem solid #fefefe;
-  border-right: 0.0625rem solid #fefefe;
-  color: #fefefe;
-  font-size: 1rem;
-  font-weight: 400; }
-
-.single-programs .schedule__data {
-  background-color: #e6e6e6;
-  color: #959595; }
-  .single-programs .schedule__data:first-of-type:before {
-    margin-right: 0; }
-  @media (min-width: 786px) {
-    .single-programs .schedule__data {
-      border-right: 0.0625rem solid #fefefe;
-      border-bottom: 0.0625rem solid #fefefe; } }
-
-.single-programs .schedule__title {
-  color: #192f59;
-  margin-bottom: 2.8725rem; }
-  .single-programs .schedule__title:after {
-    content: '';
-    height: 0.125rem;
-    width: 7rem;
-    background-color: #3db166;
-    position: absolute;
-    display: block;
-    bottom: 0; }
-
-.overview {
-  padding-bottom: 2rem;
-  padding-top: 2rem; }
-  .overview__list {
-    padding-bottom: 2.8125rem;
-    padding-left: 0;
-    list-style-type: none; }
-  .overview__item {
-    position: relative; }
-  .overview__link {
-    border-bottom: 0.0625rem solid #e6e6e6;
-    color: #6b6b6b;
-    display: block;
-    margin-bottom: 0.8125rem;
-    padding-bottom: 0.8125rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    position: relative;
-    -webkit-transition: .5s ease all;
-    transition: .5s ease all; }
-    .overview__link:hover {
-      color: #3db166;
-      text-decoration: none; }
-    .overview__link:after {
-      content: url(../../sprites/arrow.svg);
-      -webkit-filter: hue-rotate(45deg);
-              filter: hue-rotate(45deg);
-      height: 2rem;
-      position: absolute;
-      right: 0;
-      top: 5%;
-      width: 1rem; }
-  .overview .children {
-    padding-left: 0;
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
-    list-style-type: none; }
-    .overview .children li a {
-      padding-left: 2.5rem; }
-  .overview__sub {
-    background-color: #192f59;
-    color: #fefefe;
-    padding: 3rem; }
-    .overview__sub--title {
-      font-size: 1.25rem;
-      margin-bottom: 1.5625rem; }
-    .overview__sub--desc {
-      font-size: 0.9375rem;
-      line-height: 1.7; }
-    .overview__sub--btn {
-      display: block;
-      margin-top: 2rem; }
-
-.section-english-for-refugees .subsites {
-  background-color: #00bec9; }
-  .section-english-for-refugees .subsites__nav li a {
-    color: #fefefe; }
-  .section-english-for-refugees .subsites__nav li:first-of-type a {
-    background-color: #00bec9;
-    color: #fefefe; }
-    .section-english-for-refugees .subsites__nav li:first-of-type a:hover {
-      background-color: rgba(0, 190, 201, 0.3);
-      color: #181818; }
-  .section-english-for-refugees .subsites__nav li:nth-of-type(3) a {
-    background-color: #fefefe;
-    color: #444444; }
-    .section-english-for-refugees .subsites__nav li:nth-of-type(3) a:hover {
-      background-color: #fefefe;
-      color: #181818; }
-
-.section-f1-student-resources .subsites {
-  background-color: #00d9aa; }
-  .section-f1-student-resources .subsites__nav li a {
-    color: #444444; }
-  .section-f1-student-resources .subsites__nav li:first-of-type a {
-    background-color: #00d9aa; }
-    .section-f1-student-resources .subsites__nav li:first-of-type a:hover {
-      background-color: rgba(0, 217, 170, 0.3);
-      color: #444444; }
-  .section-f1-student-resources .subsites__nav li:nth-of-type(2) a {
-    background-color: #fefefe;
-    color: #444444; }
-    .section-f1-student-resources .subsites__nav li:nth-of-type(2) a:hover {
-      background-color: #fefefe;
-      color: #444444; }
-  .section-f1-student-resources .subsites__nav li:last-of-type a {
-    color: #fefefe; }
-    .section-f1-student-resources .subsites__nav li:last-of-type a:hover {
-      color: #fefefe; }

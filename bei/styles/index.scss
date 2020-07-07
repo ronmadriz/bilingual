@@ -1,3 +1,4 @@
+// Utilities
 @import 'utils/reset';
 @import 'utils/mixins';
 @import 'utils/variables';
@@ -5,12 +6,16 @@
 @import 'utils/animation';
 @import 'utils/social';
 
+
+// Global Styles
 @import 'global/index';
 @import 'global/header/index';
 @import 'global/footer/index';
 @import 'global/buttons';
 @import 'global/breadcrumbs';
 
+
+// Layouts
 @import 'layout/index';
 @import 'layout/infoblocks';
 @import 'layout/imagebar';
@@ -23,6 +28,7 @@
 @import 'layout/two-item-feature';
 @import 'layout/image_plus_content';	
 
+// Components
 @import 'components/nav/index';
 @import 'components/forms/index';
 @import 'components/tables/index';
@@ -37,10 +43,14 @@
 @import 'components/accordion/index';
 @import 'components/tabbed/simple';
 
-@import 'pages/home/index';
-@import 'pages/default';
+// Templates & Sections
 @import 'templates/programs/single/index';
 @import 'templates/programs/overview/index';
-
 @import 'refugee/index';
 @import 'f1/index';
+
+
+// Page Specific Styles
+@import 'pages/f1/default';
+@import 'pages/home/index';
+@import 'pages/default';
