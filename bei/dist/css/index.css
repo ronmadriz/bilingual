@@ -2372,7 +2372,10 @@ section:not(.banner):not(.featured) .container-fluid {
           width: 66%; } }
   #page-home .news-brief .quick {
     color: #444444;
-    padding: 6rem 0px 0px 4.0625rem; }
+    padding: 2rem 0; }
+    @media (min-width: 786px) {
+      #page-home .news-brief .quick {
+        padding: 6rem 0px 0px 4.0625rem; } }
     #page-home .news-brief .quick__title {
       font-size: 1.5625rem;
       font-weight: 700;
