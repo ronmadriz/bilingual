@@ -2234,6 +2234,9 @@ section:not(.banner):not(.featured) .container-fluid {
     font-weight: 500;
     line-height: 3rem; }
 
+#page-home .active .tabbed__title {
+  color: #97ed85; }
+
 #page-home .icons {
   background-color: #027dc3; }
   #page-home .icons__img svg {
