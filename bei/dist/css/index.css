@@ -2074,6 +2074,10 @@ section:not(.banner):not(.featured) .container-fluid {
     .section-f1-student-resources .subsites__nav li:last-of-type a:hover {
       color: #444444; }
 
+@media (min-width: 786px) {
+  #page-f1-student-resources .landing_banner__title {
+    width: 100%; } }
+
 #page-f1-student-resources .imagebar {
   background-color: transparent;
   margin-top: 0; }

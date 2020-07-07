@@ -1,5 +1,10 @@
 #page {
 	&-f1-student-resources {
+		@include for-tablet-up {
+			.landing_banner__title {
+				width: 100%;
+			}	
+		}		
 		.imagebar {
 			background-color: transparent;
 			margin-top:0;
