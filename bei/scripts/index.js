@@ -2,13 +2,26 @@ var j = jQuery.noConflict();
 
 j(document).ready(function(){
 
-	// ensure that mailto links are not treated as external links. Make external links open in a separate tab
-	j('a').not('[href*="mailto:"]').each(function () {
-		var isInternalLink = new RegExp('/' + window.location.host + '/');
-		if ( ! isInternalLink.test(this.href) ) {
-		  j(this).attr('target', '_blank');
-		};
-	});
+	if (j(window).width() > 769) {
+		j('.navbar .dropdown').hover(function() {
+			j(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+		}, function() {
+			j(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+		});
+
+		j('.navbar .dropdown > a').click(function() {
+			location.href = this.href;
+		});
+	}
+
+	j(('a').each(function() {
+        var a = new RegExp('/' + window.location.host + '/');
+        if(!a.test(this.href) && this.href.substr(0,4)!='tel:' && this.href.substr(0,7)!='mailto:') {
+            j(this).attr('target', '_blank');
+        }
+    });
 
 	// add lightbox to gallery 
 	j(document).on('click', '[data-toggle="lightbox"]', function(event) {
@@ -16,7 +29,13 @@ j(document).ready(function(){
 	    j(this).ekkoLightbox();
     });	
 
+
+
 });
+
+
+
+
 
 function doFormatPhone(A){
 	var B=document.getElementById(A);

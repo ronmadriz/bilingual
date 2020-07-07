@@ -843,6 +843,7 @@ section:not(.banner):not(.featured) .container-fluid {
         font-size: 95%; }
 
 .gencontent {
+  padding-bottom: 2rem;
   padding-top: 2rem; }
   .gencontent__title {
     display: block; }
