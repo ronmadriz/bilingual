@@ -2063,13 +2063,14 @@ section:not(.banner):not(.featured) .container-fluid {
     .section-f1-student-resources .subsites__nav li:last-of-type a:hover {
       color: #fefefe; }
 
-#page-f1-student-resources .imagebar__image {
-  -webkit-filter: grayscale(40%);
-          filter: grayscale(40%); }
-
-@media (max-width: 786px) {
-  #page-f1-student-resources .imagebar {
-    margin-top: 0; } }
+#page-f1-student-resources .imagebar {
+  background-color: transparent; }
+  #page-f1-student-resources .imagebar__image {
+    -webkit-filter: grayscale(40%);
+            filter: grayscale(40%); }
+  @media (max-width: 786px) {
+    #page-f1-student-resources .imagebar {
+      margin-top: 0; } }
 
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;

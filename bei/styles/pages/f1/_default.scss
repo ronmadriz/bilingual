@@ -1,6 +1,7 @@
 #page {
 	&-f1-student-resources {
 		.imagebar {
+			background-color: transparent;
 			&__image {
 				filter: grayscale(40%);
 			}
