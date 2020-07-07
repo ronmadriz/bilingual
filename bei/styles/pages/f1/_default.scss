@@ -2,11 +2,9 @@
 	&-f1-student-resources {
 		.imagebar {
 			background-color: transparent;
+			margin-top:0;
 			&__image {
 				filter: grayscale(40%);
-			}
-			@include for-phone-only {
-				margin-top:0;
 			}
 		}
 	}
