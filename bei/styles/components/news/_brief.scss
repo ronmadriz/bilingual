@@ -90,7 +90,7 @@
 		color:$gray_8;
 		padding:2rem 0;
 		@include for-tablet-up {
-			padding:6rem 0px 0px 4.0625rem;
+			padding:6rem 0 0 0;
 		}
 		&__title {
 			font-size: 1.5625rem;
