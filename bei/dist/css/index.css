@@ -2352,6 +2352,7 @@ section:not(.banner):not(.featured) .container-fluid {
     #page-home .news-brief .brief__link {
       color: #192f59; }
     #page-home .news-brief .brief__featured {
+      margin-bottom: 2rem;
       padding-left: 0; }
     @media (max-width: 786px) {
       #page-home .news-brief .brief__list {
