@@ -1,0 +1,10 @@
+#page {
+	&-english-for-refugees {
+		@include for-tablet-up {
+			.landing_banner__title {
+				width: 100%;
+			}	
+			
+		}
+	}
+}

@@ -2073,6 +2073,10 @@ section:not(.banner):not(.featured) .container-fluid {
     -webkit-filter: grayscale(40%);
             filter: grayscale(40%); }
 
+@media (min-width: 786px) {
+  #page-english-for-refugees .landing_banner__title {
+    width: 100%; } }
+
 #page-home .banner .container-fluid, #page-home .banner .row {
   padding-left: 0;
   padding-right: 0; }
