@@ -1,0 +1,14 @@
+.documents {
+	&__icon {
+		display: inline-block;
+	    height: 1rem;
+	    width: 1rem;
+	}
+	&__link {
+		font-size: .875rem;		
+		text-decoration: none;
+		&:hover {
+			transform:scale(1.25);
+		}
+	}
+}
