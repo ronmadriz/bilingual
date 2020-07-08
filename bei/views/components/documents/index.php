@@ -13,7 +13,7 @@ if (have_rows('dc_group')) {
 		echo '<div class="document__group col-12 col-md-6">'.PHP_EOL;
 		echo '<span class="document__group__title"><h3 class="document__group__title--text">Group Title</h3></span>'.PHP_EOL;
 		if (have_rows('dc_documents')) {
-			echo '<ul class="document__list">'.PHP_EOL;
+			echo '<ul class="document__list list-unstyled">'.PHP_EOL;
 			while (have_rows('dc_documents')) {
 				the_row();
 				$dc_document = get_sub_field('dc_document');
