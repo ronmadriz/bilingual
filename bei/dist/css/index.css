@@ -1850,6 +1850,18 @@ section:not(.banner):not(.featured) .container-fluid {
     padding-left: 0;
     padding-right: 0; }
 
+.documents__icon {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem; }
+
+.documents__link {
+  font-size: .875rem;
+  text-decoration: none; }
+  .documents__link:hover {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25); }
+
 .single-programs .block {
   padding: 0 0 2rem; }
   .single-programs .block__wrapper {
