@@ -1856,11 +1856,11 @@ section:not(.banner):not(.featured) .container-fluid {
   width: 1rem; }
 
 .documents__link {
+  color: #027dc3;
   font-size: .875rem;
   text-decoration: none; }
   .documents__link:hover {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25); }
+    text-decoration: none; }
 
 .single-programs .block {
   padding: 0 0 2rem; }
