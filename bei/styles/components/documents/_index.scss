@@ -5,10 +5,11 @@
 	    width: 1rem;
 	}
 	&__link {
-		font-size: .875rem;		
+		color:$bei_1;
+		font-size: .875rem;
 		text-decoration: none;
 		&:hover {
-			transform:scale(1.25);
+			text-decoration:none;
 		}
 	}
 }
