@@ -1860,6 +1860,7 @@ section:not(.banner):not(.featured) .container-fluid {
   font-size: .875rem;
   text-decoration: none; }
   .documents__link:hover {
+    color: #97ed85;
     text-decoration: none; }
 
 .single-programs .block {
