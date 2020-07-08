@@ -22,7 +22,7 @@ if (have_rows('dc_group')) {
 				$dc_caption  = $dc_document['caption'];
 				$dc_file     = pathinfo($dc_url);
 				$dc_ext      = $dc_file['extension'];
-				$dc_icon     = $dc_document['icon'];
+				$dc_icon     = file_get_contents(get_template_directory().'/sprites/'.$dc_ext.'.svg');
 				echo '<li class="document__item"><a href="'.esc_attr($dc_url).'" class="document__link"><abbr title="file type" class="document__icon"><img src="'.$dc_icon.'" /></abbr> - '.esc_html($dc_title).'</a></li>'.PHP_EOL;
 			}
 			wp_reset_postdata();
