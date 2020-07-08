@@ -46,15 +46,13 @@
 					    background-color:$white_1;
 					}
 				}
-			}				
-		    &:last-of-type{
+			}
+			&:last-of-type{
 				a {
-					background-color:$accent_2;
+				    background-color: $bei_5;
+				    color: $gray_8;
 					&:hover {
-					    background-color: $accent_2-lt;
-					}
-					@include for-phone-only {
-					    margin-top:.35rem;
+					    color: $gray_8;
 					}
 				}
 			}
