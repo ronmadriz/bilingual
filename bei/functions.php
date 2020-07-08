@@ -28,11 +28,11 @@ add_filter('style_loader_src', 'remove_css_js_version', 9999);
 add_filter('script_loader_src', 'remove_css_js_version', 9999);
 
 define('THEME_DIRECTORY', get_stylesheet_directory());
-define('THEME_URI', get_template_directory());
+define('THEME_URI', get_template_directory_uri());
 define('THEME_LIBS', THEME_URI.'/libs');
 define('THEME_INCLUDE', THEME_DIRECTORY.'/includes');
 define('THEME_IMAGES', THEME_URI.'/dist/images');
-define('THEME_SPRITES', THEME_URI.'/sprites/');
+define('THEME_SPRITES', get_template_directory().'/sprites/');
 define('THEME_CSS', THEME_URI.'/dist/css');
 define('THEME_JS', THEME_URI.'/dist/scripts');
 include (THEME_INCLUDE.'/core/extended-cpts.php');
