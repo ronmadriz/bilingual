@@ -20,7 +20,7 @@ if (have_rows('dc_group')) {
 				$dc_url      = $dc_document['url'];
 				$dc_title    = $dc_document['title'];
 				$dc_caption  = $dc_document['caption'];
-				$dc_file     = pathinfo($dc_document);
+				$dc_file     = pathinfo($dc_url);
 				$dc_ext      = $dc_file['extension'];
 				$dc_icon     = $dc_document['icon'];
 				echo '<li class="document__item"><a href="'.esc_attr($dc_url).'" class="document__link"><abbr title="file type" class="document__icon"><img src="'.esc_attr($dc_icon).'" /></abbr> - '.esc_html($dc_title).'</a></li>'.PHP_EOL;
