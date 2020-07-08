@@ -28,7 +28,7 @@ add_filter('style_loader_src', 'remove_css_js_version', 9999);
 add_filter('script_loader_src', 'remove_css_js_version', 9999);
 
 define('THEME_DIRECTORY', get_stylesheet_directory());
-define('THEME_URI', get_stylesheet_directory_uri());
+define('THEME_URI', get_template_directory());
 define('THEME_LIBS', THEME_URI.'/libs');
 define('THEME_INCLUDE', THEME_DIRECTORY.'/includes');
 define('THEME_IMAGES', THEME_URI.'/dist/images');
