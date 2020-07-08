@@ -11,7 +11,7 @@ if (have_rows('dc_group')) {
 		$dc_title     = get_sub_field('dc_title');
 		$dc_documents = get_sub_field('dc_documents');
 		echo '<div class="documents__group col-12 col-md-6">'.PHP_EOL;
-		echo '<span class="documents__group__title"><h3 class="documents__group__title--text">Group Title</h3></span>'.PHP_EOL;
+		echo '<span class="documents__group__title section__title"><h3 class="documents__group__title--text section__title--text">'.$dc_title.'</h3></span>'.PHP_EOL;
 		if (have_rows('dc_documents')) {
 			echo '<ul class="documents__list list-unstyled">'.PHP_EOL;
 			while (have_rows('dc_documents')) {
