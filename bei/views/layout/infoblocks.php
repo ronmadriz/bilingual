@@ -10,7 +10,7 @@ if (have_rows('ib_blocks')) {
 		$info__title   = get_sub_field('ib_title');
 		$info__content = get_sub_field('ib_content');
 		echo '<div class="infoblocks__item">'.PHP_EOL;
-		echo '<span class="infoblocks__icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$info__icon.'.svg').'</span>'.PHP_EOL;
+		echo '<span class="infoblocks__icon">'.file_get_contents(get_template_directory().'/sprites/'.$info__icon.'.svg').'</span>'.PHP_EOL;
 		echo '<h2 class="infoblocks__title">'.$info__title.'</h2>'.PHP_EOL;
 		echo '<span class="infoblocks__content">'.$info__content.'</span>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;

@@ -20,7 +20,7 @@ if (have_rows('gcwb_boxes')) {
 		$gcwb_box_title   = get_sub_field('gcwb_box_title');
 		$gcwb_box_content = get_sub_field('gcwb_box_content');
 		echo '<div class="gencontent__boxes--item col-12 col-md-4">'.PHP_EOL;
-		echo '<span class="gencontent__boxes--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$gcwb_box_icon.'.svg').'</span>'.PHP_EOL;
+		echo '<span class="gencontent__boxes--icon">'.file_get_contents(get_template_directory().'/sprites/'.$gcwb_box_icon.'.svg').'</span>'.PHP_EOL;
 		echo '<h4 class="gencontent__boxes--title">'.$gcwb_box_title.'</h4>'.PHP_EOL;
 		echo '<span class="gencontent__boxes--desc">'.$gcwb_box_content.'</span>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;

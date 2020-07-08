@@ -22,7 +22,7 @@ if (have_rows('tiles')) {
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo (!empty($ti_title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$ti_title.'</h3></span>'.PHP_EOL:'');
 		echo (!empty($ti_content)?'<span class="tiled__desc card-text">'.$ti_content.'</span>'.PHP_EOL:'');
-		echo (!empty($ti_link)?'<a href="'.$ti_link['url'].'" class="tiled__link">'.$ti_link['title'].' <span class="tiled__link--icon">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
+		echo (!empty($ti_link)?'<a href="'.$ti_link['url'].'" class="tiled__link">'.$ti_link['title'].' <span class="tiled__link--icon">'.file_get_contents(get_template_directory().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
 		echo '</figcaption>'.PHP_EOL;
 		echo '</figure>'.PHP_EOL;
 	}

@@ -12,7 +12,7 @@ if (have_rows('fi_icon_group')) {
 		$subject_title = get_sub_field('fi_title');
 		$subject_desc  = get_sub_field('fi_description');
 		echo '<div class="four_icons__item col-6 col-md-3">'.PHP_EOL;
-		echo (!empty($subject_icon)?'<span class="four_icons__img">'.file_get_contents(get_stylesheet_directory_uri().'/sprites/'.$subject_icon.'.svg').'</span>'.PHP_EOL:'');
+		echo (!empty($subject_icon)?'<span class="four_icons__img">'.file_get_contents(get_template_directory().'/sprites/'.$subject_icon.'.svg').'</span>'.PHP_EOL:'');
 		echo '<h3 class="four_icons__title">'.$subject_title.'</h3>'.PHP_EOL;
 		echo '<p class="four_icons__desc">'.$subject_desc.'</p>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
