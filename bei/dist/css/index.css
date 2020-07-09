@@ -1883,6 +1883,7 @@ section:not(.banner):not(.featured) .container-fluid {
     font-size: .875rem; }
 
 .plan__cost {
+  background-color: #f3f3f3;
   display: block;
   font-size: 3.75rem;
   font-weight: 300;
@@ -1895,6 +1896,19 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .plan__content {
   padding: .675rem 1.25rem; }
+
+.plan__features {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  padding-left: 0; }
+  .plan__features--item {
+    padding: .675rem 1.25rem;
+    border-bottom-width: .0625rem;
+    border-bottom-style: solid;
+    margin-bottom: 0; }
 
 .single-programs .block {
   padding: 0 0 2rem; }
