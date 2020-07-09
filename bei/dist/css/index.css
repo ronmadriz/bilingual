@@ -1877,7 +1877,8 @@ section:not(.banner):not(.featured) .container-fluid {
 .plan__header {
   background-color: #027dc3;
   color: #fefefe;
-  padding: 2.0625rem 1.25rem; }
+  padding: 2.0625rem 1.25rem;
+  text-align: center; }
   .plan__header--text {
     font-size: 1.0625rem;
     font-weight: bold;
@@ -1886,6 +1887,7 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: .375rem; }
   .plan__header--desc {
     display: block;
+    color: #f3f3f3;
     font-size: .875rem; }
 
 .plan__cost {
@@ -1896,6 +1898,7 @@ section:not(.banner):not(.featured) .container-fluid {
   line-height: 1;
   margin: 0px;
   padding: 1.5625rem 1.25rem 2.5rem;
+  text-align: center;
   vertical-align: middle; }
   .plan__cost small {
     font-size: 1.0625rem; }
