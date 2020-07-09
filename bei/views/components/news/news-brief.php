@@ -60,16 +60,7 @@ if ($brief_query->have_posts()) {
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div id="quick" class="quick col-12 col-md-4">'.PHP_EOL;
-echo '<h3 class="quick__title">';
-echo '<span class="quick__icon">'.file_get_contents(get_template_directory().'/sprites/link.svg').'</span> ';
-_e('Quick Links', 'bei_core');
-echo '</h3>'.PHP_EOL;
-echo '<ul class="quick__list">'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">Do you like to Learn Spanish?</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">#BEIOnline #BEIStrong</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">Our Promotion</a></li>'.PHP_EOL;
-echo '<li class="quick__item"><a href="#" class="quick__link">About Change of StatusCorona Virus Update</a></li>'.PHP_EOL;
-echo '</ul>'.PHP_EOL;
+include (get_template_directory().'/views/components/links/quick.php');
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
