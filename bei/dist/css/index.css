@@ -1716,8 +1716,11 @@ section:not(.banner):not(.featured) .container-fluid {
     width: 100%; }
 
 .cta {
-  padding-top: 6rem;
-  padding-bottom: 6rem; }
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .cta.withbg {
+    padding-top: 6rem;
+    padding-bottom: 6rem; }
   .cta__content {
     background-color: #fefefe;
     color: #282828;

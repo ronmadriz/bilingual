@@ -11,7 +11,7 @@ if ($cta_bgimg) {
 	echo '}'.PHP_EOL;
 	echo '</style>'.PHP_EOL;
 }
-echo '<section id="cta" class="cta withBg">'.PHP_EOL;
+echo '<section id="cta" class="cta'.(!empty($cta_bgimg)?' withBg':'').'">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row cta__wrapper">'.PHP_EOL;
 echo '<div class="col-12 cta__content">'.PHP_EOL;
