@@ -22,6 +22,9 @@ $calendar_query = new WP_Query($calendar_args);
 if ($calendar_query->have_posts()) {
 	while ($calendar_query->have_posts()) {
 		$calendar_query->the_post();
-		echo '<!-- hi -->'.PHP_EOL;
+		$got_calendar = get_field('calendars_section');
+		if (!empty($got_calendar)) {
+			echo '<!-- got em -->'.PHP_EOL;
+		}
 	}
 }
