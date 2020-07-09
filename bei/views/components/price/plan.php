@@ -1,4 +1,4 @@
-<?
+<?php
 if (have_rows('plans')) {
 	echo '<section id="plan" class="plan">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
