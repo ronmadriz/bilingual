@@ -2102,7 +2102,9 @@ section:not(.banner):not(.featured) .container-fluid {
   margin-top: 0; }
   #page-f1-student-resources .imagebar__image {
     -webkit-filter: grayscale(40%);
-            filter: grayscale(40%); }
+            filter: grayscale(40%);
+    -webkit-transform: translate(0, 1rem);
+            transform: translate(0, 1rem); }
 
 @media (min-width: 786px) {
   #page-english-for-refugees .landing_banner__title {
