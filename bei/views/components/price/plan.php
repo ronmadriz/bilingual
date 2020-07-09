@@ -5,13 +5,10 @@ echo '<div class="row plan__wrapper">'.PHP_EOL;
 while (have_rows('plans')) {
 	the_row();
 	$plan_name   = get_sub_field('plan_name');
-	$plan_id_raw = preg_replace("/[^a-zA-Z]/", "_", $plan_name);
-	$plan_id     = strtolower($plan_id_raw);
-
 	$plan_desc   = get_sub_field('plan_desc');
 	$plan_cost   = get_sub_field('plan_cost');
 	$plan_button = get_sub_field('plan_button');
-	echo '<article id="'.$plan_id.'" class="plan__item">'.PHP_EOL;
+	echo '<article class="plan__item">'.PHP_EOL;
 	echo '<header class="plan__header">'.PHP_EOL;
 	echo '<h4 class="plan__header--text">'.$plan_name.'</h4>'.PHP_EOL;
 	echo '<small>'.$plan_desc.'</small>'.PHP_EOL;
