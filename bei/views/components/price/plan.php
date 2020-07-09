@@ -28,10 +28,12 @@ if (have_rows('plans')) {
 			}
 			echo '</ul>'.PHP_EOL;
 		}
+		wp_reset_postdata();
 		echo '<footer class="plan__footer"><a href="https://beipaynow.securepayments.cardpointe.com/pay" class="plan__footer--link">Get Started</a></footer>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
+	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 	echo '</section>	'.PHP_EOL;
