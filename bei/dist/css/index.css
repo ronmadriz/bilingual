@@ -1872,8 +1872,14 @@ section:not(.banner):not(.featured) .container-fluid {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: .5rem;
-  width: 24.25%; }
+  margin-bottom: 1rem;
+  margin-right: .5rem; }
+  @media (min-width: 786px) {
+    .plan__item {
+      width: 19.25%; } }
+  @media (min-width: 1200px) {
+    .plan__item {
+      width: 24.25%; } }
 
 .plan__header {
   background-color: #027dc3;
