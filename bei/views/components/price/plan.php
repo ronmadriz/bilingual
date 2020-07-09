@@ -4,9 +4,9 @@ echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row plan__wrapper">'.PHP_EOL;
 while (have_rows('plans')) {
 	the_row();
-	$plan_name = get_sub_field('plan_name');
-	// $plan_id_raw = preg_replace("/[^a-zA-Z]/", "_", $plan_name);
-	// $plan_id     = strtolower($plan_id_raw);
+	$plan_name   = get_sub_field('plan_name');
+	$plan_id_raw = preg_replace("/[^a-zA-Z]/", "_", $plan_name);
+	$plan_id     = strtolower($plan_id_raw);
 
 	$plan_desc   = get_sub_field('plan_desc');
 	$plan_cost   = get_sub_field('plan_cost');
