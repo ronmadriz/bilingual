@@ -21,6 +21,7 @@
 		}
 	}
 	&__cost {
+		background-color:$white_4;
 		display:block;
 		font-size: 3.75rem;
 		font-weight: 300;
@@ -36,7 +37,17 @@
 	&__content {
 	    padding: .675rem 1.25rem;
 	}
-	&__features {}
+	&__features {
+		margin-block-start:0;
+		padding-inline-start:0;
+		padding-left:0;
+		&--item {
+			padding: .675rem 1.25rem;
+			border-bottom-width: .0625rem;
+			border-bottom-style: solid;
+			margin-bottom: 0;			
+		}
+	}
 	&__footer {
 		&--link {
 
