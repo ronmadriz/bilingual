@@ -20,7 +20,7 @@ $program_args = array(
 $parent = new WP_Query($program_args);
 
 include (get_template_directory().'/views/components/banner/overview.php');
-//  include (get_template_directory().'/views/components/banner/subpages.php');
+
 echo '<section id="overview" class="overview">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
@@ -42,6 +42,9 @@ if (is_single('10')) {
 	if ($parent->have_posts()) {
 		echo '<div class="overview__content col-12 col-md-8">'.PHP_EOL;
 		the_content();
+		echo '<span class="section__title"><h2 class="section__title--text">';
+		_e('Courses', 'bei_core');
+		echo '</h2></span>';
 		echo '<ul class="overview__list">'.PHP_EOL;
 		while ($parent->have_posts()) {
 			$parent->the_post();
