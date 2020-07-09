@@ -11,8 +11,8 @@ echo '<a href="'.get_bloginfo('url').'" class="navbar-brand"><img src="'.esc_url
  else :
 echo '<a href="'.get_bloginfo('url').'" class="navbar-brand">'.get_bloginfo('name').(!empty($footer__slogan)?'<br><small>'.$footer__slogan.'</small>':'').'</a>'.PHP_EOL;
 endif;
-echo '<p>6060 Richmond Avenue,<br>Houston, TX 77055</p>'.PHP_EOL;
-echo '<p>+1 (713) 789-0333</p>'.PHP_EOL;
+echo '<p>6060 Richmond Avenue,<br> Suite 180<br>Houston, TX 77055</p>'.PHP_EOL;
+echo '<p>+1 (713) 789-4555</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="base__links col-12 col-md-3">'.PHP_EOL;
 echo '<h3 class="base__links--title">';
