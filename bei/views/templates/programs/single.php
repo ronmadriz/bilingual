@@ -13,3 +13,10 @@ if (have_rows('image_plus_content')) {
 	}
 	wp_reset_postdata();
 }
+if (have_rows('cta')) {
+	while (have_rows('cta')) {
+		the_row();
+		include (get_template_directory().'/views/components/ctas/withbg.php');
+	}
+	wp_reset_postdata();
+}
