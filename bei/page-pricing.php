@@ -15,4 +15,5 @@ if ($contentThumb == 1) {
 if (have_rows('plans')) {
 	include (get_template_directory().'/views/components/price/plan.php');
 }
+include ('views/global/pagebuilder.php');
 get_footer();
