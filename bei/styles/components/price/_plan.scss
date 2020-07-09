@@ -5,8 +5,9 @@
 	    flex-direction: column;
 	    margin-bottom:1rem;
 		margin-right: .5rem;
+	    width: 100%;
 		@include for-tablet-up {
-			width: 19.25%;
+			width: 32.25%;
 		}
 		@include for-desktop-up {
 			width: 24.25%;
