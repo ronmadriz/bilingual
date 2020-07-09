@@ -26,7 +26,7 @@
 		font-size: 3.75rem;
 		font-weight: 300;
 		line-height: 1;
-		margin: 0px .5rem;
+		margin: 0px;
 		padding: 1.5625rem 1.25rem 2.5rem;
 		vertical-align: middle;		
 		sup {}
@@ -51,7 +51,17 @@
 	}
 	&__footer {
 		&--link {
-
+			background-color: $bei_1;
+			color:$white_1;
+			display: inline-block;
+			font-size: .8125rem;
+			font-weight: bold;
+			letter-spacing: .05rem;
+			margin: 2.1875rem 1.25rem;
+			padding: .9375rem 2.0625rem;
+			text-transform: uppercase;
+			-webkit-appearance: none;
+			border-radius: 1.6875rem;
 		}
 	}
 }

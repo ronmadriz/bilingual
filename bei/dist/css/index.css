@@ -1888,7 +1888,7 @@ section:not(.banner):not(.featured) .container-fluid {
   font-size: 3.75rem;
   font-weight: 300;
   line-height: 1;
-  margin: 0px .5rem;
+  margin: 0px;
   padding: 1.5625rem 1.25rem 2.5rem;
   vertical-align: middle; }
   .plan__cost small {
@@ -1909,6 +1909,19 @@ section:not(.banner):not(.featured) .container-fluid {
     border-bottom-width: .0625rem;
     border-bottom-style: solid;
     margin-bottom: 0; }
+
+.plan__footer--link {
+  background-color: #027dc3;
+  color: #fefefe;
+  display: inline-block;
+  font-size: .8125rem;
+  font-weight: bold;
+  letter-spacing: .05rem;
+  margin: 2.1875rem 1.25rem;
+  padding: .9375rem 2.0625rem;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  border-radius: 1.6875rem; }
 
 .single-programs .block {
   padding: 0 0 2rem; }
