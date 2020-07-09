@@ -1864,6 +1864,26 @@ section:not(.banner):not(.featured) .container-fluid {
     color: #00bec9;
     text-decoration: none; }
 
+.plan__item {
+  display: inline-block;
+  width: 25%; }
+
+.plan__header {
+  padding: 2.0625rem 1.25rem; }
+  .plan__header--text {
+    font-size: 1.0625rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    margin-bottom: .375rem; }
+  .plan__header--desc {
+    display: block;
+    font-size: .875rem; }
+
+.plan__cost {
+  line-height: 1;
+  padding: 1.5625rem 1.25rem 2.5rem; }
+
 .single-programs .block {
   padding: 0 0 2rem; }
   .single-programs .block__wrapper {
