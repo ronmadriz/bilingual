@@ -16,7 +16,7 @@ echo '<p>+1 (713) 789-0333</p>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '<div class="base__links col-12 col-md-3">'.PHP_EOL;
 echo '<h3 class="base__links--title">';
-_e('About' , 'bei-core');
+_e('About', 'bei-core');
 echo '</h3>'.PHP_EOL;
 $about_menu_args = array(
 	'theme_location'  => '',
@@ -63,16 +63,16 @@ wp_nav_menu($policies_menu_args);
 echo '</div>'.PHP_EOL;
 echo '<div class="base__links col-12 col-md-3">'.PHP_EOL;
 echo '<h3 class="base__links--title">';
-_e('Refugee Program','bei-core');
+_e('Refugee Program', 'bei-core');
 echo '</h3>'.PHP_EOL;
 $refugees_menu_args = array(
 	'theme_location'  => '',
-	'menu'            => 'refugees',
+	'menu'            => 'student',
 	'container'       => '',
 	'container_class' => '',
 	'container_id'    => '',
 	'menu_class'      => 'list-unstyled',
-	'menu_id'         => 'refugees',
+	'menu_id'         => 'student',
 	'echo'            => true,
 	'fallback_cb'     => 'wp_page_menu',
 	'before'          => '',
