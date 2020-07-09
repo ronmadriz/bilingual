@@ -1,17 +1,33 @@
-<section id="plan" class="plan">
-	<div class="container-fluid">
-		<div class="row plan__wrapper">
-			<article class="plan__item">
-				<header class="plan__header"><h4 class="plan__header--text"></h4></header>
-				<span class="plan__cost"></span>
-				<ul class="plan__features">
-					<li class="plan__features--item">Feature</li>
-					<li class="plan__features--item">Feature</li>
-					<li class="plan__features--item">Feature</li>
-					<li class="plan__features--item">Feature</li>
-				</ul>
-				<footer class="plan__footer"><a href="#" class="plan__footer--link">Get Started!</a></footer>
-			</article>
-		</div>
-	</div>
-</section>
+<?
+if (have_rows('plans')) {
+	echo '<section id="plan" class="plan">'.PHP_EOL;
+	echo '<div class="container-fluid">'.PHP_EOL;
+	echo '<div class="row plan__wrapper">'.PHP_EOL;
+	while (have_rows('plans')) {
+		the_row();
+		$plan_name   = get_sub_field('plan_name');
+		$plan_desc   = get_sub_field('plan_desc');
+		$plan_cost   = get_sub_field('plan_cost');
+		$plan_button = get_sub_field('plan_button');
+		echo '<article class="plan__item">'.PHP_EOL;
+		echo '<header class="plan__header">'.PHP_EOL;
+		echo '<h4 class="plan__header--text">'.$plan_name.'</h4>'.PHP_EOL;
+		echo '<small>'.$plan_desc.'</small>'.PHP_EOL;
+		echo '</header>'.PHP_EOL;
+		echo '<span class="plan__cost">'.$plan_cost.'</span>'.PHP_EOL;
+		if (have_rows('plan_features')) {
+			echo '<ul class="plan__features">'.PHP_EOL;
+			while (have_rows('plan_features')) {
+				the_row();
+				$plan_feature = get_sub_field('plan_feature');
+				echo '<li class="plan__features--item">'.$plan_feature.'</li>'.PHP_EOL;
+			}
+			echo '</ul>'.PHP_EOL;
+		}
+		echo (!empty($plan_button)?'<footer class="plan__footer"><a href="'.$plan_button['url'].'" class="plan__footer--link">'.$plan_button['title'].'</a></footer>'.PHP_EOL:'');
+		echo '</article>'.PHP_EOL;
+	}
+	echo '</div>'.PHP_EOL;
+	echo '</div>'.PHP_EOL;
+	echo '</section>	'.PHP_EOL;
+}
