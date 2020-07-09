@@ -18,7 +18,10 @@
 			font-size:.875rem;			
 		}
 	}
-	&__cost {}
+	&__cost {
+		line-height: 1;
+		padding: 1.5625rem 1.25rem 2.5rem;		
+	}
 	&__features {}
 	&__footer {
 		&--link {
