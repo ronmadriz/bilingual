@@ -84,6 +84,9 @@
 			text-transform: uppercase;
 			-webkit-appearance: none;
 			border-radius: 1.6875rem;
+			&:hover {
+				color:$white_4;
+			}
 		}
 	}
 }
