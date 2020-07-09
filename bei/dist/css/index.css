@@ -1919,7 +1919,6 @@ section:not(.banner):not(.featured) .container-fluid {
   width: 100%; }
 
 .plan__features {
-  font-size: .8125rem;
   list-style-type: none;
   -webkit-margin-before: 0;
           margin-block-start: 0;
@@ -1927,10 +1926,11 @@ section:not(.banner):not(.featured) .container-fluid {
           padding-inline-start: 0;
   padding-left: 0; }
   .plan__features--item {
-    padding: .675rem 1.25rem;
     border-bottom-width: .0625rem;
     border-bottom-style: solid;
-    margin-bottom: 0; }
+    font-size: .8125rem;
+    margin-bottom: 0;
+    padding: .675rem 1.25rem; }
 
 .plan__footer--link {
   background-color: #027dc3;
