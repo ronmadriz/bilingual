@@ -19,7 +19,7 @@ $program_args = array(
 );
 $parent = new WP_Query($program_args);
 
-include (get_template_directory().'/views/components/banner/overview.php');
+include (get_template_directory().'/views/components/banner/large-single-line.php');
 
 echo '<section id="overview" class="overview">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
