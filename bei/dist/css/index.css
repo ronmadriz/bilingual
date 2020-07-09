@@ -1052,6 +1052,10 @@ section:not(.banner):not(.featured) .container-fluid {
       font-weight: 700;
       margin-bottom: 10px; }
 
+.three {
+  padding-bottom: 2rem;
+  padding-top: 2rem; }
+
 .twoItemFeature {
   padding-bottom: 2rem; }
   .twoItemFeature__item {
