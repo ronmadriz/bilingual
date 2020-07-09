@@ -6,6 +6,9 @@
 	    margin-bottom:1rem;
 		margin-right: .5rem;
 	    width: 100%;
+		@include for-ipad-only {
+			width: 47.25%;
+		}
 		@include for-tablet-up {
 			width: 32.25%;
 		}

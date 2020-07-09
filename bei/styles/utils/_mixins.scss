@@ -7,6 +7,9 @@
 @mixin for-tablet-below {
   @media (max-width: 991px) { @content; }
 }
+@mixin for-ipad-only {
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {@content;}
+}
 @mixin for-desktop-up {
   @media (min-width: 1200px) { @content; }
 }

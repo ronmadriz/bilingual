@@ -1873,10 +1873,14 @@ section:not(.banner):not(.featured) .container-fluid {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 1rem;
-  margin-right: .5rem; }
+  margin-right: .5rem;
+  width: 100%; }
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .plan__item {
+      width: 47.25%; } }
   @media (min-width: 786px) {
     .plan__item {
-      width: 19.25%; } }
+      width: 32.25%; } }
   @media (min-width: 1200px) {
     .plan__item {
       width: 24.25%; } }
