@@ -1942,22 +1942,23 @@ section:not(.banner):not(.featured) .container-fluid {
     margin-bottom: 0;
     padding: .675rem 1.25rem; }
 
-.plan__footer--link {
-  background-color: #027dc3;
-  color: #fefefe;
-  display: inline-block;
-  font-size: .8125rem;
-  font-weight: bold;
-  letter-spacing: .05rem;
-  margin: 2.1875rem 1.25rem;
-  padding: .9375rem 2.0625rem;
-  text-transform: uppercase;
-  -webkit-appearance: none;
-  border-radius: 1.6875rem; }
-  .plan__footer--link:hover {
-    background-color: #00bec9;
-    color: #f3f3f3;
-    text-decoration: none; }
+.plan__footer {
+  text-transform: uppercase; }
+  .plan__footer--link {
+    background-color: #027dc3;
+    color: #fefefe;
+    display: inline-block;
+    font-size: .8125rem;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    margin: 2.1875rem 1.25rem;
+    padding: .9375rem 2.0625rem;
+    -webkit-appearance: none;
+    border-radius: 1.6875rem; }
+    .plan__footer--link:hover {
+      background-color: #00bec9;
+      color: #f3f3f3;
+      text-decoration: none; }
 
 .single-programs .block {
   padding: 0 0 2rem; }
