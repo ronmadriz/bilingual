@@ -1,7 +1,7 @@
 <?
-if (have_rows('three_column')) {
+if (have_rows('tc_columns')) {
 	$tc_column_count = 0;
-	while (have_rows('three_column')) {
+	while (have_rows('tc_columns')) {
 		the_row();
 		$tc_column_one   = get_sub_field('tc_column_one');
 		$tc_column_two   = get_sub_field('tc_column_two');
