@@ -14,6 +14,7 @@ if (have_rows('plans')) {
 		echo '<h4 class="plan__header--text">'.$plan_name.'</h4>'.PHP_EOL;
 		echo '<small>'.$plan_desc.'</small>'.PHP_EOL;
 		echo '</header>'.PHP_EOL;
+		echo '<div class="plan__content">'.PHP_EOL;
 		echo '<span class="plan__cost">'.$plan_cost.'</span>'.PHP_EOL;
 		if (have_rows('plan_features')) {
 			echo '<ul class="plan__features">'.PHP_EOL;
@@ -25,6 +26,7 @@ if (have_rows('plans')) {
 			echo '</ul>'.PHP_EOL;
 		}
 		echo (!empty($plan_button)?'<footer class="plan__footer"><a href="'.$plan_button['url'].'" class="plan__footer--link">'.$plan_button['title'].'</a></footer>'.PHP_EOL:'');
+		echo '</div>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
 	echo '</div>'.PHP_EOL;
