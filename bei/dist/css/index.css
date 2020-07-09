@@ -1919,6 +1919,7 @@ section:not(.banner):not(.featured) .container-fluid {
   width: 100%; }
 
 .plan__features {
+  font-size: .8125rem;
   list-style-type: none;
   -webkit-margin-before: 0;
           margin-block-start: 0;
