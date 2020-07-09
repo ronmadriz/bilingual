@@ -36,7 +36,6 @@ if (have_rows('plans')) {
 		echo '</div>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
-	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
 	echo '</div>'.PHP_EOL;
 	echo '</section>	'.PHP_EOL;
