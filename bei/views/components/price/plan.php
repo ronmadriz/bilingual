@@ -19,16 +19,6 @@ if (have_rows('plans')) {
 		echo '</header>'.PHP_EOL;
 		echo '<div class="plan__content">'.PHP_EOL;
 		echo '<span class="plan__cost">'.$plan_cost.'</span>'.PHP_EOL;
-		if (have_rows('plan_features')) {
-			echo '<ul class="plan__features">'.PHP_EOL;
-			while (have_rows('plan_features')) {
-				the_row();
-				$plan_feature = get_sub_field('plan_feature');
-				echo '<li class="plan__features--item">'.$plan_feature.'</li>'.PHP_EOL;
-			}
-			echo '</ul>'.PHP_EOL;
-		}
-		wp_reset_postdata();
 		echo '<footer class="plan__footer"><a href="https://beipaynow.securepayments.cardpointe.com/pay" class="plan__footer--link">Get Started</a></footer>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
