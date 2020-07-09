@@ -1872,7 +1872,8 @@ section:not(.banner):not(.featured) .container-fluid {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 25%; }
+  margin-right: .5rem;
+  width: 24.25%; }
 
 .plan__header {
   background-color: #027dc3;
@@ -1904,6 +1905,8 @@ section:not(.banner):not(.featured) .container-fluid {
     font-size: 1.0625rem; }
 
 .plan__content {
+  border: 1px solid #f3f3f3;
+  border-top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
