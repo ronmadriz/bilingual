@@ -14,9 +14,7 @@ while (have_rows('plans')) {
 	echo '<small class="plan__header--desc">'.$plan_desc.'</small>'.PHP_EOL;
 	echo '</header>'.PHP_EOL;
 	echo '<div class="plan__content">'.PHP_EOL;
-	echo '<span class="plan__cost"><sup>';
-	_e('$', 'bei_core');
-	echo '</sup>'.$plan_cost.'</span>'.PHP_EOL;
+	echo '<span class="plan__cost"><sup>$</sup>'.$plan_cost.'</span>'.PHP_EOL;
 	if (have_rows('plan_features')) {
 		echo '<ul class="plan__features">'.PHP_EOL;
 		while (have_rows('plan_features')) {
