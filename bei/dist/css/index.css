@@ -1954,6 +1954,9 @@ section:not(.banner):not(.featured) .container-fluid {
   text-transform: uppercase;
   -webkit-appearance: none;
   border-radius: 1.6875rem; }
+  .plan__footer--link:hover {
+    background-color: #00bec9;
+    color: #f3f3f3; }
 
 .single-programs .block {
   padding: 0 0 2rem; }
