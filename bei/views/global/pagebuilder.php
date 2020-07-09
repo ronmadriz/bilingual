@@ -52,6 +52,8 @@ if (have_rows('page_builder', $bei_fl_id)) {
 			include (get_template_directory().'/views/components/tabbed/simple.php');
 		} elseif (get_row_layout() == 'documents') {
 			include (get_template_directory().'/views/components/documents/index.php');
+		} elseif (get_row_layout() == 'three_column') {
+			include (get_template_directory().'/views/layout/three_column.php');
 		}
 	}
 }
