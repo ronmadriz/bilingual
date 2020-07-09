@@ -63,7 +63,7 @@ wp_nav_menu($policies_menu_args);
 echo '</div>'.PHP_EOL;
 echo '<div class="base__links col-12 col-md-3">'.PHP_EOL;
 echo '<h3 class="base__links--title">';
-_e('Refugee Program', 'bei-core');
+_e('Resources', 'bei-core');
 echo '</h3>'.PHP_EOL;
 $refugees_menu_args = array(
 	'theme_location'  => '',
