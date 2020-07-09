@@ -11,7 +11,7 @@ while (have_rows('plans')) {
 	echo '<article class="plan__item">'.PHP_EOL;
 	echo '<header class="plan__header">'.PHP_EOL;
 	echo '<h4 class="plan__header--text">'.$plan_name.'</h4>'.PHP_EOL;
-	echo '<small>'.$plan_desc.'</small>'.PHP_EOL;
+	echo '<small class="plan__header--desc">'.$plan_desc.'</small>'.PHP_EOL;
 	echo '</header>'.PHP_EOL;
 	echo '<div class="plan__content">'.PHP_EOL;
 	echo '<span class="plan__cost">'.$plan_cost.'</span>'.PHP_EOL;

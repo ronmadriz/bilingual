@@ -1,9 +1,21 @@
 .plan {
 	&__wrapper {}
-	&__item {}
+	&__item {
+	    display: inline-block;
+	    width: 25%;
+	}
 	&__header {
+		padding: 2.0625rem 1.25rem;
 		&--text {
-			
+		    font-size: 1.0625rem;
+		    font-weight: bold;
+		    text-transform: uppercase;
+		    letter-spacing: .0625rem;
+		    margin-bottom: .375rem;
+		}
+		&--desc {
+			display:block;
+			font-size:.875rem;			
 		}
 	}
 	&__cost {}
