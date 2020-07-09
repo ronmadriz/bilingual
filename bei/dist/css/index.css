@@ -1891,6 +1891,9 @@ section:not(.banner):not(.featured) .container-fluid {
   .plan__cost small {
     font-size: 1.0625rem; }
 
+.plan__content {
+  padding: .675rem 1.25rem; }
+
 .single-programs .block {
   padding: 0 0 2rem; }
   .single-programs .block__wrapper {
