@@ -1869,6 +1869,8 @@ section:not(.banner):not(.featured) .container-fluid {
   width: 25%; }
 
 .plan__header {
+  background-color: #027dc3;
+  color: #fefefe;
   padding: 2.0625rem 1.25rem; }
   .plan__header--text {
     font-size: 1.0625rem;
