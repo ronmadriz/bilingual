@@ -72,6 +72,7 @@
 		}
 	}
 	&__footer {
+		text-transform: uppercase;
 		&--link {
 			background-color: $bei_1;
 			color:$white_1;
@@ -81,7 +82,6 @@
 			letter-spacing: .05rem;
 			margin: 2.1875rem 1.25rem;
 			padding: .9375rem 2.0625rem;
-			text-transform: uppercase;
 			-webkit-appearance: none;
 			border-radius: 1.6875rem;
 			&:hover {
