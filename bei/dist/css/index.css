@@ -1245,10 +1245,13 @@ section:not(.banner):not(.featured) .container-fluid {
   display: block; }
 
 .special__link {
-  background-color: #97ed85;
+  background-color: #3db166;
   color: #444444;
   display: inline-block;
+  font-size: 600;
   padding: .625rem .875rem; }
+  .special__link:hover {
+    text-decoration: none; }
 
 .landing_banner {
   color: #fefefe;
