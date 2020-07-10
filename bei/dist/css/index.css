@@ -1618,18 +1618,18 @@ section:not(.banner):not(.featured) .container-fluid {
         padding-top: 1rem; } }
   .mainNav__logo {
     margin-right: 0;
-    text-transform: uppercase;
-    width: 380px;
-    max-width: 380px; }
+    text-transform: uppercase; }
     @media (max-width: 786px) {
       .mainNav__logo {
         font-size: .9rem;
         margin-bottom: .75rem;
-        margin-right: 1rem; } }
+        margin-right: 1rem;
+        width: 380px; } }
     @media (min-width: 786px) {
       .mainNav__logo {
-        width: auto;
-        height: 69px; } }
+        height: 69px;
+        max-width: 380px;
+        width: 380px; } }
   .mainNav__toggler--item {
     background-color: #101010;
     display: block;

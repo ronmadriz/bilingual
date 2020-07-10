@@ -17,16 +17,16 @@
 	&__logo {
 		margin-right: 0;
 		text-transform: uppercase;
-	    width: 380px;
-	    max-width: 380px;
 		@include for-phone-only {
 			font-size: .9rem;
 			margin-bottom: .75rem;
 			margin-right:1rem;
+		    width: 380px;
 		}
 		@include for-tablet-up {
-			width: auto;
 			height: 69px;
+		    max-width: 380px;
+		    width: 380px;
 		}
 	}
 	&__toggler {
