@@ -993,6 +993,7 @@ section:not(.banner):not(.featured) .container-fluid {
   width: 100%; }
 
 .twoColumns__flip--title {
+  color: #fefefe;
   display: block;
   font-size: 1.375rem;
   font-weight: 700;
