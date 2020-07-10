@@ -1615,7 +1615,7 @@ section:not(.banner):not(.featured) .container-fluid {
         margin-right: 1rem; } }
     @media (min-width: 786px) {
       .mainNav__logo {
-        width: 180px;
+        width: auto;
         height: 69px; } }
   .mainNav__toggler--item {
     background-color: #101010;
