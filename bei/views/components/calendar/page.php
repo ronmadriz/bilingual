@@ -38,7 +38,7 @@ $cal_posts = get_posts(array(
 if ($cal_posts) {
 	foreach ($cal_posts as $cal_post) {
 		setup_postdata($cal_post);
-		$cal_post_id = get_the_ID();
+		$cal_post_id = get_the_ID($cal_post);
 		if (have_rows('calendars_section', $cal_post_id)) {
 			while (have_rows('calendars_section', $cal_post_id)) {
 				the_row();
