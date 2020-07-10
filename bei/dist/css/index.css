@@ -2581,6 +2581,9 @@ section:not(.banner):not(.featured) .container-fluid {
       border-bottom: 0.0625rem solid #e6e6e6;
       padding: 1.25rem; }
 
+#page-home .simple_tabs {
+  background-color: #97ed85; }
+
 @media (min-width: 786px) {
   .simple_table {
     padding-bottom: 4rem;
