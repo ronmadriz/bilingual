@@ -20,10 +20,11 @@
 		display: block;
 	}
 	&__link{
-	    background-color: $accent_2;
+	    background-color: $white_3;
 	    color: $gray_8;
 	    display: inline-block;
-	    font-size:600;
+	    font-size:.75rem;
+	    font-weight:600;
 	    padding: .625rem .875rem;
 	    &:hover {
 	    	text-decoration:none;
