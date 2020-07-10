@@ -17,7 +17,7 @@ if ($promos_query->have_posts()) {
 		$promos_title = get_the_title();
 		echo '<figure class="tiled__item card col-12 col-md-3">'.PHP_EOL;
 		echo '<a href="'.get_the_post_thumbnail_url('large').'" class="tiled__image--link" data-toggle="lightbox" data-gallery="tiled-gallery">';
-		the_post_thumbnail('thumbnail');
+		the_post_thumbnail('medium');
 		echo '</a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo '<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$promos_title.'</h3></span>'.PHP_EOL;
