@@ -62,6 +62,7 @@ if ($calendar_query->have_posts()) {
 								echo '<td class="calendar__data" data-label="End Date">'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
 								echo '</tr>'.PHP_EOL;
 							}
+							wp_reset_postdata();
 							echo '</tbody>'.PHP_EOL;
 						}
 						echo '</table>'.PHP_EOL;
