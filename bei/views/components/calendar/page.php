@@ -38,10 +38,11 @@ $cal_posts = get_posts(array(
 if ($cal_posts) {
 	foreach ($cal_posts as $cal_post) {
 		setup_postdata($cal_post);
-		if (have_rows('calendars_section')) {
-			while (have_rows('calendars_section')) {
+		$cal_post_id = get_the_ID();
+		if (have_rows('calendars_section', $cal_post_id))) {
+			while (have_rows('calendars_section', $cal_post_id))) {
 				the_row();
-				$calendar_section_title = get_sub_field('section_title');
+				$calendar_section_title = get_sub_field('section_title', $cal_post_id);
 				echo '<section id="calendar" class="calendar">'.PHP_EOL;
 				echo '<div class="container-fluid">'.PHP_EOL;
 				echo (!empty($calendar_section_title)?'<div class="row justify-content-end"><div class="col-12 calendar__title"><h2>'.$calendar_section_title.'</h2></div></div>'.PHP_EOL:'');
