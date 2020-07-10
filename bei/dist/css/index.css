@@ -602,10 +602,12 @@ section:not(.banner):not(.featured) .container-fluid {
       background-color: #00d9aa; }
     .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9) {
       background-color: #97ed85;
-      color: #444444; }
+      color: #444444;
+      fill: #444444; }
     .infoblocks__item:nth-of-type(5) {
       background-color: #f9f871;
-      color: #444444; }
+      color: #444444;
+      fill: #444444; }
     @media (min-width: 786px) {
       .infoblocks__item {
         width: 32.5%; }
