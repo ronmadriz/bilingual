@@ -7,5 +7,5 @@ if ($contentThumb == 1) {
 } else {
 	include ('views/layout/content-with-thumbnail.php');
 }
-
+include (get_template_directory().'/views/components/posts/promos.php');
 get_footer();
