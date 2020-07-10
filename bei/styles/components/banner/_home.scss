@@ -16,12 +16,15 @@
 	}
 	&__caption {
 		color: $white_1;
+		left:5%;
 		position: absolute;
 		top:15%;
+		width:90%;
 		z-index: 4;
 		@include for-tablet-up {
 			left: 13%;
 			top: 25%;
+			width:100%;
 		}
 	}
 	&__image {
@@ -52,7 +55,6 @@
 		font-weight: 300;
 		line-height: 1.7rem;
 		letter-spacing: 0px;
-		white-space: nowrap;
 		@include for-tablet-up {
 			line-height: 1.8725rem;
 			font-size: 1.8725rem;

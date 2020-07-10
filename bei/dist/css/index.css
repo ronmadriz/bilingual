@@ -2259,13 +2259,16 @@ section:not(.banner):not(.featured) .container-fluid {
 
 #page-home .banner__caption {
   color: #fefefe;
+  left: 5%;
   position: absolute;
   top: 15%;
+  width: 90%;
   z-index: 4; }
   @media (min-width: 786px) {
     #page-home .banner__caption {
       left: 13%;
-      top: 25%; } }
+      top: 25%;
+      width: 100%; } }
 
 #page-home .banner__image {
   min-width: 100%;
@@ -2289,8 +2292,7 @@ section:not(.banner):not(.featured) .container-fluid {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.7rem;
-  letter-spacing: 0px;
-  white-space: nowrap; }
+  letter-spacing: 0px; }
   @media (min-width: 786px) {
     #page-home .banner__subtitle {
       line-height: 1.8725rem;
