@@ -49,9 +49,9 @@ if ($calendar_query->have_posts()) {
 						_e('End Date', 'bei_core');
 						echo '</th></tr>'.PHP_EOL;
 						echo '</thead>'.PHP_EOL;
-						if (have_rows('calendar'), $cal_post_id) {
+						if (have_rows('calendar', $cal_post_id)) {
 							echo '<tbody>'.PHP_EOL;
-							while (have_rows('calendar'), $cal_post_id) {
+							while (have_rows('calendar', $cal_post_id)) {
 								the_row();
 								$cycle_info  = get_sub_field('cycle', $cal_post_id);
 								$cycle_start = get_sub_field('start', $cal_post_id);
