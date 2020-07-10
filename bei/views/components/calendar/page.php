@@ -31,8 +31,17 @@ echo '<!-- got em -->'.PHP_EOL;
  */
 
 $cal_posts = get_posts(array(
-		'posts_per_page' => -1,
-		'post_type'      => 'programs',
+		'post_type'   => 'programs',
+		'post_status' => 'publish',
+		'meta_query'  => array(
+			'relation'   => 'AND',
+			array(
+				'key'     => 'calendars_section',
+				'compare' => 'IN',
+			)
+		),
+		'order'   => 'DESC',
+		'orderby' => 'date',
 	));
 
 if ($cal_posts) {
