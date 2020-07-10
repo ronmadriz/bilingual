@@ -57,14 +57,7 @@ if (is_single('10')) {
 	wp_reset_postdata();
 }
 echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
-echo '<h3 class="overview__sub--title">Department Contact Info</h3>'.PHP_EOL;
-echo '<span class="overview__sub--desc">'.PHP_EOL;
-echo '<p>Bachelor Of Science in Business Administration</p>'.PHP_EOL;
-echo '<p>1810 Campus Way<br>NE Bothell, WA 98011-8246</p>'.PHP_EOL;
-echo '<p>+1-2345-5432-45<br>bsba@kuuniver.edu</p>'.PHP_EOL;
-echo '<p>Mon – Fri 9:00A.M. – 5:00P.M.</p>'.PHP_EOL;
-echo '<span class="overview__sub--btn"><a class="btn button__green">Schedule an Appointment</a></span>'.PHP_EOL;
-echo '</span>'.PHP_EOL;
+include (get_template_directory().'/views/ads/sidebar.php');
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
