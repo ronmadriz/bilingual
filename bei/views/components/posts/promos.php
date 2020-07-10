@@ -3,7 +3,7 @@
 $promos_args = array(
 	'post_type'   => 'post',
 	'post_status' => 'publish',
-	'category'    => 17,
+	'cat'         => 17,
 );
 
 // The Query
