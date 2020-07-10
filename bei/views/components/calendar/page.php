@@ -21,7 +21,7 @@ $calendar_query = new WP_Query($calendar_args);
 if ($calendar_query->have_posts()) {
 	while ($calendar_query->have_posts()) {
 		$calendar_query->the_post();
-		$cal_post_id = get_the_ID($cal_post);
+		$cal_post_id = get_the_ID($calendar_query);
 		if (have_rows('calendars_section', $cal_post_id)) {
 			while (have_rows('calendars_section', $cal_post_id)) {
 				the_row();
