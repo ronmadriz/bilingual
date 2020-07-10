@@ -58,12 +58,8 @@ if ($calendar_query->have_posts()) {
 								$cycle_end   = get_sub_field('end', $cal_post_id);
 								echo '<tr class="calendar__row">'.PHP_EOL;
 								echo '<td class="calendar__data">'.(!empty($cycle_info)?$cycle_info:'').'</td>'.PHP_EOL;
-								echo '<td class="calendar__data" data-label="';
-								_e('Start Date', 'bei_core');
-								echo '">'.(!empty($cycle_start)?$cycle_start:'').'</td>'.PHP_EOL;
-								echo '<td class="calendar__data" data-label="';
-								_e('End Date', 'bei_core');
-								echo '">'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
+								echo '<td class="calendar__data" data-label="Start Date">'.(!empty($cycle_start)?$cycle_start:'').'</td>'.PHP_EOL;
+								echo '<td class="calendar__data" data-label="End Date">'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
 								echo '</tr>'.PHP_EOL;
 							}
 							echo '</tbody>'.PHP_EOL;
