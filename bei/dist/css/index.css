@@ -1607,7 +1607,7 @@ section:not(.banner):not(.featured) .container-fluid {
   .mainNav__logo {
     margin-right: 0;
     text-transform: uppercase;
-    width: 65%; }
+    width: 100%; }
     @media (max-width: 786px) {
       .mainNav__logo {
         font-size: .9rem;
