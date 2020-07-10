@@ -10,7 +10,7 @@ if (have_rows('sidebar_ads')) {
 		$ad_size    = 'medium';
 		$ad_image   = $ad_img['sizes'][$ad_size];
 		echo '<figure class="ad__item">'.PHP_EOL;
-		echo '<a href="'.$ad_link['url'].'" class="ad__link"><img src="'.$ad_image.'" class="img-fluid ad__image"></a>'.PHP_EOL;
+		echo '<a href="'.$ad_link['url'].'" class="ad__link"><img class="img-fluid ad__image" src="'.$ad_image.'"></a>'.PHP_EOL;
 		echo '<figcaption>'.PHP_EOL;
 		echo '<span class="ad__title"><h3 class="ad__title--txt">'.$ad_title.'</h3></span>'.PHP_EOL;
 		echo '<span class="ad__desc">'.$ad_excerpt.'</span>'.PHP_EOL;
