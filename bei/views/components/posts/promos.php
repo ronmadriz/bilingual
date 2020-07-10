@@ -15,11 +15,10 @@ if ($promos_query->have_posts()) {
 	while ($promos_query->have_posts()) {
 		$promos_query->the_post();
 		$promos_link   = get_the_permalink();
-		$promos_th     = get_the_post_thumbnail('medium');
 		$promos_th_url = get_the_post_thumbnail_url('large');
 		$promos_title  = get_the_title();
 		echo '<figure class="tiled__item card col-12 col-md-3">'.PHP_EOL;
-		echo '<a href="'.$promos_th_url.'" class="tiled__image--link" data-toggle="lightbox" data-gallery="tiled-gallery">'.$promos_th.'</a>'.PHP_EOL;
+		echo '<a href="'.$promos_th_url.'" class="tiled__image--link" data-toggle="lightbox" data-gallery="tiled-gallery">'.get_the_post_thumbnail('medium').'</a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo '<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$promos_title.'</h3></span>'.PHP_EOL;
 		echo '<a href="'.$promos_link.'" class="tiled__link">';
