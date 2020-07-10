@@ -22,9 +22,6 @@ if ($promos_query->have_posts()) {
 		echo '<a href="'.$promos_th_url.'" class="tiled__image--link" data-toggle="lightbox" data-gallery="tiled-gallery">'.$promos_th.'</a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo '<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$promos_title.'</h3></span>'.PHP_EOL;
-		echo '<span class="tiled__desc card-text">';
-		the_content();
-		echo '</span>';
 		echo '<a href="'.$promos_link.'" class="tiled__link">';
 		_e('Read More', 'bei_core');
 		echo ' <span class="tiled__link--icon">'.file_get_contents(get_template_directory().'/sprites/arrow.svg').'</span></a>'.PHP_EOL;
