@@ -2305,7 +2305,8 @@ section:not(.banner):not(.featured) .container-fluid {
   line-height: 1.25; }
   @media (min-width: 786px) {
     #page-home .banner__title {
-      font-size: 5.1875rem; } }
+      font-size: 5.1875rem;
+      line-height: 2; } }
 
 @media (max-width: 786px) {
   #page-home .tabbed {

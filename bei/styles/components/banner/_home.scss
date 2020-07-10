@@ -67,6 +67,7 @@
 	    line-height:1.25;
 	    @include for-tablet-up {
 		    font-size: 5.1875rem;
+		    line-height: 2;
 	    }
 	}
 }
