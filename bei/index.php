@@ -1,13 +1,13 @@
 <?php
-$pageID = get_the_id();
-$pageCF = get_post_custom($pageID);
 
 get_header();
-if (have_posts()) {
-	while (have_posts()) {
-		the_post();
-		the_content();
 
-	}
+$contentThumb = get_field('content_with_thumbnail');
+include ('views/components/banner/subpages.php');
+
+if ($contentThumb == 1) {
+	include ('views/pages/default.php');
+} else {
+	include ('views/layout/content-with-thumbnail.php');
 }
 get_footer();?>
