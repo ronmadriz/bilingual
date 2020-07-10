@@ -22,17 +22,20 @@ $info_4:#7083d8;
 	    position: relative;
 	    width:100%;
 		-webkit-font-smoothing: antialiased;
-		&:nth-of-type(1), &:nth-of-type(5) {
-			background-color: $info_1;
+		&:nth-of-type(1), &:nth-of-type(6) {
+			background-color: $bei_1;
 		}
-		&:nth-of-type(2), &:nth-of-type(6) {
-			background-color: $info_2;
+		&:nth-of-type(2), &:nth-of-type(7) {
+			background-color: $bei_2;
 		}
-		&:nth-of-type(3), &:nth-of-type(7) {
-			background-color: $info_3;
+		&:nth-of-type(3), &:nth-of-type(8) {
+			background-color: $bei_3;
 		}
-		&:nth-of-type(4), &:nth-of-type(8) {
-			background-color: $info_4;
+		&:nth-of-type(4), &:nth-of-type(9) {
+			background-color: $bei_4;
+		}
+		&:nth-of-type(5) {
+			background-color: $bei_4;
 		}
 		@include for-tablet-up {
 		    width: 32.5%;
