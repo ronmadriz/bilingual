@@ -16,12 +16,12 @@
 	}
 	&__caption {
 		color: $white_1;
-		left: 13%;
 		position: absolute;
-		top: 25%;
+		top:15%;
 		z-index: 4;
-		@include for-phone-only {
-			top:15%;
+		@include for-tablet-up {
+			left: 13%;
+			top: 25%;
 		}
 	}
 	&__image {

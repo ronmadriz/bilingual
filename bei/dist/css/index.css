@@ -2259,13 +2259,13 @@ section:not(.banner):not(.featured) .container-fluid {
 
 #page-home .banner__caption {
   color: #fefefe;
-  left: 13%;
   position: absolute;
-  top: 25%;
+  top: 15%;
   z-index: 4; }
-  @media (max-width: 786px) {
+  @media (min-width: 786px) {
     #page-home .banner__caption {
-      top: 15%; } }
+      left: 13%;
+      top: 25%; } }
 
 #page-home .banner__image {
   min-width: 100%;
