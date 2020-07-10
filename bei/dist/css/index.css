@@ -1227,6 +1227,18 @@ section:not(.banner):not(.featured) .container-fluid {
 .accordion .section__title {
   margin-bottom: 0; }
 
+.special__image {
+  max-width: 100%; }
+
+.special__title {
+  display: block; }
+
+.special__desc {
+  display: block; }
+
+.special__button {
+  display: block; }
+
 .landing_banner {
   color: #fefefe;
   padding-bottom: 3rem;
