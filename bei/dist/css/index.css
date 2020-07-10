@@ -2525,6 +2525,7 @@ section:not(.banner):not(.featured) .container-fluid {
     #page-home .news-brief .brief__title {
       font-size: 1.1875rem;
       font-weight: 700;
+      line-height: 1.5;
       letter-spacing: 0px;
       margin-bottom: 20px; }
     #page-home .news-brief .brief__link {
