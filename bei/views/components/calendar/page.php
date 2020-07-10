@@ -39,8 +39,8 @@ if ($cal_posts) {
 	foreach ($cal_posts as $cal_post) {
 		setup_postdata($cal_post);
 		$cal_post_id = get_the_ID();
-		if (have_rows('calendars_section', $cal_post_id))) {
-			while (have_rows('calendars_section', $cal_post_id))) {
+		if (have_rows('calendars_section', $cal_post_id)) {
+			while (have_rows('calendars_section', $cal_post_id)) {
 				the_row();
 				$calendar_section_title = get_sub_field('section_title', $cal_post_id);
 				echo '<section id="calendar" class="calendar">'.PHP_EOL;
