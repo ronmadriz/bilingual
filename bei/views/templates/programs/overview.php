@@ -57,7 +57,7 @@ if (is_single('10')) {
 	wp_reset_postdata();
 }
 echo '<div class="overview__sub col-12 col-md-4">'.PHP_EOL;
-include (get_template_directory().'/views/ads/sidebar.php');
+include (get_template_directory().'/views/components/ads/sidebar.php');
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
