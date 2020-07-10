@@ -7,6 +7,9 @@ if ($contentThumb == 1) {
 } else {
 	include ('views/layout/content-with-thumbnail.php');
 }
-echo '<!-- hi -->'.PHP_EOL;
-// include (get_template_directory().'/views/components/calendar/page.php');
+echo '<section id="tiled" class="tiled">'.PHP_EOL;
+echo '<div class="container-fluid">'.PHP_EOL;
+include (get_template_directory().'/views/components/posts/promos.php');
+echo '</div>'.PHP_EOL;
+echo '</section>'.PHP_EOL;
 get_footer();
