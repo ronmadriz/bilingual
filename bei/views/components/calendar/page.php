@@ -33,15 +33,8 @@ echo '<!-- got em -->'.PHP_EOL;
 $cal_posts = get_posts(array(
 		'post_type'   => 'programs',
 		'post_status' => 'publish',
-		'meta_query'  => array(
-			'relation'   => 'AND',
-			array(
-				'key'     => 'calendars_section',
-				'compare' => 'IN',
-			)
-		),
-		'order'   => 'DESC',
-		'orderby' => 'date',
+		'order'       => 'DESC',
+		'orderby'     => 'date',
 	));
 
 if ($cal_posts) {
