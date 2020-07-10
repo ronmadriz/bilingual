@@ -6,9 +6,15 @@
 	}
 	&__title{
 		display: block;
+		&--txt {
+			color:$white_1;
+		}
 	}
 	&__desc{
-		display: block;
+	    display: block;
+	    font-size: .875rem;
+	    line-height: 1.75;
+	    margin-bottom: 1rem;
 	}
 	&__button{
 		display: block;

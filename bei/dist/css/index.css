@@ -1228,7 +1228,7 @@ section:not(.banner):not(.featured) .container-fluid {
   margin-bottom: 0; }
 
 .special__image {
-  max-width: 100%; }
+  width: 100%; }
 
 .special__title {
   display: block; }
