@@ -1,8 +1,9 @@
 <?php
 // WP_Query arguments
 $promos_args = array(
-	'post_type'   => array('post'),
-	'post_status' => array('publish'),
+	'post_type'     => array('post'),
+	'post_status'   => array('publish'),
+	'category_name' => array('special-offer'),
 );
 
 // The Query
