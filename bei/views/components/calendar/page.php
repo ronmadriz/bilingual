@@ -10,7 +10,7 @@ $calendar_args = array(
 			'compare' => 'IN',
 		)
 	),
-	'order'          => 'DESC',
+	'order'          => 'ASC',
 	'orderby'        => 'date',
 	'posts_per_page' => 10,
 
