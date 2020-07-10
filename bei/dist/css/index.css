@@ -1232,12 +1232,23 @@ section:not(.banner):not(.featured) .container-fluid {
 
 .special__title {
   display: block; }
+  .special__title--txt {
+    color: #fefefe; }
 
 .special__desc {
-  display: block; }
+  display: block;
+  font-size: .875rem;
+  line-height: 1.75;
+  margin-bottom: 1rem; }
 
 .special__button {
   display: block; }
+
+.special__link {
+  background-color: #97ed85;
+  color: #444444;
+  display: inline-block;
+  padding: .625rem .875rem; }
 
 .landing_banner {
   color: #fefefe;
