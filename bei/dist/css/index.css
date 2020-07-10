@@ -599,7 +599,10 @@ section:not(.banner):not(.featured) .container-fluid {
     .infoblocks__item:nth-of-type(2), .infoblocks__item:nth-of-type(7) {
       background-color: #00bec9; }
     .infoblocks__item:nth-of-type(3), .infoblocks__item:nth-of-type(8) {
-      background-color: #00d9aa; }
+      background-color: #00d9aa;
+      color: #444444; }
+      .infoblocks__item:nth-of-type(3) svg, .infoblocks__item:nth-of-type(8) svg {
+        fill: #444444; }
     .infoblocks__item:nth-of-type(4), .infoblocks__item:nth-of-type(9) {
       background-color: #97ed85;
       color: #444444; }
