@@ -13,7 +13,7 @@ if (have_rows('sidebar_ads')) {
 		$special__size    = 'medium';
 		$special__image   = $special__img['sizes'][$special__size];
 		echo '<figure class="special__item">'.PHP_EOL;
-		echo '<a href="'.$special__link['url'].'" class="special__link"><img class="img-fluid special__image" src="'.$special__image.'"></a>'.PHP_EOL;
+		echo '<a href="'.$special__link['url'].'" class="special__image--link"><img class="img-fluid special__image" src="'.$special__image.'"></a>'.PHP_EOL;
 		echo '<figcaption>'.PHP_EOL;
 		echo '<span class="special__title"><h3 class="special__title--txt">'.$special__title.'</h3></span>'.PHP_EOL;
 		echo '<span class="special__desc">'.$special__excerpt.'</span>'.PHP_EOL;

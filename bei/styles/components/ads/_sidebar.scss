@@ -19,5 +19,10 @@
 	&__button{
 		display: block;
 	}
-	&__link{}
+	&__link{
+	    background-color: $bei_4;
+	    color: $gray_8;
+	    display: inline-block;
+	    padding: .625rem .875rem;
+	}
 }
