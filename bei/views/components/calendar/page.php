@@ -66,7 +66,6 @@ if ($calendar_query->have_posts()) {
 								echo '">'.(!empty($cycle_end)?$cycle_end:'').'</td>'.PHP_EOL;
 								echo '</tr>'.PHP_EOL;
 							}
-							wp_reset_postdata();
 							echo '</tbody>'.PHP_EOL;
 						}
 						echo '</table>'.PHP_EOL;
