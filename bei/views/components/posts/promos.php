@@ -19,7 +19,7 @@ if ($promos_query->have_posts()) {
 		echo '<figure class="tiled__item card col-12 col-md-3">'.PHP_EOL;
 		echo '<a href="'.$promos_link.'" class="tiled__image--link" data-toggle="lightbox" data-gallery="tiled-gallery">'.$promos_th.'</a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
-		echo '<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$promos_title.'</h3></span>'.PHP_EOL:'');
+		echo '<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$promos_title.'</h3></span>'.PHP_EOL;
 		echo '<span class="tiled__desc card-text">';
 					the_content($promos_post);
 		echo '</span>'.PHP_EOL:'');
