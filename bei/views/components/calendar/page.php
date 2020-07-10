@@ -41,4 +41,5 @@ if ($cal_posts) {
 		echo '<!-- hi -->'.PHP_EOL;
 		// include (get_template_directory().'/views/components/tables/calendars.php');
 	}
+	wp_reset_postdata();
 }
