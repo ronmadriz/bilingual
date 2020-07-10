@@ -1,8 +1,7 @@
 <?php
 if (have_rows('sidebar_ads')) {
 	echo '<div class="ad side">'.PHP_EOL;
-	echo '<div class="ad__wrapper">'.PHP_EOL
-	while (have_rows('sidebar_ads')) {
+	echo '<div class="ad__wrapper">'.PHP_EOL while (have_rows('sidebar_ads')) {
 		the_row();
 		$ad_title   = get_sub_field('ad_title');
 		$ad_excerpt = get_sub_field('ad_excerpt');
