@@ -12,13 +12,18 @@ if ($promos_query->have_posts()) {
 	while ($promos_query->have_posts()) {
 		the_post();
 		$promos_post = get_the_ID($promos_query);
+		$promos_link = get_the_permalink($promos_post);
 		$promos_th - get_the_post_thumbnail( $promos_post,'medium');
 		echo '<figure class="tiled__item card col-12 col-md-3">'.PHP_EOL;
-		echo '<a href="'.get_the_permalink($promos_post).'" class="tiled__image--link" data-toggle="lightbox" data-gallery="tiled-gallery">'.$promos_th.'</a>'.PHP_EOL;
+		echo '<a href="'.$promos_link.'" class="tiled__image--link" data-toggle="lightbox" data-gallery="tiled-gallery">'.$promos_th.'</a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
-		echo (!empty($ti_title)?'<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$ti_title.'</h3></span>'.PHP_EOL:'');
-		echo (!empty($ti_content)?'<span class="tiled__desc card-text">'.$ti_content.'</span>'.PHP_EOL:'');
-		echo (!empty($ti_link)?'<a href="'.$ti_link['url'].'" class="tiled__link">'.$ti_link['title'].' <span class="tiled__link--icon">'.file_get_contents(get_template_directory().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
+		echo '<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$promos_title.'</h3></span>'.PHP_EOL:'');
+		echo '<span class="tiled__desc card-text">';
+		the_content($promos_post);
+		echo '</span>'.PHP_EOL:'');
+		echo '<a href="'.$promos_link.'" class="tiled__link">';
+		_e('Read More', 'bei_core');
+		echo ' <span class="tiled__link--icon">'.file_get_contents(get_template_directory().'/sprites/arrow.svg').'</span></a>'.PHP_EOL:'');
 		echo '</figcaption>'.PHP_EOL;
 		echo '</figure>'.PHP_EOL;
 	}
