@@ -38,6 +38,7 @@ $cal_posts = get_posts(array(
 if ($cal_posts) {
 	foreach ($cal_posts as $cal_post) {
 		setup_postdata($cal_post);
-		include (get_template_directory().'/views/components/tables/calendars.php');
+		echo '<!-- hi -->'.PHP_EOL;
+		// include (get_template_directory().'/views/components/tables/calendars.php');
 	}
 }
