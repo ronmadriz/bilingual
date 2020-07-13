@@ -6,9 +6,9 @@ echo '<div id="brief" class="brief col-12 col-md-8">'.PHP_EOL;
 echo '<h2 class="news-brief__title">';
 _e('News &amp; Updates', 'bei_core');
 echo '</h2>'.PHP_EOL;
-// echo '<p><a class="news-brief__link" href="#">';
-// _e('Read All News', 'bei_core');
-// echo '</a></p>'.PHP_EOL;
+echo '<p><a class="news-brief__link" href="https://bei.edu/about/news-updates/">';
+_e('Read All News', 'bei_core');
+echo '</a></p>'.PHP_EOL;
 echo '<div class="row">'.PHP_EOL;
 $featured_brief_args = array(
 	'post_type'      => 'post',
