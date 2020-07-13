@@ -22,7 +22,7 @@ if (have_posts()) {
 		echo '<article class="col-12 news__item">'.PHP_EOL;
 		echo '<header class="news__header">';
 		echo '<span class="news__image"><a href="'.get_the_permalink($news__itemID).' class="news__image--link">'.PHP_EOL;
-		the_post_thumbnail($news__itemID, 'post-thumbnail', ['class' => 'img-responsive news__image--img']);
+		the_post_thumbnail($news__itemID, 'post-thumbnail', ['class' => 'img-fluid news__image--img']);
 		echo '</a></span>'.PHP_EOL;
 		echo '<span class="news__title"><h3 class="news__title--text"><a href="'.get_the_permalink($news__itemID).' class="news__title--link">';
 		the_title($news__itemID);
