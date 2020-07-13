@@ -1795,6 +1795,55 @@ section:not(.banner):not(.featured) .container-fluid {
         color: #ababab;
         content: ' - '; }
 
+.news {
+  padding-bottom: .9325rem;
+  padding-top: 3rem; }
+  @media (min-width: 786px) {
+    .news {
+      padding-bottom: 3rem; } }
+  .news__item {
+    border: 0;
+    margin-bottom: 1rem; }
+    @media (min-width: 786px) {
+      .news__item {
+        margin-bottom: 2rem; } }
+  .news__image {
+    padding-bottom: 1rem; }
+    @media (min-width: 786px) {
+      .news__image {
+        padding-bottom: 2.0625rem; } }
+  .news__content {
+    color: #8d8d8d;
+    display: block;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 1.25rem; }
+  .news__title {
+    display: block; }
+    @media (min-width: 786px) {
+      .news__title {
+        padding-bottom: 1.25rem; } }
+    .news__title--text {
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 2;
+      margin-bottom: 0;
+      text-transform: none; }
+  .news__link {
+    display: block;
+    color: #3db166; }
+    .news__link--icon {
+      display: inline-block;
+      margin-left: .5rem; }
+      .news__link--icon svg {
+        fill: #3db166;
+        height: auto;
+        width: 1rem; }
+      .news__link--icon:hover {
+        color: #3db166;
+        text-decoration: none; }
+
 .plan__item {
   display: -webkit-box;
   display: -ms-flexbox;
