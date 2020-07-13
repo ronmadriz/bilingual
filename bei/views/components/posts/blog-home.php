@@ -23,14 +23,12 @@ if ($news_query->have_posts()) {
 		echo '<span class="news__image"><a href="'.get_the_permalink().' class="news__image--link">'.PHP_EOL;
 		the_post_thumbnail('medium', ['class' => 'img-fluid news__image--img']);
 		echo '</a></span>'.PHP_EOL;
-		echo '<div class="news__title">';
-		echo '<h3 class="news__title--text"><a href="'.get_the_permalink().' class="news__title--link">';
+		echo '<span class="news__title"><h3 class="news__title--text"><a href="'.get_the_permalink().' class="news__title--link">';
 		the_title();
-		echo '</a></h3>';
+		echo '</a></h3></span>'.PHP_EOL;
 		echo '<span class="news__details"><date class="news__date">'.get_the_date().'</date> ';
 		the_category(' ');
 		echo '</span>'.PHP_EOL;
-		echo '</div>'.PHP_EOL;
 		echo '</header>'.PHP_EOL;
 		echo '<footer class="news__footer buttons">'.PHP_EOL;
 		echo '<a href="'.$ti_link['url'].'" class="news__link">';
