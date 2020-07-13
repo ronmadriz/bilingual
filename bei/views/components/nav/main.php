@@ -82,6 +82,6 @@ if (in_array('section-english-for-refugees', $classes)) {
 }
 wp_nav_menu($main_menu_args);
 echo '</div>'.PHP_EOL;
-echo '<a href="#" class="mainNav__search order-md-12"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
+// echo '<a href="#" class="mainNav__search order-md-12"><img src="'.$theme_location.'/sprites/search.svg"></a>'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</nav>'.PHP_EOL;
