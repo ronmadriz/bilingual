@@ -18,7 +18,7 @@ if (have_posts()) {
 	echo '<div class="row news__wrapper">'.PHP_EOL;
 	while (have_posts()) {
 		the_post();
-		echo '<article class="col-12 d-block news__item">'.PHP_EOL;
+		echo '<article class="col-12 col-md-3 d-block news__item">'.PHP_EOL;
 		echo '<header class="news__header">';
 		echo '<span class="news__image"><a href="'.get_the_permalink().' class="news__image--link">'.PHP_EOL;
 		the_post_thumbnail('medium', ['class' => 'img-fluid news__image--img']);
