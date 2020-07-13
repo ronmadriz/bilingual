@@ -553,7 +553,8 @@ section:not(.banner):not(.featured) .container-fluid {
   .main__content {
     color: #6b6b6b;
     font-size: 1.0625rem;
-    line-height: 2; }
+    line-height: 2;
+    min-height: 19.4vh; }
   .main__title {
     color: #101010;
     font-size: 2.8125rem;
