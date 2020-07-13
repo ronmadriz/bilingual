@@ -27,7 +27,7 @@ if ($news_query->have_posts()) {
 		echo '<h3 class="news__title--text"><a href="'.get_the_permalink().' class="news__title--link">';
 		the_title();
 		echo '</a></h3>';
-		echo '<span class="brief__details"><date class="brief__date">'.get_the_date().'</date> ';
+		echo '<span class="news__details"><date class="news__date">'.get_the_date().'</date> ';
 		the_category(' ');
 		echo '</span>'.PHP_EOL;
 		echo '</div>'.PHP_EOL;
