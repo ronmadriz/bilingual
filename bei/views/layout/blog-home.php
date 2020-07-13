@@ -19,7 +19,7 @@ if (have_posts()) {
 	while (have_posts()) {
 		the_post();
 		$news__itemID = get_the_id();
-		echo '<article class="col-12 news__item">'.PHP_EOL;
+		echo '<article class="col-12 d-block news__item">'.PHP_EOL;
 		echo '<header class="news__header">';
 		echo '<span class="news__image"><a href="'.get_the_permalink($news__itemID).' class="news__image--link">'.PHP_EOL;
 		the_post_thumbnail($news__itemID, 'medium', ['class' => 'img-fluid news__image--img']);
