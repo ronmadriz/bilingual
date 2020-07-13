@@ -1836,6 +1836,10 @@ section:not(.banner):not(.featured) .container-fluid {
       line-height: 2;
       margin-bottom: 0;
       text-transform: none; }
+    .news__title--link {
+      color: #192f59; }
+      .news__title--link:hover {
+        text-decoration: none; }
   .news__link {
     display: block;
     color: #3db166; }
