@@ -1824,11 +1824,13 @@ section:not(.banner):not(.featured) .container-fluid {
     line-height: 1.7;
     margin-top: 0;
     margin-bottom: 1.25rem; }
+  .news__header {
+    padding-bottom: 1.25rem; }
+    @media (min-width: 786px) {
+      .news__header {
+        padding-bottom: 1.25rem; } }
   .news__title {
     display: block; }
-    @media (min-width: 786px) {
-      .news__title {
-        padding-bottom: 1.25rem; } }
     .news__title--text {
       font-size: 1.125rem;
       font-weight: 600;
