@@ -27,9 +27,7 @@ if (have_posts()) {
 		the_title();
 		echo '</a></h3></span>'.PHP_EOL;
 		echo '</header>'.PHP_EOL;
-		echo '<span class="news__content">';
-		the_excerpt();
-		echo '</span>'.PHP_EOL;
+		// echo '<span class="news__content">'.get_the_excerpt().'</span>'.PHP_EOL;
 		echo '<footer class="news__footer buttons">'.PHP_EOL;
 		echo '<a href="'.get_the_permalink().' class="news__link">';
 		_e('Read More', 'bei_core');
