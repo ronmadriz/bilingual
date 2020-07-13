@@ -33,9 +33,9 @@ if ($news_query->have_posts()) {
 		echo '</div>'.PHP_EOL;
 		echo '</header>'.PHP_EOL;
 		echo '<footer class="news__footer buttons">'.PHP_EOL;
-		echo '<a href="'.get_the_permalink().' class="news__link">';
+		echo '<a href="'.$ti_link['url'].'" class="news__link">';
 		_e('Read More', 'bei_core');
-		echo '</a>'.PHP_EOL;
+		echo ' <span class="news__link--icon">'.file_get_contents(get_template_directory().'/sprites/arrow.svg').'</span></a>'.PHP_EOL;
 		echo '</footer>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
