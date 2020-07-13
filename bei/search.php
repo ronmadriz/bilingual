@@ -1,4 +1,7 @@
 <?php
+/**
+ * Template Name: Search Page
+ */
 get_header();
 $contentThumb = get_field('content_with_thumbnail');
 include ('views/components/banner/subpages.php');
