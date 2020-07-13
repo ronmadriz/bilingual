@@ -1,6 +1,6 @@
 <?php
 $args = array(
-	'category__not_in' => array(1, 2),
+	'category__not_in' => 17,
 	'post_type'        => 'post',
 	'post_status'      => 'publish',
 	'paged'            => get_query_var('paged'),
