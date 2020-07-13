@@ -1,12 +1,12 @@
 <?php
-$args = array(
+$news_args = array(
 	'category__not_in' => 17,
 	'post_type'        => 'post',
 	'post_status'      => 'publish',
 	'paged'            => get_query_var('paged'),
 );
 
-$query = new WP_Query($args);
+$news_query = new WP_Query($news_args);
 
 echo '<section id="main" class="main news">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
@@ -14,10 +14,10 @@ echo '<header>'.PHP_EOL;
 echo '<div class="breadcrumbs__content">'.PHP_EOL;
 echo '</div>'.PHP_EOL;
 echo '</header>'.PHP_EOL;
-if (have_posts()) {
+if ($news_query->have_posts()) {
 	echo '<div class="row news__wrapper">'.PHP_EOL;
-	while (have_posts()) {
-		the_post();
+	while ($news_query->have_posts()) {
+		$news_query->the_post();
 		echo '<article class="col-12 col-md-3 d-block news__item">'.PHP_EOL;
 		echo '<header class="news__header">';
 		echo '<span class="news__image"><a href="'.get_the_permalink().' class="news__image--link">'.PHP_EOL;
@@ -39,6 +39,7 @@ if (have_posts()) {
 		echo '</footer>'.PHP_EOL;
 		echo '</article>'.PHP_EOL;
 	}
+	wp_reset_postdata();
 	echo '</div>'.PHP_EOL;
 }
 echo '</div>'.PHP_EOL;
