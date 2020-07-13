@@ -31,7 +31,7 @@ if (have_posts()) {
 	while (have_posts()) {
 		the_post();
 		echo '<div class="results__item col-12 mt-1 mb-1">'.PHP_EOL;
-		echo '<h2 class="results__title"><a class="results__link" href="'.get_the_permalink().'" rel="bookmark">'.get_the_title().'</a></h2>'.PHP_EOL;
+		echo '<h4 class="results__title"><a class="results__link" href="'.get_the_permalink().'" rel="bookmark">'.get_the_title().'</a></h4>'.PHP_EOL;
 		echo '<div class="results__summary">'.PHP_EOL;
 		the_excerpt();
 		echo '</div>'.PHP_EOL;
