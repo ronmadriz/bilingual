@@ -1808,10 +1808,16 @@ section:not(.banner):not(.featured) .container-fluid {
       .news__item {
         margin-bottom: 2rem; } }
   .news__image {
-    padding-bottom: 1rem; }
+    display: block;
+    height: 180px;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    position: relative; }
     @media (min-width: 786px) {
       .news__image {
         padding-bottom: 2.0625rem; } }
+    .news__image--img {
+      position: absolute; }
   .news__content {
     color: #8d8d8d;
     display: block;

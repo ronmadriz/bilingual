@@ -15,9 +15,16 @@
 		}
 	}
 	&__image {
+	    display: block;
+	    height: 180px;
+	    overflow: hidden;		
 		padding-bottom: 1rem;
+	    position: relative;
 		@include for-tablet-up {
 			padding-bottom: 2.0625rem;
+		}
+		&--img {
+			position:absolute;
 		}
 	}
 	&__content {
