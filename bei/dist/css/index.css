@@ -1855,6 +1855,9 @@ section:not(.banner):not(.featured) .container-fluid {
       .news__link--icon:hover {
         color: #3db166;
         text-decoration: none; }
+  .news__details a {
+    color: #192f59;
+    font-weight: 600; }
 
 .plan__item {
   display: -webkit-box;
