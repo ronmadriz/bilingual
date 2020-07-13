@@ -25,7 +25,7 @@ if (have_posts()) {
 		the_post_thumbnail($news__itemID, 'medium', ['class' => 'img-fluid news__image--img']);
 		echo '</a></span>'.PHP_EOL;
 		echo '<span class="news__title"><h3 class="news__title--text"><a href="'.get_the_permalink($news__itemID).' class="news__title--link">';
-		the_title($news__itemID);
+		the_title();
 		echo '</a></h3></span>'.PHP_EOL;
 		echo '</header>'.PHP_EOL;
 		echo '<span class="news__content">';
