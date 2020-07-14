@@ -38,6 +38,14 @@ function rmc_settings_init() {
 	);
 
 	add_settings_field(
+		'rmc_body_extra',
+		__('Body extra', 'rmc_options'),
+		'rmc_body_extra_render',
+		'rmc_options_settings',
+		'rmc_options_settings_section'
+	);
+
+	add_settings_field(
 		'rmc_footer_extra',
 		__('Foot extra', 'rmc_options'),
 		'rmc_footer_extra_render',
@@ -54,6 +62,16 @@ function rmc_header_extra_render() {
 	?>
 	<textarea cols='40' rows='5' name='rmc_settings[rmc_header_extra]'>
 	<?php echo $options['rmc_header_extra'];?>
+	</textarea>
+	<?php
+
+}
+
+function rmc_body_extra_render() {
+	$options = get_option('rmc_settings');
+	?>
+	<textarea cols='40' rows='5' name='rmc_settings[rmc_body_extra]'>
+	<?php echo $options['rmc_body_extra'];?>
 	</textarea>
 	<?php
 
@@ -77,8 +95,8 @@ function rmc_options_page() {
 
 	?>
 	<div class="wrap">
-	<div id="icon-themes" class="icon32"></div>
-	<h1>Theme Options</h1>
+		<div id="icon-themes" class="icon32"></div>
+		<h1>Theme Options</h1>
 	<?php settings_errors();?>
 	<form action='options.php' method='post'>
 	<?php
@@ -87,7 +105,7 @@ function rmc_options_page() {
 	submit_button();
 	?>
 	</form>
-	</div>
+		</div>
 	<?php
 
 }
