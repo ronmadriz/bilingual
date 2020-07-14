@@ -1756,6 +1756,13 @@ section:not(.banner):not(.featured) .container-fluid {
   .menu-item:last-of-type .dropdown-item {
     border-bottom: 0; } }
 
+nav .wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 90px; }
+
 .dropdown-menu {
   background-color: #e6e6e6;
   border: 0;

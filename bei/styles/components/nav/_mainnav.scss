@@ -141,5 +141,11 @@
 	.menu-item:last-of-type .dropdown-item {
 		border-bottom:0;
 	}
+}
 
+nav {
+	.wrapper {
+		flex-direction: row;
+		height:90px;
+	}
 }
