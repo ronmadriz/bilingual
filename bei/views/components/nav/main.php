@@ -7,7 +7,7 @@ $pageID = get_the_id();
 $pageCF = get_post_custom($pageID);
 
 echo '<nav class="navbar navbar-expand-lg mainNav">'.PHP_EOL;
-echo '<div class="wrapper">'.PHP_EOL;
+echo '<div class="mainNav__wrapper">'.PHP_EOL;
 if (!empty($site_logo_header)) {
 	echo '<a href="'.get_bloginfo('url').'" class="navbar-brand mainNav__brand"><img src="'.esc_url($site_logo_header).'" alt="'.get_bloginfo('name').'" class="img-fluid mainNav__logo"></a>'.PHP_EOL;
 
