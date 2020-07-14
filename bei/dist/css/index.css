@@ -1745,6 +1745,8 @@ section:not(.banner):not(.featured) .container-fluid {
                   transform: scaleX(0);
           -webkit-transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
           transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s; } }
+  .mainNav .dropdown:first-of-type {
+    top: 95%; }
 
 @media (max-width: 786px) {
   .dropdown-item {

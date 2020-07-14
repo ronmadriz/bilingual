@@ -127,6 +127,9 @@
 			}
 		}
 	}
+	.dropdown:first-of-type {
+		top:95%;
+	}
 }
 
 @include for-phone-only {
