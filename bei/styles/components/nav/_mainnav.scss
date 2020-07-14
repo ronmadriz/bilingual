@@ -127,7 +127,9 @@
 			}
 		}
 	}
-	.dropdown:first-of-type {
+}
+@include for-tablet-up {
+	.navbar-collapse ul ul {
 		top:95%;
 	}
 }
