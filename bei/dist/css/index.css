@@ -1448,6 +1448,15 @@ section:not(.banner):not(.featured) .container-fluid {
 .form-group .wpcf7-list-item {
   display: block; }
 
+.wpcf7 .sent .wpcf7-response-output {
+  background-color: #3db166;
+  color: #fefefe;
+  display: block;
+  font-weight: 600;
+  letter-spacing: .0075rem;
+  padding: 1.125rem;
+  text-align: center; }
+
 .rotating {
   background-color: #545454;
   padding-bottom: 3rem;

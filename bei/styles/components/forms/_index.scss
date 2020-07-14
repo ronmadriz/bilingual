@@ -61,3 +61,12 @@
 	    display: block;
 	}
 }
+.wpcf7 .sent .wpcf7-response-output {
+    background-color: $accent_2;
+    color: $white_1;
+    display: block;
+    font-weight: 600;
+    letter-spacing: .0075rem;	
+    padding: 1.125rem;
+    text-align: center;
+}
