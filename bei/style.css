@@ -10,3 +10,8 @@ Tags:
 License:
 License URI:
 */
+
+
+div#cookie-law-info-bar {
+	z-index: 99999999999999;
+}
