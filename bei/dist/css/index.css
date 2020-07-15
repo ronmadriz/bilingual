@@ -389,6 +389,10 @@ body {
   .section__title:after {
     top: 1rem; }
 
+.section__content {
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
 blockquote {
   color: #3db166;
   font-size: 19px;

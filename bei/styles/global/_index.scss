@@ -46,6 +46,10 @@ body {
             top: 1rem;
         }
     }
+    &__content {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
 }
 blockquote {
     color: $accent_2;
