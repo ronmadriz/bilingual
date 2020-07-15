@@ -1,12 +1,14 @@
 <?php
-$acc_title = get_sub_field('csection_title', $bei_fl_id);
+$acc_title     = get_sub_field('csection_title', $bei_fl_id);
+$csection_desc = get_sub_field('csection_description', $bei_fl_id);
 
 $acc_id_raw = preg_replace("/[^a-zA-Z]/", "_", $acc_title, $bei_fl_id);
 $acc_id     = strtolower($acc_id_raw);
 
 echo '<section id="'.$acc_id.'" class="accordion">'.PHP_EOL;
 echo '<div class="container-fluid">'.PHP_EOL;
-echo '<div class="row"><div class="section__title col-12"><h2 class="section__title--text">'.$acc_title.'</h2></div></div>'.PHP_EOL;
+echo '<div class="row"><div class="section__title col-12"><h2 class="section__title--text">'.$acc_title.'</h2></div>'.PHP_EOL;
+echo (!empty($csection_desc)?'<div class="section__content col-12">'.$csection_desc.'</div></div>'.PHP_EOL:'');
 if (have_rows('acc_accordion_item')) {
 	echo '<div class="row">'.PHP_EOL;
 	echo '<div id="'.$acc_id.'-accordion" class="accordion__wrapper col-12">'.PHP_EOL;
