@@ -9,6 +9,9 @@
 	    padding: 2.5rem;
 	    position: relative;
 		-webkit-font-smoothing: antialiased;
+		* {
+			z-index:2;
+		}
 		@include for-tablet-up {
 		    flex: 0 0 47.5%;
 			&:before {
@@ -19,7 +22,8 @@
 			    left: 2.25%;
 				position: absolute;
 			    top: 6%;
-			    width: 95%;			
+			    width: 95%;
+			    z-index: 1;
 			}		
 		}
 		&:nth-of-type(1) {
