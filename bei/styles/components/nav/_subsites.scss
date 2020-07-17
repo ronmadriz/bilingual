@@ -11,7 +11,7 @@
 	&__content {}
 	&__nav {
 		align-items: flex-start;
-		flex-direction: row;
+		flex-direction: row !important;
 		@include for-phone-only {
 			.nav-link {
 				padding-left: .5rem;

@@ -1576,10 +1576,10 @@ section:not(.banner):not(.featured) .container-fluid {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row; }
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important; }
     @media (max-width: 786px) {
       .subsites__nav .nav-link {
         padding-left: .5rem;
