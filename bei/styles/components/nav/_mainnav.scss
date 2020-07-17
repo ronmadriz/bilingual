@@ -10,6 +10,7 @@
 	}
 	&__brand {
 		padding-top:.75rem;
+		display:flex;
 		@include for-tablet-up {
 			padding-top:1rem;
 		}

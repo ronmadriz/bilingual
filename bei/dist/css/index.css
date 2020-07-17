@@ -1622,7 +1622,10 @@ section:not(.banner):not(.featured) .container-fluid {
     .mainNav__search img {
       width: 1rem; }
   .mainNav__brand {
-    padding-top: .75rem; }
+    padding-top: .75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
     @media (min-width: 786px) {
       .mainNav__brand {
         padding-top: 1rem; } }
