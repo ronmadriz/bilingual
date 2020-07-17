@@ -1630,9 +1630,9 @@ section:not(.banner):not(.featured) .container-fluid {
       width: 1rem; }
   .mainNav__brand {
     padding-top: .75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
     @media (min-width: 786px) {
       .mainNav__brand {
         padding-top: 1rem; } }
