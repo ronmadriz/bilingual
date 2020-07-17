@@ -1319,6 +1319,7 @@ section:not(.banner):not(.featured) .container-fluid {
       padding-bottom: 1.25rem; }
   .landing_banner__desc {
     display: block;
+    font-size: 1.15rem;
     width: 100%; }
     @media (min-width: 786px) {
       .landing_banner__desc {
