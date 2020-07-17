@@ -11,7 +11,8 @@
 	    position: relative;
 	    width: 47.5% !important;
 		-webkit-font-smoothing: antialiased;
-		* {
+		&--wrapper {
+			padding:0 1rem;
 			z-index:2;
 		}
 		@include for-tablet-up {
@@ -33,7 +34,7 @@
 		}
 		&:nth-of-type(2) {
 			background-color: $info_2;
-		}		
+		}
 	}
 	&__icon {
 		display: block;

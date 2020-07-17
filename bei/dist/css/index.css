@@ -1089,7 +1089,8 @@ section:not(.banner):not(.featured) .container-fluid {
     position: relative;
     width: 47.5% !important;
     -webkit-font-smoothing: antialiased; }
-    .twoItemFeature__item * {
+    .twoItemFeature__item--wrapper {
+      padding: 0 1rem;
       z-index: 2; }
     @media (min-width: 786px) {
       .twoItemFeature__item {
