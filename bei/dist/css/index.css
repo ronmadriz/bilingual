@@ -1084,6 +1084,7 @@ section:not(.banner):not(.featured) .container-fluid {
         -ms-flex-pack: center;
             justify-content: center;
     margin: .25rem;
+    max-width: 47.5%;
     padding: 2.5rem;
     position: relative;
     -webkit-font-smoothing: antialiased; }
