@@ -1087,6 +1087,7 @@ section:not(.banner):not(.featured) .container-fluid {
     max-width: 47.5%;
     padding: 2.5rem;
     position: relative;
+    width: 47.5%;
     -webkit-font-smoothing: antialiased; }
     .twoItemFeature__item * {
       z-index: 2; }
