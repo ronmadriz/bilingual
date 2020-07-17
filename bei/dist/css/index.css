@@ -1084,10 +1084,10 @@ section:not(.banner):not(.featured) .container-fluid {
         -ms-flex-pack: center;
             justify-content: center;
     margin: .25rem;
-    max-width: 47.5%;
+    max-width: 47.5% !important;
     padding: 2.5rem;
     position: relative;
-    width: 47.5%;
+    width: 47.5% !important;
     -webkit-font-smoothing: antialiased; }
     .twoItemFeature__item * {
       z-index: 2; }

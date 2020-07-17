@@ -6,10 +6,10 @@
 		flex-flow: column;
 	    justify-content: center;
 	    margin: .25rem;
-	    max-width: 47.5%;
+	    max-width: 47.5% !important;
 	    padding: 2.5rem;
 	    position: relative;
-	    width: 47.5%;
+	    width: 47.5% !important;
 		-webkit-font-smoothing: antialiased;
 		* {
 			z-index:2;
