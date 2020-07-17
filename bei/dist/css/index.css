@@ -1084,10 +1084,8 @@ section:not(.banner):not(.featured) .container-fluid {
         -ms-flex-pack: center;
             justify-content: center;
     margin: .25rem;
-    max-width: 47.5% !important;
     padding: 2.5rem;
     position: relative;
-    width: 47.5% !important;
     -webkit-font-smoothing: antialiased; }
     .twoItemFeature__item--wrapper {
       padding: 0 1rem;
@@ -1096,7 +1094,9 @@ section:not(.banner):not(.featured) .container-fluid {
       .twoItemFeature__item {
         -webkit-box-flex: 0;
             -ms-flex: 0 0 47.5%;
-                flex: 0 0 47.5%; }
+                flex: 0 0 47.5%;
+        max-width: 47.5% !important;
+        width: 47.5% !important; }
         .twoItemFeature__item:before {
           border: 0.0625rem solid #fefefe;
           content: '';

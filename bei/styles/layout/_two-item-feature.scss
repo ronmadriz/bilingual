@@ -6,10 +6,8 @@
 		flex-flow: column;
 	    justify-content: center;
 	    margin: .25rem;
-	    max-width: 47.5% !important;
 	    padding: 2.5rem;
 	    position: relative;
-	    width: 47.5% !important;
 		-webkit-font-smoothing: antialiased;
 		&--wrapper {
 			padding:0 1rem;
@@ -17,6 +15,8 @@
 		}
 		@include for-tablet-up {
 		    flex: 0 0 47.5%;
+			max-width: 47.5% !important;
+			width: 47.5% !important;
 			&:before {
 				border: .0625rem solid $white_1;			
 				content: '';
