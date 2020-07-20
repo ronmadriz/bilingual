@@ -22,9 +22,7 @@ if ($promos_query->have_posts()) {
 		echo '</a>'.PHP_EOL;
 		echo '<figcaption class="tiled__content">'.PHP_EOL;
 		echo '<span class="tiled__title"><h3 class="tiled__title--text card-title">'.$promos_title.'</h3></span>'.PHP_EOL;
-		echo '<a href="';
-		the_permalink();
-		echo '" class="tiled__link">';
+		echo '<a href="'.get_the_permalink().'" class="tiled__link">';
 		_e('Read More', 'bei_core');
 		echo ' <span class="tiled__link--icon">'.file_get_contents(get_template_directory().'/sprites/arrow.svg').'</span></a>'.PHP_EOL;
 		echo '</figcaption>'.PHP_EOL;
