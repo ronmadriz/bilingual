@@ -30,6 +30,9 @@
 	}
 	&__button {
 		padding:1.125rem 1.875rem;
+		.active {
+			background-color: transparent;
+		}
 	}
 	&__text {
 		display: inline-block;
