@@ -2028,7 +2028,7 @@ nav .wrapper {
         padding: 1.5rem 2.5rem; } }
     .simple_tabs__link.active {
       background-color: #fefefe !important;
-      color: #101010; }
+      color: #101010 !important; }
   .simple_tabs__content {
     background-color: #fefefe; }
   .simple_tabs__pane {
