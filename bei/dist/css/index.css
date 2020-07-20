@@ -2465,7 +2465,7 @@ nav .wrapper {
 
 #page-home .tabbed__button {
   padding: 1.125rem 1.875rem; }
-  #page-home .tabbed__button .active {
+  #page-home .tabbed__button.active {
     background-color: transparent; }
 
 #page-home .tabbed__text {

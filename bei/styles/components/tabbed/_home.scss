@@ -30,7 +30,7 @@
 	}
 	&__button {
 		padding:1.125rem 1.875rem;
-		.active {
+		&.active {
 			background-color: transparent;
 		}
 	}
