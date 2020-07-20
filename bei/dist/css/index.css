@@ -2247,6 +2247,7 @@ nav .wrapper {
 
 .main__content .button__green {
   background-color: #f9f871;
+  border-color: transparent;
   color: #444444; }
 
 .overview {
