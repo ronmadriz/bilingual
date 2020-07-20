@@ -4,3 +4,11 @@
 	@import 'calendars';
 	@import 'schedules';
 }
+.main-content {
+	.button {
+		&__green {
+			background-color: $bei_5;
+			color:$gray_8;
+		}
+	}
+}

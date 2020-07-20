@@ -2181,6 +2181,12 @@ nav .wrapper {
     font-weight: 600;
     text-align: center; }
 
+.single-programs .block__item {
+  background-color: #97ed85; }
+
+.single-programs .block__desc {
+  color: #444444; }
+
 .single-programs .calendar__title {
   color: #192f59;
   margin-bottom: 2.8725rem; }
@@ -2238,6 +2244,10 @@ nav .wrapper {
     position: absolute;
     display: block;
     bottom: 0; }
+
+.main-content .button__green {
+  background-color: #f9f871;
+  color: #444444; }
 
 .overview {
   padding-bottom: 2rem;

@@ -1,1 +1,9 @@
 @import '../../../components/blocks/index';
+.block {
+	&__item {
+		background-color: $bei_4;
+	}
+	&__desc {
+	    color: $gray_8;
+	}	
+}
