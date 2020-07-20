@@ -40,7 +40,7 @@
 			padding: 1.5rem 2.5rem;
 		}
 		&.active {
-			background-color: $white_1;
+			background-color: $white_1 !important;
 			color:$base;
 		}
 	}

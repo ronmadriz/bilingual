@@ -2027,7 +2027,7 @@ nav .wrapper {
         font-size: 1.0625rem;
         padding: 1.5rem 2.5rem; } }
     .simple_tabs__link.active {
-      background-color: #fefefe;
+      background-color: #fefefe !important;
       color: #101010; }
   .simple_tabs__content {
     background-color: #fefefe; }
