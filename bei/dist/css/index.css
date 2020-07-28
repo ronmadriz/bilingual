@@ -1787,7 +1787,7 @@ nav .wrapper {
   background-color: #fefefe; }
 
 /* hover dropdown menus */
-@media (max-width: 991px) {
+@media (min-width: 786px) and (max-width: 991px) {
   .navbar-hover .show > .dropdown-toggle::after {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); } }
@@ -2104,7 +2104,7 @@ nav .wrapper {
       padding: .75rem 1rem;
       line-height: 115%; } }
 
-@media (max-width: 991px) {
+@media (min-width: 786px) and (max-width: 991px) {
   table {
     width: 100%;
     margin-bottom: 1rem; }
@@ -2432,6 +2432,10 @@ nav .wrapper {
   font-size: 1.875rem;
   font-weight: 600;
   line-height: 1.25; }
+  @media (min-width: 786px) and (max-width: 991px) {
+    #page-home .banner__title {
+      font-size: 3.25rem;
+      line-height: 1.25; } }
   @media (min-width: 786px) {
     #page-home .banner__title {
       font-size: 5.1875rem;

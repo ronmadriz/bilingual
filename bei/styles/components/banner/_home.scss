@@ -72,6 +72,10 @@
 		font-size:1.875rem;
 	    font-weight: 600;
 	    line-height:1.25;
+	    @include for-tablet-below {
+	    	font-size:3.25rem;
+		    line-height:1.25;
+	    }
 	    @include for-tablet-up {
 		    font-size: 5.1875rem;
 		    line-height: 2;
