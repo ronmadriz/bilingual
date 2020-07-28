@@ -18,11 +18,11 @@
 		color: $white_1;
 		left:5%;
 		position: absolute;
-		top:10%;
+		top:25%;
 		width:90%;
 		z-index: 4;
 		@include for-tablet-up {
-			left: 13%;
+			left: 8%;
 			top: 25%;
 			width:100%;
 		}
