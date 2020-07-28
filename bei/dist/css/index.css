@@ -2398,6 +2398,7 @@ nav .wrapper {
   z-index: 1; }
   @media (min-width: 786px) {
     #page-home .banner__image {
+      height: auto;
       min-width: 100%;
       width: 100%;
       z-index: 1; } }
