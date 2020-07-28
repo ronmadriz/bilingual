@@ -2399,6 +2399,7 @@ nav .wrapper {
   @media (min-width: 786px) {
     #page-home .banner__image {
       min-width: 100%;
+      width: 100%;
       z-index: 1; } }
 
 #page-home .banner__nav {
