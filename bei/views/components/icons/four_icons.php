@@ -1,10 +1,9 @@
 <?php
 if (have_rows('fi_icon_group')) {
+	$fi_section_title = get_field('fi_section_title');
 	echo '<section id="four_icons" class="four_icons">'.PHP_EOL;
 	echo '<div class="container-fluid">'.PHP_EOL;
-	echo '<div class="row"><div class="col-12 four_icons__section"><h2>';
-	_e('Core Subjects', 'bei_core');
-	echo '</h2></div></div>'.PHP_EOL;
+	echo '<div class="row"><div class="col-12 subjects__section"><h2>'.$fi_section_title.'</h2></div></div>'.PHP_EOL;
 	echo '<div class="row">'.PHP_EOL;
 	while (have_rows('fi_icon_group')) {
 		the_row();
